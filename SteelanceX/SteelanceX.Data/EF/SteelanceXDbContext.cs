@@ -43,14 +43,12 @@ public class SteelanceXDbContext : IdentityDbContext<AppUser, AppRole, Guid>
         modelBuilder.Entity<JobCategory>()
             .HasKey(sc => new { sc.JobId, sc.CategoryId });
 
-        modelBuilder.Entity<Application>()
-            .HasOne(a => a.FreelancerProfile)
-            .WithMany(fp => fp.Applications)
+        modelBuilder.Entity<JobProgress>().HasOne(a => a.FreelancerProfile)
+            .WithMany(fp => fp.JobProgress)
             .HasForeignKey(u => u.FreelancerProfileId)
             .OnDelete(DeleteBehavior.Restrict);
-        modelBuilder.Entity<Application>()
-            .HasOne(a => a.Job)
-            .WithMany(fp => fp.Applications)
+        modelBuilder.Entity<JobProgress>().HasOne(a => a.Job)
+            .WithMany(fp => fp.JobProgress)
             .HasForeignKey(u => u.JobId)
             .OnDelete(DeleteBehavior.Restrict);
 

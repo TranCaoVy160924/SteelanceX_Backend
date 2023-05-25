@@ -1,6 +1,0 @@
-install-package Microsoft.EntityFrameworkCore -Version 6.0.13
-install-package Microsoft.EntityFrameworkCore.SqlServer -Version 6.0.13
-install-package Microsoft.EntityFrameworkCore.Design -Version 6.0.13
-install-package Microsoft.EntityFrameworkCore.Tools -Version 6.0.13
-install-package Microsoft.AspNetCore.Identity.EntityFrameworkCore -Version 6.0.13
-install-package AutoMapper -Version 12.0.0
