@@ -8,4 +8,5 @@ using System.Threading.Tasks;
 namespace SteelanceX.Domain.Models;
 public class AppRole: IdentityRole<Guid>
 {
+    public string RoleName { get; set; }    
 }
