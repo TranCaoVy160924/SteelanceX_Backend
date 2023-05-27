@@ -1,13 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using SteelanceX.Data.Extensions;
 using SteelanceX.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics.Metrics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SteelanceX.Data.EF;
 
@@ -52,16 +47,16 @@ public class SteelanceXDbContext : IdentityDbContext<AppUser, AppRole, Guid>
             .HasForeignKey(u => u.JobId)
             .OnDelete(DeleteBehavior.Restrict);
 
-        modelBuilder.Entity<JobProgress>()
-            .HasOne(a => a.FreelancerProfile)
-            .WithMany(fp => fp.JobProgress)
+        modelBuilder.Entity<Application>().HasOne(a => a.FreelancerProfile)
+            .WithMany(fp => fp.Applications)
             .HasForeignKey(u => u.FreelancerProfileId)
             .OnDelete(DeleteBehavior.Restrict);
-        modelBuilder.Entity<JobProgress>()
-            .HasOne(a => a.Job)
-            .WithMany(fp => fp.JobProgress)
+        modelBuilder.Entity<Application>().HasOne(a => a.Job)
+            .WithMany(fp => fp.Applications)
             .HasForeignKey(u => u.JobId)
             .OnDelete(DeleteBehavior.Restrict);
+
+        modelBuilder.Seed();
     }
 
     public DbSet<AppUser> AppUsers { get; set; }

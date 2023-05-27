@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace SteelanceX.Data.Migrations
 {
     /// <inheritdoc />
@@ -16,7 +18,6 @@ namespace SteelanceX.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    RoleName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     ConcurrencyStamp = table.Column<string>(type: "nvarchar(max)", nullable: true)
@@ -345,6 +346,39 @@ namespace SteelanceX.Data.Migrations
                         principalTable: "Job",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetRoles",
+                columns: new[] { "Id", "ConcurrencyStamp", "Name", "NormalizedName" },
+                values: new object[,]
+                {
+                    { new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5"), null, "Freelancer", "freelancer" },
+                    { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), null, "Business", "business" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUsers",
+                columns: new[] { "Id", "AccessFailedCount", "Address", "ConcurrencyStamp", "Email", "EmailConfirmed", "Firstname", "Lastname", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
+                values: new object[,]
+                {
+                    { new Guid("69bd714f-9576-45ba-b5b7-f00649be00bf"), 0, "Hochiminh", "8f122b88-ca0a-4e19-b2cd-4ecb78da7ecc", "adminhn@gmail.com", true, "Toan", "Bach", false, null, "adminhn@gmail.com", "adminhn", "AQAAAAIAAYagAAAAEBFcX+Unx6/wV6ZjCc0Fe6LlfX8+ZoaULE0c4+P4PsPBUXVg9i8wTRqAB83thSUPKQ==", null, false, "", false, "adminhn" },
+                    { new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"), 0, "Hochiminh", "a3aad63a-f7bd-4a4e-8491-20c952bda786", "adminhcm@gmail.com", true, "Toan", "Bach", false, null, "adminhcm@gmail.com", "adminhcm", "AQAAAAIAAYagAAAAEEvqnEbdUkUn4yZMYtWktXR21GFvv3Ypfoc0SHmkXyxd6fCBRE3cJpYF3WPUmdz6cA==", null, false, "", false, "adminhcm" },
+                    { new Guid("70bd714f-9576-45ba-b5b7-f00649be00de"), 0, "Hochiminh", "ea6b714e-db17-4c03-a20d-d25700cbf9b4", "staff@gmail.com", true, "Toan", "Bach", false, null, "staff@gmail.com", "staff1", "AQAAAAIAAYagAAAAEG2HLPxAXMk8h0qp0O78CTUFPjlJm8TlT8mUhw6U2It2ecgrJkXewduSB7+3KLdNlg==", null, false, "", false, "staff1" },
+                    { new Guid("70bd814f-9576-45ba-b5b7-f00649be00de"), 0, "Hochiminh", "3b430bfd-a3e1-476a-bfc6-d6e91936d2e6", "staff@gmail.com", true, "Toan", "Bach", false, null, "staff@gmail.com", "staff2", "AQAAAAIAAYagAAAAEJekvdQPm3UXXeSPe1P545nabGsffz46EaZUmNahwG0dJhGFLEH2vVxiwx3l3TNqlg==", null, false, "", false, "staff2" },
+                    { new Guid("73bd714f-9576-45ba-b5b7-f00649be00de"), 0, "Hochiminh", "9bb5380b-b75e-4640-86b7-07cf49fa8360", "staffdis@gmail.com", true, "Toan", "Bach", false, null, "staffdis@gmail.com", "staffdis", "AQAAAAIAAYagAAAAEIooNoH2ZO5LYw8QDr3KwqHRFbq697xQB6+diJR44+XD/Jx8OcpF9h29WL5V1BayJg==", null, false, "", false, "staffDis" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "AspNetUserRoles",
+                columns: new[] { "RoleId", "UserId" },
+                values: new object[,]
+                {
+                    { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), new Guid("69bd714f-9576-45ba-b5b7-f00649be00bf") },
+                    { new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"), new Guid("69bd714f-9576-45ba-b5b7-f00649be00de") },
+                    { new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5"), new Guid("70bd714f-9576-45ba-b5b7-f00649be00de") },
+                    { new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5"), new Guid("70bd814f-9576-45ba-b5b7-f00649be00de") },
+                    { new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5"), new Guid("73bd714f-9576-45ba-b5b7-f00649be00de") }
                 });
 
             migrationBuilder.CreateIndex(

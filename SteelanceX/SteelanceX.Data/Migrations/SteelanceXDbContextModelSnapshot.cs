@@ -104,6 +104,33 @@ namespace SteelanceX.Data.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            RoleId = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc")
+                        },
+                        new
+                        {
+                            UserId = new Guid("69bd714f-9576-45ba-b5b7-f00649be00bf"),
+                            RoleId = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc")
+                        },
+                        new
+                        {
+                            UserId = new Guid("70bd714f-9576-45ba-b5b7-f00649be00de"),
+                            RoleId = new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5")
+                        },
+                        new
+                        {
+                            UserId = new Guid("70bd814f-9576-45ba-b5b7-f00649be00de"),
+                            RoleId = new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5")
+                        },
+                        new
+                        {
+                            UserId = new Guid("73bd714f-9576-45ba-b5b7-f00649be00de"),
+                            RoleId = new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5")
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<System.Guid>", b =>
@@ -143,10 +170,6 @@ namespace SteelanceX.Data.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
-                    b.Property<string>("RoleName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedName")
@@ -155,6 +178,20 @@ namespace SteelanceX.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("8d04dce2-969a-435d-bba4-df3f325983dc"),
+                            Name = "Business",
+                            NormalizedName = "business"
+                        },
+                        new
+                        {
+                            Id = new Guid("12147fe0-4571-4ad2-b8f7-d2c863eb78a5"),
+                            Name = "Freelancer",
+                            NormalizedName = "freelancer"
+                        });
                 });
 
             modelBuilder.Entity("SteelanceX.Domain.Models.AppUser", b =>
@@ -233,6 +270,103 @@ namespace SteelanceX.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00de"),
+                            AccessFailedCount = 0,
+                            Address = "Hochiminh",
+                            ConcurrencyStamp = "a3aad63a-f7bd-4a4e-8491-20c952bda786",
+                            Email = "adminhcm@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "Toan",
+                            Lastname = "Bach",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "adminhcm@gmail.com",
+                            NormalizedUserName = "adminhcm",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEvqnEbdUkUn4yZMYtWktXR21GFvv3Ypfoc0SHmkXyxd6fCBRE3cJpYF3WPUmdz6cA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "adminhcm"
+                        },
+                        new
+                        {
+                            Id = new Guid("69bd714f-9576-45ba-b5b7-f00649be00bf"),
+                            AccessFailedCount = 0,
+                            Address = "Hochiminh",
+                            ConcurrencyStamp = "8f122b88-ca0a-4e19-b2cd-4ecb78da7ecc",
+                            Email = "adminhn@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "Toan",
+                            Lastname = "Bach",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "adminhn@gmail.com",
+                            NormalizedUserName = "adminhn",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBFcX+Unx6/wV6ZjCc0Fe6LlfX8+ZoaULE0c4+P4PsPBUXVg9i8wTRqAB83thSUPKQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "adminhn"
+                        },
+                        new
+                        {
+                            Id = new Guid("70bd714f-9576-45ba-b5b7-f00649be00de"),
+                            AccessFailedCount = 0,
+                            Address = "Hochiminh",
+                            ConcurrencyStamp = "ea6b714e-db17-4c03-a20d-d25700cbf9b4",
+                            Email = "staff@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "Toan",
+                            Lastname = "Bach",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "staff@gmail.com",
+                            NormalizedUserName = "staff1",
+                            PasswordHash = "AQAAAAIAAYagAAAAEG2HLPxAXMk8h0qp0O78CTUFPjlJm8TlT8mUhw6U2It2ecgrJkXewduSB7+3KLdNlg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "staff1"
+                        },
+                        new
+                        {
+                            Id = new Guid("70bd814f-9576-45ba-b5b7-f00649be00de"),
+                            AccessFailedCount = 0,
+                            Address = "Hochiminh",
+                            ConcurrencyStamp = "3b430bfd-a3e1-476a-bfc6-d6e91936d2e6",
+                            Email = "staff@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "Toan",
+                            Lastname = "Bach",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "staff@gmail.com",
+                            NormalizedUserName = "staff2",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJekvdQPm3UXXeSPe1P545nabGsffz46EaZUmNahwG0dJhGFLEH2vVxiwx3l3TNqlg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "staff2"
+                        },
+                        new
+                        {
+                            Id = new Guid("73bd714f-9576-45ba-b5b7-f00649be00de"),
+                            AccessFailedCount = 0,
+                            Address = "Hochiminh",
+                            ConcurrencyStamp = "9bb5380b-b75e-4640-86b7-07cf49fa8360",
+                            Email = "staffdis@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "Toan",
+                            Lastname = "Bach",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "staffdis@gmail.com",
+                            NormalizedUserName = "staffdis",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIooNoH2ZO5LYw8QDr3KwqHRFbq697xQB6+diJR44+XD/Jx8OcpF9h29WL5V1BayJg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "staffDis"
+                        });
                 });
 
             modelBuilder.Entity("SteelanceX.Domain.Models.Application", b =>
