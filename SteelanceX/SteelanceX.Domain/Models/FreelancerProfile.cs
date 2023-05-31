@@ -5,7 +5,7 @@ public class FreelancerProfile
     public string Description { get; set; }
     public string ResumeUrl { get; set; }
 
-    public Guid AppUserId { get; set; }
+    public int AppUserId { get; set; }
     public virtual AppUser AppUser { get; set; }
     public virtual ICollection<Application>? Applications { get; set; }
     public virtual ICollection<JobProgress>? JobProgress { get; set; }

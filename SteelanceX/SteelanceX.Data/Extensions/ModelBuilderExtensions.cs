@@ -1,20 +1,18 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SteelanceX.Domain.Models;
+using System;
 
 namespace SteelanceX.Data.Extensions;
 public static class ModelBuilderExtensions
 {
     public static void Seed(this ModelBuilder modelBuilder)
     {
-        // any guid
-        var businessRoleId = new Guid("8D04DCE2-969A-435D-BBA4-DF3F325983DC");
-        var freelancerRoleId = new Guid("12147FE0-4571-4AD2-B8F7-D2C863EB78A5");
-        var businessId1 = new Guid("69BD714F-9576-45BA-B5B7-F00649BE00DE");
-        var businessId2 = new Guid("69BD714F-9576-45BA-B5B7-F00649BE00BF");
-        var freelancerId1 = new Guid("70BD714F-9576-45BA-B5B7-F00649BE00DE");
-        var freelancerId2 = new Guid("70BD814F-9576-45BA-B5B7-F00649BE00DE");
-        var freelancerId3 = new Guid("73BD714F-9576-45BA-B5B7-F00649BE00DE");
+        var businessRoleId = 1;
+        var freelancerRoleId = 2;
+        bool isActiveJob = true;
+
+        Random random = new Random();
 
         modelBuilder.Entity<AppRole>().HasData(new AppRole
         {
@@ -31,9 +29,12 @@ public static class ModelBuilderExtensions
         });
 
         var hasher = new PasswordHasher<AppUser>();
+
+        #region Freelancers and Business
+
         modelBuilder.Entity<AppUser>().HasData(new AppUser
         {
-            Id = businessId1,
+            Id = 1,
             UserName = "adminhcm",
             NormalizedUserName = "adminhcm",
             Email = "adminhcm@gmail.com",
@@ -43,12 +44,12 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "Hochiminh"
+            Address = "HCM"
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
         {
-            Id = businessId2,
+            Id = 2,
             UserName = "adminhn",
             NormalizedUserName = "adminhn",
             Email = "adminhn@gmail.com",
@@ -58,12 +59,12 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "Hochiminh"
+            Address = "HCM"
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
         {
-            Id = freelancerId1,
+            Id = 3,
             UserName = "staff1",
             NormalizedUserName = "staff1",
             Email = "staff@gmail.com",
@@ -73,12 +74,12 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "Hochiminh"
+            Address = "HCM"
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
         {
-            Id = freelancerId2,
+            Id = 4,
             UserName = "staff2",
             NormalizedUserName = "staff2",
             Email = "staff@gmail.com",
@@ -88,12 +89,12 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "Hochiminh"
+            Address = "HCM"
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
         {
-            Id = freelancerId3,
+            Id = 5,
             UserName = "staffDis",
             NormalizedUserName = "staffdis",
             Email = "staffdis@gmail.com",
@@ -103,159 +104,160 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "Hochiminh"
+            Address = "HCM"
         });
 
-        modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
+        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
         {
             RoleId = businessRoleId,
-            UserId = businessId1
+            UserId = 1
         });
 
-        modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
+        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
         {
             RoleId = businessRoleId,
-            UserId = businessId2,
+            UserId = 2
         });
 
-        modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
+        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
         {
             RoleId = freelancerRoleId,
-            UserId = freelancerId1
+            UserId = 3
         });
 
-        modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
+        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
         {
             RoleId = freelancerRoleId,
-            UserId = freelancerId2
+            UserId = 4
         });
 
-        modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
+        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
         {
             RoleId = freelancerRoleId,
-            UserId = freelancerId3
+            UserId = 5
         });
 
-        //modelBuilder.Entity<Category>().HasData(new Category
-        //{
-        //    Id = 1,
-        //    Name = "Laptop",
-        //    Prefix = "LA",
-        //    IsDeleted = false,
-        //});
+        for (int i = 1; i <= 60; i++)
+        {
+            modelBuilder.Entity<AppUser>().HasData(new AppUser
+            {
+                Id = i + 5,
+                UserName = "normalUser" + i + 5,
+                NormalizedUserName = "normalUser" + i + 5,
+                Email = "normaluser" + i + 5 +"@gmail.com",
+                NormalizedEmail = "normaluser" + i + 5 + "@gmail.com",
+                EmailConfirmed = true,
+                PasswordHash = hasher.HashPassword(null, "12345678"),
+                SecurityStamp = string.Empty,
+                Firstname = (i + 5).ToString(),
+                Lastname = "Nguyen Van",
+                Address = "HCM"
+            });
 
-        //modelBuilder.Entity<Category>().HasData(new Category
-        //{
-        //    Id = 2,
-        //    Name = "Monitor",
-        //    Prefix = "MO",
-        //    IsDeleted = false,
-        //});
+            if(i > 30)
+            {
+                modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
+                {
+                    RoleId = freelancerRoleId,
+                    UserId = i + 5
+                });
+            }
+            else
+            {
+                modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
+                {
+                    RoleId = businessRoleId,
+                    UserId = i + 5
+                });
 
-        //modelBuilder.Entity<Category>().HasData(new Category
-        //{
-        //    Id = 3,
-        //    Name = "Personal Computer",
-        //    Prefix = "PC",
-        //    IsDeleted = false,
-        //});
+                modelBuilder.Entity<BusinessProfile>().HasData(new BusinessProfile
+                {
+                    Id = i + 5,
+                    AppUserId = i + 5
+                });
+            }
+        }
 
-        //for (int i = 1; i <= 10; i++)
-        //{
-        //    modelBuilder.Entity<Asset>().HasData(new Asset
-        //    {
-        //        Id = i,
-        //        Name = "Laptop " + i,
-        //        AssetCode = "LA10000" + i,
-        //        Specification = $"Core i{i}, {i}GB RAM, {i}50 GB HDD, Window {i}",
-        //        CategoryId = i % 2 == 0 ? 1 : 2,
-        //        InstalledDate = DateTime.Now,
-        //        State = i % 2 == 0 ? State.Available : State.NotAvailable,
-        //        IsDeleted = i % 2 == 0 ? true : false,
-        //    });
-        //}
+        #endregion
 
-        //for (int i = 11; i <= 15; i++)
-        //{
-        //    modelBuilder.Entity<Asset>().HasData(new Asset
-        //    {
-        //        Id = i,
-        //        Name = "Laptop " + i,
-        //        AssetCode = "LA10000" + i,
-        //        Specification = $"Core i{i}, {i}GB RAM, {i}50 GB HDD, Window {i}",
-        //        CategoryId = i % 2 == 0 ? 1 : 2,
-        //        InstalledDate = DateTime.Now,
-        //        State = i % 2 == 0 ? State.Assigned : State.NotAvailable,
-        //        IsDeleted = i % 2 == 0 ? true : false,
-        //    });
-        //}
+        #region Categories
 
-        //for (int i = 1; i <= 10; i++)
-        //{
-        //    modelBuilder.Entity<Assignment>().HasData(new Assignment
-        //    {
-        //        Id = i,
-        //        Note = $"Note for assignment {i}",
-        //        AssignedDate = DateTime.Today,
-        //        ReturnedDate = DateTime.Today.AddDays(i),
-        //        AssetId = i,
-        //        State = i % 2 == 0 ? Domain.Enums.Assignment.State.Accepted : Domain.Enums.Assignment.State.WaitingForAcceptance,
-        //        AssignedTo = staffAbleId1,
-        //        AssignedBy = adminHcmId,
-        //    });
-        //}
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 1,
+            Name = "Web developer"
+        });
 
-        //modelBuilder.Entity<Assignment>().HasData(new Assignment
-        //{
-        //    Id = 11,
-        //    Note = $"Note for assignment {11}",
-        //    AssignedDate = DateTime.Today,
-        //    ReturnedDate = DateTime.Today.AddDays(11),
-        //    AssetId = 4,
-        //    State = Domain.Enums.Assignment.State.WaitingForAcceptance,
-        //    AssignedTo = staffAbleId1,
-        //    AssignedBy = adminHcmId,
-        //});
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 2,
+            Name = "Data scientist"
+        });
 
-        //for (int i = 12; i <= 15; i++)
-        //{
-        //    modelBuilder.Entity<Assignment>().HasData(new Assignment
-        //    {
-        //        Id = i,
-        //        Note = $"Note for assignment {i}",
-        //        AssignedDate = DateTime.Today,
-        //        ReturnedDate = DateTime.Today.AddDays(i),
-        //        AssetId = i,
-        //        State = i % 2 == 0 ? Domain.Enums.Assignment.State.WaitingForReturning : Domain.Enums.Assignment.State.Returned,
-        //        AssignedTo = staffAbleId1,
-        //        AssignedBy = adminHcmId,
-        //    });
-        //}
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 3,
+            Name = "Software engineer"
+        });
 
-        //for (int i = 1; i <= 10; i++)
-        //{
-        //    modelBuilder.Entity<ReturnRequest>().HasData(new ReturnRequest
-        //    {
-        //        Id = i,
-        //        AssignedBy = staffAbleId1,
-        //        AssignedDate = DateTime.Today,
-        //        ReturnedDate = DateTime.Today,
-        //        State = Domain.Enums.ReturnRequest.State.WaitingForReturning,
-        //        AssignmentId = i,
-        //    });
-        //}
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 4,
+            Name = "Cloud system engineer"
+        });
 
-        //for (int i = 11; i <= 15; i++)
-        //{
-        //    modelBuilder.Entity<ReturnRequest>().HasData(new ReturnRequest
-        //    {
-        //        Id = i,
-        //        AssignedBy = staffAbleId1,
-        //        AssignedDate = DateTime.Today,
-        //        ReturnedDate = DateTime.Today,
-        //        State = Domain.Enums.ReturnRequest.State.WaitingForReturning,
-        //        AssignmentId = i,
-        //    });
-        //}
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 5,
+            Name = "User experience designer"
+        });
+
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 6,
+            Name = "Network engineer"
+        });
+
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 7,
+            Name = "Systems analyst"
+        });
+
+        modelBuilder.Entity<Category>().HasData(new Category
+        {
+            Id = 8,
+            Name = "IT security specialist"
+        });
+
+        #endregion
+
+        #region Job
+        for (int i = 1; i <= 100; i++)
+        {
+            if(i > 50) isActiveJob = false;
+
+            modelBuilder.Entity<Job>().HasData(new Job
+            {
+                Id = i,
+                IsActive = isActiveJob,
+                Name = "Project " + i,
+                Description = "This a simple description for project " + i,
+                Offer = 99*i,
+                CreatedDate = DateTime.Now,
+                ApplyExpireDate = DateTime.MaxValue,
+                JobExpiredDate = DateTime.MaxValue,
+                ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
+                JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
+                BusinessProfileId = random.Next(6, 35)
+            });
+
+            modelBuilder.Entity<JobCategory>().HasData(new JobCategory
+            {
+                JobId = i,
+                CategoryId = random.Next(1, 8)
+            });
+        }
+        #endregion
     }
 }

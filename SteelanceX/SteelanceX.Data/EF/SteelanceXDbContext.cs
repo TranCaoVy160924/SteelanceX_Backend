@@ -6,7 +6,7 @@ using SteelanceX.Domain.Models;
 
 namespace SteelanceX.Data.EF;
 
-public class SteelanceXDbContext : IdentityDbContext<AppUser, AppRole, Guid>
+public class SteelanceXDbContext : IdentityDbContext<AppUser, AppRole, int>
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
