@@ -9,32 +9,17 @@ namespace SteelanceX.DataAccess.DataAccessObjects;
 public abstract class RepositoryBase<T> where T : class
 {
     private readonly SteelanceXDbContext _dbContext;
-    private readonly IDistributedCache _cache;
     public DbSet<T> Data;
 
-    public RepositoryBase(SteelanceXDbContext dbContext, IDistributedCache cache)
+    public RepositoryBase(SteelanceXDbContext dbContext)
     {
         _dbContext = dbContext;
-        _cache = cache;
         Data = _dbContext.Set<T>();
     }
 
     public async Task<IQueryable<T>> QueryAllAsync()
     {
-        string recordKey = GenerateRecordKey<T>();
-        List<T> cacheData = await _cache.GetRecordAsync<List<T>>(recordKey);
-        var query = Data.AsQueryable();
-
-        if (cacheData != null)
-        {
-            query = cacheData.AsQueryable();
-        }
-        else
-        {
-            await _cache.SetRecordAsync(recordKey, await query.ToListAsync());
-        }
-
-        return query;
+        return Data.AsQueryable();
     }
 
     public async Task CreateAsync(T entity)

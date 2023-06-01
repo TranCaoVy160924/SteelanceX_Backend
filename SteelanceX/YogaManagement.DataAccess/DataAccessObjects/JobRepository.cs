@@ -5,6 +5,5 @@ using SteelanceX.Domain.Models;
 namespace SteelanceX.DataAccess.DataAccessObjects;
 public class JobRepository : RepositoryBase<Job>
 {
-    public JobRepository(SteelanceXDbContext dbContext, IDistributedCache cache)
-        : base(dbContext, cache) { }
+    public JobRepository(SteelanceXDbContext dbContext) : base(dbContext) { }
 }
