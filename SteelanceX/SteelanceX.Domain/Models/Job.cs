@@ -11,6 +11,8 @@ public class Job
     public DateTime JobExpiredDate { get; set; }
     public string ImageUrl { get; set; }
     public string JobDescriptionFileUrl { get; set; }
+    public int BusinessProfileId { get; set; }
+
 
     public virtual BusinessProfile BusinessProfile { get; set; }
     public virtual ICollection<Application>? Applications { get; set; }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
 namespace SteelanceX.Domain.Models;
-public class AppUser : IdentityUser<Guid>
+public class AppUser : IdentityUser<int>
 {
     public string Firstname { get; set; }
     public string Lastname { get; set; }
