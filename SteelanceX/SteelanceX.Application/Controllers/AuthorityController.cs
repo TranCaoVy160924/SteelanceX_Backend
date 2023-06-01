@@ -1,6 +1,10 @@
-﻿using AutoMapper;
+﻿using AssetManagement.Contracts.User.Request;
+using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.IdentityModel.Tokens;
 using SteelanceX.Contracts.Authority.Request;
 using SteelanceX.Contracts.Authority.Response;
@@ -31,7 +35,7 @@ public class AuthorityController : ControllerBase
             return BadRequest(ModelState);
         }
 
-        var user = await _userManager.FindByNameAsync(request.Username);
+        var user = await _userManager.FindByEmailAsync(request.Email);
         if (user == null)
         {
             return BadRequest("Username or password is incorrect. Please try again");
@@ -45,8 +49,68 @@ public class AuthorityController : ControllerBase
 
         var role = (await _userManager.GetRolesAsync(user)).FirstOrDefault();
         //var role = await _dbContext.AppRoles.FindAsync(user.RoleId);
-        StaticValues.Usernames.Add(request.Username);
-        return Ok(new LoginResponse { Token = CreateToken(user, request.Username, role), Role = role });
+        StaticValues.Usernames.Add(request.Email);
+        return Ok(new LoginResponse { Token = CreateToken(user, request.Email, role), Role = role });
+    }
+
+    [HttpPost("auth")]
+    public async Task<IActionResult> CreateUser(RegisterRequest registerRequest)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        
+        if (registerRequest.Password != registerRequest.ConfirmPassword)
+        {
+            return BadRequest("Confirm password must match password");
+        }
+
+        //auto generate username
+        string[] splitFirstName = registerRequest.FirstName.Trim().Split(' ');
+        string fullFirstName = "";
+        foreach (string slice in splitFirstName)
+        {
+            if (slice.Length > 0)
+            {
+                fullFirstName += slice.ToString().ToLower();
+            }
+        }
+        string[] splitlastname = registerRequest.LastName.Trim().Split(' ');
+        string fullLastName = "";
+        foreach (string slice in splitlastname)
+        {
+            if (slice.Length > 0)
+            {
+                fullLastName += slice[0].ToString().ToLower();
+            }
+        }
+
+        string username = fullFirstName + fullLastName;
+
+        var hasher = new PasswordHasher<AppUser>();
+        var user = new AppUser
+        {
+            Firstname = fullFirstName.Trim(),
+            Lastname = fullLastName.Trim(),
+            PasswordHash = hasher.HashPassword(null, "12345678"),
+            UserName = username,
+            Email = registerRequest.Email,
+            EmailConfirmed = true,
+            SecurityStamp = string.Empty,
+            Address = "Hochiminh"
+        };
+
+        var result = await _userManager.CreateAsync(user, registerRequest.Password);
+        var resultRole = await _userManager
+            .AddToRoleAsync(user, registerRequest.IsFreelancer? "Freelancer" : "Business");
+
+        if (result.Succeeded && resultRole.Succeeded)
+        {
+            return Ok();
+        }
+
+        return BadRequest("Create user unsuccessfully!");
     }
 
     //[HttpGet("auth/user-profile/")]
