@@ -2,10 +2,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using SteelanceX.Business.JobRepository;
 using SteelanceX.Data.EF;
 using SteelanceX.Domain.Models;
-using YogaManagement.DataAccess.DataAccessObjects;
+using SteelanceX.DataAccess.DataAccessObjects;
+using Microsoft.AspNetCore.OData;
+using Microsoft.OData.Edm;
+using Microsoft.OData.ModelBuilder;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,9 +20,12 @@ builder.Services.AddIdentity<AppUser, AppRole>()
     .AddEntityFrameworkStores<SteelanceXDbContext>()
     .AddDefaultTokenProviders();
 
-builder.Services.AddScoped<DAOBase<Job>, JobDAO>();
+builder.Services.AddScoped<SteelanceXDbContext>();
+builder.Services.AddScoped<JobRepository>();
 
-builder.Services.AddScoped<IJobRepository, JobRepository>();
+builder.Services.AddControllers().AddOData(options => options.Select().Filter().Count()
+    .OrderBy().Expand().SetMaxTop(100)
+    .AddRouteComponents("odata", GetEdmModel()));
 
 //password policy configuration
 builder.Services.Configure<IdentityOptions>(options =>
@@ -43,6 +48,7 @@ builder.Services.AddAuthentication(opt =>
     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
     opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
+
 .AddJwtBearer(options =>
 {
     options.RequireHttpsMetadata = false;
@@ -67,7 +73,9 @@ builder.Services.AddStackExchangeRedisCache(options =>
     options.Configuration = builder.Configuration.GetConnectionString("Redis");
     options.InstanceName = "SteelanceX_";
 });
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger asset managment solution", Version = "v1" });
@@ -116,9 +124,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseODataBatching();
+
 app.UseCors("corsapp");
 
 app.UseHttpsRedirection();
+
+app.UseODataRouteDebug();
 
 app.UseRouting();
 
@@ -126,6 +138,16 @@ app.UseAuthentication();
 
 app.UseAuthorization();
 
+app.MapControllers();
+
 app.UseEndpoints(endpoints => endpoints.MapControllers());
 
 app.Run();
+
+static IEdmModel GetEdmModel()
+{
+    ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
+    builder.EntitySet<Job>("Jobs");
+
+    return builder.GetEdmModel();
+}

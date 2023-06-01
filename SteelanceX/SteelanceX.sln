@@ -9,11 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteelanceX.Data", "Steelanc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteelanceX.Domain", "SteelanceX.Domain\SteelanceX.Domain.csproj", "{19A4895A-FB30-4E9A-B4A7-7F964F560DCB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YogaManagement.DataAccess", "YogaManagement.DataAccess\YogaManagement.DataAccess.csproj", "{29544658-6463-491E-A384-C53121E699EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteelanceX.DataAccess", "YogaManagement.DataAccess\SteelanceX.DataAccess.csproj", "{29544658-6463-491E-A384-C53121E699EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteelanceX.Business", "SteelanceX.Business\SteelanceX.Business.csproj", "{B9087952-5E3B-4CB3-B120-AB673F82046E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteelanceX.Contracts", "SteelanceX.Contracts\SteelanceX.Contracts.csproj", "{03200C26-520B-4A0F-B1CA-A913519CC6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SteelanceX.Contracts", "SteelanceX.Contracts\SteelanceX.Contracts.csproj", "{03200C26-520B-4A0F-B1CA-A913519CC6D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,10 +35,6 @@ Global
 		{29544658-6463-491E-A384-C53121E699EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29544658-6463-491E-A384-C53121E699EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29544658-6463-491E-A384-C53121E699EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B9087952-5E3B-4CB3-B120-AB673F82046E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B9087952-5E3B-4CB3-B120-AB673F82046E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B9087952-5E3B-4CB3-B120-AB673F82046E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B9087952-5E3B-4CB3-B120-AB673F82046E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{03200C26-520B-4A0F-B1CA-A913519CC6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03200C26-520B-4A0F-B1CA-A913519CC6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03200C26-520B-4A0F-B1CA-A913519CC6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU

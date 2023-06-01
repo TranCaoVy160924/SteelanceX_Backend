@@ -31,10 +31,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SteelanceX.Business\SteelanceX.Business.csproj" />
     <ProjectReference Include="..\SteelanceX.Contracts\SteelanceX.Contracts.csproj" />
     <ProjectReference Include="..\SteelanceX.Data\SteelanceX.Data.csproj" />
     <ProjectReference Include="..\SteelanceX.Domain\SteelanceX.Domain.csproj" />
+    <ProjectReference Include="..\YogaManagement.DataAccess\SteelanceX.DataAccess.csproj" />
     <ProjectReference Include="..\YogaManagement.DataAccess\YogaManagement.DataAccess.csproj" />
   </ItemGroup>
 

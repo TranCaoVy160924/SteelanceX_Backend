@@ -4,15 +4,15 @@ using SteelanceX.Data.EF;
 using YogaManagement.DataAccess.Helpers;
 using static YogaManagement.DataAccess.Helpers.RecordKeyGenerator;
 
-namespace YogaManagement.DataAccess.DataAccessObjects;
+namespace SteelanceX.DataAccess.DataAccessObjects;
 
-public abstract class DAOBase<T> where T : class
+public abstract class RepositoryBase<T> where T : class
 {
     private readonly SteelanceXDbContext _dbContext;
     private readonly IDistributedCache _cache;
     public DbSet<T> Data;
 
-    public DAOBase(SteelanceXDbContext dbContext, IDistributedCache cache)
+    public RepositoryBase(SteelanceXDbContext dbContext, IDistributedCache cache)
     {
         _dbContext = dbContext;
         _cache = cache;
