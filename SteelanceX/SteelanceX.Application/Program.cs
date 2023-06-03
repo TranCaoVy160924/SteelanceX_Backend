@@ -22,6 +22,9 @@ builder.Services.AddIdentity<AppUser, AppRole>()
 
 builder.Services.AddScoped<SteelanceXDbContext>();
 builder.Services.AddScoped<JobRepository>();
+builder.Services.AddScoped<CategoryRepository>();
+builder.Services.AddScoped<FreelancerProfileRepository>();
+builder.Services.AddScoped<BusinessProfileRepository>();
 
 builder.Services.AddControllers().AddOData(options => options.Select().Filter().Count()
     .OrderBy().Expand().SetMaxTop(100)
@@ -142,6 +145,9 @@ static IEdmModel GetEdmModel()
 {
     ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
     builder.EntitySet<Job>("Jobs");
+    builder.EntitySet<Category>("Categories");
+    builder.EntitySet<FreelancerProfile>("FreelancerProfiles");
+    builder.EntitySet<BusinessProfile>("BusinessProfiles");
 
     return builder.GetEdmModel();
 }

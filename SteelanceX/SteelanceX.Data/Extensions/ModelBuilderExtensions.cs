@@ -142,10 +142,10 @@ public static class ModelBuilderExtensions
             modelBuilder.Entity<AppUser>().HasData(new AppUser
             {
                 Id = i + 5,
-                UserName = "normalUser" + i + 5,
-                NormalizedUserName = "normalUser" + i + 5,
-                Email = "normaluser" + i + 5 +"@gmail.com",
-                NormalizedEmail = "normaluser" + i + 5 + "@gmail.com",
+                UserName = "normalUser" + (i + 5).ToString(),
+                NormalizedUserName = "normalUser" + (i + 5).ToString(),
+                Email = "normaluser" + (i + 5).ToString() + "@gmail.com",
+                NormalizedEmail = "normaluser" + (i + 5).ToString() + "@gmail.com",
                 EmailConfirmed = true,
                 PasswordHash = hasher.HashPassword(null, "12345678"),
                 SecurityStamp = string.Empty,
@@ -160,6 +160,14 @@ public static class ModelBuilderExtensions
                 {
                     RoleId = freelancerRoleId,
                     UserId = i + 5
+                });
+
+                modelBuilder.Entity<FreelancerProfile>().HasData(new FreelancerProfile
+                {
+                    Id = i + 5,
+                    AppUserId = i + 5,
+                    Description = "I am " + (i + 5).ToString(),
+                    ResumeUrl = "This is my resume"
                 });
             }
             else

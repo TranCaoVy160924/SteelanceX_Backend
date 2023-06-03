@@ -581,7 +581,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 1,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d331e4e2-38e3-4b65-b8e4-8ceffdd59052",
+                            ConcurrencyStamp = "7ac3e41e-5c37-4d36-8c42-09df2cd25140",
                             Email = "adminhcm@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -589,7 +589,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "adminhcm@gmail.com",
                             NormalizedUserName = "adminhcm",
-                            PasswordHash = "AQAAAAIAAYagAAAAELJ3j2pPV4Iw5wff7RfJ7QQJ0En4D4iH+BWfhsLcMnTy+gpm1sRhFoDGfcSS8RAoGQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEL/yWgElx4OZrpUHSIzNO84uogiwKesthBXnJYf4xaAaA821aoeIAjsIJR9uOxqTcQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -600,7 +600,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 2,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "9c60a5bd-2a05-4a69-9ef3-496ba9958804",
+                            ConcurrencyStamp = "85f93f73-ae5b-427d-b6b6-a7ba4ad3139c",
                             Email = "adminhn@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -608,7 +608,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "adminhn@gmail.com",
                             NormalizedUserName = "adminhn",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOrCI7n7QwmpC+YM/sok0SSMHqdGi5C6OkIFEflwPzgJNwAJaFR50NEdTupk7OiIYw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAGMoqgYVBji/W3hb1BrSiJEQ4tSjLPJwxYgTr8pzUoMrIAKienBuvwwJiVebUceng==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -619,7 +619,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 3,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "25537a25-519a-4347-8e33-c705bd2ac4cf",
+                            ConcurrencyStamp = "780ded1d-8844-45ba-8ba9-3fd82b687e7c",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -627,7 +627,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "staff@gmail.com",
                             NormalizedUserName = "staff1",
-                            PasswordHash = "AQAAAAIAAYagAAAAENgtV/CRlpMtLvdEQAUyDlMLMe+RqWuwRNxAy2UoPTrxfvImLn7HclvpLvP2kLRn1A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKbegtEVaBt97dRnaSjsEraB23Kor0t2DJeIaYxAgBmM4+zPX0Y48AuAlL8NLdkjbQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -638,7 +638,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 4,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "34f01c53-9777-48bf-8497-582431977244",
+                            ConcurrencyStamp = "e2c67205-3884-48e2-a39d-d5c270444c0e",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -646,7 +646,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "staff@gmail.com",
                             NormalizedUserName = "staff2",
-                            PasswordHash = "AQAAAAIAAYagAAAAEM40+eyO7/Q+ypmEwLlqetNEzIyEDsnKjwvDwEM1PAj5qa97eiwLLWS3E8H4QyBwtw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDNx7h+QmgQiDYmJUkpLN7GuictdnsOF2Q/cp6DH3W5FYNwxQOxAQwUqI4O3dHoB/g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -657,7 +657,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 5,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f0e50338-3e71-430d-bd91-835f10502174",
+                            ConcurrencyStamp = "4b75832f-66b2-4256-bbbd-7927f7b36b9c",
                             Email = "staffdis@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -665,7 +665,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "staffdis@gmail.com",
                             NormalizedUserName = "staffdis",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGLcMCQheymy8S3UgIE0hcnRCOVOz/yLkwRVaTo5MUJdvIJ2CDdBq5Q5MWtGE7c8pA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECp3wBg9RCTozoNvFtivP8AmPDvuajRRl2M3ltpADoUyJ2omeITB/L2b7mg1ZJ606w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -676,15 +676,186 @@ namespace SteelanceX.Data.Migrations
                             Id = 6,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "809d5efd-f435-4a32-bf1b-3e0b21c2d6f7",
-                            Email = "normaluser15@gmail.com",
+                            ConcurrencyStamp = "2189055b-d5b7-4a3e-8819-b9472509fadb",
+                            Email = "normaluser6@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "6",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
+                            NormalizedEmail = "normaluser6@gmail.com",
+                            NormalizedUserName = "normalUser6",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFQBf2nFba2cUMv2aSG/eTN3X+s6+WjODozulXvz6NecnfNG2+iUpM9P19yfldbfVQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser6"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "7f81aead-b903-43c4-a53b-df1893dd20e7",
+                            Email = "normaluser7@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "7",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser7@gmail.com",
+                            NormalizedUserName = "normalUser7",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFGoQTCqC/kA8qGqArtKzTOnvqRSit4K7do0xD3xZ82FOcC5WnjXW+kanfWp9egZzA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser7"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "f70b63c4-a89e-41e8-bf1f-069270f9a41d",
+                            Email = "normaluser8@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "8",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser8@gmail.com",
+                            NormalizedUserName = "normalUser8",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOW/Ixrpk8VHQwMYW0QNbcacrP/2G1uP7zImvIZgIF+wnM+bvNp9ZapXY6Z3A5E/Jw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser8"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "0434548e-7069-4285-acc3-353e46fd8f21",
+                            Email = "normaluser9@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "9",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser9@gmail.com",
+                            NormalizedUserName = "normalUser9",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMwR22Eyq5aAnBP50Efy9DKvnWjnlfW360z42XC9nlYw/yZsGmDR/Pie82AjixvGaw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser9"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "db664b0b-a4c0-47af-a586-e3c3051ac4fd",
+                            Email = "normaluser10@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "10",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser10@gmail.com",
+                            NormalizedUserName = "normalUser10",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEPZhGOdfQKKPcQcMf7QTTtp4NkbGbbT/rKzIkNIfuy9eEYCtwRy5G91psS6CpB3oQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser10"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "7560eee8-354c-40d7-aa32-d097cc457774",
+                            Email = "normaluser11@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "11",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser11@gmail.com",
+                            NormalizedUserName = "normalUser11",
+                            PasswordHash = "AQAAAAIAAYagAAAAELgFEW6I+btS+KPkU/RzmeXeYNSkODCOvIr23QqYBT9SzKOGJSS/8ggf16PcC5AqJA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser11"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "0e98f660-958c-4cb4-8774-da62bc3f6ae6",
+                            Email = "normaluser12@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "12",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser12@gmail.com",
+                            NormalizedUserName = "normalUser12",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFZvKW6TcRTm8qmJEbKv6NyeidzDa0cafjNEtRk6wkZcSpXR52iw/F9e7esIzSFo4w==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser12"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "2aa4544e-85c8-43dc-9b22-d9e3ccfc28bb",
+                            Email = "normaluser13@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "13",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser13@gmail.com",
+                            NormalizedUserName = "normalUser13",
+                            PasswordHash = "AQAAAAIAAYagAAAAENYsb7QDvhNZR5VIl7aQLGR3oLM7haVXcb5WHtWiNXu6/5icusZbQ7wsQ+nOIrQmwA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser13"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "eccdd211-ec83-45a2-98d8-bb3549e29042",
+                            Email = "normaluser14@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "14",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser14@gmail.com",
+                            NormalizedUserName = "normalUser14",
+                            PasswordHash = "AQAAAAIAAYagAAAAEM7X9bSTJaPBWE7py0aANITr2Khb9oOedY+lhclPNpz9dHfpvmVLTQHwBvxyRhx3jw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser14"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "c074c764-dd97-47e9-85b7-1ec030f814c1",
+                            Email = "normaluser15@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "15",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
                             NormalizedEmail = "normaluser15@gmail.com",
                             NormalizedUserName = "normalUser15",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMbFboxd43PE3TBracH23A3O3mditjD3o4K5MQBWreuX0eAHXdOPj5bqmujw87xu/A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEG+niCz6IhixCgVjmA+DsS3CBry0R7WuQC/QJRR/axdAqv17/i39Bbto3zmPttV3DQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -692,18 +863,189 @@ namespace SteelanceX.Data.Migrations
                         },
                         new
                         {
-                            Id = 7,
+                            Id = 16,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "5b85237f-906a-43a5-a99b-bb8206cb30e6",
+                            ConcurrencyStamp = "2e2ce04f-a94b-4e80-a5b4-c1ecbd73561c",
+                            Email = "normaluser16@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "16",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser16@gmail.com",
+                            NormalizedUserName = "normalUser16",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ/j1RzWHIbAwyfMQ4+zyUMJ2IU4G5qi9YU/19qTsXryz1mIabl38TcsHrTWT/tePg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser16"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "23534734-a366-4a8c-a41d-27007fed0f8a",
+                            Email = "normaluser17@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "17",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser17@gmail.com",
+                            NormalizedUserName = "normalUser17",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBZJ8hUCzLT7c598dY9EZqmmZNxPblrof1yd9+vfvqy+tT3dAcSadNuij2fXsh0ilw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser17"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "0cd969a1-f423-42a5-9538-a2b5e48643c2",
+                            Email = "normaluser18@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "18",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser18@gmail.com",
+                            NormalizedUserName = "normalUser18",
+                            PasswordHash = "AQAAAAIAAYagAAAAECELtg+hJlWMwaKHmXCSCNMV8YXIQdjGUsveQnevob1I71oRkJ4phONFeRl3/COGAQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser18"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "a0e0414e-b503-4783-afe4-cbc6511ff37e",
+                            Email = "normaluser19@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "19",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser19@gmail.com",
+                            NormalizedUserName = "normalUser19",
+                            PasswordHash = "AQAAAAIAAYagAAAAENoUkPCPyaeU3P5GConorqtsT1VAPF2qF7cIINTQ7/QQGMco+rtOz+y6bcT5YbmK6Q==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser19"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "8ac66cf9-6148-4a7c-85c3-78808ca56862",
+                            Email = "normaluser20@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "20",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser20@gmail.com",
+                            NormalizedUserName = "normalUser20",
+                            PasswordHash = "AQAAAAIAAYagAAAAEO61IW+mJYJxpQSJiXOA1lP4Wo2Beyz9Dc8gMTTtiaxLMLbDRGW/RaqzafZLemTRWg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser20"
+                        },
+                        new
+                        {
+                            Id = 21,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "d624142b-3786-4537-97be-e21088c05a2d",
+                            Email = "normaluser21@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "21",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser21@gmail.com",
+                            NormalizedUserName = "normalUser21",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIO6DDrEdrZzN+6oOeRiJwzjdXIPcuzfgDvJaPktRRfM65tkpD5VEW1lQ8uMYF4S/w==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser21"
+                        },
+                        new
+                        {
+                            Id = 22,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "acdf3872-759b-4131-a3d3-d5e89bd4b684",
+                            Email = "normaluser22@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "22",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser22@gmail.com",
+                            NormalizedUserName = "normalUser22",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJt9Chc+9cp36qOrIWGpGpNxGeZGwSdG6OOIclY1Co/4P3dQBmaqq5i245kgSBZlsA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser22"
+                        },
+                        new
+                        {
+                            Id = 23,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "f1ae0bdf-1cbb-47a3-b9df-63045d7c99c8",
+                            Email = "normaluser23@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "23",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser23@gmail.com",
+                            NormalizedUserName = "normalUser23",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOKsuR2AqXOCR1rrxdYnuw3VwRXTRTpqjkAdHT+6dviR4neFYiGY1vcAFXcrw5WsQg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser23"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "08201b61-ec8b-42de-99b1-798649308ecc",
+                            Email = "normaluser24@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "24",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser24@gmail.com",
+                            NormalizedUserName = "normalUser24",
+                            PasswordHash = "AQAAAAIAAYagAAAAENUH+6tiumFLohZIPfgr5utD3yMI8s81nAPh1srwCnm06gI7GdFJCl1XOG1kcnaWsw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser24"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "6f0c8b33-2b8c-4ff4-bbd1-d658f9e03159",
                             Email = "normaluser25@gmail.com",
                             EmailConfirmed = true,
-                            Firstname = "7",
+                            Firstname = "25",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser25@gmail.com",
                             NormalizedUserName = "normalUser25",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMMgBW+LmOdy4VGmTPRB10pNjnqWX6HKYA9P/zvH+T8wHncDfhFVEEL7kQ741Py1rw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGkwDV1sFU9IgH8k6rNhPH48fXDXJU2RNT3d8fg8NPF5LHFrJZncH4qr1gpW/Yfk3g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -711,18 +1053,189 @@ namespace SteelanceX.Data.Migrations
                         },
                         new
                         {
-                            Id = 8,
+                            Id = 26,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "abee90c1-7c82-44fa-89a1-41c6e3bf51a1",
+                            ConcurrencyStamp = "67063735-dfcd-4c71-b9c7-7acd682d8ba3",
+                            Email = "normaluser26@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "26",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser26@gmail.com",
+                            NormalizedUserName = "normalUser26",
+                            PasswordHash = "AQAAAAIAAYagAAAAED3JXmU4DsYVoU5559CSWz4O7HofkGBfryEFMJhyct/s5swb2DXXUYzIz/Uxt/VpFA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser26"
+                        },
+                        new
+                        {
+                            Id = 27,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "a82fbfd0-0f25-4907-a99f-cf29840b74cb",
+                            Email = "normaluser27@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "27",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser27@gmail.com",
+                            NormalizedUserName = "normalUser27",
+                            PasswordHash = "AQAAAAIAAYagAAAAELRGYlli2q+y4LOikBCQBOv2f+lg08G8AQ/iyTfA8Ua6qZI8bhXtMBukZkQ8lvsKbw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser27"
+                        },
+                        new
+                        {
+                            Id = 28,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "381bcad3-4eae-43a7-94c6-e1d3d0e8b1d8",
+                            Email = "normaluser28@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "28",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser28@gmail.com",
+                            NormalizedUserName = "normalUser28",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIkRA/4IYlkd5x3euup4sgYtz9sYjCespeZDcQEBMI4Lm7Q15AhRqRaZOaJlv8888g==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser28"
+                        },
+                        new
+                        {
+                            Id = 29,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "4178e37c-ad7d-46d1-a521-6786dacb2eb1",
+                            Email = "normaluser29@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "29",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser29@gmail.com",
+                            NormalizedUserName = "normalUser29",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJaKgKXt+hiu58T1B0JZ9Q6b+nJWl+cTYbMfySSspuDnOllkCJ3ZadwVo3FIk+dPGg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser29"
+                        },
+                        new
+                        {
+                            Id = 30,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "bb20199c-aa19-4e4d-97fd-264f2e14bd70",
+                            Email = "normaluser30@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "30",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser30@gmail.com",
+                            NormalizedUserName = "normalUser30",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ5aNDM+0HWcmp3tDVwDh+FZaUvWgmxtADe5cYzq2rm+0He4JJ4G9TRWKRDu+mNhzw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser30"
+                        },
+                        new
+                        {
+                            Id = 31,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "1ee532dc-ac15-4c9a-9e87-c6dbfba40c50",
+                            Email = "normaluser31@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "31",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser31@gmail.com",
+                            NormalizedUserName = "normalUser31",
+                            PasswordHash = "AQAAAAIAAYagAAAAENX8LyGnmDsjcVv+1QrvWr8mNwlzoB2t/dyR9r3wkV/p+GWRicxJ24f9za/1ndAQqQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser31"
+                        },
+                        new
+                        {
+                            Id = 32,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "ff51c348-b35c-4bf8-ab8a-8cc5404c442a",
+                            Email = "normaluser32@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "32",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser32@gmail.com",
+                            NormalizedUserName = "normalUser32",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPtdvXvHVtvcpT6nOGLTw8lwK4lfQBSQjdZfcBVBtqQlouXwrb27Ph7M/1ocDlQGNg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser32"
+                        },
+                        new
+                        {
+                            Id = 33,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "fb1a1c87-b814-4f93-99b4-bb39e491d7ee",
+                            Email = "normaluser33@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "33",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser33@gmail.com",
+                            NormalizedUserName = "normalUser33",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHVjZSH5jrckXptSawe+HsGTzMV3Wwgwm+Q7bK/pvtnGGjSgC12lgxDo2om4HNc0Kg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser33"
+                        },
+                        new
+                        {
+                            Id = 34,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "538da2b8-cbd4-4bf2-8979-6b3ff047c3fb",
+                            Email = "normaluser34@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "34",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser34@gmail.com",
+                            NormalizedUserName = "normalUser34",
+                            PasswordHash = "AQAAAAIAAYagAAAAEH8TgMQSj5One5hD36kOvgVsw4rUhnaxhYn37rWVSiwM2xtbcqEV7y7iOeebC+uIrA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser34"
+                        },
+                        new
+                        {
+                            Id = 35,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "0c3046da-4d38-4b8c-ac7c-f3ebf644ea5c",
                             Email = "normaluser35@gmail.com",
                             EmailConfirmed = true,
-                            Firstname = "8",
+                            Firstname = "35",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser35@gmail.com",
                             NormalizedUserName = "normalUser35",
-                            PasswordHash = "AQAAAAIAAYagAAAAECVi/M8vaKyhyLjHl0qudOjExg0KIqhGPMsPnXf8d7PWPrXBiWCxwQ2rh8G16Jk4LQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAcp9xWg4JGsM6EKT4uURk7pDKQ2W7klqEhbbqX+cAHD6jjysFtDoW0yREscuPyVbA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -730,18 +1243,189 @@ namespace SteelanceX.Data.Migrations
                         },
                         new
                         {
-                            Id = 9,
+                            Id = 36,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "2aa824e0-043b-4a38-9019-168af8c2bfe1",
+                            ConcurrencyStamp = "cf3a7b2b-5315-4084-b7cd-b659e0d2568f",
+                            Email = "normaluser36@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "36",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser36@gmail.com",
+                            NormalizedUserName = "normalUser36",
+                            PasswordHash = "AQAAAAIAAYagAAAAENi9z/uNMh5cqE7PLwOCDrWFprawZiMLrDLCBbnWQXXfyGOculE3A1yveEIdNAK1Mg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser36"
+                        },
+                        new
+                        {
+                            Id = 37,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "8c6870c7-7cee-40df-9fcb-67934e32158c",
+                            Email = "normaluser37@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "37",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser37@gmail.com",
+                            NormalizedUserName = "normalUser37",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJY/rzbBSEZuXCyJ0gH9svOwpB8oyg9cwp+RYV2M4XCQAeWt9q53dMc423LLTly26Q==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser37"
+                        },
+                        new
+                        {
+                            Id = 38,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "1702808e-5fa1-472e-bd27-bdd5b0de8ae4",
+                            Email = "normaluser38@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "38",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser38@gmail.com",
+                            NormalizedUserName = "normalUser38",
+                            PasswordHash = "AQAAAAIAAYagAAAAEImTYi2Ic8QcYGc9HZmITCJfydoMjh2wcOTM2YP8IMeZRkxg3arBfX8MJ4e2EAugFA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser38"
+                        },
+                        new
+                        {
+                            Id = 39,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "7409c0d6-304a-43f0-ba3d-b1635474113a",
+                            Email = "normaluser39@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "39",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser39@gmail.com",
+                            NormalizedUserName = "normalUser39",
+                            PasswordHash = "AQAAAAIAAYagAAAAELgRH5kJ2TLl1vDrJKCXUYMl+P0usRokKgi4nEeTuEwU+bprEM7qFk1nvjthpf+now==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser39"
+                        },
+                        new
+                        {
+                            Id = 40,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "fe86e29b-ee04-44d2-a290-6a57c369ed6b",
+                            Email = "normaluser40@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "40",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser40@gmail.com",
+                            NormalizedUserName = "normalUser40",
+                            PasswordHash = "AQAAAAIAAYagAAAAENinT0rww/eBpDmn96m0clHVW3H55fFWLPtTkAjobv6IGamNwwOhCs0DJb+o8iazWg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser40"
+                        },
+                        new
+                        {
+                            Id = 41,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "8c9bccd0-db3c-4efc-a039-5ef77239ecc6",
+                            Email = "normaluser41@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "41",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser41@gmail.com",
+                            NormalizedUserName = "normalUser41",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHYey6JicIVQ6JtEMREgPs9hnTr+Y4ALVxpSqd1j4vHWISa1bf8J/EThKvPCLJReXw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser41"
+                        },
+                        new
+                        {
+                            Id = 42,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "88a46a61-174c-4dd9-8c7b-a6a970fabf3f",
+                            Email = "normaluser42@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "42",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser42@gmail.com",
+                            NormalizedUserName = "normalUser42",
+                            PasswordHash = "AQAAAAIAAYagAAAAEG0mB+XxkERUoJJeMj+gekiOVwvtX1B8ZQ7iLCTrNOCUjQAx35Q/9zXJF0O5GXMy4g==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser42"
+                        },
+                        new
+                        {
+                            Id = 43,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "a1482e59-d258-4b3f-9695-2485749e60d1",
+                            Email = "normaluser43@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "43",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser43@gmail.com",
+                            NormalizedUserName = "normalUser43",
+                            PasswordHash = "AQAAAAIAAYagAAAAELAHBtQiRnz2qsdsuilrVZP9EygZv9B9m0clQTA0gLoP6Jvo8LEI8zwLuXKWWRqJTA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser43"
+                        },
+                        new
+                        {
+                            Id = 44,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "e7e8798a-f778-416b-be2a-8c6d3434bb5f",
+                            Email = "normaluser44@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "44",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser44@gmail.com",
+                            NormalizedUserName = "normalUser44",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMnjtBaidgWPbrDGOoSNd6APFDqtiCfb3Dj2s/j493vkocRxDnjGzT45xb7GqzdiEg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser44"
+                        },
+                        new
+                        {
+                            Id = 45,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "1684d7c6-7314-472f-9e75-4e4e6265ae70",
                             Email = "normaluser45@gmail.com",
                             EmailConfirmed = true,
-                            Firstname = "9",
+                            Firstname = "45",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser45@gmail.com",
                             NormalizedUserName = "normalUser45",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHqpZR/OEtRNMI5V9zlfIts4Lqrsm/nXmj/jibquiSrOLPSt/8JbZNEJ/EveGaxdjw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAeV1SU3C20Ko2DEYxS3pJmq1/7vTBxWr8ip7HMfoQHnsBOIYDZrDLQzHVz9kXG6bQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -749,18 +1433,189 @@ namespace SteelanceX.Data.Migrations
                         },
                         new
                         {
-                            Id = 10,
+                            Id = 46,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b6fe312e-4ce2-4052-abca-b5118b96d4ab",
+                            ConcurrencyStamp = "fd9ff8cb-5eae-4593-b5ae-e5ba8bd6ed78",
+                            Email = "normaluser46@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "46",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser46@gmail.com",
+                            NormalizedUserName = "normalUser46",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOcxaiDggGLP20JTDZ8Y8QAD2z+y1cFsnHX4eIQJLdPom990Zua5ypjj33/chD2MfQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser46"
+                        },
+                        new
+                        {
+                            Id = 47,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "1dcbb495-55c6-4914-90eb-0cb5d98127af",
+                            Email = "normaluser47@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "47",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser47@gmail.com",
+                            NormalizedUserName = "normalUser47",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHBQvSQBtIAJyLiKvWtSJ98uFIBZw3DxyweW74Vbp5pICO7HJEUPt6PIgtDWuIBrfg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser47"
+                        },
+                        new
+                        {
+                            Id = 48,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "6f728aa3-4a97-4dc5-8fe8-744f0250c5ba",
+                            Email = "normaluser48@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "48",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser48@gmail.com",
+                            NormalizedUserName = "normalUser48",
+                            PasswordHash = "AQAAAAIAAYagAAAAEO5Keeuu5w5PEV1hBj/uE24/DScHaWmLf17JJciyvVrwIVQ5Jfb0Z1pHweFq7TohZw==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser48"
+                        },
+                        new
+                        {
+                            Id = 49,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "3f80a462-9b24-43b6-a384-d99c5ce5a24c",
+                            Email = "normaluser49@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "49",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser49@gmail.com",
+                            NormalizedUserName = "normalUser49",
+                            PasswordHash = "AQAAAAIAAYagAAAAELzncderJ6/kmW6OHtDKUr2kSOUCIesjjkUOOFTwDH0HCqqo8/nNlXd1nGOs2yt8MA==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser49"
+                        },
+                        new
+                        {
+                            Id = 50,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "b4cac058-c25a-46ef-9a7f-ab73ecc22da2",
+                            Email = "normaluser50@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "50",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser50@gmail.com",
+                            NormalizedUserName = "normalUser50",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPDWAxK/MxnuEcs99YnM4E//YbnMelp91+6c/vU4GvReTe8UXirlpfic225g5o/Ivg==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser50"
+                        },
+                        new
+                        {
+                            Id = 51,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "4bda7c37-2c46-4da1-8ff1-67752b41e738",
+                            Email = "normaluser51@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "51",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser51@gmail.com",
+                            NormalizedUserName = "normalUser51",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBQVG1ozFJvFf42TDkyoD4D78wTp01AM6DyzYGbCFsDuiLwNGA6jBGS1mFPiT2yp7Q==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser51"
+                        },
+                        new
+                        {
+                            Id = 52,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "ef65bb07-2ad5-49d1-8ce8-a30f35cf824b",
+                            Email = "normaluser52@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "52",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser52@gmail.com",
+                            NormalizedUserName = "normalUser52",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDloi9zZJdnA4IlscBZarmTDjVqTnd7T/mU0G4lEPBJN27yrvVxsUbyfe01w5Xm6qQ==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser52"
+                        },
+                        new
+                        {
+                            Id = 53,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "6b510d6a-f5ae-44de-a71c-998c2d6f1251",
+                            Email = "normaluser53@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "53",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser53@gmail.com",
+                            NormalizedUserName = "normalUser53",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGSui4DGM1KBrmZ+c6BoXLmWNRU72RluMJG0Z6JxkTvRyK4MB+5tkE0ylcPUcXMy+w==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser53"
+                        },
+                        new
+                        {
+                            Id = 54,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "47eb75f6-2a04-435e-9a14-49933ceeb111",
+                            Email = "normaluser54@gmail.com",
+                            EmailConfirmed = true,
+                            Firstname = "54",
+                            Lastname = "Nguyen Van",
+                            LockoutEnabled = false,
+                            NormalizedEmail = "normaluser54@gmail.com",
+                            NormalizedUserName = "normalUser54",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEWAQHdx9+yPA+5oe1gD0aKNWgl6WJw4lse9kagZ2+loTGw/f+yJDwjg0blkx3rSng==",
+                            PhoneNumberConfirmed = false,
+                            SecurityStamp = "",
+                            TwoFactorEnabled = false,
+                            UserName = "normalUser54"
+                        },
+                        new
+                        {
+                            Id = 55,
+                            AccessFailedCount = 0,
+                            Address = "HCM",
+                            ConcurrencyStamp = "a8d3f731-6436-4dd6-9bf4-24eec73b2ed2",
                             Email = "normaluser55@gmail.com",
                             EmailConfirmed = true,
-                            Firstname = "10",
+                            Firstname = "55",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser55@gmail.com",
                             NormalizedUserName = "normalUser55",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEyv+V04Sh+PqfNmXTc2LPlU5DNqp49RvXWOKrtucAQximDo2+KzLP0qEdkZN+lPNQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKme7Siw04xdC1IxA/noUe2AuSbTlVYTsC+o/Lfk7WgOuqngs6OSdZQfGGt1F5oe4w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -768,1048 +1623,193 @@ namespace SteelanceX.Data.Migrations
                         },
                         new
                         {
-                            Id = 11,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "02f4a549-b6b8-4d3a-b566-96bbf3ebf3f8",
-                            Email = "normaluser65@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "11",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser65@gmail.com",
-                            NormalizedUserName = "normalUser65",
-                            PasswordHash = "AQAAAAIAAYagAAAAENdFl2buvC8ZwRjxwD6tsK597NCIUF8YdQXzjuCwFObF4iWtuveW0rXHi5J9Op5Cow==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser65"
-                        },
-                        new
-                        {
-                            Id = 12,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "9b73fcfb-6c9a-4936-a405-1f8ef27ec7dd",
-                            Email = "normaluser75@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "12",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser75@gmail.com",
-                            NormalizedUserName = "normalUser75",
-                            PasswordHash = "AQAAAAIAAYagAAAAEG/ZcSNzvo0O3A8N/yB1leg0/yi5jXVz0B5QHF71KjUxvdyx89edMFsTFo18Unvhgw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser75"
-                        },
-                        new
-                        {
-                            Id = 13,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "0d66cd27-4afc-4fe3-94f1-7aa7223f036b",
-                            Email = "normaluser85@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "13",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser85@gmail.com",
-                            NormalizedUserName = "normalUser85",
-                            PasswordHash = "AQAAAAIAAYagAAAAEK7Hyh/iAfGBPjltfl8hZylQn3ON7PrWQk3E/VuTZCvhimotRau15nscNJKezPkFyw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser85"
-                        },
-                        new
-                        {
-                            Id = 14,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "c74f7d65-322e-4c1f-947a-2584bff4f82d",
-                            Email = "normaluser95@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "14",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser95@gmail.com",
-                            NormalizedUserName = "normalUser95",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPL919K4j4HkK0QMMZgGFBQW/esxogv2oxR7y571VzfIPUNI8x9xv7b7hZMfXIdZBg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser95"
-                        },
-                        new
-                        {
-                            Id = 15,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "47224636-ccf5-4a2f-a277-1cbd68ae5f46",
-                            Email = "normaluser105@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "15",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser105@gmail.com",
-                            NormalizedUserName = "normalUser105",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDwLup91JAwNJ8jtdVz9cfR9tW0aeKne2I502bG/cSRmLehz+1k+t+VbgZOBFXFVZA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser105"
-                        },
-                        new
-                        {
-                            Id = 16,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "6dd56a9b-e4a7-4320-ae45-e8f9dfc458e9",
-                            Email = "normaluser115@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "16",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser115@gmail.com",
-                            NormalizedUserName = "normalUser115",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPJ6+LOiRpgloXVWlxbzcNbuWkbDzHvHU0rPelAfNrz1wF/MTmr2S3djDxs7AD04YQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser115"
-                        },
-                        new
-                        {
-                            Id = 17,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "d87adb8d-4c49-4dea-b175-1d262e44ad30",
-                            Email = "normaluser125@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "17",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser125@gmail.com",
-                            NormalizedUserName = "normalUser125",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJh/N/xfb9ly03zjWX/ViK0c9vLQLtWQzZQnin3SHf820s0vVaUlqM3I7EAQmi+Yiw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser125"
-                        },
-                        new
-                        {
-                            Id = 18,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "61a6db78-9cb6-4359-9d44-557a81be886f",
-                            Email = "normaluser135@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "18",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser135@gmail.com",
-                            NormalizedUserName = "normalUser135",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDOnM7E6c8lHOCWahAfmRtbi3E1ZV4XlNcmMqolG9xQcGl015U1C9JLrODi3qk3SHw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser135"
-                        },
-                        new
-                        {
-                            Id = 19,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "149e0a49-57a6-489b-8f47-980be8482af9",
-                            Email = "normaluser145@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "19",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser145@gmail.com",
-                            NormalizedUserName = "normalUser145",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFXuf01v8idJ0boOCvdcFU5K3T7mW1FeZBx3JC2ZCGSeHLBDqHTQCOQrW7H28Oie8Q==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser145"
-                        },
-                        new
-                        {
-                            Id = 20,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "042a5f11-1d73-4f53-bf95-89951c6ff69c",
-                            Email = "normaluser155@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "20",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser155@gmail.com",
-                            NormalizedUserName = "normalUser155",
-                            PasswordHash = "AQAAAAIAAYagAAAAECkTrw5qYxLdz/m5aymvGyuIRuigUyredjp4Ktof4y2mcNsbLsL+6nMuUUcg4qzfLQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser155"
-                        },
-                        new
-                        {
-                            Id = 21,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "45dd0b07-5146-4a37-85ab-75e513a92745",
-                            Email = "normaluser165@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "21",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser165@gmail.com",
-                            NormalizedUserName = "normalUser165",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBCDtsZC9D1NR0axFAy6i+m0eAvcZCiIbrbTk3HZ7zFghRofOdnpXSsVaB/y52dEaw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser165"
-                        },
-                        new
-                        {
-                            Id = 22,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "d037709d-c616-4aac-ac57-f7a6502b5e46",
-                            Email = "normaluser175@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "22",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser175@gmail.com",
-                            NormalizedUserName = "normalUser175",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPCuHCXoTrDhlPjyI+cOKctsfT95Oifn2e4B6J3pmiV9U8XYbON+B/0Xugv2yjK3/w==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser175"
-                        },
-                        new
-                        {
-                            Id = 23,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "29e44da1-f833-46f8-b4a1-11cc6f348af4",
-                            Email = "normaluser185@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "23",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser185@gmail.com",
-                            NormalizedUserName = "normalUser185",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOVZtPPf3l49amcOur13dsmhAZ0tJYpkTiHCMWZAp7wz13qKXA6ccDnVTo7ESzgIag==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser185"
-                        },
-                        new
-                        {
-                            Id = 24,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "334b9bcc-43e3-49e7-a106-bbc37f5020e0",
-                            Email = "normaluser195@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "24",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser195@gmail.com",
-                            NormalizedUserName = "normalUser195",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFQb9JKLz8mbeimGzMX4nsXC5kDuXAC4FbY7WaxzmE9g3yBR3tYHxyXS6o1Z9Q1k6g==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser195"
-                        },
-                        new
-                        {
-                            Id = 25,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "da668a7d-7664-4c1a-b688-ed1e3b54c96e",
-                            Email = "normaluser205@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "25",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser205@gmail.com",
-                            NormalizedUserName = "normalUser205",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHqk7BsNBHcAG/HoujBFrpGt7Q8T4snm+Ep/DWxWM2JK4p3sOV7dGEMDDNz8ZF5JIQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser205"
-                        },
-                        new
-                        {
-                            Id = 26,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "295c4ed2-a77c-4867-b446-9749d4348753",
-                            Email = "normaluser215@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "26",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser215@gmail.com",
-                            NormalizedUserName = "normalUser215",
-                            PasswordHash = "AQAAAAIAAYagAAAAECDzfS0d5uiRb44mCMtAluKKL+PeOR0z/U4hhRsmTJ0u84/6phe5E0CjOaGhBQpe+w==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser215"
-                        },
-                        new
-                        {
-                            Id = 27,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "47175140-0e8d-443c-b057-f92cbb28e2bb",
-                            Email = "normaluser225@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "27",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser225@gmail.com",
-                            NormalizedUserName = "normalUser225",
-                            PasswordHash = "AQAAAAIAAYagAAAAEM1rd/WSJ/TkdgEU8MiFdBQKqKKEVJegdJmOVqmGxe3bNi3ZIonTfeLT2nrDId+VAg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser225"
-                        },
-                        new
-                        {
-                            Id = 28,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "22ba4a5b-bb2a-4db9-90fd-7ccc9ee809bf",
-                            Email = "normaluser235@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "28",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser235@gmail.com",
-                            NormalizedUserName = "normalUser235",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOOEuy1mmxPymMoqaiK8aKKu1XvKB/ZRH7GgdhRifhzoTg2wYOvB5mXdl902Ttyd5w==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser235"
-                        },
-                        new
-                        {
-                            Id = 29,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "748c47e5-10ac-4ada-9853-e28958cc7bcb",
-                            Email = "normaluser245@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "29",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser245@gmail.com",
-                            NormalizedUserName = "normalUser245",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOa93krpWyRwhmHWtILdx9en5A9iobHsFwQDSfob+/hjFBhrbMuVMOEEhYX+k+EdGg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser245"
-                        },
-                        new
-                        {
-                            Id = 30,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "56e7240f-1f28-4d76-bcce-e20c437394ae",
-                            Email = "normaluser255@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "30",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser255@gmail.com",
-                            NormalizedUserName = "normalUser255",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI6b9i2cbao/Qi6Kng7hCi7CNA2cen/38k87Q5FOh36aaKDDxJCkvK08MCCeUi3tvw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser255"
-                        },
-                        new
-                        {
-                            Id = 31,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "dc32ec4b-86e3-48fa-a030-15f635a61bb0",
-                            Email = "normaluser265@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "31",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser265@gmail.com",
-                            NormalizedUserName = "normalUser265",
-                            PasswordHash = "AQAAAAIAAYagAAAAENA+FDzfr/xks4+WzC1b+lzNb7CFxg0ezaS8Ahi+kTqH7yyF0fBSgpNf5mORalQ1UQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser265"
-                        },
-                        new
-                        {
-                            Id = 32,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "e6fbff7f-8c6f-451a-832a-d611c22d63b9",
-                            Email = "normaluser275@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "32",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser275@gmail.com",
-                            NormalizedUserName = "normalUser275",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAj23M3jKdXS9tRw6BbY1r4YptyzPGp4VED24uLdkLW5ZbVZ/8HDwFX/h85Hq3T40g==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser275"
-                        },
-                        new
-                        {
-                            Id = 33,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "eb1aa138-a9a5-4ec8-ae0f-9149016ac873",
-                            Email = "normaluser285@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "33",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser285@gmail.com",
-                            NormalizedUserName = "normalUser285",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFCtNLnOc+YLlo0C1oCWnvXR4AF0af234FEtT/T95fV+Zw/UTBd3OPUYR6JyGKYYuA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser285"
-                        },
-                        new
-                        {
-                            Id = 34,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "3a458f9c-e265-4e2c-9888-8ad81145302b",
-                            Email = "normaluser295@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "34",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser295@gmail.com",
-                            NormalizedUserName = "normalUser295",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI/7ko8+NI7OPwRngBUQHBy+16sD9afDPZvKLlMqwWB60/fjB6JOYF3bJkOJo0E0GA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser295"
-                        },
-                        new
-                        {
-                            Id = 35,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "ced72a01-0314-4b93-8120-a31511b5c99e",
-                            Email = "normaluser305@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "35",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser305@gmail.com",
-                            NormalizedUserName = "normalUser305",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGdZ/4/8LmSxujogWU6aKvkJsCb38j3ZRA+2mKzMBs2BTSq/9jBUhBBLyaZ82afgFw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser305"
-                        },
-                        new
-                        {
-                            Id = 36,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "b3dea117-9e27-4e9f-8a67-a721678f1922",
-                            Email = "normaluser315@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "36",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser315@gmail.com",
-                            NormalizedUserName = "normalUser315",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKnXCtaOqmzIvqZJYUa/evsYMJqJOtKbVlmWm8vsctjAhhWc8BUPehcEileVZDvWQA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser315"
-                        },
-                        new
-                        {
-                            Id = 37,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "e61c2992-bc9c-4304-b41c-5028c59150f8",
-                            Email = "normaluser325@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "37",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser325@gmail.com",
-                            NormalizedUserName = "normalUser325",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAjvjdl8ChIkv6FNB6YCn6sXLKZ/G6gBmvR+CO1Qc36g6AN16gq0CVu49OwRTovyfQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser325"
-                        },
-                        new
-                        {
-                            Id = 38,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "ce9f2211-ce15-4892-a082-25478128332c",
-                            Email = "normaluser335@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "38",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser335@gmail.com",
-                            NormalizedUserName = "normalUser335",
-                            PasswordHash = "AQAAAAIAAYagAAAAEC/1VXuqkIMXT322Xs+uCh6xIUIDnnPw+Tyy9J9wtDTmiSz0r1G9GBA4XfIbO8CcRg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser335"
-                        },
-                        new
-                        {
-                            Id = 39,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "58f89679-f331-467d-99a6-eb81e486cde9",
-                            Email = "normaluser345@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "39",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser345@gmail.com",
-                            NormalizedUserName = "normalUser345",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAZ90+zrYKN9CJ0Hn25zqT9py3mOPcjba+9Y2EOBCr1/k1pSE7t8ZZZ50HgShtsZJg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser345"
-                        },
-                        new
-                        {
-                            Id = 40,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "f875c30c-7caf-44ec-ba6a-045efaeebf05",
-                            Email = "normaluser355@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "40",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser355@gmail.com",
-                            NormalizedUserName = "normalUser355",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFiP3eU5oJ81rrdpIF0sUKp/UtE16JbaRcUeGJiYf36xKXdoit06qRK7VFsKFaWAdQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser355"
-                        },
-                        new
-                        {
-                            Id = 41,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "193eadd2-0789-47a3-b94a-7daf55aa5f91",
-                            Email = "normaluser365@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "41",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser365@gmail.com",
-                            NormalizedUserName = "normalUser365",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBf+szahA5LjzD6HaJqy4uqJliPbPljbKKiI22GDiCwQK/ycRFtcq2sxDgAelVrang==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser365"
-                        },
-                        new
-                        {
-                            Id = 42,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "4dc409c1-50e2-4662-b3c5-b41f7dbdd11c",
-                            Email = "normaluser375@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "42",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser375@gmail.com",
-                            NormalizedUserName = "normalUser375",
-                            PasswordHash = "AQAAAAIAAYagAAAAEORunjByLSb5DEVS2uN87IFpoU5fk8CFdtgAmCDqPernIJU0GA7QiSBtQHYRsvYtQg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser375"
-                        },
-                        new
-                        {
-                            Id = 43,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "32978811-9b6d-48d0-93c6-a05d85846826",
-                            Email = "normaluser385@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "43",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser385@gmail.com",
-                            NormalizedUserName = "normalUser385",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDU9ymKHd6pA+Mn2jYKrzKjuNz70uZmehXTks+vBmENKwwr+p7fxCr008XfklVYBGg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser385"
-                        },
-                        new
-                        {
-                            Id = 44,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "1c4ed646-64e8-461f-a94f-676576279a44",
-                            Email = "normaluser395@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "44",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser395@gmail.com",
-                            NormalizedUserName = "normalUser395",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBOK+Xmoz2KTmaVvsP91Q4hkPIuO4xMk2FYEXWA4plpce8O2Ge0yWjjvw+gcrgC/Sg==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser395"
-                        },
-                        new
-                        {
-                            Id = 45,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "73606f89-5f35-420e-8941-505c65499984",
-                            Email = "normaluser405@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "45",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser405@gmail.com",
-                            NormalizedUserName = "normalUser405",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBRUi5CrQAxUG7ntj7zC6kg4kWPQxXmK5EoJ4BNm8oZ0m/hEbEwivPOQLAa2SFPWaA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser405"
-                        },
-                        new
-                        {
-                            Id = 46,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "d4f58e92-2509-4cba-a5c8-b5b6223f9cfc",
-                            Email = "normaluser415@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "46",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser415@gmail.com",
-                            NormalizedUserName = "normalUser415",
-                            PasswordHash = "AQAAAAIAAYagAAAAELF5A70CTRvS6V6TEUGoj1ZezUNjrUf19l0e6JAYYp/GigjjxchnKuEWjNsVLkKb4g==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser415"
-                        },
-                        new
-                        {
-                            Id = 47,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "b1ba26ac-4ed3-48db-8839-b8a06c0a3a74",
-                            Email = "normaluser425@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "47",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser425@gmail.com",
-                            NormalizedUserName = "normalUser425",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIS1UmkBZ2lZSEu0yDkyb7YAkD9Y9nTHa8FYzL+b9eH/2s+SgnT+2D8vAeX+D+ftkA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser425"
-                        },
-                        new
-                        {
-                            Id = 48,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "cd0bc622-bb61-4d5c-9cf5-6435af528697",
-                            Email = "normaluser435@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "48",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser435@gmail.com",
-                            NormalizedUserName = "normalUser435",
-                            PasswordHash = "AQAAAAIAAYagAAAAEP73TTTF5SSE3aIOVLTZ8FkeCu/QVb9LCftBjzA7TF6fS7O2mQCoZ37lhL4CQEZfhQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser435"
-                        },
-                        new
-                        {
-                            Id = 49,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "e5e39b75-4922-4ad5-a30f-7a342b1b84f8",
-                            Email = "normaluser445@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "49",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser445@gmail.com",
-                            NormalizedUserName = "normalUser445",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPY5+riYO3Dx4BpU0JzTUMFKvkCyTJLgAzvm6Zdevm90SdGdo0jEeRj+Mnz/SMQgWA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser445"
-                        },
-                        new
-                        {
-                            Id = 50,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "9d7b2824-2284-47f2-a8f3-c7fba46ed193",
-                            Email = "normaluser455@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "50",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser455@gmail.com",
-                            NormalizedUserName = "normalUser455",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPeFpYMa3HIIHN23BBEhNoccbMRKwK7kBkdwyN7heFntcNPll3MWPqI3jelyyJlseQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser455"
-                        },
-                        new
-                        {
-                            Id = 51,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "ae5866ba-6b64-4d49-9516-543d6aaafd7b",
-                            Email = "normaluser465@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "51",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser465@gmail.com",
-                            NormalizedUserName = "normalUser465",
-                            PasswordHash = "AQAAAAIAAYagAAAAEORjtTLdYRObTreFnQ/wjyW9ZbgIPnZxhdiwJH2/N9pa+rtVsgJu4AorulQFmVJhnQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser465"
-                        },
-                        new
-                        {
-                            Id = 52,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "6fc550fc-7f5b-44e6-9345-50b7085eed72",
-                            Email = "normaluser475@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "52",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser475@gmail.com",
-                            NormalizedUserName = "normalUser475",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBZumOrV+ZQf4cuTBYk8jGzCDk9l4eSjTS4TE4DM30degT5geulizCPhpQNvsCsMvw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser475"
-                        },
-                        new
-                        {
-                            Id = 53,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "cabfd69d-4eb4-4737-ae8c-1254cb92982f",
-                            Email = "normaluser485@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "53",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser485@gmail.com",
-                            NormalizedUserName = "normalUser485",
-                            PasswordHash = "AQAAAAIAAYagAAAAEClOoBDujiiydSmg9GsAbwyqBaRzlr/GqNo7nhjT5at3SnxXs02jCZ/iGKmPhb0aNQ==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser485"
-                        },
-                        new
-                        {
-                            Id = 54,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "39dd30dd-874b-4de3-a8e0-1439c4e67b38",
-                            Email = "normaluser495@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "54",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser495@gmail.com",
-                            NormalizedUserName = "normalUser495",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJNIh7a4UQO/JEqA8J+EKDXpgYKqHqNTmNMkcbrSA6WYZ/2yBpOhJ1EXJqAjo3vqTA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser495"
-                        },
-                        new
-                        {
-                            Id = 55,
-                            AccessFailedCount = 0,
-                            Address = "HCM",
-                            ConcurrencyStamp = "708ad3cd-ebb1-4dcd-9a0c-a01201733475",
-                            Email = "normaluser505@gmail.com",
-                            EmailConfirmed = true,
-                            Firstname = "55",
-                            Lastname = "Nguyen Van",
-                            LockoutEnabled = false,
-                            NormalizedEmail = "normaluser505@gmail.com",
-                            NormalizedUserName = "normalUser505",
-                            PasswordHash = "AQAAAAIAAYagAAAAEG3VLa6k2l3Mc0G3BRnqQ1KUWA5Tib1qxqZQ53BAvthNJdZznFdsxrCeo9otBo8cbw==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "",
-                            TwoFactorEnabled = false,
-                            UserName = "normalUser505"
-                        },
-                        new
-                        {
                             Id = 56,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6618a239-2803-499f-9c4f-67697cbfbcc3",
-                            Email = "normaluser515@gmail.com",
+                            ConcurrencyStamp = "6028cbc2-6564-4795-bb8d-c3118e982263",
+                            Email = "normaluser56@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "56",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser515@gmail.com",
-                            NormalizedUserName = "normalUser515",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIbymOJoFb8azD3C3m8X/1vi1wErcpNVeLVHeds8PsGc+zeE8HQdejgQk2EJZvcWcA==",
+                            NormalizedEmail = "normaluser56@gmail.com",
+                            NormalizedUserName = "normalUser56",
+                            PasswordHash = "AQAAAAIAAYagAAAAEExNC0mdt5bhVXBizvKjDwt8JlpI3wElau7zUGrSnLywyyUcgFWtMx232AhEEMEnhg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser515"
+                            UserName = "normalUser56"
                         },
                         new
                         {
                             Id = 57,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "3ff2d7c8-040b-4828-9310-5a39eaaa1cfe",
-                            Email = "normaluser525@gmail.com",
+                            ConcurrencyStamp = "14e803b9-fd0d-4486-b847-935bbe80bc70",
+                            Email = "normaluser57@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "57",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser525@gmail.com",
-                            NormalizedUserName = "normalUser525",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJ/WfeyH8GIfFPV2rrTdH1JDdx7G+z45Zzl61UHjfPQgs1UM1qMeDIKuHMWrD/ADgg==",
+                            NormalizedEmail = "normaluser57@gmail.com",
+                            NormalizedUserName = "normalUser57",
+                            PasswordHash = "AQAAAAIAAYagAAAAECMOJXWuYA0hwnUKUXT/GtjJgyDmszb07WZtfQteiqyoILHga3uoZ4n8qOfqsEm24w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser525"
+                            UserName = "normalUser57"
                         },
                         new
                         {
                             Id = 58,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6a058267-67cb-426b-a16f-d3016b9b130a",
-                            Email = "normaluser535@gmail.com",
+                            ConcurrencyStamp = "a07c9a19-4e81-4d1d-8f8f-0f9403d4e6d0",
+                            Email = "normaluser58@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "58",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser535@gmail.com",
-                            NormalizedUserName = "normalUser535",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGGuptR7vaIViueae3EJR9GZgmC1WAHmVUalfxmrHwmvGFI0Ciu20wxneddxdmOLnA==",
+                            NormalizedEmail = "normaluser58@gmail.com",
+                            NormalizedUserName = "normalUser58",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJJUTj/q5RAEb/kPn8H34d3oBB4ioS+C38w3BQ+auZnx11A/YPSo+sSmnvsM9azXDg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser535"
+                            UserName = "normalUser58"
                         },
                         new
                         {
                             Id = 59,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "fa5d8d2f-f885-4051-9577-6470d7f60d28",
-                            Email = "normaluser545@gmail.com",
+                            ConcurrencyStamp = "e69db0fd-1676-4275-93e7-3f70a4b743c0",
+                            Email = "normaluser59@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "59",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser545@gmail.com",
-                            NormalizedUserName = "normalUser545",
-                            PasswordHash = "AQAAAAIAAYagAAAAENT3HeoRh1tNvlagOP29ZN0A9/wBCbMzFRzNIpFynbhK/jigAYOoxWPGZluoG1oi+w==",
+                            NormalizedEmail = "normaluser59@gmail.com",
+                            NormalizedUserName = "normalUser59",
+                            PasswordHash = "AQAAAAIAAYagAAAAEC8E1ZqiOW1/OPXeaxiDaUxPhaL1fqTWa24F6wziXaWv+MitqDjF9HTkUbWB1sbxmQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser545"
+                            UserName = "normalUser59"
                         },
                         new
                         {
                             Id = 60,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "4dc1463f-1116-4608-ade9-d26e6e83732e",
-                            Email = "normaluser555@gmail.com",
+                            ConcurrencyStamp = "fea726f9-fff5-44ec-b711-ac42fbf3d630",
+                            Email = "normaluser60@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "60",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser555@gmail.com",
-                            NormalizedUserName = "normalUser555",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGcct6cZjmVv/A73YCYVtbgHxilXGC8b2pmBzeyJitMn/geJrZtxVeGiOVwaXD3v0A==",
+                            NormalizedEmail = "normaluser60@gmail.com",
+                            NormalizedUserName = "normalUser60",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPK/QAyp2fSRhsWNoB2+i1K/DFQI+PW8ieQswHdzmX/Zwnh91sxBJZIZB6NobFIHjg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser555"
+                            UserName = "normalUser60"
                         },
                         new
                         {
                             Id = 61,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "23d3885c-fc1e-4260-a7c6-68c7d70d6d9e",
-                            Email = "normaluser565@gmail.com",
+                            ConcurrencyStamp = "d9291eb4-c00c-4091-9c84-9cf0eaf70621",
+                            Email = "normaluser61@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "61",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser565@gmail.com",
-                            NormalizedUserName = "normalUser565",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMAB4S3070DkThdRz5559op8Tr3tO2cutQoDPeZLtAmVeHiQXJcuokUAd8aJSyF/Nw==",
+                            NormalizedEmail = "normaluser61@gmail.com",
+                            NormalizedUserName = "normalUser61",
+                            PasswordHash = "AQAAAAIAAYagAAAAELApn5pSe63vEsBNEWXW/26hnyq3mJmcBHKV6BeSG6EZYntwPUX83Q8Yod2cisTbDQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser565"
+                            UserName = "normalUser61"
                         },
                         new
                         {
                             Id = 62,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1283a742-9331-4a1a-ad31-7e35dd7fafc0",
-                            Email = "normaluser575@gmail.com",
+                            ConcurrencyStamp = "dc84092c-bb09-41a7-b417-ca20abae94c2",
+                            Email = "normaluser62@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "62",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser575@gmail.com",
-                            NormalizedUserName = "normalUser575",
-                            PasswordHash = "AQAAAAIAAYagAAAAEE9d5cUYPzLbG9QvImCWxvxhrJrYPfrEVUWGJXwfa9i/U00aT6RU2Kf6o0Qb36cT4g==",
+                            NormalizedEmail = "normaluser62@gmail.com",
+                            NormalizedUserName = "normalUser62",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDsTXRNqNXW6aMazdmZzQMzqwys718Nr0xsfq8qt4X7C2Sv0Djgsbtxp/bAm9uiuZg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser575"
+                            UserName = "normalUser62"
                         },
                         new
                         {
                             Id = 63,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b2f5db5b-00d2-405c-8573-cf6f69be61d8",
-                            Email = "normaluser585@gmail.com",
+                            ConcurrencyStamp = "d6537cb0-9f05-4aac-856b-4cd86180f5c5",
+                            Email = "normaluser63@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "63",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser585@gmail.com",
-                            NormalizedUserName = "normalUser585",
-                            PasswordHash = "AQAAAAIAAYagAAAAELvOSPdDLljzbO1bCXcjhlo24tVQBGhFImAj5BVU+rrBiiXjBytbrO0+iHDpn/aIhQ==",
+                            NormalizedEmail = "normaluser63@gmail.com",
+                            NormalizedUserName = "normalUser63",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPI6YROtMvrGtgjrsEVc5MTMYaycoe3dP+zn838kM4bmX6GVuf7sHgfeozLOByEgYw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser585"
+                            UserName = "normalUser63"
                         },
                         new
                         {
                             Id = 64,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "9e24847f-d671-44da-8a66-b4ba9b21fe28",
-                            Email = "normaluser595@gmail.com",
+                            ConcurrencyStamp = "2930e5d8-85a2-42b1-99cd-2274a62989a9",
+                            Email = "normaluser64@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "64",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser595@gmail.com",
-                            NormalizedUserName = "normalUser595",
-                            PasswordHash = "AQAAAAIAAYagAAAAEA6+aKO9mmrFLJDlFHiZ/AjYR8Sje/DONfk1bKD518yrGSkXABLC3n39cwjrn6hqIQ==",
+                            NormalizedEmail = "normaluser64@gmail.com",
+                            NormalizedUserName = "normalUser64",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEAYOvFFjYKlARjssyvpgiPw1E2nakZQakj+o5B7iiVfhJh3DhswesvECBGtlJbUkw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser595"
+                            UserName = "normalUser64"
                         },
                         new
                         {
                             Id = 65,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "970c3d49-6760-4661-81e9-261d1c0bf82b",
-                            Email = "normaluser605@gmail.com",
+                            ConcurrencyStamp = "3fde29c7-93cf-41fc-8d39-8277ed82bb26",
+                            Email = "normaluser65@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "65",
                             Lastname = "Nguyen Van",
                             LockoutEnabled = false,
-                            NormalizedEmail = "normaluser605@gmail.com",
-                            NormalizedUserName = "normalUser605",
-                            PasswordHash = "AQAAAAIAAYagAAAAEO7zUW/CvfX6D/tO6o5AHqBYeSOdddEYwkK1B2YtjerC7IXYsmgKYykVOF4U+5W8gg==",
+                            NormalizedEmail = "normaluser65@gmail.com",
+                            NormalizedUserName = "normalUser65",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPxmFGFzsrAvYWr7aGxxNjM4NRzvpGkAoWKEe/BzQCtslfjQK7ERBn9H844zGcO04g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
-                            UserName = "normalUser605"
+                            UserName = "normalUser65"
                         });
                 });
 
@@ -2112,6 +2112,218 @@ namespace SteelanceX.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("FreelancerProfiles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 36,
+                            AppUserId = 36,
+                            Description = "I am 36",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 37,
+                            AppUserId = 37,
+                            Description = "I am 37",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 38,
+                            AppUserId = 38,
+                            Description = "I am 38",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 39,
+                            AppUserId = 39,
+                            Description = "I am 39",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 40,
+                            AppUserId = 40,
+                            Description = "I am 40",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 41,
+                            AppUserId = 41,
+                            Description = "I am 41",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 42,
+                            AppUserId = 42,
+                            Description = "I am 42",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 43,
+                            AppUserId = 43,
+                            Description = "I am 43",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 44,
+                            AppUserId = 44,
+                            Description = "I am 44",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 45,
+                            AppUserId = 45,
+                            Description = "I am 45",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 46,
+                            AppUserId = 46,
+                            Description = "I am 46",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 47,
+                            AppUserId = 47,
+                            Description = "I am 47",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 48,
+                            AppUserId = 48,
+                            Description = "I am 48",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 49,
+                            AppUserId = 49,
+                            Description = "I am 49",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 50,
+                            AppUserId = 50,
+                            Description = "I am 50",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 51,
+                            AppUserId = 51,
+                            Description = "I am 51",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 52,
+                            AppUserId = 52,
+                            Description = "I am 52",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 53,
+                            AppUserId = 53,
+                            Description = "I am 53",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 54,
+                            AppUserId = 54,
+                            Description = "I am 54",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 55,
+                            AppUserId = 55,
+                            Description = "I am 55",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 56,
+                            AppUserId = 56,
+                            Description = "I am 56",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 57,
+                            AppUserId = 57,
+                            Description = "I am 57",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 58,
+                            AppUserId = 58,
+                            Description = "I am 58",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 59,
+                            AppUserId = 59,
+                            Description = "I am 59",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 60,
+                            AppUserId = 60,
+                            Description = "I am 60",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 61,
+                            AppUserId = 61,
+                            Description = "I am 61",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 62,
+                            AppUserId = 62,
+                            Description = "I am 62",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 63,
+                            AppUserId = 63,
+                            Description = "I am 63",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 64,
+                            AppUserId = 64,
+                            Description = "I am 64",
+                            ResumeUrl = "This is my resume"
+                        },
+                        new
+                        {
+                            Id = 65,
+                            AppUserId = 65,
+                            Description = "I am 65",
+                            ResumeUrl = "This is my resume"
+                        });
                 });
 
             modelBuilder.Entity("SteelanceX.Domain.Models.Job", b =>
@@ -2167,8 +2379,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 1,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7304),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(473),
                             Description = "This a simple description for project 1",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2181,8 +2393,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 2,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7379),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(549),
                             Description = "This a simple description for project 2",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2195,8 +2407,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 3,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7392),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(564),
                             Description = "This a simple description for project 3",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2209,8 +2421,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 4,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7484),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(577),
                             Description = "This a simple description for project 4",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2223,8 +2435,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 5,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7498),
+                            BusinessProfileId = 26,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(590),
                             Description = "This a simple description for project 5",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2237,8 +2449,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 6,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7513),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(605),
                             Description = "This a simple description for project 6",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2251,8 +2463,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 7,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7525),
+                            BusinessProfileId = 33,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(676),
                             Description = "This a simple description for project 7",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2265,8 +2477,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 8,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7537),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(693),
                             Description = "This a simple description for project 8",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2279,8 +2491,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 9,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7549),
+                            BusinessProfileId = 33,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(705),
                             Description = "This a simple description for project 9",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2293,8 +2505,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 10,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7564),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(721),
                             Description = "This a simple description for project 10",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2307,8 +2519,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 11,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7576),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(735),
                             Description = "This a simple description for project 11",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2321,8 +2533,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 12,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7588),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(748),
                             Description = "This a simple description for project 12",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2335,8 +2547,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 13,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7645),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(761),
                             Description = "This a simple description for project 13",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2349,8 +2561,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 14,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7660),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(773),
                             Description = "This a simple description for project 14",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2363,8 +2575,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 15,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(7671),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(786),
                             Description = "This a simple description for project 15",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2377,8 +2589,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 16,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8432),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1769),
                             Description = "This a simple description for project 16",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2391,8 +2603,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 17,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8449),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1855),
                             Description = "This a simple description for project 17",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2405,8 +2617,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 18,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8465),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1873),
                             Description = "This a simple description for project 18",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2419,8 +2631,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 19,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8477),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1885),
                             Description = "This a simple description for project 19",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2433,8 +2645,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 20,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 33,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8489),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1898),
                             Description = "This a simple description for project 20",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2447,8 +2659,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 21,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8501),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1911),
                             Description = "This a simple description for project 21",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2461,8 +2673,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 22,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8564),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1924),
                             Description = "This a simple description for project 22",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2475,8 +2687,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 23,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8580),
+                            BusinessProfileId = 32,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1937),
                             Description = "This a simple description for project 23",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2490,7 +2702,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 24,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8591),
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1950),
                             Description = "This a simple description for project 24",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2503,8 +2715,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 25,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8603),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(1963),
                             Description = "This a simple description for project 25",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2517,8 +2729,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 26,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8615),
+                            BusinessProfileId = 30,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2024),
                             Description = "This a simple description for project 26",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2531,8 +2743,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 27,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8627),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2038),
                             Description = "This a simple description for project 27",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2545,8 +2757,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 28,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8639),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2051),
                             Description = "This a simple description for project 28",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2559,8 +2771,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 29,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8651),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2064),
                             Description = "This a simple description for project 29",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2573,8 +2785,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 30,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8685),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2098),
                             Description = "This a simple description for project 30",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2587,8 +2799,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 31,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8718),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2130),
                             Description = "This a simple description for project 31",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2601,8 +2813,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 32,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8875),
+                            BusinessProfileId = 30,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2143),
                             Description = "This a simple description for project 32",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2615,8 +2827,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 33,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8893),
+                            BusinessProfileId = 16,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2156),
                             Description = "This a simple description for project 33",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2629,8 +2841,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 34,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8909),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2219),
                             Description = "This a simple description for project 34",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2643,8 +2855,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 35,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8920),
+                            BusinessProfileId = 30,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2234),
                             Description = "This a simple description for project 35",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2657,8 +2869,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 36,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8932),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2247),
                             Description = "This a simple description for project 36",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2671,8 +2883,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 37,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8944),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2260),
                             Description = "This a simple description for project 37",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2685,8 +2897,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 38,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8956),
+                            BusinessProfileId = 33,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2272),
                             Description = "This a simple description for project 38",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2699,8 +2911,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 39,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8968),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2285),
                             Description = "This a simple description for project 39",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2713,8 +2925,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 40,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(8980),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2298),
                             Description = "This a simple description for project 40",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2727,8 +2939,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 41,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9040),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2311),
                             Description = "This a simple description for project 41",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2741,8 +2953,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 42,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9053),
+                            BusinessProfileId = 16,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2324),
                             Description = "This a simple description for project 42",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2755,8 +2967,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 43,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 33,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9065),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2337),
                             Description = "This a simple description for project 43",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2769,8 +2981,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 44,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9077),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2391),
                             Description = "This a simple description for project 44",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2783,8 +2995,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 45,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9089),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2405),
                             Description = "This a simple description for project 45",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2797,8 +3009,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 46,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9101),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2418),
                             Description = "This a simple description for project 46",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2811,8 +3023,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 47,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9113),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2431),
                             Description = "This a simple description for project 47",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2825,8 +3037,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 48,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9125),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2444),
                             Description = "This a simple description for project 48",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2839,8 +3051,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 49,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9137),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2456),
                             Description = "This a simple description for project 49",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2853,8 +3065,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 50,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9149),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2469),
                             Description = "This a simple description for project 50",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
@@ -2867,8 +3079,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 51,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9204),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2482),
                             Description = "This a simple description for project 51",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2881,8 +3093,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 52,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9216),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2496),
                             Description = "This a simple description for project 52",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2895,8 +3107,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 53,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9228),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2510),
                             Description = "This a simple description for project 53",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2909,8 +3121,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 54,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9240),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2564),
                             Description = "This a simple description for project 54",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2923,8 +3135,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 55,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9252),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2579),
                             Description = "This a simple description for project 55",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2937,8 +3149,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 56,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9264),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2592),
                             Description = "This a simple description for project 56",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2951,8 +3163,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 57,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9275),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2605),
                             Description = "This a simple description for project 57",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2966,7 +3178,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 58,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9288),
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2619),
                             Description = "This a simple description for project 58",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2979,8 +3191,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 59,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9300),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2632),
                             Description = "This a simple description for project 59",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -2993,8 +3205,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 60,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9393),
+                            BusinessProfileId = 33,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2646),
                             Description = "This a simple description for project 60",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3007,8 +3219,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 61,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9409),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2659),
                             Description = "This a simple description for project 61",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3021,8 +3233,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 62,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9422),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2672),
                             Description = "This a simple description for project 62",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3035,8 +3247,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 63,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 29,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9435),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2685),
                             Description = "This a simple description for project 63",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3049,8 +3261,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 64,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9446),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2738),
                             Description = "This a simple description for project 64",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3063,8 +3275,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 65,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9459),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2753),
                             Description = "This a simple description for project 65",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3077,8 +3289,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 66,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9474),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2768),
                             Description = "This a simple description for project 66",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3091,8 +3303,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 67,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9486),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2781),
                             Description = "This a simple description for project 67",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3105,8 +3317,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 68,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9540),
+                            BusinessProfileId = 33,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2795),
                             Description = "This a simple description for project 68",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3119,8 +3331,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 69,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9552),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2808),
                             Description = "This a simple description for project 69",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3133,8 +3345,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 70,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9564),
+                            BusinessProfileId = 16,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2821),
                             Description = "This a simple description for project 70",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3147,8 +3359,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 71,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9576),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2904),
                             Description = "This a simple description for project 71",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3161,8 +3373,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 72,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9588),
+                            BusinessProfileId = 26,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2920),
                             Description = "This a simple description for project 72",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3175,8 +3387,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 73,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9600),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2934),
                             Description = "This a simple description for project 73",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3189,8 +3401,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 74,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9612),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2947),
                             Description = "This a simple description for project 74",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3203,8 +3415,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 75,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9624),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2960),
                             Description = "This a simple description for project 75",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3217,8 +3429,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 76,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9636),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2973),
                             Description = "This a simple description for project 76",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3231,8 +3443,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 77,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9648),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(2986),
                             Description = "This a simple description for project 77",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3245,8 +3457,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 78,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9701),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3000),
                             Description = "This a simple description for project 78",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3260,7 +3472,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 79,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9714),
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3013),
                             Description = "This a simple description for project 79",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3273,8 +3485,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 80,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9725),
+                            BusinessProfileId = 33,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3026),
                             Description = "This a simple description for project 80",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3287,8 +3499,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 81,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9738),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3083),
                             Description = "This a simple description for project 81",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3301,8 +3513,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 82,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9750),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3097),
                             Description = "This a simple description for project 82",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3315,8 +3527,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 83,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9761),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3111),
                             Description = "This a simple description for project 83",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3329,8 +3541,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 84,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9773),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3124),
                             Description = "This a simple description for project 84",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3343,8 +3555,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 85,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 33,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9785),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3137),
                             Description = "This a simple description for project 85",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3357,8 +3569,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 86,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9797),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3151),
                             Description = "This a simple description for project 86",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3371,8 +3583,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 87,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9848),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3164),
                             Description = "This a simple description for project 87",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3385,8 +3597,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 88,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9862),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3177),
                             Description = "This a simple description for project 88",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3399,8 +3611,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 89,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9874),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3190),
                             Description = "This a simple description for project 89",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3413,8 +3625,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 90,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9886),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3203),
                             Description = "This a simple description for project 90",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3427,8 +3639,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 91,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9898),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3258),
                             Description = "This a simple description for project 91",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3441,8 +3653,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 92,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9910),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3272),
                             Description = "This a simple description for project 92",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3455,8 +3667,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 93,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9922),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3286),
                             Description = "This a simple description for project 93",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3469,8 +3681,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 94,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9934),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3299),
                             Description = "This a simple description for project 94",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3483,8 +3695,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 95,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9946),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3312),
                             Description = "This a simple description for project 95",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3497,8 +3709,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 96,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 833, DateTimeKind.Local).AddTicks(9958),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3326),
                             Description = "This a simple description for project 96",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3511,8 +3723,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 97,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 834, DateTimeKind.Local).AddTicks(12),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3339),
                             Description = "This a simple description for project 97",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3525,8 +3737,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 98,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 834, DateTimeKind.Local).AddTicks(25),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3352),
                             Description = "This a simple description for project 98",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3539,8 +3751,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 99,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 834, DateTimeKind.Local).AddTicks(37),
+                            BusinessProfileId = 33,
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3365),
                             Description = "This a simple description for project 99",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3554,7 +3766,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 100,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 5, 31, 17, 27, 20, 834, DateTimeKind.Local).AddTicks(50),
+                            CreatedDate = new DateTime(2023, 6, 3, 13, 55, 42, 732, DateTimeKind.Local).AddTicks(3379),
                             Description = "This a simple description for project 100",
                             ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
@@ -3588,17 +3800,17 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 2,
-                            CategoryId = 6
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 3,
-                            CategoryId = 3
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 4,
-                            CategoryId = 4
+                            CategoryId = 6
                         },
                         new
                         {
@@ -3608,22 +3820,22 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 6,
-                            CategoryId = 4
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 7,
-                            CategoryId = 4
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 8,
-                            CategoryId = 4
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 9,
-                            CategoryId = 6
+                            CategoryId = 3
                         },
                         new
                         {
@@ -3638,57 +3850,57 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 12,
-                            CategoryId = 2
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 13,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 14,
                             CategoryId = 4
                         },
                         new
                         {
+                            JobId = 14,
+                            CategoryId = 3
+                        },
+                        new
+                        {
                             JobId = 15,
-                            CategoryId = 5
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 16,
-                            CategoryId = 3
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 17,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 18,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 19,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 20,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 21,
                             CategoryId = 3
                         },
                         new
                         {
-                            JobId = 22,
+                            JobId = 18,
                             CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 19,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            JobId = 20,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 21,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 22,
+                            CategoryId = 6
                         },
                         new
                         {
@@ -3698,12 +3910,12 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 24,
-                            CategoryId = 2
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 25,
-                            CategoryId = 2
+                            CategoryId = 7
                         },
                         new
                         {
@@ -3713,7 +3925,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 27,
-                            CategoryId = 5
+                            CategoryId = 2
                         },
                         new
                         {
@@ -3723,47 +3935,47 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 29,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 30,
-                            CategoryId = 6
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 31,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 32,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 33,
                             CategoryId = 7
                         },
                         new
                         {
-                            JobId = 34,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 35,
+                            JobId = 32,
                             CategoryId = 6
                         },
                         new
                         {
-                            JobId = 36,
+                            JobId = 33,
                             CategoryId = 5
                         },
                         new
                         {
+                            JobId = 34,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 35,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 36,
+                            CategoryId = 2
+                        },
+                        new
+                        {
                             JobId = 37,
-                            CategoryId = 4
+                            CategoryId = 2
                         },
                         new
                         {
@@ -3773,57 +3985,57 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 39,
-                            CategoryId = 3
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 40,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 41,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 42,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 43,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 44,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 45,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 46,
                             CategoryId = 7
                         },
                         new
                         {
-                            JobId = 47,
+                            JobId = 41,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 42,
                             CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 43,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 44,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 45,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 46,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            JobId = 47,
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 48,
-                            CategoryId = 5
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 49,
-                            CategoryId = 3
+                            CategoryId = 7
                         },
                         new
                         {
@@ -3833,12 +4045,12 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 51,
-                            CategoryId = 6
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 52,
-                            CategoryId = 7
+                            CategoryId = 4
                         },
                         new
                         {
@@ -3848,32 +4060,32 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 54,
-                            CategoryId = 3
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 55,
-                            CategoryId = 4
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 56,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 57,
                             CategoryId = 3
                         },
                         new
                         {
+                            JobId = 57,
+                            CategoryId = 7
+                        },
+                        new
+                        {
                             JobId = 58,
-                            CategoryId = 4
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 59,
-                            CategoryId = 2
+                            CategoryId = 1
                         },
                         new
                         {
@@ -3888,7 +4100,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 62,
-                            CategoryId = 5
+                            CategoryId = 3
                         },
                         new
                         {
@@ -3898,27 +4110,27 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 64,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 65,
                             CategoryId = 3
                         },
                         new
                         {
-                            JobId = 66,
+                            JobId = 65,
                             CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 66,
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 67,
-                            CategoryId = 2
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 68,
-                            CategoryId = 5
+                            CategoryId = 3
                         },
                         new
                         {
@@ -3928,12 +4140,12 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 70,
-                            CategoryId = 4
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 71,
-                            CategoryId = 5
+                            CategoryId = 6
                         },
                         new
                         {
@@ -3943,32 +4155,32 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 73,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 74,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 75,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 76,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 77,
                             CategoryId = 2
                         },
                         new
                         {
+                            JobId = 74,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 75,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 76,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 77,
+                            CategoryId = 3
+                        },
+                        new
+                        {
                             JobId = 78,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
@@ -3978,12 +4190,12 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 80,
-                            CategoryId = 7
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 81,
-                            CategoryId = 7
+                            CategoryId = 1
                         },
                         new
                         {
@@ -3993,32 +4205,32 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 83,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 84,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 85,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 86,
                             CategoryId = 5
                         },
                         new
                         {
-                            JobId = 87,
+                            JobId = 84,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 85,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 86,
                             CategoryId = 2
                         },
                         new
                         {
+                            JobId = 87,
+                            CategoryId = 5
+                        },
+                        new
+                        {
                             JobId = 88,
-                            CategoryId = 7
+                            CategoryId = 2
                         },
                         new
                         {
@@ -4028,57 +4240,57 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 90,
-                            CategoryId = 5
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 91,
-                            CategoryId = 6
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 92,
-                            CategoryId = 4
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 93,
-                            CategoryId = 4
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 94,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 95,
-                            CategoryId = 4
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 96,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 97,
                             CategoryId = 4
                         },
                         new
                         {
+                            JobId = 97,
+                            CategoryId = 7
+                        },
+                        new
+                        {
                             JobId = 98,
-                            CategoryId = 2
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 99,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 100,
-                            CategoryId = 5
+                            CategoryId = 3
                         });
                 });
 
