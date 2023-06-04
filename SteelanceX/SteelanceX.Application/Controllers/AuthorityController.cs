@@ -1,4 +1,6 @@
-﻿using AssetManagement.Contracts.User.Request;
+﻿#nullable disable
+
+using AssetManagement.Contracts.User.Request;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -27,7 +29,7 @@ public class AuthorityController : ControllerBase
         _config = config;
     }
 
-    [HttpPost("auth/token/")]
+    [HttpPost("auth/token")]
     public async Task<IActionResult> Authenticate([FromBody] LoginRequest request)
     {
         if (!ModelState.IsValid)
@@ -35,22 +37,29 @@ public class AuthorityController : ControllerBase
             return BadRequest(ModelState);
         }
 
-        var user = await _userManager.FindByEmailAsync(request.Email);
-        if (user == null)
+        try
         {
-            return BadRequest("Username or password is incorrect. Please try again");
-        }
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if (user == null)
+            {
+                return BadRequest("Username or password is incorrect. Please try again");
+            }
 
-        var result = await _userManager.CheckPasswordAsync(user, request.Password);
-        if (!result)
+            var result = await _userManager.CheckPasswordAsync(user, request.Password);
+            if (!result)
+            {
+                return BadRequest("Username or password is incorrect. Please try again");
+            }
+
+            var role = (await _userManager.GetRolesAsync(user)).FirstOrDefault();
+            //var role = await _dbContext.AppRoles.FindAsync(user.RoleId);
+            StaticValues.Usernames.Add(request.Email);
+            return Ok(new LoginResponse { Token = CreateToken(user, request.Email, role), Role = role });
+        }
+        catch (Exception ex)
         {
-            return BadRequest("Username or password is incorrect. Please try again");
+            return BadRequest(ex.Message);
         }
-
-        var role = (await _userManager.GetRolesAsync(user)).FirstOrDefault();
-        //var role = await _dbContext.AppRoles.FindAsync(user.RoleId);
-        StaticValues.Usernames.Add(request.Email);
-        return Ok(new LoginResponse { Token = CreateToken(user, request.Email, role), Role = role });
     }
 
     [HttpPost("auth")]
@@ -60,68 +69,61 @@ public class AuthorityController : ControllerBase
         {
             return BadRequest(ModelState);
         }
-        
+
         if (registerRequest.Password != registerRequest.ConfirmPassword)
         {
             return BadRequest("Confirm password must match password");
         }
 
-        //auto generate username
-        string[] splitFirstName = registerRequest.FirstName.Trim().Split(' ');
-        string fullFirstName = "";
-        foreach (string slice in splitFirstName)
-        {
-            if (slice.Length > 0)
-            {
-                fullFirstName += slice.ToString().ToLower();
-            }
-        }
-        string[] splitlastname = registerRequest.LastName.Trim().Split(' ');
-        string fullLastName = "";
-        foreach (string slice in splitlastname)
-        {
-            if (slice.Length > 0)
-            {
-                fullLastName += slice[0].ToString().ToLower();
-            }
-        }
-
-        string username = fullFirstName + fullLastName;
-
         var hasher = new PasswordHasher<AppUser>();
         var user = new AppUser
         {
-            Firstname = fullFirstName.Trim(),
-            Lastname = fullLastName.Trim(),
+            Firstname = registerRequest.FirstName.Trim(),
+            Lastname = registerRequest.LastName.Trim(),
             PasswordHash = hasher.HashPassword(null, "12345678"),
-            UserName = username,
+            UserName = registerRequest.FirstName.Trim() + registerRequest.LastName.Trim(),
             Email = registerRequest.Email,
             EmailConfirmed = true,
             SecurityStamp = string.Empty,
             Address = "Hochiminh"
         };
 
-        var result = await _userManager.CreateAsync(user, registerRequest.Password);
-        var resultRole = await _userManager
-            .AddToRoleAsync(user, registerRequest.IsFreelancer? "Freelancer" : "Business");
-
-        if (result.Succeeded && resultRole.Succeeded)
+        try
         {
-            return Ok();
-        }
+            var result = await _userManager.CreateAsync(user, registerRequest.Password);
+            var resultRole = await _userManager
+                .AddToRoleAsync(user, registerRequest.IsFreelancer ? "Freelancer" : "Business");
 
-        return BadRequest("Create user unsuccessfully!");
+            if (result.Succeeded && resultRole.Succeeded)
+            {
+                return Ok();
+            }
+
+            return BadRequest("Create user unsuccessfully!");
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
-    //[HttpGet("auth/user-profile/")]
-    //[Authorize]
-    //public async Task<IActionResult> GetUserProfile()
-    //{
-    //    var result = await _userManager.FindByNameAsync(User.Identity.Name);
-    //    var data = _mapper.Map<UserResponse>(result);
+    [HttpGet("auth/user-profile")]
+    [Authorize]
+    public async Task<IActionResult> GetUserProfile()
+    {
+        try
+        {
+            var email = User.Claims
+                .SingleOrDefault(c => c.Type == ClaimTypes.Email).Value;
+            var user = await _userManager.FindByEmailAsync(email);
 
-    //    return Ok(data);
-    //}
+            return Ok(user);
+        }
+        catch
+        {
+            return BadRequest("User not exist");
+        }
+    }
 
     //[HttpPost("auth/change-password/")]
     //[Authorize]
@@ -148,21 +150,21 @@ public class AuthorityController : ControllerBase
     //    return Ok(new SuccessResponseResult<string>("Change password success!"));
     //}
 
-    private string CreateToken(AppUser user, string username, string role)
+    private string CreateToken(AppUser user, string email, string role)
     {
         var signingCredentials = GetSigningCredentials();
-        var claims = GetClaims(user, username, role);
+        var claims = GetClaims(user, email, role);
         var tokenOptions = GenerateTokenOptions(signingCredentials, claims);
 
         return new JwtSecurityTokenHandler().WriteToken(tokenOptions);
     }
 
-    private IList<Claim> GetClaims(AppUser user, string username, string role)
+    private IList<Claim> GetClaims(AppUser user, string email, string role)
     {
         return new List<Claim>
             {
                 new Claim(ClaimTypes.GivenName, $"{user.Firstname} {user.Lastname}"),
-                new Claim(ClaimTypes.Name, username),
+                new Claim(ClaimTypes.Email, email),
                 new Claim(ClaimTypes.Role, role),
             };
     }

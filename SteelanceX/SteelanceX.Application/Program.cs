@@ -1,3 +1,5 @@
+#nullable disable
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
@@ -137,7 +139,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.UseEndpoints(endpoints => endpoints.MapControllers());
+//app.UseEndpoints(endpoints => endpoints.MapControllers());
 
 app.Run();
 

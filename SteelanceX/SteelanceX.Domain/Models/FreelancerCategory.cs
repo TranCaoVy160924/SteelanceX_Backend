@@ -1,4 +1,5 @@
-﻿namespace SteelanceX.Domain.Models;
+﻿#nullable disable
+namespace SteelanceX.Domain.Models;
 public class FreelancerCategory
 {
     public int FreelancerProfileId { get; set; }
