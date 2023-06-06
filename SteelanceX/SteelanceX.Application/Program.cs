@@ -10,6 +10,11 @@ using SteelanceX.DataAccess.DataAccessObjects;
 using Microsoft.AspNetCore.OData;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
+using System.Reflection;
+using SteelanceX.Contracts.MapperConfig;
+using SteelanceX.Contracts.DataTransferObjects.Job;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,7 +33,12 @@ builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<FreelancerProfileRepository>();
 builder.Services.AddScoped<BusinessProfileRepository>();
 
-builder.Services.AddControllers().AddOData(options => options.Select().Filter().Count()
+builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MapperProfile)));
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+}).AddOData(options => options.Select().Filter().Count()
     .OrderBy().Expand().SetMaxTop(100)
     .AddRouteComponents("odata", GetEdmModel()));
 
@@ -43,6 +53,12 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequiredLength = 6;
     options.Password.RequiredUniqueChars = 0;
 });
+
+JsonSerializerOptions options = new()
+{
+    ReferenceHandler = ReferenceHandler.IgnoreCycles,
+    WriteIndented = true
+};
 
 //JWT configuration 
 string issuer = builder.Configuration.GetValue<string>("JwtSettings:validIssuer");
@@ -146,7 +162,9 @@ app.Run();
 static IEdmModel GetEdmModel()
 {
     ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
-    builder.EntitySet<Job>("Jobs");
+    var jobs = builder.EntitySet<Job>("Jobs");
+    jobs.EntityType.Collection.Function("GetOpenJobs").Returns<JobResponse>();
+
     builder.EntitySet<Category>("Categories");
     builder.EntitySet<FreelancerProfile>("FreelancerProfiles");
     builder.EntitySet<BusinessProfile>("BusinessProfiles");

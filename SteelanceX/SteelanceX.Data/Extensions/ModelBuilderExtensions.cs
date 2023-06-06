@@ -182,8 +182,9 @@ public static class ModelBuilderExtensions
                 modelBuilder.Entity<BusinessProfile>().HasData(new BusinessProfile
                 {
                     Id = i + 5,
+                    BusinessName = "Business " + i,
                     AppUserId = i + 5
-                });
+                }) ;
             }
         }
 

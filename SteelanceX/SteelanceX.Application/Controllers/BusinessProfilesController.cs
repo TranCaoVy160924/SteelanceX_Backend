@@ -20,13 +20,13 @@ public class BusinessProfilesController : ODataController
     [EnableQuery]
     public ActionResult<IQueryable<BusinessProfile>> Get()
     {
-        return Ok(_businessRepo.QueryAllAsync().Result);
+        return Ok(_businessRepo.QueryAll());
     }
 
     [EnableQuery]
     public ActionResult<BusinessProfile> Get([FromRoute] int key)
     {
-        var business = _businessRepo.QueryAllAsync().Result
+        var business = _businessRepo.QueryAll()
             .SingleOrDefault(d => d.Id.Equals(key));
 
         if (business == null)
@@ -53,7 +53,7 @@ public class BusinessProfilesController : ODataController
 
     public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<BusinessProfile> delta)
     {
-        var business = _businessRepo.QueryAllAsync().Result
+        var business = _businessRepo.QueryAll()
             .SingleOrDefault(d => d.Id == key);
 
         if (business == null)
@@ -76,7 +76,7 @@ public class BusinessProfilesController : ODataController
 
     public async Task<ActionResult> Delete([FromRoute] int key)
     {
-        var business = _businessRepo.QueryAllAsync().Result
+        var business = _businessRepo.QueryAll()
             .SingleOrDefault(d => d.Id == key);
 
         try

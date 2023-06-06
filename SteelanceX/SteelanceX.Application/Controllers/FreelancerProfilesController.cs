@@ -19,13 +19,13 @@ public class FreelancerProfilesController : ODataController
     [EnableQuery]
     public ActionResult<IQueryable<FreelancerProfile>> Get()
     {
-        return Ok(_freelancerRepo.QueryAllAsync().Result);
+        return Ok(_freelancerRepo.QueryAll());
     }
 
     [EnableQuery]
     public ActionResult<FreelancerProfile> Get([FromRoute] int key)
     {
-        var freelancer = _freelancerRepo.QueryAllAsync().Result
+        var freelancer = _freelancerRepo.QueryAll()
             .SingleOrDefault(d => d.Id.Equals(key));
 
         if (freelancer == null)
@@ -52,7 +52,7 @@ public class FreelancerProfilesController : ODataController
 
     public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<FreelancerProfile> delta)
     {
-        var freelancer = _freelancerRepo.QueryAllAsync().Result
+        var freelancer = _freelancerRepo.QueryAll()
             .SingleOrDefault(d => d.Id == key);
 
         if (freelancer == null)
@@ -75,7 +75,7 @@ public class FreelancerProfilesController : ODataController
 
     public async Task<ActionResult> Delete([FromRoute] int key)
     {
-        var freelancer = _freelancerRepo.QueryAllAsync().Result
+        var freelancer = _freelancerRepo.QueryAll()
             .SingleOrDefault(d => d.Id == key);
 
         try

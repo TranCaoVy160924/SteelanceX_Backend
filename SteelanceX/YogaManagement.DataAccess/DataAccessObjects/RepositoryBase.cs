@@ -17,7 +17,7 @@ public abstract class RepositoryBase<T> where T : class
         Data = _dbContext.Set<T>();
     }
 
-    public async Task<IQueryable<T>> QueryAllAsync()
+    public IQueryable<T> QueryAll()
     {
         return Data.AsQueryable();
     }

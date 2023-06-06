@@ -19,13 +19,13 @@ public class CategoriesController : ODataController
     [EnableQuery]
     public ActionResult<IQueryable<Category>> Get()
     {
-        return Ok(_categoryRepo.QueryAllAsync().Result);
+        return Ok(_categoryRepo.QueryAll());
     }
 
     [EnableQuery]
     public ActionResult<Category> Get([FromRoute] int key)
     {
-        var category = _categoryRepo.QueryAllAsync().Result
+        var category = _categoryRepo.QueryAll()
             .SingleOrDefault(d => d.Id.Equals(key));
 
         if (category == null)
