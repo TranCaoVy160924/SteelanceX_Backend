@@ -12,9 +12,9 @@ using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
 using System.Reflection;
 using SteelanceX.Contracts.MapperConfig;
-using SteelanceX.Contracts.DataTransferObjects.Job;
 using System.Text.Json.Serialization;
 using System.Text.Json;
+using SteelanceX.Contracts.Job.Response;
 
 var builder = WebApplication.CreateBuilder(args);
 
