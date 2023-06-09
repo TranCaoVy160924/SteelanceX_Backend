@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using AutoMapper.Execution;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Deltas;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
+using SteelanceX.Contracts.FreelancerProfile.Response;
 using SteelanceX.DataAccess.DataAccessObjects;
 using SteelanceX.Domain.Models;
 
@@ -10,22 +13,25 @@ namespace SteelanceX.Application.Controllers;
 public class FreelancerProfilesController : ODataController
 {
     private readonly FreelancerProfileRepository _freelancerRepo;
+    private readonly IMapper _mapper;
 
-    public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo)
+    public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo
+                                        , IMapper mapper)
     {
         _freelancerRepo = freelancerRepo;
+        _mapper = mapper;
     }
 
     [EnableQuery]
     public ActionResult<IQueryable<FreelancerProfile>> Get()
     {
-        return Ok(_freelancerRepo.QueryAll());
+        return Ok(_mapper.ProjectTo<FreelancerResponse>(_freelancerRepo.QueryAll()));
     }
 
     [EnableQuery]
-    public ActionResult<FreelancerProfile> Get([FromRoute] int key)
+    public async Task<ActionResult<FreelancerProfile>> Get([FromRoute] int key)
     {
-        var freelancer = _freelancerRepo.QueryAll()
+        var freelancer =  _freelancerRepo.QueryAll()
             .SingleOrDefault(d => d.Id.Equals(key));
 
         if (freelancer == null)
@@ -33,7 +39,7 @@ public class FreelancerProfilesController : ODataController
             return NotFound();
         }
 
-        return Ok(freelancer);
+        return Ok(_mapper.Map<FreelancerResponse>(freelancer));
     }
 
     public async Task<ActionResult> Post([FromBody] FreelancerProfile freelancer)

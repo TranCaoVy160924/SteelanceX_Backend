@@ -12,9 +12,11 @@ using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
 using System.Reflection;
 using SteelanceX.Contracts.MapperConfig;
+using SteelanceX.Contracts.Job.Response;
 using System.Text.Json.Serialization;
 using System.Text.Json;
-using SteelanceX.Contracts.Job.Response;
+using SteelanceX.Contracts.FreelancerProfile.Response;
+using SteelanceX.Contracts.Authority.Response;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -166,7 +168,11 @@ static IEdmModel GetEdmModel()
     jobs.EntityType.Collection.Function("GetOpenJobs").Returns<JobResponse>();
 
     builder.EntitySet<Category>("Categories");
-    builder.EntitySet<FreelancerProfile>("FreelancerProfiles");
+    //builder.EntitySet<FreelancerProfile>("FreelancerProfiles");
+    var freelancers = builder.EntitySet<FreelancerProfile>("FreelancerProfiles").EntityType;
+    freelancers.Collection.Function("Get").Returns<FreelancerResponse>();
+    freelancers.Function("Get").Returns<FreelancerResponse>();
+
     builder.EntitySet<BusinessProfile>("BusinessProfiles");
 
     return builder.GetEdmModel();
