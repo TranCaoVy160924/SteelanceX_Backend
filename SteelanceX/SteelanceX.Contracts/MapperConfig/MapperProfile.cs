@@ -1,4 +1,6 @@
-﻿using AutoMapper;
+﻿using AssetManagement.Contracts.User.Request;
+using AutoMapper;
+using SteelanceX.Contracts.FreelancerProfile.Response;
 using SteelanceX.Contracts.Job.Response;
 using SteelanceX.Domain.Models;
 
@@ -14,9 +16,10 @@ public class MapperProfile : Profile
             .ForMember(dest => dest.BusinessName, opt => opt.MapFrom(src => src.BusinessProfile.BusinessName));
         #endregion
 
-        //#region Customer
-        //CreateMap<Customer, CustomerResponse>();
-        //CreateMap<RegisterRequest, Customer>();
-        //#endregion
+        #region Freelancer
+        CreateMap<Domain.Models.FreelancerProfile, FreelancerResponse>()
+            .ForMember(dest => dest.Categories, opt => opt.MapFrom(src => src.Categories.Select(f => f.CategoryId)))
+            .ForMember(dest => dest.Fullname, opt => opt.MapFrom(src => src.AppUser.Lastname + src.AppUser.Firstname));
+        #endregion
     }
 }

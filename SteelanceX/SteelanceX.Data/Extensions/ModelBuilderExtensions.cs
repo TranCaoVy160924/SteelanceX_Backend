@@ -168,7 +168,9 @@ public static class ModelBuilderExtensions
                     Id = i + 5,
                     AppUserId = i + 5,
                     Description = "I am " + (i + 5).ToString(),
-                    ResumeUrl = "This is my resume"
+                    ResumeUrl = "This is my resume",
+                    Price = (i+5)*100,
+                    Title = "Title " + (i + 5).ToString()
                 });
             }
             else
