@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SteelanceX.Contracts.DataTransferObjects.Job;
+namespace SteelanceX.Contracts.Job.Response;
 public class JobResponse
 {
     public int Id { get; set; }
