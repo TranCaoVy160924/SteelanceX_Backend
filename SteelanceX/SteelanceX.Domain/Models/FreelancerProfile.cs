@@ -7,6 +7,7 @@ public class FreelancerProfile
     public string ResumeUrl { get; set; }
     public double Price { get; set; }
     public string Title { get; set; }
+    public string ImageUrl { get; set; }
 
     public int AppUserId { get; set; }
     public virtual AppUser AppUser { get; set; }

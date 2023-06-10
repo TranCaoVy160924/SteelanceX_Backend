@@ -6,6 +6,7 @@ public class AppUser : IdentityUser<int>
     public string Firstname { get; set; }
     public string Lastname { get; set; }
     public string Address { get; set; }
+    public bool isPremium { get; set; }
 
     public virtual BusinessProfile? BusinessProfile { get; set; }
     public virtual FreelancerProfile? FreelancerProfile { get; set; }
