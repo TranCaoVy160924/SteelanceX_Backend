@@ -45,7 +45,8 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "HCM"
+            Address = "HCM",
+            IsPremium = false
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
@@ -60,7 +61,8 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "HCM"
+            Address = "HCM",
+            IsPremium = false
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
@@ -75,7 +77,8 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "HCM"
+            Address = "HCM",
+            IsPremium = false
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
@@ -90,7 +93,8 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "HCM"
+            Address = "HCM",
+            IsPremium = false
         });
 
         modelBuilder.Entity<AppUser>().HasData(new AppUser
@@ -105,7 +109,8 @@ public static class ModelBuilderExtensions
             SecurityStamp = string.Empty,
             Firstname = "Toan",
             Lastname = "Bach",
-            Address = "HCM"
+            Address = "HCM",
+            IsPremium = false
         });
 
         modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
@@ -153,7 +158,7 @@ public static class ModelBuilderExtensions
                 Firstname = (i + 5).ToString(),
                 Lastname = "Nguyen Van",
                 Address = "HCM",
-                isPremium = false
+                IsPremium = false
             });
 
             if(i > 30)

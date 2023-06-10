@@ -12,6 +12,7 @@ public class FreelancerResponse
     public string Description { get; set; }
     public double Price { get; set; }
     public string Title { get; set; }
+    public string ImageUrl { get; set; }
 
     public int AppUserId { get; set; }
     public string Fullname { get; set; }

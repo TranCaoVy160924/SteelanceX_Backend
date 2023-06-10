@@ -85,7 +85,8 @@ public class AuthorityController : ControllerBase
             Email = registerRequest.Email,
             EmailConfirmed = true,
             SecurityStamp = string.Empty,
-            Address = "Hochiminh"
+            Address = "Hochiminh",
+            IsPremium = false,
         };
 
         try
