@@ -152,7 +152,8 @@ public static class ModelBuilderExtensions
                 SecurityStamp = string.Empty,
                 Firstname = (i + 5).ToString(),
                 Lastname = "Nguyen Van",
-                Address = "HCM"
+                Address = "HCM",
+                isPremium = false
             });
 
             if(i > 30)
@@ -170,7 +171,14 @@ public static class ModelBuilderExtensions
                     Description = "I am " + (i + 5).ToString(),
                     ResumeUrl = "This is my resume",
                     Price = (i+5)*100,
-                    Title = "Title " + (i + 5).ToString()
+                    Title = "Title " + (i + 5).ToString(),
+                    ImageUrl = $"https://picsum.photos/seed/{i}/500/500"
+                });
+
+                modelBuilder.Entity<FreelancerCategory>().HasData(new FreelancerCategory
+                {
+                    FreelancerProfileId = i + 5,
+                    CategoryId = random.Next(1, 9)
                 });
             }
             else
