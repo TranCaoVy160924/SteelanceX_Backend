@@ -164,8 +164,9 @@ app.Run();
 static IEdmModel GetEdmModel()
 {
     ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
-    var jobs = builder.EntitySet<Job>("Jobs");
+    var jobs = builder.EntitySet<JobResponse>("Jobs");
     jobs.EntityType.Collection.Function("GetOpenJobs").Returns<JobResponse>();
+    //jobs.EntityType.Function("GetJobDetail").Returns<JobResponse>();
 
     builder.EntitySet<Category>("Categories");
     //builder.EntitySet<FreelancerProfile>("FreelancerProfiles");

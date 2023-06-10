@@ -36,21 +36,13 @@ public class JobsController : ODataController
         return Ok(_mapper.ProjectTo<JobResponse>(jobs));
     }
 
-    [EnableQuery(PageSize = 10)]
-    public ActionResult<Job> Get()
-    {
-        var jobs = _jobRepo.QueryAll()
-            .Where(j => j.IsActive)
-            .Include(j => j.Categories);
-        return Ok(jobs);
-    }
-
     [EnableQuery]
-    public ActionResult<Job> Get([FromRoute] int key)
+    public ActionResult<JobResponse> Get([FromRoute] int key)
     {
         var job = _jobRepo.QueryAll()
             .Include(j => j.Categories)
             .ThenInclude(c => c.Category)
+            .Include(j => j.BusinessProfile)
             .SingleOrDefault(d => d.Id.Equals(key));
 
         if (job == null)
@@ -59,6 +51,15 @@ public class JobsController : ODataController
         }
 
         return Ok(_mapper.Map<JobResponse>(job));
+    }
+
+    [EnableQuery(PageSize = 10)]
+    public ActionResult<JobResponse> Get()
+    {
+        var jobs = _jobRepo.QueryAll()
+            .Where(j => j.IsActive)
+            .Include(j => j.Categories);
+        return Ok(_mapper.ProjectTo<JobResponse>(jobs));
     }
 
     public async Task<ActionResult> Post([FromBody] Job job)
