@@ -173,7 +173,11 @@ public static class ModelBuilderExtensions
                 {
                     Id = i + 5,
                     AppUserId = i + 5,
-                    Description = "I am " + (i + 5).ToString(),
+                    Description = "I am " + (i + 5).ToString() + ", I am an individual with unique " +
+                    "qualities, experiences, and aspirations. I have a distinct personality " +
+                    "that shapes my thoughts, actions, and interactions with others. I " +
+                    "possess a combination of strengths, weaknesses, and personal values that " +
+                    "contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                     ResumeUrl = "This is my resume",
                     Price = (i+5)*100,
                     Title = "Title " + (i + 5).ToString(),
