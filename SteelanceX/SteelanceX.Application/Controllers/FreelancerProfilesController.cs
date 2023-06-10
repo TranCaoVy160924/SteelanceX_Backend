@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Deltas;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
+using Microsoft.EntityFrameworkCore;
 using SteelanceX.Contracts.FreelancerProfile.Response;
 using SteelanceX.DataAccess.DataAccessObjects;
 using SteelanceX.Domain.Models;
@@ -22,16 +23,32 @@ public class FreelancerProfilesController : ODataController
         _mapper = mapper;
     }
 
-    [EnableQuery]
+    [HttpGet]
+    [EnableQuery(PageSize = 10)]
+    public ActionResult<IQueryable<FreelancerResponse>> GetFreelancers()
+    {
+        var freelancers = _freelancerRepo.QueryAll()
+            .Include(f => f.Categories)
+            .Include(f => f.AppUser);
+        return Ok(_mapper.ProjectTo<FreelancerResponse>(freelancers));
+    }
+
+    [HttpGet]
+    [EnableQuery(PageSize = 10)]
     public ActionResult<IQueryable<FreelancerProfile>> Get()
     {
-        return Ok(_mapper.ProjectTo<FreelancerResponse>(_freelancerRepo.QueryAll()));
+        var freelancers = _freelancerRepo.QueryAll()
+            .Include(f => f.Categories)
+            .Include(f => f.AppUser);
+        return Ok(freelancers);
     }
 
     [EnableQuery]
-    public async Task<ActionResult<FreelancerProfile>> Get([FromRoute] int key)
+    public ActionResult<FreelancerResponse> Get([FromRoute] int key)
     {
-        var freelancer =  _freelancerRepo.QueryAll()
+        var freelancer = _freelancerRepo.QueryAll()
+            .Include(f => f.Categories)
+            .Include(f => f.AppUser)
             .SingleOrDefault(d => d.Id.Equals(key));
 
         if (freelancer == null)

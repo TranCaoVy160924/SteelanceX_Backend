@@ -170,8 +170,8 @@ static IEdmModel GetEdmModel()
     builder.EntitySet<Category>("Categories");
     //builder.EntitySet<FreelancerProfile>("FreelancerProfiles");
     var freelancers = builder.EntitySet<FreelancerProfile>("FreelancerProfiles").EntityType;
-    freelancers.Collection.Function("Get").Returns<FreelancerResponse>();
-    freelancers.Function("Get").Returns<FreelancerResponse>();
+    freelancers.Collection.Function("GetFreelancers").Returns<FreelancerResponse>();
+    //freelancers.Function("GetFreelancer").Returns<FreelancerResponse>();
 
     builder.EntitySet<BusinessProfile>("BusinessProfiles");
 
