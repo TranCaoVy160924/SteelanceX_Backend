@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using SteelanceX.Domain.Models;
-using System;
 
 namespace SteelanceX.Data.Extensions;
 public static class ModelBuilderExtensions
@@ -161,7 +160,7 @@ public static class ModelBuilderExtensions
                 IsPremium = false
             });
 
-            if(i > 30)
+            if (i > 30)
             {
                 modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
                 {
@@ -175,7 +174,7 @@ public static class ModelBuilderExtensions
                     AppUserId = i + 5,
                     Description = "I am " + (i + 5).ToString(),
                     ResumeUrl = "This is my resume",
-                    Price = (i+5)*100,
+                    Price = (i + 5) * 100,
                     Title = "Title " + (i + 5).ToString(),
                     ImageUrl = $"https://picsum.photos/seed/{i}/500/500"
                 });
@@ -199,7 +198,7 @@ public static class ModelBuilderExtensions
                     Id = i + 5,
                     BusinessName = "Business " + i,
                     AppUserId = i + 5
-                }) ;
+                });
             }
         }
 
@@ -260,7 +259,7 @@ public static class ModelBuilderExtensions
         #region Job
         for (int i = 1; i <= 100; i++)
         {
-            if(i > 50) isActiveJob = false;
+            if (i > 50) isActiveJob = false;
 
             modelBuilder.Entity<Job>().HasData(new Job
             {
@@ -268,7 +267,7 @@ public static class ModelBuilderExtensions
                 IsActive = isActiveJob,
                 Name = "Project " + i,
                 Description = "This a simple description for project " + i,
-                Offer = 99*i,
+                Offer = 99 * i,
                 CreatedDate = DateTime.Now,
                 ApplyExpireDate = DateTime.MaxValue,
                 JobExpiredDate = DateTime.MaxValue,

@@ -2,21 +2,20 @@
 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi.Models;
-using SteelanceX.Data.EF;
-using SteelanceX.Domain.Models;
-using SteelanceX.DataAccess.DataAccessObjects;
 using Microsoft.AspNetCore.OData;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
-using System.Reflection;
-using SteelanceX.Contracts.MapperConfig;
-using SteelanceX.Contracts.Job.Response;
-using System.Text.Json.Serialization;
-using System.Text.Json;
+using Microsoft.OpenApi.Models;
 using SteelanceX.Contracts.FreelancerProfile.Response;
-using SteelanceX.Contracts.Authority.Response;
+using SteelanceX.Contracts.Job.Response;
+using SteelanceX.Contracts.MapperConfig;
+using SteelanceX.Data.EF;
+using SteelanceX.DataAccess.DataAccessObjects;
+using SteelanceX.Domain.Models;
+using System.Reflection;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -169,9 +168,9 @@ static IEdmModel GetEdmModel()
     //jobs.EntityType.Function("GetJobDetail").Returns<JobResponse>();
 
     builder.EntitySet<Category>("Categories");
-    //builder.EntitySet<FreelancerProfile>("FreelancerProfiles");
-    var freelancers = builder.EntitySet<FreelancerProfile>("FreelancerProfiles").EntityType;
-    freelancers.Collection.Function("GetFreelancers").Returns<FreelancerResponse>();
+
+    var freelancers = builder.EntitySet<FreelancerResponse>("FreelancerProfiles").EntityType;
+    //freelancers.Collection.Function("GetFreelancers").Returns<FreelancerResponse>();
     //freelancers.Function("GetFreelancer").Returns<FreelancerResponse>();
 
     builder.EntitySet<BusinessProfile>("BusinessProfiles");

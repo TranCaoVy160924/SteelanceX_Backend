@@ -1,5 +1,4 @@
-﻿using Microsoft.Extensions.Caching.Distributed;
-using SteelanceX.Data.EF;
+﻿using SteelanceX.Data.EF;
 using SteelanceX.Domain.Models;
 
 namespace SteelanceX.DataAccess.DataAccessObjects;

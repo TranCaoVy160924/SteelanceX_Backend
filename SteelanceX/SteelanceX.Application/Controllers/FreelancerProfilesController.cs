@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using AutoMapper.Execution;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Deltas;
 using Microsoft.AspNetCore.OData.Query;
@@ -17,30 +16,19 @@ public class FreelancerProfilesController : ODataController
     private readonly IMapper _mapper;
 
     public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo
-                                        , IMapper mapper)
+        , IMapper mapper)
     {
         _freelancerRepo = freelancerRepo;
         _mapper = mapper;
     }
 
-    [HttpGet]
     [EnableQuery(PageSize = 10)]
-    public ActionResult<IQueryable<FreelancerResponse>> GetFreelancers()
+    public ActionResult<IQueryable<FreelancerResponse>> Get()
     {
         var freelancers = _freelancerRepo.QueryAll()
             .Include(f => f.Categories)
             .Include(f => f.AppUser);
         return Ok(_mapper.ProjectTo<FreelancerResponse>(freelancers));
-    }
-
-    [HttpGet]
-    [EnableQuery(PageSize = 10)]
-    public ActionResult<IQueryable<FreelancerProfile>> Get()
-    {
-        var freelancers = _freelancerRepo.QueryAll()
-            .Include(f => f.Categories)
-            .Include(f => f.AppUser);
-        return Ok(freelancers);
     }
 
     [EnableQuery]

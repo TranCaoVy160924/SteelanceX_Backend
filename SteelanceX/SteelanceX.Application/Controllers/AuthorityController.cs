@@ -1,12 +1,9 @@
 ﻿#nullable disable
 
 using AssetManagement.Contracts.User.Request;
-using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.IdentityModel.Tokens;
 using SteelanceX.Contracts.Authority.Request;
 using SteelanceX.Contracts.Authority.Response;
