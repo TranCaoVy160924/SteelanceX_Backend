@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SteelanceX.Data.EF;
 
@@ -11,9 +12,11 @@ using SteelanceX.Data.EF;
 namespace SteelanceX.Data.Migrations
 {
     [DbContext(typeof(SteelanceXDbContext))]
-    partial class SteelanceXDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230611105710_DeleteDate")]
+    partial class DeleteDate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

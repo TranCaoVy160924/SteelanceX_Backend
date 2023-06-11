@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
-using SteelanceX.Contracts.FreelancerProfile.Response;
-using SteelanceX.Contracts.Job.Response;
+using SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
+using SteelanceX.Contracts.DataTransferObjects.Job.Request;
+using SteelanceX.Contracts.DataTransferObjects.Job.Response;
+using SteelanceX.Domain.Models;
 
 namespace SteelanceX.Contracts.MapperConfig;
 
@@ -12,6 +14,11 @@ public class MapperProfile : Profile
         CreateMap<Domain.Models.Job, JobResponse>()
             .ForMember(dest => dest.Categories, opt => opt.MapFrom(src => src.Categories.Select(c => c.CategoryId)))
             .ForMember(dest => dest.BusinessName, opt => opt.MapFrom(src => src.BusinessProfile.BusinessName));
+        CreateMap<JobResponse, Domain.Models.Job>()
+            .ForMember(dest => dest.IsActive, opt => opt.MapFrom(src => true))
+            .ForMember(dest => dest.CreatedDate, opt => opt.MapFrom(src => DateTime.Now))
+            .ForMember(dest => dest.Categories, opt => opt.MapFrom(src => new List<JobCategory>()))
+            .ForMember(dest => dest.CreatedDate, opt => opt.MapFrom(src => Convert.ToDateTime(src.ApplyExpireDate)));
         #endregion
 
         #region Freelancer

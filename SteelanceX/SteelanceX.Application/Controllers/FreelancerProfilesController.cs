@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.OData.Deltas;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.EntityFrameworkCore;
-using SteelanceX.Contracts.FreelancerProfile.Response;
+using SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
 using SteelanceX.DataAccess.DataAccessObjects;
 using SteelanceX.Domain.Models;
 

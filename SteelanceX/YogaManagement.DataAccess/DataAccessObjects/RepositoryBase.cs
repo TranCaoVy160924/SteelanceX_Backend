@@ -14,14 +14,19 @@ public abstract class RepositoryBase<T> where T : class
         Data = _dbContext.Set<T>();
     }
 
-    public IQueryable<T> QueryAll()
-    {
-        return Data.AsQueryable();
-    }
+    public IQueryable<T> QueryAll() => Data.AsQueryable();
+
+    public async Task<T> Get(int id) => await Data.FindAsync(id);
 
     public async Task CreateAsync(T entity)
     {
         _dbContext.Add(entity);
+        await _dbContext.SaveChangesAsync();
+    }
+
+    public async Task CreateBatchAsync(ICollection<T> entities)
+    {
+        _dbContext.AddRange(entities);
         await _dbContext.SaveChangesAsync();
     }
 

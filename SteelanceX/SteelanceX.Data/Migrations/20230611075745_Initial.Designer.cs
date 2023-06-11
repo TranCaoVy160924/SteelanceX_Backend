@@ -12,8 +12,8 @@ using SteelanceX.Data.EF;
 namespace SteelanceX.Data.Migrations
 {
     [DbContext(typeof(SteelanceXDbContext))]
-    [Migration("20230610171029_Init")]
-    partial class Init
+    [Migration("20230611075745_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -587,7 +587,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 1,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "a6afaf44-1808-4f9a-9e7f-ce9ccb0c3521",
+                            ConcurrencyStamp = "007a3ecf-e7de-4903-8d6f-6f2e8390b597",
                             Email = "adminhcm@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -596,7 +596,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "adminhcm@gmail.com",
                             NormalizedUserName = "adminhcm",
-                            PasswordHash = "AQAAAAIAAYagAAAAEK5iUCqATAHCgzKkvCGrWjjxSxll22oDgCPFQtCxsp6nfqGnfka9glx/P12Zv8ZTKA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJcRdt1govuakbcO4WXJ3eNWK17qWdlxO3WcYDuO/lYMgOqsDol5P71brqBof3FGtg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -607,7 +607,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 2,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1ba9c239-4fd9-4500-9c2a-f8ee6f3b777c",
+                            ConcurrencyStamp = "694fd7db-a9d5-479e-a188-3549384f9436",
                             Email = "adminhn@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -616,7 +616,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "adminhn@gmail.com",
                             NormalizedUserName = "adminhn",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKocT5hpKXpSX4wk9fKYjz/bCrIZ/J4fLcoBh9uVMRfE11CTPAKqXzmlQeu96bbBrw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENJUiAQUtn5p2ENYKpbXLy4t3zcxGGvYu6P0Vg2OeW8Lu+w6uSvOgo9+HB/51X70ow==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -627,7 +627,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 3,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "47e330d3-5ea9-4780-8369-919142d74067",
+                            ConcurrencyStamp = "ddb0b98a-a187-4181-ab1b-07a2a8e261e9",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -636,7 +636,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "staff@gmail.com",
                             NormalizedUserName = "staff1",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKmp2H6wa95U6x47YTsBFSewavM/Qsha5QwCEPpgbT+RpphdHm00OPvGh5hODFBUhQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKSW7AULj+i3xOmrAtOvY/HYpvhpfPqcKKY5u7fz/qKsA75btxJYe5MPWrQMlXoxag==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -647,7 +647,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 4,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "cc52602e-dc36-4872-b15f-f2a373c76018",
+                            ConcurrencyStamp = "7d23f3f5-4616-4e08-a7a5-6d3e3fc878ff",
                             Email = "staff@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -656,7 +656,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "staff@gmail.com",
                             NormalizedUserName = "staff2",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIKzvDjVWKRpucDF9Dzr5JJm8Rk0gPfLAEuUZj/wM43+m8a6HmgX1aYj0JrVgmaoEQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEG3ZQ0XjExHVgIk+LZVlGs2Nv68TY/apT+MhIobW8qwLdQJdaLxwL2F2khh1Sw7iOg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -667,7 +667,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 5,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6ac5d0da-72db-40b7-965e-3ab05c4b854a",
+                            ConcurrencyStamp = "f3211b78-af2c-4a00-aa8c-a5198671fec3",
                             Email = "staffdis@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "Toan",
@@ -676,7 +676,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "staffdis@gmail.com",
                             NormalizedUserName = "staffdis",
-                            PasswordHash = "AQAAAAIAAYagAAAAENGv0Fx2tU38zSLzV1QYXkVDaN/JWrzaCmVYK/ixebpYa5jAodHjC5lX8fIaA991lA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEM60seeXoDKABfOIQ4vg0ggIwJu4eCrqA+dySSR8lVfuLxfC9PlJB73cqVvkFN4+9w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -687,7 +687,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 6,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "9f8a0958-76a1-4b0e-91d0-e138cefa49c2",
+                            ConcurrencyStamp = "588d05e5-0bf0-412d-8022-742be04aa30c",
                             Email = "normaluser6@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "6",
@@ -696,7 +696,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser6@gmail.com",
                             NormalizedUserName = "normalUser6",
-                            PasswordHash = "AQAAAAIAAYagAAAAEB4pOb4oBLSQZVNS6QC4Evp+rzEqyh9X/cTXy8GLgs3qLMRPOwzyo9PdeI4HDE99nA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENrZRX83TdbyrWYLlPcwzYt9uHjCpTOBaSnP5y/F9LN8whAZhUv3IF3VdtHObpLd/A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -707,7 +707,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 7,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "bbf1ce87-f1fd-428a-a124-59954af8cf1a",
+                            ConcurrencyStamp = "2be99ed8-dd5e-434f-a0ba-698a163feae4",
                             Email = "normaluser7@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "7",
@@ -716,7 +716,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser7@gmail.com",
                             NormalizedUserName = "normalUser7",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKrB3Uy8ccFSQaBhVQNk8xxEbgpobvXQE4jAZY4IfzTQ/BhC2b8IwMLB/eTDO6AUKw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDe1MVVlr69ouxS1M57AMbKMLFbrza1PVvDHCPa7Ywgctt2mP4+FnRv2BKwzCujyiQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -727,7 +727,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 8,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "df1eee22-5cd8-49c3-b8c5-7c56e202c6ac",
+                            ConcurrencyStamp = "f793ea3a-e292-4e23-bc38-50e44d62f30c",
                             Email = "normaluser8@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "8",
@@ -736,7 +736,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser8@gmail.com",
                             NormalizedUserName = "normalUser8",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMd/YhPNvRbk/P6v3r0ZSpebBy90Z8qHh0QZ8Z/nhPA2PdZ+y6Px/5pQBoDOIE2EKQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENfoYKQ3Lj3Cvyyi6V589Tro7Y5n3heHeXMZAsPXyIldagHZzu4eZz3tYeF4vhufLA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -747,7 +747,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 9,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0b434057-c8c9-4f9a-9efe-ab30640e396c",
+                            ConcurrencyStamp = "5c5a23b7-c1c0-4754-b690-161eddfc16ea",
                             Email = "normaluser9@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "9",
@@ -756,7 +756,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser9@gmail.com",
                             NormalizedUserName = "normalUser9",
-                            PasswordHash = "AQAAAAIAAYagAAAAEF5wijvmaas+WuJGNok+MLz2EnsbWp9tSdW/I9Gh7gkJ+Ci0voNpAXxvX82FYUH1gQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENe1npRxZKqOPtNshEMzXwJtQWYYQA3ipFAVDtCbUzgwMbJX1qzXEVGEFwHZ4XQ/Rg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -767,7 +767,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 10,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b101e606-7ac2-4e0d-8dc2-3557023c9d14",
+                            ConcurrencyStamp = "affd7bb8-3773-4e48-8eef-d0655404f122",
                             Email = "normaluser10@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "10",
@@ -776,7 +776,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser10@gmail.com",
                             NormalizedUserName = "normalUser10",
-                            PasswordHash = "AQAAAAIAAYagAAAAEL8qllSX0u8QV3D/oO5z2w5NJLclixT3DVLKM+AGqb2R+Ot1cVJoQ+dOrbdhIMTxjQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPiKYr0NtYWGCfup8KPHyqTz4TK3XqOU7rDfElIdtR7fKMBH9GE/zJ6ftzXf69Ccqg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -787,7 +787,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 11,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "696b6b49-4ff1-4759-bf53-544fa2bb32b5",
+                            ConcurrencyStamp = "a1fb4aa5-de98-4f4a-8cac-9d02296e0cc0",
                             Email = "normaluser11@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "11",
@@ -796,7 +796,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser11@gmail.com",
                             NormalizedUserName = "normalUser11",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFDZgDs0r5BCFCQFsZ0lhYbNjwbd6z7gcWah7OhH4T/pc4XQg3vlyT6C4IKJcAMblg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPWrqGdWFz7rX4wk1vKbA8jY2QRw9ldvm3sWbrQclYErXOi/Z1JZb1wwEjXHWJObug==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -807,7 +807,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 12,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d563f30c-fae2-457b-aa4b-3e6b50b55ddb",
+                            ConcurrencyStamp = "f3edb06b-2ecb-4505-87cf-5cb4b6f5d024",
                             Email = "normaluser12@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "12",
@@ -816,7 +816,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser12@gmail.com",
                             NormalizedUserName = "normalUser12",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFku48Sj3uDcepwbTouxnYcNKzNSxouy0C707lqVHhR35TZHhzuNuNxNUkq4sXubdQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKIBRDAhYmtPssTPFpPhcvnihMlO/JixxAPVQxd1/DnWKjoUpq/oI/6N0SB0VYZPiQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -827,7 +827,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 13,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "a77e6c0a-406e-41b5-9e60-26eb3328beec",
+                            ConcurrencyStamp = "3de2f605-aec1-46cf-82ea-2bf307ce406d",
                             Email = "normaluser13@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "13",
@@ -836,7 +836,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser13@gmail.com",
                             NormalizedUserName = "normalUser13",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFGTi+MKGm/r6mV54LDtuKGCnj03AAH1G7vW5izlQi5qhOfRWoWHWY9L1mz2qoPjnw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAKflepJiosws0B3pFvh0eI/bwPE2Gfkq6nHrb45QhgeqBwK0JPPGO7yojG5KWWEUQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -847,7 +847,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 14,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ffb0bc21-44eb-4561-bdf3-2ce4877d8936",
+                            ConcurrencyStamp = "a58b7f5a-7884-4a4b-a9c9-19174bada9b3",
                             Email = "normaluser14@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "14",
@@ -856,7 +856,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser14@gmail.com",
                             NormalizedUserName = "normalUser14",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBoL8eCcJkgfsu//NPqjTKV8cScUYcpGLAc4HeSt+eZOkGVIwlYlzzk1o0bQWWylig==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEO9hkDXYgXusmYMy1r2HXkhGHbp80LMCdORElqoRm2l1elft6I7lpFeV8LiTSA/Jjg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -867,7 +867,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 15,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ca0c401d-14df-4c8a-a100-25bbd11f05e9",
+                            ConcurrencyStamp = "846d346c-0921-493a-8474-feb9ac667b50",
                             Email = "normaluser15@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "15",
@@ -876,7 +876,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser15@gmail.com",
                             NormalizedUserName = "normalUser15",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAkE++JvZnaMbZyuVdc+e7Xm2PPGLQRRqZ+fS7pu2BEB5+c3zk2YW+2jd4YM/ZI2PA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECDwTHxJcPf9qdCydQwE6SoQvDo3lfTJs0rImr2NjSVc151RNvWvGHrUDV2dB9nCAg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -887,7 +887,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 16,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "66510078-c377-4e05-9519-dab81d2dd2e8",
+                            ConcurrencyStamp = "a68643d8-5ca0-458a-951d-8ea79c1b6d71",
                             Email = "normaluser16@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "16",
@@ -896,7 +896,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser16@gmail.com",
                             NormalizedUserName = "normalUser16",
-                            PasswordHash = "AQAAAAIAAYagAAAAEADNsrO6QF/JQRC9mVh9km0YWaMc+4ZaGIej/artFzS6DTtjyX6WeQTLHpQH1Tiy+A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAAymPkEPf8VXosjBFC5Em3E21WLVP9OeV05GLziL9NcdifMSd9DuaYa4MgPIXQXzQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -907,7 +907,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 17,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "9fe4733d-a8a6-409a-9ead-c84a77fb5069",
+                            ConcurrencyStamp = "ab62d8b1-e684-4cee-a7d3-c47297c274cd",
                             Email = "normaluser17@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "17",
@@ -916,7 +916,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser17@gmail.com",
                             NormalizedUserName = "normalUser17",
-                            PasswordHash = "AQAAAAIAAYagAAAAELvvJVY+vzTAuwYhz74mTU7Z1GIpiwUliGhPcZ+gmGwq23YiXkrnytIMTrmemfykTg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEASSPdYzxxg7PNoGxd+wDGGOMx138qXoltG0yTrcZ9Ox8fyIYKxqfACcoyeTkKWlkQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -927,7 +927,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 18,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6c8bde71-7c2e-43ea-92ac-4b62239048aa",
+                            ConcurrencyStamp = "4ce22b6d-596d-428b-941b-4a0278717397",
                             Email = "normaluser18@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "18",
@@ -936,7 +936,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser18@gmail.com",
                             NormalizedUserName = "normalUser18",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOro5q27nXZbxwryypCJ1gQUpeFt9ZjpqHIZw2X47ZouJrkXenT93cZtJ/exSu+xJw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFTDrhgyfEsRc8fLCeSCUSp0S6NLS4yAvSkk2zZER2ygaSZ2McdXXdoLCFOrOKu1dg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -947,7 +947,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 19,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6c4d6eb4-5d34-4b4e-ba77-420f4779719f",
+                            ConcurrencyStamp = "29c94cfa-bb28-4f4e-966b-b9627da4a7cc",
                             Email = "normaluser19@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "19",
@@ -956,7 +956,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser19@gmail.com",
                             NormalizedUserName = "normalUser19",
-                            PasswordHash = "AQAAAAIAAYagAAAAED5sYnaKu6obNRN33PRiMTYIIwXONiB0ahYnEd9yyFpgG1dIFBatdcM6HlKcNg83vA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHtagFTc6CmtP5WIbJVKdVCX3XZq5NutS1mci+2zVz/hKFbv7nPm+ohdXUA8WshO8g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -967,7 +967,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 20,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "52d09a71-0dd2-40bf-a641-e9cf3c938d1a",
+                            ConcurrencyStamp = "c9681f8f-3d2e-4776-8181-d3e425aa15ea",
                             Email = "normaluser20@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "20",
@@ -976,7 +976,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser20@gmail.com",
                             NormalizedUserName = "normalUser20",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI1lzDKUmFu3cl5D1qpNp+6IA8/nv1Seapgtb+EDYNkdY7kRDlg1ih2/Cg3XvJGpqg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEG7WkgvTtWIHstK2HVrouA4PCf0RUKO0uOZMRydStziEd/nxB2jULdnK4DOWbBQO1A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -987,7 +987,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 21,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "077e4afc-1263-49aa-9301-c43f0e006f7e",
+                            ConcurrencyStamp = "ca1420f1-0af0-4eff-b431-c9c52856d70b",
                             Email = "normaluser21@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "21",
@@ -996,7 +996,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser21@gmail.com",
                             NormalizedUserName = "normalUser21",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBklUuKKLM08pG0n6N5JcxwTzApJXjI7DmDKcISSZ+DL4QWGRAeoUNFTv55pMIXIAA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENtfy6QXdEjiEZe6AI4wr1FWUv8Mebl4SZrNMZupJ1lGd/ohxOC8DFUq5i0S9hwiag==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1007,7 +1007,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 22,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "8a7cc237-aa6c-4e68-bf52-d4a87720afc5",
+                            ConcurrencyStamp = "30c922a6-5929-4f18-895d-d1af40122519",
                             Email = "normaluser22@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "22",
@@ -1016,7 +1016,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser22@gmail.com",
                             NormalizedUserName = "normalUser22",
-                            PasswordHash = "AQAAAAIAAYagAAAAEG0na5MXnUWud1aT3HcuNZgsPh/t8BntebfDAo4pjM6FHnLPqRGUbVz3KiDE7Y+cIw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEdDN4/DEb9WeNKifeDwKTpM3Drike9BZyCVQYmNma/Nb4XkUf2PdeWIgPtZlX2NFw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1027,7 +1027,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 23,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1a9e4020-4360-47bf-845b-9305cc82ac84",
+                            ConcurrencyStamp = "7e9350f5-426b-4805-b327-816db1176ad3",
                             Email = "normaluser23@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "23",
@@ -1036,7 +1036,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser23@gmail.com",
                             NormalizedUserName = "normalUser23",
-                            PasswordHash = "AQAAAAIAAYagAAAAELLaVbV6Hnc26Qnpzh92AQ0pew8VB6Ti++tJe/CUpBxWbbLvv94/AIsZwzwG38LLhg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEI9WQxN6LdXfciEDBJqv2Xk8PSq/mwYXAjrLINunPa9yOQhHeLgpKouWHxIbRX820g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1047,7 +1047,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 24,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "2c017b48-0055-45cf-9c30-00b60573f8a4",
+                            ConcurrencyStamp = "4e02b496-e25b-4947-9447-33b0396bdc69",
                             Email = "normaluser24@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "24",
@@ -1056,7 +1056,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser24@gmail.com",
                             NormalizedUserName = "normalUser24",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI1XgXsgNCEdPptcvDqxwSK/7KV8UkVdm3CmuE9f1d/uXxOqZsJZ5WZnfCmBwrzL5w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEC7tCFCR2BO45dxZxF4otmy7tstjEV/0DY5w/hHpjEaY1pQwiLt+gi1uhxfrylc+QA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1067,7 +1067,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 25,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "fb122551-5ba9-4a33-ba30-48480f3630d4",
+                            ConcurrencyStamp = "81ba1d74-70b1-4071-86d5-d13e74d9c161",
                             Email = "normaluser25@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "25",
@@ -1076,7 +1076,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser25@gmail.com",
                             NormalizedUserName = "normalUser25",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMp7wruaUnhgx6sjoOrn9QWANr+X2U2Cavlx75UyndY9di5fSJ8SeAip8tcVIZbLVA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEs+msn6PshUu53EzSfY2Cit1aKqkaQuCS1QKUW4p2G4qJ+iYtyH3i1w/1RgHFFHXg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1087,7 +1087,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 26,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "63355b69-c857-48e4-aea3-d9f10a4b0c40",
+                            ConcurrencyStamp = "685f3dfa-561b-4c8d-bb02-474cc3e16858",
                             Email = "normaluser26@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "26",
@@ -1096,7 +1096,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser26@gmail.com",
                             NormalizedUserName = "normalUser26",
-                            PasswordHash = "AQAAAAIAAYagAAAAENhBVYYMfotR0yr1dhFlMYbCFNunjShfvrqQcDhclmt5TQqAZ3ZcWMoIJUtvqrAn3w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDUY4luwzQvk0pC+maD388x4CHbvVHsyGvr+U7zEFcQSh/7aZ57moDOdGwdHA8Oj/Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1107,7 +1107,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 27,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "23d01356-955b-4a87-8165-c99a1986a47b",
+                            ConcurrencyStamp = "8cc544cd-ed25-4848-9d2f-e459d8b75aeb",
                             Email = "normaluser27@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "27",
@@ -1116,7 +1116,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser27@gmail.com",
                             NormalizedUserName = "normalUser27",
-                            PasswordHash = "AQAAAAIAAYagAAAAEE9sY9vWDpaZufr8rGZZe3XFl8ovC8TqODrJ0N23qO8RZCXt/S1fCO4XqFHu3NZpVw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJuYrLTmycBruMBf4hW1vkpSQbXPZMjdwwPEUTeIrKCREyJj9kS9QW5on31BybYmUQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1127,7 +1127,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 28,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b62cff88-1081-44d5-80e2-e1a92e82cddf",
+                            ConcurrencyStamp = "454567c8-72b3-4b24-84c3-9d9b49fe389b",
                             Email = "normaluser28@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "28",
@@ -1136,7 +1136,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser28@gmail.com",
                             NormalizedUserName = "normalUser28",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFqAkdRLx71+hIYvnTehaMWHHMCeXQpFdOWDUfdgQvj7vF7ulkvZHARU+fi/MH3d5Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEE8HCFduznRa2EZPSQ4bdQxkvsr1/n/VAk3xw94JemNOLooixXiHPua3ew8mBBoOFw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1147,7 +1147,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 29,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0ef90d7e-17ce-4b3d-9499-5e5342dea9bb",
+                            ConcurrencyStamp = "e2d23f8a-9d70-4b9e-a001-de3f4aacd7cc",
                             Email = "normaluser29@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "29",
@@ -1156,7 +1156,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser29@gmail.com",
                             NormalizedUserName = "normalUser29",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBHO5HwhUOlz53ieo4T63ckndHz8MTWCdK1qVVTiQUitF3sSaPWmlHrXn0Htz+8J7A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEouSkkPjwu5l7eFH6C53sdWbTs1lsQkRZ4vBj0TuvvvJ6sfM2V862FzP3xMvMCTIA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1167,7 +1167,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 30,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "5ababfab-0b7d-4d73-8315-1f8c96a66aee",
+                            ConcurrencyStamp = "feeda0f7-b376-432b-845b-3d038ce26eef",
                             Email = "normaluser30@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "30",
@@ -1176,7 +1176,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser30@gmail.com",
                             NormalizedUserName = "normalUser30",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGLbf1glH33U6z1pnFlrc+irM+5o6Sa5cNwlTHm3Ro4XaZdDEbtFCWND86bFmrC82g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPyvzU7UUHnIcxwppX2nBLlOrkPGR5zgnWKNAzSJRlV0EMXbsdibbxBSqI/B6Vdy3A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1187,7 +1187,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 31,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "67a35d8f-72ab-47e0-9a19-35596e15f596",
+                            ConcurrencyStamp = "6f6285f4-79b1-48a5-87a7-610e97852d0e",
                             Email = "normaluser31@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "31",
@@ -1196,7 +1196,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser31@gmail.com",
                             NormalizedUserName = "normalUser31",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDssiBxl3Lq3LjDm4FYMwLWvN14YUSbhHkeZlJ0XxPppJP/7CPvlSGWsnFXSauSSvg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEStEWzU3iSB3s/l6DSQEzY4alWijVgywwFFU7mBjCTkjJK1HhWGBcHmZbcXJYuhQw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1207,7 +1207,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 32,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "683fb2ce-3bfe-4534-b8c7-3c54335d544c",
+                            ConcurrencyStamp = "d8ff13ad-0aba-426b-9265-eb91452d028e",
                             Email = "normaluser32@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "32",
@@ -1216,7 +1216,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser32@gmail.com",
                             NormalizedUserName = "normalUser32",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPywy6ZGmaUTsxPK7wvkTUK1O5otAlgkZyKll/XMyg4IX4Lfg0ubixRLNto0CLaj5A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECfQT7bQfEqsc/DL7OiOMb2gz1Ijzs49ySq077ChKtztks3ztrE3DCLFxcHdaWWDbg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1227,7 +1227,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 33,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "64c08909-f49b-467e-8545-e319e547f010",
+                            ConcurrencyStamp = "e6d52145-14d4-46c5-93c8-d00cfbc54d01",
                             Email = "normaluser33@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "33",
@@ -1236,7 +1236,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser33@gmail.com",
                             NormalizedUserName = "normalUser33",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJRnMsFAGdraryiYBDz1nGcUmmx2UjILbd9UUeP+vaUAnGiawpASx7+JN9kXlpG4Jg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELtvZ8KxMJfU/BgqQr11Sb3lfWjRknQVgYVT4I8CzYrYgTaj5TFkravVfNywB2kZ5A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1247,7 +1247,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 34,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "a8a3d1ae-5828-4fb0-9b05-988b0d95881d",
+                            ConcurrencyStamp = "f5df3e16-7d24-46de-8595-36362cd8bacb",
                             Email = "normaluser34@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "34",
@@ -1256,7 +1256,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser34@gmail.com",
                             NormalizedUserName = "normalUser34",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBg6hhpJjWTHL/rq2qlsP6uF49QfUryR9n0NewMHnx45InWZdAQzWPIJ3gbou3HOfw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECCd4AyhFRhGgwpzTeT67gJSumsk0xBJGGKrlncyUNCgwTfMIdtmhkNGpnt/RJ5EIg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1267,7 +1267,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 35,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "9a792708-9d26-40e8-92e5-a7c9084000c2",
+                            ConcurrencyStamp = "cbc98693-cb35-4fc6-a1c9-5b014ade86d0",
                             Email = "normaluser35@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "35",
@@ -1276,7 +1276,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser35@gmail.com",
                             NormalizedUserName = "normalUser35",
-                            PasswordHash = "AQAAAAIAAYagAAAAED22J58W1MqG9653gaVq0P4rpzuNCJmoLYaiEyRixrCrvoB95++eNc9Pl5bLWXkBUg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEtVgSc79PIXYWXNVuFEX63FtvKM3jHFqU8GCu7s6LunLI3RxrWVjf/acMVjJduJzA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1287,7 +1287,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 36,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "fa6850e9-f2f9-4e19-b670-30b02a1530bf",
+                            ConcurrencyStamp = "9b945258-8e33-4a99-8567-5bd94aa76ad8",
                             Email = "normaluser36@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "36",
@@ -1296,7 +1296,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser36@gmail.com",
                             NormalizedUserName = "normalUser36",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMt57sxDtY4btPutsFxjuShqhjzD9AlAZcv4hdPl2e3kyPE5S3FA4Xw+0B+fo9MjMQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKXNFJ0k7kL1hNiz2U40/lq3Kv6lTd4P/iIpi2L89xWy6C8xK6fNR2NvLhTAIWYNsA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1307,7 +1307,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 37,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "67634473-e2d9-419a-a3fb-ace5ac98adf1",
+                            ConcurrencyStamp = "d14f4a6e-9f85-4bcf-a830-cdccede9a68a",
                             Email = "normaluser37@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "37",
@@ -1316,7 +1316,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser37@gmail.com",
                             NormalizedUserName = "normalUser37",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI3Q9ZAWPYjJ3vIzUCC3HSvxJWguD6n8QKUuLN/ndmKF8xdPz8gu0jjT/2NzYcN4fA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHNpdFL4SSLXZB/mQ4SiGH5LWBJzNWe1r3S4rCLiSioH3Y/92viYMKjfI9OPhKHHQA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1327,7 +1327,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 38,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1ea5aaf3-65c6-476a-af30-8fd49b21cef4",
+                            ConcurrencyStamp = "aa63bfa0-154d-4e1a-bd74-98a97a34849c",
                             Email = "normaluser38@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "38",
@@ -1336,7 +1336,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser38@gmail.com",
                             NormalizedUserName = "normalUser38",
-                            PasswordHash = "AQAAAAIAAYagAAAAEB9nsXAUJhSGX+RjCdENPMZoTDDckcNcypth/VNu8GqLAqnQg/7uOXUaMOMNQMefAw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDZSwL8ThZ2KQ3UiLn48L4wf4yvBW6lkKsf/CrbRzUZqL5NVqpw9u6hO7URBj1wrDA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1347,7 +1347,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 39,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6709d0a1-680f-4164-8e37-12b2c6ff0590",
+                            ConcurrencyStamp = "0151d45c-2c8d-45b0-9498-70c43faf4702",
                             Email = "normaluser39@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "39",
@@ -1356,7 +1356,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser39@gmail.com",
                             NormalizedUserName = "normalUser39",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDxu2hatEtlSqtdASKT3aW4qniiv50D4VBQNFjlF62Xk+z9R6Nfdjsr87vfVzgcxiQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMgGhZil6iS6/Mw3wdx/0BRcQoDoAdLuRbl/UDHVkPCV5xp7OWkhQWsSbdYDLljhDw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1367,7 +1367,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 40,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "40e8c3b2-dd2f-400b-9862-3dfb0322b718",
+                            ConcurrencyStamp = "4775cc49-9888-4edc-8240-9638816b135b",
                             Email = "normaluser40@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "40",
@@ -1376,7 +1376,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser40@gmail.com",
                             NormalizedUserName = "normalUser40",
-                            PasswordHash = "AQAAAAIAAYagAAAAEB3P0cdsJLK08zDngegvYnjQPVKmEzX2YEe/xSXP7nrXqTyMs12qajnUjrIDcKyP3Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAED6XuY5I5oq8oHjcg0iCMs3rldjOuZRoXCs81WFetj4gZugvnATpVkd1BHRDHwHeqw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1387,7 +1387,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 41,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0e123b79-873c-48eb-8f00-ec65f4446e2b",
+                            ConcurrencyStamp = "863091ae-2c44-48fc-af77-7fa27d5dfd6d",
                             Email = "normaluser41@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "41",
@@ -1396,7 +1396,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser41@gmail.com",
                             NormalizedUserName = "normalUser41",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKpfsjUHsRTwPrY+eXYmlcY4FmBrGalLRn1uTXOQKpW48Ib7e0++azz8e79HmP5AfA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECExRfceZiN/U6PW1lLkn+nwez3nyWPMRk9oHEQ30TXzxN6u6gmZqQq1+vffJU7rLw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1407,7 +1407,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 42,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "44c0ac5c-e34a-4754-8ee9-41b6bdea5d86",
+                            ConcurrencyStamp = "fb875f9b-fd12-4cc3-aa5f-afcf9a0fd591",
                             Email = "normaluser42@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "42",
@@ -1416,7 +1416,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser42@gmail.com",
                             NormalizedUserName = "normalUser42",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAMasDTnIupJn5NblPgNIv6lsZLHsnOF8KPnUEEPkqp0QQgI6u6n7OhZvo1kfQnSLQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKcCO/m+bzVfTB9zIoAWM74rj6IuvcLJc7ZJjW+ws1IE9aOPIcZHIIE3Pc1YN//xSw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1427,7 +1427,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 43,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "98c6bff1-4896-4cc8-abaf-068bf00f704d",
+                            ConcurrencyStamp = "8e85cd0d-f599-4cce-96dd-57dc341cbfcd",
                             Email = "normaluser43@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "43",
@@ -1436,7 +1436,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser43@gmail.com",
                             NormalizedUserName = "normalUser43",
-                            PasswordHash = "AQAAAAIAAYagAAAAENyIIHno3m1FJM7f07bf381w82opOksqTnI37nU5iSpPiqbcW57KGXOhT47KOcefbQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMmqI/tANDZgUqxe45cGOagyNm4EUDkqhuWDHRqN+i9EcUDVoSVDBnb3+Uc8q2QRHQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1447,7 +1447,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 44,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "73db8957-d393-4436-88f3-fffa8ed8b244",
+                            ConcurrencyStamp = "bfb2593a-85ae-45d5-89a4-a5dd1aaf5146",
                             Email = "normaluser44@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "44",
@@ -1456,7 +1456,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser44@gmail.com",
                             NormalizedUserName = "normalUser44",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPOZ1LlUSBuZ/+iZdoWhMnv6rg95VkaMRMeWDWyTjEaSc/5qYnf7frLXKTm5ZoxHFg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEF+ZSQigwzJLy6bA38qIHgFv1wOUNX7MVyHzJdiypFqryPEUTk6ONLEe1qJUd2Ksjg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1467,7 +1467,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 45,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "714b49d4-03ec-4618-bfde-158996883150",
+                            ConcurrencyStamp = "4bb74423-fbc5-4892-80c1-5a8420abe571",
                             Email = "normaluser45@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "45",
@@ -1476,7 +1476,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser45@gmail.com",
                             NormalizedUserName = "normalUser45",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAyE7r+94SzqZyN68aJW4Z8g9vyR/cYNK/ZM8VpD/4Ns5c0dOe93cMc+3155Y+FbmQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEK9/TZmyPfcX4nGOkcc33DQ85J+RKVK+W8lQpULFSP4upNiOjaCjCpNzlyRk+EL5DQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1487,7 +1487,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 46,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d5d0554f-a1ea-4d53-80aa-a9b155af8326",
+                            ConcurrencyStamp = "860a1891-d4bb-4d40-8d18-daa73476265e",
                             Email = "normaluser46@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "46",
@@ -1496,7 +1496,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser46@gmail.com",
                             NormalizedUserName = "normalUser46",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBnfJMiC0ux6NZRMARyZbOIT64KAcGBejuwpTpvxzK91jlpw0c++ZD6wYsL8emZ7ew==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBCqPiRRTCVFwGxZMDNgHOpZzGnmwN28WwrCN1Dcp4JmaTzVAxxvI0qAZWphugB6DQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1507,7 +1507,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 47,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "18ed6a34-d3a3-43c3-bca7-438fac1ad5b9",
+                            ConcurrencyStamp = "abcf4e29-be26-4f4f-91e4-2f5ee71ac993",
                             Email = "normaluser47@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "47",
@@ -1516,7 +1516,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser47@gmail.com",
                             NormalizedUserName = "normalUser47",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEQ1rIDjtWGU36PdzZGPNR1umSGUy/e1t1/27hVJDWScEu/Yq37+kMqCngJZOZOfwA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAxWce1tkU3F9li5ZoeSSAjLnmy/wy0zZk2WqtKsEZC6YrcqqIfETt61wGqJmWSrfA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1527,7 +1527,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 48,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "5f20fcd8-fed5-45d8-b951-7cacc550d201",
+                            ConcurrencyStamp = "3f8d681a-2576-42f9-a037-23bf22f478f6",
                             Email = "normaluser48@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "48",
@@ -1536,7 +1536,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser48@gmail.com",
                             NormalizedUserName = "normalUser48",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGByJn0qmKnI3Q1Dgq7RLA0Ldz1HqQBpHImzcsTOEQrWo4afS+B0r9TcOGHW16UT7g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOUq0VCagWSlQz3nw+AvR/FwViH9A3QmO1NGo82cLSsXLKwyg5FPBwxiBmGh/LHgPQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1547,7 +1547,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 49,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "33b260a4-9132-43f8-8283-00a435900761",
+                            ConcurrencyStamp = "b792aab0-f829-4206-85dc-9e2018bd501b",
                             Email = "normaluser49@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "49",
@@ -1556,7 +1556,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser49@gmail.com",
                             NormalizedUserName = "normalUser49",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHsSpieGwyA9gGAPVft7/2/4daeKb4kPzcFHXXNvl8GBovcgrJfmr04JAl8fHmufvg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIj4LqurSg98VBVS6St9oH4aQK3Ij9/1mjxPp02WZGiB2qUv1JnCZSx1KsL5ZAHRpg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1567,7 +1567,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 50,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "68030e88-5e75-45c4-a0a6-8d41d1529b48",
+                            ConcurrencyStamp = "9690a29a-804e-4ad8-bed3-51e4476d200d",
                             Email = "normaluser50@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "50",
@@ -1576,7 +1576,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser50@gmail.com",
                             NormalizedUserName = "normalUser50",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGZcXv+zpZPQJ0nd3eZpQX13fs569oG98RQkBlhH5Gi4tQAco6vNH2ZicForuSdi0A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGuX3iXZQBAsniihneduhq8Mm9xU7+LO4KMuM4VlP+gFVGkJoIlkndtfG5uSisHFHw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1587,7 +1587,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 51,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1f756f78-2e5c-424d-a7f3-76eab67e1b01",
+                            ConcurrencyStamp = "0137ef68-f090-4f7a-a34c-def3b6cdbda4",
                             Email = "normaluser51@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "51",
@@ -1596,7 +1596,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser51@gmail.com",
                             NormalizedUserName = "normalUser51",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJDMZuUB79tmQ/SjqD3rpN59aQaR2+0ZWI6bap1Qm5COEhhWeQMOhUT19xmB7pkMYQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGeUjMrt5Q+P8ElC00bKwX0zMXnHsd33Da9iqNEmd29HbrUd1Uf0wrDnlyMtavTUTw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1607,7 +1607,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 52,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "66cfbaff-7585-49dd-8b24-832917860967",
+                            ConcurrencyStamp = "d195ed0d-5f3e-4fd6-ad85-05f93797fdb2",
                             Email = "normaluser52@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "52",
@@ -1616,7 +1616,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser52@gmail.com",
                             NormalizedUserName = "normalUser52",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMVMuzWQyMOoXukDT13gidbTkpwYPdOgFE0DV1TyRj97xjLFNPQ1VLIW8Xnz1xDWxQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECldSH9XrulEGbin1thXxsj96R0k+PRHnn5RccCKJJeUT9Nujxyd/i1G+pViCTJsoA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1627,7 +1627,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 53,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0913f528-7581-4b2f-8190-ada76ccbb064",
+                            ConcurrencyStamp = "5a207898-6f39-4c46-9397-d4b3d239176c",
                             Email = "normaluser53@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "53",
@@ -1636,7 +1636,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser53@gmail.com",
                             NormalizedUserName = "normalUser53",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIB+WeHE8XosR/UMw7S7pPyf5rIwKrIrfyd+yf6YeisjD9qdZEzqAlWoYeCa/no2vw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEktApTBOgs8p+SLo/WMcgCeUtZTs0sEJ2f8cjGo3pfTysaSdlTTkf9ik0y9rOruuw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1647,7 +1647,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 54,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "e1531de2-0177-4652-8370-b8151991aeb0",
+                            ConcurrencyStamp = "2d7f113f-7aca-4e61-91f3-6f8e2afbb455",
                             Email = "normaluser54@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "54",
@@ -1656,7 +1656,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser54@gmail.com",
                             NormalizedUserName = "normalUser54",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKJSuI8geB2X/jmKQj25bsCka3By6ApUmY6SWX52gIDFGhS1itTfCiHmA0p6ERNZnw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHNJ83oBZ3LHyaHV4hPFl035j++K29xUxIUWUKN0gVy/oqTix4oKaxyqTGeSW4sFSw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1667,7 +1667,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 55,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d8f61e6c-d070-4ba6-8b90-09dff7558882",
+                            ConcurrencyStamp = "f7e8e983-2525-43ec-b03d-df60f609173e",
                             Email = "normaluser55@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "55",
@@ -1676,7 +1676,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser55@gmail.com",
                             NormalizedUserName = "normalUser55",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOwBAYcDJSpIGbCYhKLl2vmtnZXkZu6U1nUCoYQ6xadLbhpmk6v6dzOkKSi42lNMVw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEqq2Nr7hlxqwpdMAJ/XYyHZfvENPqXcczRS5chlTUzwkfzP8acQMA/TLZ882AmiOQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1687,7 +1687,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 56,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "53493dd0-2369-4e0c-a1cc-c430c42b709c",
+                            ConcurrencyStamp = "f4b61743-e3f2-40af-81a7-c8e768333f7a",
                             Email = "normaluser56@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "56",
@@ -1696,7 +1696,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser56@gmail.com",
                             NormalizedUserName = "normalUser56",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBK5A51Nup16oQvf9vkZglMS6k4/rzwpAQl/HNqi/ds18dYa2XJkb9rK2q+B73zEdA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEPt7N5ARDRYrEYXgLvxWrMXQ6+9Ak3EQTpB1ETBUhwFbFq3YYKgGqCGwlSM6IzYkA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1707,7 +1707,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 57,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ac22f631-7036-420e-bb5d-7ac3070028e9",
+                            ConcurrencyStamp = "f1bda631-7e16-4686-b597-2308632764c6",
                             Email = "normaluser57@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "57",
@@ -1716,7 +1716,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser57@gmail.com",
                             NormalizedUserName = "normalUser57",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAlHl8vEPUIPnLKFRMdzhagGNQHkGt6D4VNLVp6bui8wMg6DpHK/L/M8i8Ks347WZg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEADbbYVxlJhTKVzCjhU3t8SjliQaQNvJtC9bZOD5ahXt0QjKve059L9dg+O5ZYPYBQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1727,7 +1727,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 58,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "7639103e-2346-48aa-a03a-cc1fb23af18d",
+                            ConcurrencyStamp = "bf7fe650-5250-482c-99dd-67972732f468",
                             Email = "normaluser58@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "58",
@@ -1736,7 +1736,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser58@gmail.com",
                             NormalizedUserName = "normalUser58",
-                            PasswordHash = "AQAAAAIAAYagAAAAENs0j8LYHDjbrQcgVQqJXsNBjMkDxbnLf75dSL6ZxQcT055EU6WWZPsMExkn463tqA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBO82V9dDFaAQyT4586U6mEtiANYeVX87s6bJBMFBe+bfe51ub4qEd4D0gZPquslLg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1747,7 +1747,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 59,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "50effd5e-3d73-4cdd-85b9-3ed022b5924a",
+                            ConcurrencyStamp = "ac14090d-d90a-4473-ab08-271988fe0ad7",
                             Email = "normaluser59@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "59",
@@ -1756,7 +1756,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser59@gmail.com",
                             NormalizedUserName = "normalUser59",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDzAryN9X8jq2A7HcXq8S16p5WN3H3L5w/JbNfRNaiapwmJ4xG+pnQLjKa1FTKcESQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKlfu8cI4Y1iUUHsxuzRCg/yf9Z5aojq6i3kIc3FTTDiAZhhuvVt0chrMox7+Y8aWQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1767,7 +1767,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 60,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "36679a50-94e0-4118-b0ce-a81d3df29d3c",
+                            ConcurrencyStamp = "97ea6792-05e3-42b0-90fd-4a569f2c7d9f",
                             Email = "normaluser60@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "60",
@@ -1776,7 +1776,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser60@gmail.com",
                             NormalizedUserName = "normalUser60",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMlz5Cu7RWozPT6glSPYBlYC8jWTZkps0Cv6YDFUE4uUWBYjkJ4m1Y3YUYMiAkZynQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECSVhfpr1FMVAssaOjQZGzCd4UptJFo6OO1Z3UvPPVA7F5f1mcyqiqwuxCdXHq1Mfg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1787,7 +1787,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 61,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ccf72578-5751-464b-917a-f214e1db1f78",
+                            ConcurrencyStamp = "5b1b0b74-34c8-465b-9a45-c8ccccdf7383",
                             Email = "normaluser61@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "61",
@@ -1796,7 +1796,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser61@gmail.com",
                             NormalizedUserName = "normalUser61",
-                            PasswordHash = "AQAAAAIAAYagAAAAENPT8Mrwwc+0SK1FYhFivlIMQ6zO+oQNSR5rk3PyefGSOAqOSoRGvZOWPQeW+s/pVg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKFb6IztHnWhIp/t0n+73ImZvY6tXhBFMngXrus3FlIk3aL8BUMe6svI3HIpVfXmCA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1807,7 +1807,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 62,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1b54d460-129a-46e3-a0ef-2a79b8239454",
+                            ConcurrencyStamp = "a26f884b-c58b-4a2f-80a3-cba79e39d5e0",
                             Email = "normaluser62@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "62",
@@ -1816,7 +1816,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser62@gmail.com",
                             NormalizedUserName = "normalUser62",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBg0/x8Wk4BOC595Iye4iYV52iplrMaCcpJbiEC+masIiEs3JkU3cwYUBSezK+jrhg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELPDezsFMdhrD4RssjRVdo/mIObrn+XkjPsaAEXiuKYlEDI9cn+nanPr/0oe8cG9xA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1827,7 +1827,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 63,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "64333eca-7d11-4a09-b266-bf7b9a7b00b3",
+                            ConcurrencyStamp = "b9dccef6-df47-44d4-a4b3-91d37748aa05",
                             Email = "normaluser63@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "63",
@@ -1836,7 +1836,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser63@gmail.com",
                             NormalizedUserName = "normalUser63",
-                            PasswordHash = "AQAAAAIAAYagAAAAEP0UHMyVfvlsI64XITw0M8ieJS8OkjIzDe4Slij/T26huVG9YdmffY14E4pwEtbSRw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJqnep9XgFgLZkgzMHGj4bfSbxmiU4HHtOaMEN3ahCE6xqI9iQdS0VDstv7vaxI/1Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1847,7 +1847,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 64,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "aeb7b4a8-7120-4b5a-908f-333885e75e69",
+                            ConcurrencyStamp = "0cd340d0-a360-4f67-b541-6aae28f4329a",
                             Email = "normaluser64@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "64",
@@ -1856,7 +1856,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser64@gmail.com",
                             NormalizedUserName = "normalUser64",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFzr4VnrbrLQ/NWkM0T4xIFXd75k5JARQNrlzv1wW6tTjBKmnchw11/PRqjqEJQ7Iw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBSlnyDPNTqIHlV8GnksBzwwYJ2R91J+bzWlFBbKMEbPLljPCX4FLu7nNQu9R3lHiw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1867,7 +1867,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 65,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "242ed433-eb8d-4756-883f-933945626663",
+                            ConcurrencyStamp = "7c66930c-3ab1-4ad1-b03d-e10fdaf407a7",
                             Email = "normaluser65@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "65",
@@ -1876,7 +1876,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser65@gmail.com",
                             NormalizedUserName = "normalUser65",
-                            PasswordHash = "AQAAAAIAAYagAAAAEO05v7m2/lFpaDWmWSF4dzPL4Uk7c5xJsGbHkPwhzZVJrsSSZb4U2G+QEYsbWYCHOA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOOgsfpe8TWJ++l9FIkoM1ALuaRECkusDWIrB328m0SvtcJvmcxbrL90p0ML7ve/mg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2194,32 +2194,32 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 36,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 37,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 38,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 39,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 40,
                             CategoryId = 7
                         },
                         new
                         {
-                            FreelancerProfileId = 41,
+                            FreelancerProfileId = 37,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 38,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 39,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 40,
                             CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 41,
+                            CategoryId = 6
                         },
                         new
                         {
@@ -2229,27 +2229,27 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 43,
-                            CategoryId = 3
+                            CategoryId = 1
                         },
                         new
                         {
                             FreelancerProfileId = 44,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 45,
                             CategoryId = 7
                         },
                         new
                         {
+                            FreelancerProfileId = 45,
+                            CategoryId = 3
+                        },
+                        new
+                        {
                             FreelancerProfileId = 46,
-                            CategoryId = 2
+                            CategoryId = 1
                         },
                         new
                         {
                             FreelancerProfileId = 47,
-                            CategoryId = 1
+                            CategoryId = 7
                         },
                         new
                         {
@@ -2259,52 +2259,52 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 49,
-                            CategoryId = 4
+                            CategoryId = 5
                         },
                         new
                         {
                             FreelancerProfileId = 50,
-                            CategoryId = 4
+                            CategoryId = 6
                         },
                         new
                         {
                             FreelancerProfileId = 51,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
                             FreelancerProfileId = 52,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 53,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 54,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 55,
                             CategoryId = 1
                         },
                         new
                         {
+                            FreelancerProfileId = 53,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 54,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 55,
+                            CategoryId = 4
+                        },
+                        new
+                        {
                             FreelancerProfileId = 56,
-                            CategoryId = 8
+                            CategoryId = 1
                         },
                         new
                         {
                             FreelancerProfileId = 57,
-                            CategoryId = 3
+                            CategoryId = 7
                         },
                         new
                         {
                             FreelancerProfileId = 58,
-                            CategoryId = 6
+                            CategoryId = 3
                         },
                         new
                         {
@@ -2319,27 +2319,27 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 61,
-                            CategoryId = 4
+                            CategoryId = 5
                         },
                         new
                         {
                             FreelancerProfileId = 62,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 63,
                             CategoryId = 1
                         },
                         new
                         {
+                            FreelancerProfileId = 63,
+                            CategoryId = 4
+                        },
+                        new
+                        {
                             FreelancerProfileId = 64,
-                            CategoryId = 8
+                            CategoryId = 3
                         },
                         new
                         {
                             FreelancerProfileId = 65,
-                            CategoryId = 3
+                            CategoryId = 1
                         });
                 });
 
@@ -2699,14 +2699,8 @@ namespace SteelanceX.Data.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<bool>("IsActive")
                         .HasColumnType("bit");
-
-                    b.Property<string>("JobDescriptionFileUrl")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("JobExpiredDate")
                         .HasColumnType("datetime2");
@@ -2728,12 +2722,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 1,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(745),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9637),
                             Description = "This a simple description for project 1",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 1",
                             Offer = 99.0
@@ -2742,12 +2734,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 2,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(813),
+                            BusinessProfileId = 16,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9676),
                             Description = "This a simple description for project 2",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 2",
                             Offer = 198.0
@@ -2756,12 +2746,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 3,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(826),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9683),
                             Description = "This a simple description for project 3",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 3",
                             Offer = 297.0
@@ -2771,11 +2759,9 @@ namespace SteelanceX.Data.Migrations
                             Id = 4,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(838),
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9689),
                             Description = "This a simple description for project 4",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 4",
                             Offer = 396.0
@@ -2784,12 +2770,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 5,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(850),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9730),
                             Description = "This a simple description for project 5",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 5",
                             Offer = 495.0
@@ -2798,12 +2782,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 6,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(863),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9739),
                             Description = "This a simple description for project 6",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 6",
                             Offer = 594.0
@@ -2812,12 +2794,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 7,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(875),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9745),
                             Description = "This a simple description for project 7",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 7",
                             Offer = 693.0
@@ -2826,12 +2806,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 8,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(887),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9752),
                             Description = "This a simple description for project 8",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 8",
                             Offer = 792.0
@@ -2840,12 +2818,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 9,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(899),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9758),
                             Description = "This a simple description for project 9",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 9",
                             Offer = 891.0
@@ -2854,12 +2830,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 10,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(914),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9766),
                             Description = "This a simple description for project 10",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 10",
                             Offer = 990.0
@@ -2868,12 +2842,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 11,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(980),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9772),
                             Description = "This a simple description for project 11",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 11",
                             Offer = 1089.0
@@ -2882,12 +2854,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 12,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(993),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9779),
                             Description = "This a simple description for project 12",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 12",
                             Offer = 1188.0
@@ -2896,12 +2866,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 13,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1005),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9785),
                             Description = "This a simple description for project 13",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 13",
                             Offer = 1287.0
@@ -2911,11 +2879,9 @@ namespace SteelanceX.Data.Migrations
                             Id = 14,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1017),
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9792),
                             Description = "This a simple description for project 14",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 14",
                             Offer = 1386.0
@@ -2924,12 +2890,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 15,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1029),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9828),
                             Description = "This a simple description for project 15",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 15",
                             Offer = 1485.0
@@ -2938,12 +2902,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 16,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 29,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1042),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9836),
                             Description = "This a simple description for project 16",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 16",
                             Offer = 1584.0
@@ -2952,12 +2914,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 17,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1053),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9842),
                             Description = "This a simple description for project 17",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 17",
                             Offer = 1683.0
@@ -2966,12 +2926,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 18,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1069),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9850),
                             Description = "This a simple description for project 18",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 18",
                             Offer = 1782.0
@@ -2980,12 +2938,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 19,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1080),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9857),
                             Description = "This a simple description for project 19",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 19",
                             Offer = 1881.0
@@ -2994,12 +2950,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 20,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1141),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9863),
                             Description = "This a simple description for project 20",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 20",
                             Offer = 1980.0
@@ -3008,12 +2962,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 21,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1153),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9870),
                             Description = "This a simple description for project 21",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 21",
                             Offer = 2079.0
@@ -3022,12 +2974,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 22,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1165),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9876),
                             Description = "This a simple description for project 22",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 22",
                             Offer = 2178.0
@@ -3036,12 +2986,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 23,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1177),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9883),
                             Description = "This a simple description for project 23",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 23",
                             Offer = 2277.0
@@ -3050,12 +2998,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 24,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1189),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9920),
                             Description = "This a simple description for project 24",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 24",
                             Offer = 2376.0
@@ -3064,12 +3010,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 25,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1201),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9927),
                             Description = "This a simple description for project 25",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 25",
                             Offer = 2475.0
@@ -3078,12 +3022,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 26,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1213),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9934),
                             Description = "This a simple description for project 26",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 26",
                             Offer = 2574.0
@@ -3092,12 +3034,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 27,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1225),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9940),
                             Description = "This a simple description for project 27",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 27",
                             Offer = 2673.0
@@ -3106,12 +3046,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 28,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1237),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9947),
                             Description = "This a simple description for project 28",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 28",
                             Offer = 2772.0
@@ -3120,12 +3058,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 29,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(1249),
+                            BusinessProfileId = 26,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 811, DateTimeKind.Local).AddTicks(9953),
                             Description = "This a simple description for project 29",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 29",
                             Offer = 2871.0
@@ -3134,12 +3070,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 30,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2234),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(532),
                             Description = "This a simple description for project 30",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 30",
                             Offer = 2970.0
@@ -3148,12 +3082,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 31,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2305),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(569),
                             Description = "This a simple description for project 31",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 31",
                             Offer = 3069.0
@@ -3162,12 +3094,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 32,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2317),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(576),
                             Description = "This a simple description for project 32",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 32",
                             Offer = 3168.0
@@ -3176,12 +3106,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 33,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2329),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(582),
                             Description = "This a simple description for project 33",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 33",
                             Offer = 3267.0
@@ -3190,12 +3118,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 34,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2346),
+                            BusinessProfileId = 16,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(631),
                             Description = "This a simple description for project 34",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 34",
                             Offer = 3366.0
@@ -3204,12 +3130,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 35,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 33,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2360),
+                            BusinessProfileId = 32,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(638),
                             Description = "This a simple description for project 35",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 35",
                             Offer = 3465.0
@@ -3218,12 +3142,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 36,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2373),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(644),
                             Description = "This a simple description for project 36",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 36",
                             Offer = 3564.0
@@ -3232,12 +3154,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 37,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2384),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(651),
                             Description = "This a simple description for project 37",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 37",
                             Offer = 3663.0
@@ -3246,12 +3166,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 38,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2462),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(657),
                             Description = "This a simple description for project 38",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 38",
                             Offer = 3762.0
@@ -3260,12 +3178,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 39,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2478),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(663),
                             Description = "This a simple description for project 39",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 39",
                             Offer = 3861.0
@@ -3274,12 +3190,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 40,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2490),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(670),
                             Description = "This a simple description for project 40",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 40",
                             Offer = 3960.0
@@ -3288,12 +3202,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 41,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2502),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(676),
                             Description = "This a simple description for project 41",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 41",
                             Offer = 4059.0
@@ -3302,12 +3214,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 42,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2514),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(683),
                             Description = "This a simple description for project 42",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 42",
                             Offer = 4158.0
@@ -3316,12 +3226,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 43,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2527),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(721),
                             Description = "This a simple description for project 43",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 43",
                             Offer = 4257.0
@@ -3330,12 +3238,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 44,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2539),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(728),
                             Description = "This a simple description for project 44",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 44",
                             Offer = 4356.0
@@ -3344,12 +3250,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 45,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2551),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(734),
                             Description = "This a simple description for project 45",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 45",
                             Offer = 4455.0
@@ -3358,12 +3262,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 46,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2563),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(741),
                             Description = "This a simple description for project 46",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 46",
                             Offer = 4554.0
@@ -3372,12 +3274,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 47,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2575),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(747),
                             Description = "This a simple description for project 47",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 47",
                             Offer = 4653.0
@@ -3386,12 +3286,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 48,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2663),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(754),
                             Description = "This a simple description for project 48",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 48",
                             Offer = 4752.0
@@ -3400,12 +3298,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 49,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2677),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(760),
                             Description = "This a simple description for project 49",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 49",
                             Offer = 4851.0
@@ -3414,12 +3310,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 50,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2703),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(766),
                             Description = "This a simple description for project 50",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = true,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 50",
                             Offer = 4950.0
@@ -3428,12 +3322,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 51,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2716),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(774),
                             Description = "This a simple description for project 51",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 51",
                             Offer = 5049.0
@@ -3442,12 +3334,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 52,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2728),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(780),
                             Description = "This a simple description for project 52",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 52",
                             Offer = 5148.0
@@ -3456,12 +3346,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 53,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2741),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(816),
                             Description = "This a simple description for project 53",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 53",
                             Offer = 5247.0
@@ -3470,12 +3358,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 54,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2753),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(824),
                             Description = "This a simple description for project 54",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 54",
                             Offer = 5346.0
@@ -3484,12 +3370,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 55,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2764),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(830),
                             Description = "This a simple description for project 55",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 55",
                             Offer = 5445.0
@@ -3499,11 +3383,9 @@ namespace SteelanceX.Data.Migrations
                             Id = 56,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2776),
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(837),
                             Description = "This a simple description for project 56",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 56",
                             Offer = 5544.0
@@ -3512,12 +3394,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 57,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2789),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(843),
                             Description = "This a simple description for project 57",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 57",
                             Offer = 5643.0
@@ -3526,12 +3406,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 58,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2850),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(849),
                             Description = "This a simple description for project 58",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 58",
                             Offer = 5742.0
@@ -3540,12 +3418,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 59,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2864),
+                            BusinessProfileId = 32,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(856),
                             Description = "This a simple description for project 59",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 59",
                             Offer = 5841.0
@@ -3554,12 +3430,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 60,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2876),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(862),
                             Description = "This a simple description for project 60",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 60",
                             Offer = 5940.0
@@ -3568,12 +3442,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 61,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2888),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(869),
                             Description = "This a simple description for project 61",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 61",
                             Offer = 6039.0
@@ -3582,12 +3454,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 62,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2900),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(875),
                             Description = "This a simple description for project 62",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 62",
                             Offer = 6138.0
@@ -3596,12 +3466,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 63,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2912),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(912),
                             Description = "This a simple description for project 63",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 63",
                             Offer = 6237.0
@@ -3610,12 +3478,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 64,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2924),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(920),
                             Description = "This a simple description for project 64",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 64",
                             Offer = 6336.0
@@ -3624,12 +3490,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 65,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2936),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(926),
                             Description = "This a simple description for project 65",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 65",
                             Offer = 6435.0
@@ -3638,12 +3502,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 66,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(2993),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(934),
                             Description = "This a simple description for project 66",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 66",
                             Offer = 6534.0
@@ -3652,12 +3514,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 67,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3007),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(940),
                             Description = "This a simple description for project 67",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 67",
                             Offer = 6633.0
@@ -3666,12 +3526,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 68,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3019),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(946),
                             Description = "This a simple description for project 68",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 68",
                             Offer = 6732.0
@@ -3680,12 +3538,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 69,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3030),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(953),
                             Description = "This a simple description for project 69",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 69",
                             Offer = 6831.0
@@ -3694,12 +3550,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 70,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3042),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(959),
                             Description = "This a simple description for project 70",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 70",
                             Offer = 6930.0
@@ -3708,12 +3562,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 71,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3054),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1024),
                             Description = "This a simple description for project 71",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 71",
                             Offer = 7029.0
@@ -3722,12 +3574,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 72,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3066),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1030),
                             Description = "This a simple description for project 72",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 72",
                             Offer = 7128.0
@@ -3736,12 +3586,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 73,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 25,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3078),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1037),
                             Description = "This a simple description for project 73",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 73",
                             Offer = 7227.0
@@ -3750,12 +3598,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 74,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3089),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1043),
                             Description = "This a simple description for project 74",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 74",
                             Offer = 7326.0
@@ -3764,12 +3610,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 75,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 29,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3141),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1049),
                             Description = "This a simple description for project 75",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 75",
                             Offer = 7425.0
@@ -3778,12 +3622,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 76,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3154),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1056),
                             Description = "This a simple description for project 76",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 76",
                             Offer = 7524.0
@@ -3792,12 +3634,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 77,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3166),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1062),
                             Description = "This a simple description for project 77",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 77",
                             Offer = 7623.0
@@ -3806,12 +3646,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 78,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3178),
+                            BusinessProfileId = 32,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1068),
                             Description = "This a simple description for project 78",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 78",
                             Offer = 7722.0
@@ -3820,12 +3658,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 79,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3190),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1075),
                             Description = "This a simple description for project 79",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 79",
                             Offer = 7821.0
@@ -3834,12 +3670,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 80,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3202),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1081),
                             Description = "This a simple description for project 80",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 80",
                             Offer = 7920.0
@@ -3848,12 +3682,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 81,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 25,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3215),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1123),
                             Description = "This a simple description for project 81",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 81",
                             Offer = 8019.0
@@ -3862,12 +3694,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 82,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3226),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1129),
                             Description = "This a simple description for project 82",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 82",
                             Offer = 8118.0
@@ -3876,12 +3706,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 83,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3238),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1136),
                             Description = "This a simple description for project 83",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 83",
                             Offer = 8217.0
@@ -3890,12 +3718,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 84,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 31,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3250),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1142),
                             Description = "This a simple description for project 84",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 84",
                             Offer = 8316.0
@@ -3904,12 +3730,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 85,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3303),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1149),
                             Description = "This a simple description for project 85",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 85",
                             Offer = 8415.0
@@ -3918,12 +3742,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 86,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3314),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1155),
                             Description = "This a simple description for project 86",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 86",
                             Offer = 8514.0
@@ -3932,12 +3754,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 87,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3326),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1161),
                             Description = "This a simple description for project 87",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 87",
                             Offer = 8613.0
@@ -3946,12 +3766,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 88,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 34,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3338),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1168),
                             Description = "This a simple description for project 88",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 88",
                             Offer = 8712.0
@@ -3960,12 +3778,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 89,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3350),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1174),
                             Description = "This a simple description for project 89",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 89",
                             Offer = 8811.0
@@ -3974,12 +3790,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 90,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 25,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3362),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1181),
                             Description = "This a simple description for project 90",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 90",
                             Offer = 8910.0
@@ -3988,12 +3802,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 91,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3374),
+                            BusinessProfileId = 30,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1219),
                             Description = "This a simple description for project 91",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 91",
                             Offer = 9009.0
@@ -4002,12 +3814,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 92,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3386),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1226),
                             Description = "This a simple description for project 92",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 92",
                             Offer = 9108.0
@@ -4016,12 +3826,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 93,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3397),
+                            BusinessProfileId = 34,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1232),
                             Description = "This a simple description for project 93",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 93",
                             Offer = 9207.0
@@ -4031,11 +3839,9 @@ namespace SteelanceX.Data.Migrations
                             Id = 94,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3456),
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1238),
                             Description = "This a simple description for project 94",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 94",
                             Offer = 9306.0
@@ -4044,12 +3850,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 95,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 32,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3470),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1244),
                             Description = "This a simple description for project 95",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 95",
                             Offer = 9405.0
@@ -4058,12 +3862,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 96,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3482),
+                            BusinessProfileId = 31,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1251),
                             Description = "This a simple description for project 96",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 96",
                             Offer = 9504.0
@@ -4072,12 +3874,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 97,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3494),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1257),
                             Description = "This a simple description for project 97",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 97",
                             Offer = 9603.0
@@ -4086,12 +3886,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 98,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 25,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3505),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1264),
                             Description = "This a simple description for project 98",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 98",
                             Offer = 9702.0
@@ -4100,12 +3898,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 99,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3517),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1270),
                             Description = "This a simple description for project 99",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 99",
                             Offer = 9801.0
@@ -4114,12 +3910,10 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 100,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 11, 0, 10, 29, 234, DateTimeKind.Local).AddTicks(3530),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 11, 14, 57, 45, 812, DateTimeKind.Local).AddTicks(1277),
                             Description = "This a simple description for project 100",
-                            ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
                             IsActive = false,
-                            JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                             JobExpiredDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             Name = "Project 100",
                             Offer = 9900.0
@@ -4144,42 +3938,42 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 1,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 2,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 3,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 4,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 5,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 6,
                             CategoryId = 1
                         },
                         new
                         {
-                            JobId = 7,
+                            JobId = 2,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 3,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 4,
                             CategoryId = 3
                         },
                         new
                         {
-                            JobId = 8,
+                            JobId = 5,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 6,
                             CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 7,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 8,
+                            CategoryId = 1
                         },
                         new
                         {
@@ -4189,7 +3983,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 10,
-                            CategoryId = 4
+                            CategoryId = 1
                         },
                         new
                         {
@@ -4199,42 +3993,42 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 12,
-                            CategoryId = 7
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 13,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 14,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 15,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 16,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 17,
                             CategoryId = 7
                         },
                         new
                         {
-                            JobId = 18,
+                            JobId = 14,
                             CategoryId = 6
                         },
                         new
                         {
+                            JobId = 15,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 16,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            JobId = 17,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 18,
+                            CategoryId = 2
+                        },
+                        new
+                        {
                             JobId = 19,
-                            CategoryId = 5
+                            CategoryId = 3
                         },
                         new
                         {
@@ -4244,22 +4038,22 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 21,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 22,
                             CategoryId = 1
                         },
                         new
                         {
+                            JobId = 22,
+                            CategoryId = 6
+                        },
+                        new
+                        {
                             JobId = 23,
-                            CategoryId = 4
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 24,
-                            CategoryId = 2
+                            CategoryId = 4
                         },
                         new
                         {
@@ -4269,7 +4063,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 26,
-                            CategoryId = 1
+                            CategoryId = 2
                         },
                         new
                         {
@@ -4284,42 +4078,42 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 29,
-                            CategoryId = 6
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 30,
-                            CategoryId = 7
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 31,
-                            CategoryId = 2
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 32,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 33,
-                            CategoryId = 2
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 34,
-                            CategoryId = 7
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 35,
-                            CategoryId = 2
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 36,
-                            CategoryId = 7
+                            CategoryId = 6
                         },
                         new
                         {
@@ -4334,7 +4128,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 39,
-                            CategoryId = 5
+                            CategoryId = 3
                         },
                         new
                         {
@@ -4344,72 +4138,72 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 41,
-                            CategoryId = 3
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 42,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 43,
-                            CategoryId = 3
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 44,
-                            CategoryId = 7
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 45,
-                            CategoryId = 6
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 46,
-                            CategoryId = 6
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 47,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 48,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 49,
                             CategoryId = 1
                         },
                         new
                         {
+                            JobId = 48,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 49,
+                            CategoryId = 2
+                        },
+                        new
+                        {
                             JobId = 50,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 51,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 52,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 53,
                             CategoryId = 6
                         },
                         new
                         {
+                            JobId = 51,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 52,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 53,
+                            CategoryId = 2
+                        },
+                        new
+                        {
                             JobId = 54,
-                            CategoryId = 4
+                            CategoryId = 1
                         },
                         new
                         {
@@ -4419,57 +4213,57 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 56,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 57,
                             CategoryId = 1
                         },
                         new
                         {
-                            JobId = 58,
+                            JobId = 57,
                             CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 58,
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 59,
-                            CategoryId = 6
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 60,
-                            CategoryId = 3
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 61,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 62,
-                            CategoryId = 7
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 63,
-                            CategoryId = 7
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 64,
-                            CategoryId = 4
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 65,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 66,
-                            CategoryId = 3
+                            CategoryId = 6
                         },
                         new
                         {
@@ -4479,7 +4273,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 68,
-                            CategoryId = 7
+                            CategoryId = 4
                         },
                         new
                         {
@@ -4494,57 +4288,57 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 71,
-                            CategoryId = 5
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 72,
-                            CategoryId = 4
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 73,
-                            CategoryId = 6
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 74,
-                            CategoryId = 5
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 75,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 76,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 77,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 78,
                             CategoryId = 5
                         },
                         new
                         {
+                            JobId = 76,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 77,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 78,
+                            CategoryId = 3
+                        },
+                        new
+                        {
                             JobId = 79,
-                            CategoryId = 6
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 80,
-                            CategoryId = 1
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 81,
-                            CategoryId = 6
+                            CategoryId = 7
                         },
                         new
                         {
@@ -4559,7 +4353,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 84,
-                            CategoryId = 7
+                            CategoryId = 4
                         },
                         new
                         {
@@ -4569,22 +4363,22 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 86,
-                            CategoryId = 7
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 87,
-                            CategoryId = 2
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 88,
-                            CategoryId = 4
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 89,
-                            CategoryId = 1
+                            CategoryId = 3
                         },
                         new
                         {
@@ -4594,7 +4388,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 91,
-                            CategoryId = 4
+                            CategoryId = 5
                         },
                         new
                         {
@@ -4609,7 +4403,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 94,
-                            CategoryId = 5
+                            CategoryId = 6
                         },
                         new
                         {
@@ -4619,27 +4413,27 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 96,
-                            CategoryId = 6
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 97,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 98,
                             CategoryId = 6
                         },
                         new
                         {
+                            JobId = 98,
+                            CategoryId = 5
+                        },
+                        new
+                        {
                             JobId = 99,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 100,
-                            CategoryId = 7
+                            CategoryId = 2
                         });
                 });
 

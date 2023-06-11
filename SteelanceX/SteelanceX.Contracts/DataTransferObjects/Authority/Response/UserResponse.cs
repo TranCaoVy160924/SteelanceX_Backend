@@ -1,4 +1,4 @@
-﻿namespace SteelanceX.Contracts.Authority.Response;
+﻿namespace SteelanceX.Contracts.DataTransferObjects.Authority.Response;
 public class UserResponse
 {
     public Guid Id { get; set; }

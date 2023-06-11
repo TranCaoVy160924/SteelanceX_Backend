@@ -1,7 +1,7 @@
 ﻿#nullable disable
 using System.ComponentModel.DataAnnotations;
 
-namespace SteelanceX.Contracts.Authority.Request;
+namespace SteelanceX.Contracts.DataTransferObjects.Authority.Request;
 public class LoginRequest
 {
     [Required(ErrorMessage = "Please enter username")]

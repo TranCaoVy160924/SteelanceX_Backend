@@ -7,12 +7,14 @@ using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
 using Microsoft.OpenApi.Models;
-using SteelanceX.Contracts.FreelancerProfile.Response;
-using SteelanceX.Contracts.Job.Response;
+using SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
+using SteelanceX.Contracts.DataTransferObjects.Job.Request;
+using SteelanceX.Contracts.DataTransferObjects.Job.Response;
 using SteelanceX.Contracts.MapperConfig;
 using SteelanceX.Data.EF;
 using SteelanceX.DataAccess.DataAccessObjects;
 using SteelanceX.Domain.Models;
+using System;
 using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -33,6 +35,7 @@ builder.Services.AddScoped<JobRepository>();
 builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<FreelancerProfileRepository>();
 builder.Services.AddScoped<BusinessProfileRepository>();
+builder.Services.AddScoped<JobCategoryRepository>();
 
 builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MapperProfile)));
 
@@ -163,9 +166,13 @@ app.Run();
 static IEdmModel GetEdmModel()
 {
     ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
-    var jobs = builder.EntitySet<JobResponse>("Jobs");
-    jobs.EntityType.Collection.Function("GetOpenJobs").Returns<JobResponse>();
-    //jobs.EntityType.Function("GetJobDetail").Returns<JobResponse>();
+    var jobs = builder.EntitySet<JobResponse>("Jobs").EntityType;
+    builder.EntityType<CreateJobRequest>();
+    jobs.Collection.Function("GetOpenJobs").Returns<JobResponse>();
+
+    builder.Namespace = "JobsService";
+    var action = builder.EntityType<JobResponse>().Action("CreateAsync");
+    action.Parameter<JsonElement>("request");
 
     builder.EntitySet<Category>("Categories");
 

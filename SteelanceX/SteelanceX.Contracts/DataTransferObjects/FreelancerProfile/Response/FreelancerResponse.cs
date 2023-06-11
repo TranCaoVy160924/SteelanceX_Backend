@@ -1,4 +1,4 @@
-﻿namespace SteelanceX.Contracts.FreelancerProfile.Response;
+﻿namespace SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
 public class FreelancerResponse
 {
     public int Id { get; set; }

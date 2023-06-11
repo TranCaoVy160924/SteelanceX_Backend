@@ -274,9 +274,6 @@ public static class ModelBuilderExtensions
                 Offer = 99 * i,
                 CreatedDate = DateTime.Now,
                 ApplyExpireDate = DateTime.MaxValue,
-                JobExpiredDate = DateTime.MaxValue,
-                ImageUrl = "This is an image. If you do not see anything, you are so blind!!!",
-                JobDescriptionFileUrl = "This is what decides that you will do the job or run!!!",
                 BusinessProfileId = random.Next(6, 35)
             });
 

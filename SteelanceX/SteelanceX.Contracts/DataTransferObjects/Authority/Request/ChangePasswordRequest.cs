@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace SteelanceX.Contracts.Authority.Request;
+namespace SteelanceX.Contracts.DataTransferObjects.Authority.Request;
 public class ChangePasswordRequest
 {
     [Required(ErrorMessage = "Please enter current password")]

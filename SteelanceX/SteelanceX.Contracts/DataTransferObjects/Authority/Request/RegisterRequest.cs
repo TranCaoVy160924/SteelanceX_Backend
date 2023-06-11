@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AssetManagement.Contracts.User.Request
+namespace SteelanceX.Contracts.DataTransferObjects.Authority.Request
 {
     public class RegisterRequest
     {

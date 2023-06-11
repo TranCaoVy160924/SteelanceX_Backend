@@ -1,12 +1,11 @@
 ﻿#nullable disable
 
-using AssetManagement.Contracts.User.Request;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using SteelanceX.Contracts.Authority.Request;
-using SteelanceX.Contracts.Authority.Response;
+using SteelanceX.Contracts.DataTransferObjects.Authority.Response;
+using SteelanceX.Contracts.DataTransferObjects.Authority.Request;
 using SteelanceX.Domain.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
