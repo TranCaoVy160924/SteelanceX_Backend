@@ -36,6 +36,7 @@ builder.Services.AddScoped<CategoryRepository>();
 builder.Services.AddScoped<FreelancerProfileRepository>();
 builder.Services.AddScoped<BusinessProfileRepository>();
 builder.Services.AddScoped<JobCategoryRepository>();
+builder.Services.AddScoped<FreelancerCategoryRepository>();
 
 builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MapperProfile)));
 
