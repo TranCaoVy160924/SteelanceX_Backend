@@ -110,7 +110,7 @@ public class JobsController : ODataController
             }
             await _jobRepo.UpdateAsync(job);
 
-            return Ok(_mapper.Map<JobResponse>(job));
+            return Created(createRequest);
         }
         catch (Exception ex)
         {

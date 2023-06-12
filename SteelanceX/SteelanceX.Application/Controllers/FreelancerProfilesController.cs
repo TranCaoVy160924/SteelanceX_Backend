@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.OData.Deltas;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.EntityFrameworkCore;
+using SteelanceX.Application.Utilities;
 using SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
 using SteelanceX.DataAccess.DataAccessObjects;
 using SteelanceX.Domain.Models;
@@ -13,12 +14,15 @@ namespace SteelanceX.Application.Controllers;
 public class FreelancerProfilesController : ODataController
 {
     private readonly FreelancerProfileRepository _freelancerRepo;
+    private readonly CategoryRepository _catRepo;
     private readonly IMapper _mapper;
 
     public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo
-        , IMapper mapper)
+                                        , CategoryRepository catRepo
+                                        , IMapper mapper)
     {
         _freelancerRepo = freelancerRepo;
+        _catRepo = catRepo;
         _mapper = mapper;
     }
 
@@ -47,13 +51,38 @@ public class FreelancerProfilesController : ODataController
         return Ok(_mapper.Map<FreelancerResponse>(freelancer));
     }
 
-    public async Task<ActionResult> Post([FromBody] FreelancerResponse freelancer)
+    public async Task<ActionResult> Post([FromBody] FreelancerResponse freelancerProfile)
     {
         try
         {
-            var newProfile = _mapper.Map<FreelancerProfile>(freelancer);
+            if (!ModelState.IsValid)
+            {
+                throw new Exception(ModelState.ValidateError());
+            }
+
+            FreelancerProfile newProfile = _mapper.Map<FreelancerProfile>(freelancerProfile);
+
+            foreach (int catId in freelancerProfile.Categories)
+            {
+                if (await _catRepo.Get(catId) == null)
+                {
+                    throw new Exception("Category not exist");
+                }
+            }
             await _freelancerRepo.CreateAsync(newProfile);
-            return Created(newProfile);
+
+            newProfile.Categories = new List<FreelancerCategory>();
+            foreach (int catId in freelancerProfile.Categories)
+            {
+                newProfile.Categories.Add(new FreelancerCategory
+                {
+                    FreelancerProfileId = newProfile.Id,
+                    CategoryId = catId
+                });
+            }
+            await _freelancerRepo.UpdateAsync(newProfile);
+
+            return Created(freelancerProfile);
         }
         catch (Exception ex)
         {
@@ -61,25 +90,47 @@ public class FreelancerProfilesController : ODataController
         }
     }
 
-    //public ActionResult Put([FromRoute] int key, [FromBody] FreelancerResponse freelancer)
-    //{
-    //    var updateProfile = _freelancerRepo.QueryAll()
-    //        .SingleOrDefault(d => d.Id == key);
+    public async Task<ActionResult> PutAsync([FromRoute] int key, [FromBody] FreelancerResponse freelancerProfile)
+    {
+        try
+        {
+            if (!ModelState.IsValid)
+            {
+                throw new Exception(ModelState.ValidateError());
+            }
 
-    //    if (updateProfile == null)
-    //    {
-    //        return NotFound();
-    //    }
+            var updateProfile = _freelancerRepo.QueryAll()
+            .SingleOrDefault(d => d.Id == key);
 
-    //    customer.Name = updatedCustomer.Name;
-    //    customer.CustomerType = updatedCustomer.CustomerType;
-    //    customer.CreditLimit = updatedCustomer.CreditLimit;
-    //    customer.CustomerSince = updatedCustomer.CustomerSince;
+            if (updateProfile == null)
+            {
+                return NotFound();
+            } 
 
-    //    db.SaveChanges();
+            updateProfile.Description = freelancerProfile.Description;
+            updateProfile.ResumeUrl = freelancerProfile.ResumeUrl;
+            updateProfile.Price = freelancerProfile.Price;
+            updateProfile.Title = freelancerProfile.Title;
+            updateProfile.ImageUrl = freelancerProfile.ImageUrl;
 
-    //    return Updated(customer);
-    //}
+            updateProfile.Categories = new List<FreelancerCategory>();
+            foreach (int catId in freelancerProfile.Categories)
+            {
+                updateProfile.Categories.Add(new FreelancerCategory
+                {
+                    FreelancerProfileId = updateProfile.Id,
+                    CategoryId = catId
+                });
+            }
+            await _freelancerRepo.UpdateAsync(updateProfile);
+
+            return Updated(freelancerProfile);
+        }
+        catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
 
     public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<FreelancerResponse> delta)
     {
@@ -105,23 +156,23 @@ public class FreelancerProfilesController : ODataController
         return Updated(freelancer);
     }
 
-    public async Task<ActionResult> Delete([FromRoute] int key)
-    {
-        var freelancer = _freelancerRepo.QueryAll()
-            .SingleOrDefault(d => d.Id == key);
+    //public async Task<ActionResult> Delete([FromRoute] int key)
+    //{
+    //    var freelancer = _freelancerRepo.QueryAll()
+    //        .SingleOrDefault(d => d.Id == key);
 
-        try
-        {
-            if (freelancer != null)
-            {
-                await _freelancerRepo.DeleteAsync(freelancer);
-            }
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
+    //    try
+    //    {
+    //        if (freelancer != null)
+    //        {
+    //            await _freelancerRepo.DeleteAsync(freelancer);
+    //        }
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        return BadRequest(ex.Message);
+    //    }
 
-        return NoContent();
-    }
+    //    return NoContent();
+    //}
 }
