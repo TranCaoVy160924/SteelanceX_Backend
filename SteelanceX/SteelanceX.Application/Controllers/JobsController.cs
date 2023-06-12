@@ -85,34 +85,32 @@ public class JobsController : ODataController
                 throw new Exception(ModelState.ValidateError());
             }
 
-            //Job job = _mapper.Map<Job>(createRequest);
-            //if (job.ApplyExpireDate < DateTime.Today)
-            //{
-            //    throw new Exception("Apply expire date must be later than today");
-            //}
-            //foreach (int catId in createRequest.Categories)
-            //{
-            //    if (await _catRepo.Get(catId) == null)
-            //    {
-            //        throw new Exception("Category not exist");
-            //    }
-            //}
-            //await _jobRepo.CreateAsync(job);
+            Job job = _mapper.Map<Job>(createRequest);
+            if (job.ApplyExpireDate < DateTime.Today)
+            {
+                throw new Exception("Apply expire date must be later than today");
+            }
+            foreach (int catId in createRequest.Categories)
+            {
+                if (await _catRepo.Get(catId) == null)
+                {
+                    throw new Exception("Category not exist");
+                }
+            }
+            await _jobRepo.CreateAsync(job);
 
-            //job.Categories = new List<JobCategory>();
-            //foreach (int catId in createRequest.Categories)
-            //{
-            //    job.Categories.Add(new JobCategory
-            //    {
-            //        JobId = job.Id,
-            //        CategoryId = catId
-            //    });
-            //}
-            //await _jobRepo.UpdateAsync(job);
+            job.Categories = new List<JobCategory>();
+            foreach (int catId in createRequest.Categories)
+            {
+                job.Categories.Add(new JobCategory
+                {
+                    JobId = job.Id,
+                    CategoryId = catId
+                });
+            }
+            await _jobRepo.UpdateAsync(job);
 
-            //return Ok(_mapper.Map<JobResponse>(job));
-
-            return Ok();
+            return Ok(_mapper.Map<JobResponse>(job));
         }
         catch (Exception ex)
         {

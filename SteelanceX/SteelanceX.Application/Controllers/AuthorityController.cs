@@ -10,6 +10,7 @@ using SteelanceX.Domain.Models;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace SteelanceX.Application.Controllers;
 [Route("api")]
@@ -77,7 +78,7 @@ public class AuthorityController : ControllerBase
             Firstname = registerRequest.FirstName.Trim(),
             Lastname = registerRequest.LastName.Trim(),
             PasswordHash = hasher.HashPassword(null, "12345678"),
-            UserName = registerRequest.FirstName.Trim() + registerRequest.LastName.Trim(),
+            UserName = Regex.Replace(registerRequest.FirstName + registerRequest.LastName, @"\s+", ""),
             Email = registerRequest.Email,
             EmailConfirmed = true,
             SecurityStamp = string.Empty,
@@ -160,9 +161,11 @@ public class AuthorityController : ControllerBase
     {
         return new List<Claim>
             {
+                new Claim(ClaimTypes.Sid, user.Id.ToString()),
                 new Claim(ClaimTypes.GivenName, $"{user.Firstname} {user.Lastname}"),
                 new Claim(ClaimTypes.Email, email),
                 new Claim(ClaimTypes.Role, role),
+                new Claim("IsPremium", user.IsPremium.ToString())
             };
     }
 
