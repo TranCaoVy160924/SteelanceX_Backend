@@ -47,21 +47,41 @@ public class FreelancerProfilesController : ODataController
         return Ok(_mapper.Map<FreelancerResponse>(freelancer));
     }
 
-    public async Task<ActionResult> Post([FromBody] FreelancerProfile freelancer)
+    public async Task<ActionResult> Post([FromBody] FreelancerResponse freelancer)
     {
         try
         {
-            await _freelancerRepo.CreateAsync(freelancer);
+            var newProfile = _mapper.Map<FreelancerProfile>(freelancer);
+            await _freelancerRepo.CreateAsync(newProfile);
+            return Created(newProfile);
         }
         catch (Exception ex)
         {
             return BadRequest(ex.Message);
         }
-
-        return Created(freelancer);
     }
 
-    public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<FreelancerProfile> delta)
+    //public ActionResult Put([FromRoute] int key, [FromBody] FreelancerResponse freelancer)
+    //{
+    //    var updateProfile = _freelancerRepo.QueryAll()
+    //        .SingleOrDefault(d => d.Id == key);
+
+    //    if (updateProfile == null)
+    //    {
+    //        return NotFound();
+    //    }
+
+    //    customer.Name = updatedCustomer.Name;
+    //    customer.CustomerType = updatedCustomer.CustomerType;
+    //    customer.CreditLimit = updatedCustomer.CreditLimit;
+    //    customer.CustomerSince = updatedCustomer.CustomerSince;
+
+    //    db.SaveChanges();
+
+    //    return Updated(customer);
+    //}
+
+    public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<FreelancerResponse> delta)
     {
         var freelancer = _freelancerRepo.QueryAll()
             .SingleOrDefault(d => d.Id == key);
@@ -73,7 +93,8 @@ public class FreelancerProfilesController : ODataController
 
         try
         {
-            delta.Patch(freelancer);
+            var updateProfile = _mapper.Map<FreelancerResponse>(freelancer);
+            delta.Patch(updateProfile);
             await _freelancerRepo.UpdateAsync(freelancer);
         }
         catch (Exception ex)

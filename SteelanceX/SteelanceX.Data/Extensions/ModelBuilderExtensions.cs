@@ -270,7 +270,11 @@ public static class ModelBuilderExtensions
                 Id = i,
                 IsActive = isActiveJob,
                 Name = "Project " + i,
-                Description = "This a simple description for project " + i,
+                Description = "This a simple description for project " + i + " As a Software" +
+                " Developer, your primary responsibility is to design, develop, and maintain" +
+                " software applications and systems. You will collaborate with a team of" +
+                " developers and other stakeholders to understand requirements, create" +
+                " efficient code, and deliver high-quality software solutions.",
                 Offer = 99 * i,
                 CreatedDate = DateTime.Now,
                 ApplyExpireDate = DateTime.MaxValue,
