@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Text.Json;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SteelanceX.Application.Controllers;
 
@@ -76,8 +77,15 @@ public class JobsController : ODataController
         return Ok(_mapper.ProjectTo<JobResponse>(jobs));
     }
 
+    [Authorize(Roles = "Business")]
     public async Task<ActionResult> Post([FromBody] JobResponse createRequest)
     {
+        var isPremium = User.Claims.SingleOrDefault(x => x.Type == "IsPremium").Value;
+        if (bool.Parse(isPremium))
+        {
+            return BadRequest("Not paid user");
+        }
+
         try
         {
             if (!ModelState.IsValid)
