@@ -32,132 +32,132 @@ public static class ModelBuilderExtensions
 
         #region Freelancers and Business
 
-        modelBuilder.Entity<AppUser>().HasData(new AppUser
-        {
-            Id = 1,
-            UserName = "adminhcm",
-            NormalizedUserName = "adminhcm",
-            Email = "adminhcm@gmail.com",
-            NormalizedEmail = "adminhcm@gmail.com",
-            EmailConfirmed = true,
-            PasswordHash = hasher.HashPassword(null, "12345678"),
-            SecurityStamp = string.Empty,
-            Firstname = "Toan",
-            Lastname = "Bach",
-            Address = "HCM",
-            IsPremium = false
-        });
+        //modelBuilder.Entity<AppUser>().HasData(new AppUser
+        //{
+        //    Id = 1,
+        //    UserName = "adminhcm",
+        //    NormalizedUserName = "adminhcm",
+        //    Email = "adminhcm@gmail.com",
+        //    NormalizedEmail = "adminhcm@gmail.com",
+        //    EmailConfirmed = true,
+        //    PasswordHash = hasher.HashPassword(null, "12345678"),
+        //    SecurityStamp = string.Empty,
+        //    Firstname = "Toan",
+        //    Lastname = "Bach",
+        //    Address = "HCM",
+        //    IsPremium = true
+        //});
 
-        modelBuilder.Entity<AppUser>().HasData(new AppUser
-        {
-            Id = 2,
-            UserName = "adminhn",
-            NormalizedUserName = "adminhn",
-            Email = "adminhn@gmail.com",
-            NormalizedEmail = "adminhn@gmail.com",
-            EmailConfirmed = true,
-            PasswordHash = hasher.HashPassword(null, "12345678"),
-            SecurityStamp = string.Empty,
-            Firstname = "Toan",
-            Lastname = "Bach",
-            Address = "HCM",
-            IsPremium = false
-        });
+        //modelBuilder.Entity<AppUser>().HasData(new AppUser
+        //{
+        //    Id = 2,
+        //    UserName = "adminhn",
+        //    NormalizedUserName = "adminhn",
+        //    Email = "adminhn@gmail.com",
+        //    NormalizedEmail = "adminhn@gmail.com",
+        //    EmailConfirmed = true,
+        //    PasswordHash = hasher.HashPassword(null, "12345678"),
+        //    SecurityStamp = string.Empty,
+        //    Firstname = "Toan",
+        //    Lastname = "Bach",
+        //    Address = "HCM",
+        //    IsPremium = true
+        //});
 
-        modelBuilder.Entity<AppUser>().HasData(new AppUser
-        {
-            Id = 3,
-            UserName = "staff1",
-            NormalizedUserName = "staff1",
-            Email = "staff@gmail.com",
-            NormalizedEmail = "staff@gmail.com",
-            EmailConfirmed = true,
-            PasswordHash = hasher.HashPassword(null, "12345678"),
-            SecurityStamp = string.Empty,
-            Firstname = "Toan",
-            Lastname = "Bach",
-            Address = "HCM",
-            IsPremium = false
-        });
+        //modelBuilder.Entity<AppUser>().HasData(new AppUser
+        //{
+        //    Id = 3,
+        //    UserName = "staff1",
+        //    NormalizedUserName = "staff1",
+        //    Email = "staff@gmail.com",
+        //    NormalizedEmail = "staff@gmail.com",
+        //    EmailConfirmed = true,
+        //    PasswordHash = hasher.HashPassword(null, "12345678"),
+        //    SecurityStamp = string.Empty,
+        //    Firstname = "Toan",
+        //    Lastname = "Bach",
+        //    Address = "HCM",
+        //    IsPremium = true
+        //});
 
-        modelBuilder.Entity<AppUser>().HasData(new AppUser
-        {
-            Id = 4,
-            UserName = "staff2",
-            NormalizedUserName = "staff2",
-            Email = "staff@gmail.com",
-            NormalizedEmail = "staff@gmail.com",
-            EmailConfirmed = true,
-            PasswordHash = hasher.HashPassword(null, "12345678"),
-            SecurityStamp = string.Empty,
-            Firstname = "Toan",
-            Lastname = "Bach",
-            Address = "HCM",
-            IsPremium = false
-        });
+        //modelBuilder.Entity<AppUser>().HasData(new AppUser
+        //{
+        //    Id = 4,
+        //    UserName = "staff2",
+        //    NormalizedUserName = "staff2",
+        //    Email = "staff@gmail.com",
+        //    NormalizedEmail = "staff@gmail.com",
+        //    EmailConfirmed = true,
+        //    PasswordHash = hasher.HashPassword(null, "12345678"),
+        //    SecurityStamp = string.Empty,
+        //    Firstname = "Toan",
+        //    Lastname = "Bach",
+        //    Address = "HCM",
+        //    IsPremium = true
+        //});
 
-        modelBuilder.Entity<AppUser>().HasData(new AppUser
-        {
-            Id = 5,
-            UserName = "staffDis",
-            NormalizedUserName = "staffdis",
-            Email = "staffdis@gmail.com",
-            NormalizedEmail = "staffdis@gmail.com",
-            EmailConfirmed = true,
-            PasswordHash = hasher.HashPassword(null, "12345678"),
-            SecurityStamp = string.Empty,
-            Firstname = "Toan",
-            Lastname = "Bach",
-            Address = "HCM",
-            IsPremium = false
-        });
+        //modelBuilder.Entity<AppUser>().HasData(new AppUser
+        //{
+        //    Id = 5,
+        //    UserName = "staffDis",
+        //    NormalizedUserName = "staffdis",
+        //    Email = "staffdis@gmail.com",
+        //    NormalizedEmail = "staffdis@gmail.com",
+        //    EmailConfirmed = true,
+        //    PasswordHash = hasher.HashPassword(null, "12345678"),
+        //    SecurityStamp = string.Empty,
+        //    Firstname = "Toan",
+        //    Lastname = "Bach",
+        //    Address = "HCM",
+        //    IsPremium = true
+        //});
 
-        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        {
-            RoleId = businessRoleId,
-            UserId = 1
-        });
+        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
+        //{
+        //    RoleId = businessRoleId,
+        //    UserId = 1
+        //});
 
-        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        {
-            RoleId = businessRoleId,
-            UserId = 2
-        });
+        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
+        //{
+        //    RoleId = businessRoleId,
+        //    UserId = 2
+        //});
 
-        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        {
-            RoleId = freelancerRoleId,
-            UserId = 3
-        });
+        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
+        //{
+        //    RoleId = freelancerRoleId,
+        //    UserId = 3
+        //});
 
-        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        {
-            RoleId = freelancerRoleId,
-            UserId = 4
-        });
+        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
+        //{
+        //    RoleId = freelancerRoleId,
+        //    UserId = 4
+        //});
 
-        modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        {
-            RoleId = freelancerRoleId,
-            UserId = 5
-        });
+        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
+        //{
+        //    RoleId = freelancerRoleId,
+        //    UserId = 5
+        //});
 
         for (int i = 1; i <= 60; i++)
         {
             modelBuilder.Entity<AppUser>().HasData(new AppUser
             {
-                Id = i + 5,
-                UserName = "normalUser" + (i + 5).ToString(),
-                NormalizedUserName = "normalUser" + (i + 5).ToString(),
-                Email = "normaluser" + (i + 5).ToString() + "@gmail.com",
-                NormalizedEmail = "normaluser" + (i + 5).ToString() + "@gmail.com",
+                Id = i,
+                UserName = "normalUser" + (i).ToString(),
+                NormalizedUserName = "normalUser" + (i).ToString(),
+                Email = "normaluser" + (i).ToString() + "@gmail.com",
+                NormalizedEmail = "normaluser" + (i).ToString() + "@gmail.com",
                 EmailConfirmed = true,
                 PasswordHash = hasher.HashPassword(null, "12345678"),
                 SecurityStamp = string.Empty,
-                Firstname = (i + 5).ToString(),
+                Firstname = (i).ToString(),
                 Lastname = "Nguyen Van",
                 Address = "HCM",
-                IsPremium = false
+                IsPremium = true
             });
 
             if (i > 30)
@@ -165,27 +165,27 @@ public static class ModelBuilderExtensions
                 modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
                 {
                     RoleId = freelancerRoleId,
-                    UserId = i + 5
+                    UserId = i
                 });
 
                 modelBuilder.Entity<FreelancerProfile>().HasData(new FreelancerProfile
                 {
-                    Id = i + 5,
-                    AppUserId = i + 5,
-                    Description = "I am " + (i + 5).ToString() + ", I am an individual with unique " +
+                    Id = i,
+                    AppUserId = i,
+                    Description = "I am " + (i).ToString() + ", I am an individual with unique " +
                     "qualities, experiences, and aspirations. I have a distinct personality " +
                     "that shapes my thoughts, actions, and interactions with others. I " +
                     "possess a combination of strengths, weaknesses, and personal values that " +
                     "contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                     ResumeUrl = "This is my resume",
-                    Price = (i + 5) * 100,
-                    Title = "Title " + (i + 5).ToString(),
+                    Price = (i) * 100,
+                    Title = "Title " + (i).ToString(),
                     ImageUrl = $"https://picsum.photos/seed/{i}/500/500"
                 });
 
                 modelBuilder.Entity<FreelancerCategory>().HasData(new FreelancerCategory
                 {
-                    FreelancerProfileId = i + 5,
+                    FreelancerProfileId = i,
                     CategoryId = random.Next(1, 9)
                 });
             }
@@ -194,14 +194,14 @@ public static class ModelBuilderExtensions
                 modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
                 {
                     RoleId = businessRoleId,
-                    UserId = i + 5
+                    UserId = i
                 });
 
                 modelBuilder.Entity<BusinessProfile>().HasData(new BusinessProfile
                 {
-                    Id = i + 5,
+                    Id = i,
                     BusinessName = "Business " + i,
-                    AppUserId = i + 5
+                    AppUserId = i
                 });
             }
         }
@@ -278,13 +278,13 @@ public static class ModelBuilderExtensions
                 Offer = 99 * i,
                 CreatedDate = DateTime.Now,
                 ApplyExpireDate = DateTime.MaxValue,
-                BusinessProfileId = random.Next(6, 35)
+                BusinessProfileId = random.Next(1, 31)
             });
 
             modelBuilder.Entity<JobCategory>().HasData(new JobCategory
             {
                 JobId = i,
-                CategoryId = random.Next(1, 8)
+                CategoryId = random.Next(1, 9)
             });
         }
         #endregion
