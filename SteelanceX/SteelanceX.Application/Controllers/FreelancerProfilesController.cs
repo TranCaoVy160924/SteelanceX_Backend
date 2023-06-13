@@ -15,14 +15,17 @@ public class FreelancerProfilesController : ODataController
 {
     private readonly FreelancerProfileRepository _freelancerRepo;
     private readonly CategoryRepository _catRepo;
+    private readonly FreelancerCategoryRepository _fcRepo;
     private readonly IMapper _mapper;
 
     public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo
                                         , CategoryRepository catRepo
+                                        , FreelancerCategoryRepository fcRepo
                                         , IMapper mapper)
     {
         _freelancerRepo = freelancerRepo;
         _catRepo = catRepo;
+        _fcRepo = fcRepo;
         _mapper = mapper;
     }
 
@@ -90,7 +93,7 @@ public class FreelancerProfilesController : ODataController
         }
     }
 
-    public async Task<ActionResult> PutAsync([FromRoute] int key, [FromBody] FreelancerResponse freelancerProfile)
+    public async Task<ActionResult> Put([FromRoute] int key, [FromBody] FreelancerResponse freelancerProfile)
     {
         try
         {
@@ -101,6 +104,21 @@ public class FreelancerProfilesController : ODataController
 
             var updateProfile = _freelancerRepo.QueryAll()
             .SingleOrDefault(d => d.Id == key);
+
+            var oldCate = _fcRepo.QueryAll().Where(c => c.FreelancerProfileId == key);
+
+            foreach (var o in oldCate)
+            {
+                updateProfile.Categories.Remove(o);
+            }
+
+            foreach (int catId in freelancerProfile.Categories)
+            {
+                if (await _catRepo.Get(catId) == null)
+                {
+                    throw new Exception("Category not exist");
+                }
+            }
 
             if (updateProfile == null)
             {
@@ -114,6 +132,7 @@ public class FreelancerProfilesController : ODataController
             updateProfile.ImageUrl = freelancerProfile.ImageUrl;
 
             updateProfile.Categories = new List<FreelancerCategory>();
+
             foreach (int catId in freelancerProfile.Categories)
             {
                 updateProfile.Categories.Add(new FreelancerCategory
@@ -122,9 +141,10 @@ public class FreelancerProfilesController : ODataController
                     CategoryId = catId
                 });
             }
+
             await _freelancerRepo.UpdateAsync(updateProfile);
 
-            return Updated(freelancerProfile);
+            return Ok(freelancerProfile);
         }
         catch (Exception ex)
         {
@@ -132,29 +152,29 @@ public class FreelancerProfilesController : ODataController
         }
     }
 
-    public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<FreelancerResponse> delta)
-    {
-        var freelancer = _freelancerRepo.QueryAll()
-            .SingleOrDefault(d => d.Id == key);
+    //public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<FreelancerResponse> delta)
+    //{
+    //    var freelancer = _freelancerRepo.QueryAll()
+    //        .SingleOrDefault(d => d.Id == key);
 
-        if (freelancer == null)
-        {
-            return NotFound();
-        }
+    //    if (freelancer == null)
+    //    {
+    //        return NotFound();
+    //    }
 
-        try
-        {
-            var updateProfile = _mapper.Map<FreelancerResponse>(freelancer);
-            delta.Patch(updateProfile);
-            await _freelancerRepo.UpdateAsync(freelancer);
-        }
-        catch (Exception ex)
-        {
-            return BadRequest(ex.Message);
-        }
+    //    try
+    //    {
+    //        var updateProfile = _mapper.Map<FreelancerResponse>(freelancer);
+    //        delta.Patch(updateProfile);
+    //        await _freelancerRepo.UpdateAsync(freelancer);
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        return BadRequest(ex.Message);
+    //    }
 
-        return Updated(freelancer);
-    }
+    //    return Updated(freelancer);
+    //}
 
     //public async Task<ActionResult> Delete([FromRoute] int key)
     //{
