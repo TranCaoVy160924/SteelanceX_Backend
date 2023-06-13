@@ -81,7 +81,7 @@ public class JobsController : ODataController
     public async Task<ActionResult> Post([FromBody] JobResponse createRequest)
     {
         var isPremium = User.Claims.SingleOrDefault(x => x.Type == "IsPremium").Value;
-        if (bool.Parse(isPremium))
+        if (!bool.Parse(isPremium))
         {
             return BadRequest("Not paid user");
         }
