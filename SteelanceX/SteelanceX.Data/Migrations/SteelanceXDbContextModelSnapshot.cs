@@ -559,7 +559,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 1,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "255359a8-289d-4c0b-88c8-9f078ff727c5",
+                            ConcurrencyStamp = "9231eb4a-97a8-4add-9505-810b51ae7464",
                             Email = "normaluser1@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "1",
@@ -568,7 +568,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser1@gmail.com",
                             NormalizedUserName = "normalUser1",
-                            PasswordHash = "AQAAAAIAAYagAAAAECOsf+RrYndzQvb3JtD9FCnNTOQ4GayxpCwCRUk8YXAKO29S0kDgSshl2aTEdHio4g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEB/G2y/V9FCtptQeiHT+1ryvfSpn422kV8rvL2GcFoAT7wq9TXLl31bbtuN+R/jEsA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -579,7 +579,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 2,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b2428c70-7ec1-48ac-af60-0c6e1a6c5f9c",
+                            ConcurrencyStamp = "57a42222-0be9-4a51-b212-41e2914a6128",
                             Email = "normaluser2@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "2",
@@ -588,7 +588,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser2@gmail.com",
                             NormalizedUserName = "normalUser2",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEiWpx3FsaCLQ+JmOsGLtQA7OFzrDSQvskfNppi9t8ArkpB31n14B4Vp4ABKEYHDWA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENpmqmcEpNZkhRPJ2iEmN5G6Ga4AeK0346yvtF9LnuzzzsNh0LJOF3m3SG0e6zMvLA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -599,7 +599,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 3,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "3323be41-8a31-4032-b893-c89d4c76c7c9",
+                            ConcurrencyStamp = "491d2b7a-3f3f-4f48-aa38-800baad49c41",
                             Email = "normaluser3@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "3",
@@ -608,7 +608,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser3@gmail.com",
                             NormalizedUserName = "normalUser3",
-                            PasswordHash = "AQAAAAIAAYagAAAAELImpSoh3jDhP2OpB5VHNjCWMTeR1gHo5rbg3AfbVjqwHONvS4vJpE1/HpAy72ayHA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAiYoNKJnWmvW7bfjSmXTWuHmskjLcWmzZN++QtuvvsjqdNbkKAyU0mKudgrhoWptA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -619,7 +619,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 4,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "30c6d975-03cd-48bb-9b9d-1a93491a82c9",
+                            ConcurrencyStamp = "0f0039c5-ea23-40ae-b24a-a5690ea4eb76",
                             Email = "normaluser4@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "4",
@@ -628,7 +628,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser4@gmail.com",
                             NormalizedUserName = "normalUser4",
-                            PasswordHash = "AQAAAAIAAYagAAAAENZ2gddiLqz+IVGBdppNWY3jBOi/ac8rgLUHoWwBQm2CJjZ9Qx+I3kOOXtOr6hf7WA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAacqnh+hIaouvNO6JhimcHddBhLv5DE3I2ACfFJgsw9VNzELh9C4U8Ljcel/rM0mQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -639,7 +639,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 5,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "041d4b14-f441-45be-8714-e15e6f3148d6",
+                            ConcurrencyStamp = "fa98f4ee-4e25-4db3-b40d-15b47597ae4e",
                             Email = "normaluser5@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "5",
@@ -648,7 +648,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser5@gmail.com",
                             NormalizedUserName = "normalUser5",
-                            PasswordHash = "AQAAAAIAAYagAAAAEETIvLGhikRmFHYWAXviGr+CVPv6XgWobuW2YRG+x29eeCPTPVjbVVVvEH2u0spq4A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENa8Vxw/cjYFQM9lkPNEuFXwkbe1ICl4ZWtn7cDMeDjXRxRpn7y6ZRTao/Gx40wAjA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -659,7 +659,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 6,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b7fdf7b4-4a33-4f58-9344-b2825842bd97",
+                            ConcurrencyStamp = "304b238e-9670-462e-8667-5e940f11d834",
                             Email = "normaluser6@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "6",
@@ -668,7 +668,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser6@gmail.com",
                             NormalizedUserName = "normalUser6",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEatbU98BFPvfrcRzRubKi11i/VcooQAPIvqmcuFM+8obWWIq+UdPYFDq3R9ARPKXQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPjoUHfGQF5zgwJMEzEO5R9Kh6xcnDqUKb+xjX3Gs9KbK0iTseXzYw+xbdDZeDoGBg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -679,7 +679,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 7,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "92a807e3-3296-4963-8a23-7f8003550a87",
+                            ConcurrencyStamp = "fe3b9247-46ed-4d5c-a50e-147812b8ff2b",
                             Email = "normaluser7@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "7",
@@ -688,7 +688,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser7@gmail.com",
                             NormalizedUserName = "normalUser7",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGQHg1g9D/SrV4QzMg4GXlsnHFnUnJetC0gGVwmrgrGD3Z4+/TRJYvv/nMFJpctqgQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHAFPbA50+/EqxXHN67Z1XE53jR1XHUURsUE/Sht5m2mFh8a07P/HMBzHUBpXoOvkA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -699,7 +699,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 8,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b5d2e9f4-1587-4667-a0b7-aa649ac9d62c",
+                            ConcurrencyStamp = "e38072b4-c7f9-4b54-af31-9875566c2a52",
                             Email = "normaluser8@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "8",
@@ -708,7 +708,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser8@gmail.com",
                             NormalizedUserName = "normalUser8",
-                            PasswordHash = "AQAAAAIAAYagAAAAENeh1beEMkJfvEUK1+9dvKyaii1dJoGXkTheZqY3CwIl9swnEHXBa1TTbNxBDTiTNA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBNCAW+u1WfVdo+/EGgAffmWW8yaFoggXdxojVZVhjCXVOPAb9ZYV29kpZ8SUcq21w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -719,7 +719,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 9,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "80ce38f8-42ff-4f2e-b7fb-395740f683e3",
+                            ConcurrencyStamp = "6003bbd9-f334-42b0-8a2f-d6e089dd62b1",
                             Email = "normaluser9@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "9",
@@ -728,7 +728,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser9@gmail.com",
                             NormalizedUserName = "normalUser9",
-                            PasswordHash = "AQAAAAIAAYagAAAAEF46wda+Web0XRwnvmUZ32SVwNKIg+zq/8iTNQ1NJ8Kzwr2+wx+Bjci4MzLSl4jdGA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDks8hrFB5xwzIzBgPwFwqj6n9GdQsqUxBoQu/uSi8eFJFlFIWJu6wo12mWlsHWS+g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -739,7 +739,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 10,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "7ba7e437-8fd6-4523-8683-66b6fdf22148",
+                            ConcurrencyStamp = "8b4d26fe-8a5e-4c88-9a94-a93712ca8098",
                             Email = "normaluser10@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "10",
@@ -748,7 +748,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser10@gmail.com",
                             NormalizedUserName = "normalUser10",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHHZJjjhW673CvQPkp5NmxtrBi8KA3p/cFxYG+iI9N9TPNOfLAeQjvOs7+0uoCVMIg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOH5MQO1RlhwiLPKlhavYsa+Pd7HmlQ3XFNy3O+HGZv2n6vf4iVnZ+c2yLeRJRSy5Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -759,7 +759,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 11,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "3ae7ebc7-2772-4dd0-b690-c391e5eae5ab",
+                            ConcurrencyStamp = "e19967eb-6e6e-4112-95e2-541261f1eda1",
                             Email = "normaluser11@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "11",
@@ -768,7 +768,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser11@gmail.com",
                             NormalizedUserName = "normalUser11",
-                            PasswordHash = "AQAAAAIAAYagAAAAELNRBswOIApnUS0iE2ROaHJu5LZ25Dw6cnvbaVCjC7NSHWV4LNBfz4h0gU0WQtAH8Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOL5G6QxZggxohLRoA8TpBOVDDb8Ey9OoK9sLIkB1dhLsmQ2ITP+y3CKr0zPW4BUoQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -779,7 +779,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 12,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "43c0f740-edd2-4b28-996d-69a7ac2324a3",
+                            ConcurrencyStamp = "1c894138-936a-46e8-80de-cc17b832ddd6",
                             Email = "normaluser12@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "12",
@@ -788,7 +788,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser12@gmail.com",
                             NormalizedUserName = "normalUser12",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDxzx63tmYp1pkJEmfwG63MXRTmsma40OGF1Ymtfq7IDOFfu13PYK+XMCIP76nCrOA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHIp8UJnbBcc0+phJLZhfJ/JBkOUa+vFAc1ihg61T3F+bDty/goO1WdwnmEHUpZiQw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -799,7 +799,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 13,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d4ee6a79-7abf-40a5-b0b1-3ed8672c3e36",
+                            ConcurrencyStamp = "40fe614b-f195-4b51-9aaa-ab6ffdb47d57",
                             Email = "normaluser13@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "13",
@@ -808,7 +808,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser13@gmail.com",
                             NormalizedUserName = "normalUser13",
-                            PasswordHash = "AQAAAAIAAYagAAAAEM7uD9X2iVZEEasnMTD66qHYIA8RFP3mBoXVickzmqYwFio4M32o6UCQ4iic/PnZiA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAgN2KwrSwp0Z1zPNfeegNjCJ6ToJih2OPMQHVmOcwGEAgkPUBH4HBCaiCRN4yqpJw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -819,7 +819,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 14,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "18c2180d-533e-4edf-80cb-c901f342bad8",
+                            ConcurrencyStamp = "a4fc4e22-be44-41d5-a454-2700cf0bbdce",
                             Email = "normaluser14@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "14",
@@ -828,7 +828,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser14@gmail.com",
                             NormalizedUserName = "normalUser14",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIIZ+Frb/BOazTtO89x+g16HZFcOG07ZV1SiQt2xhMGveSP8bw6TRZennZQRb10F6A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELH9vdQqSfXixHJPrJhm/+iGHQLzwSyy7gfCaMHgKEBMwWTcE5UcRPHt+7npV0m8ag==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -839,7 +839,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 15,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "a17ceb1a-1a28-49b3-a552-f520f73be16e",
+                            ConcurrencyStamp = "0d01149b-4434-40ca-8f62-f68659d52dcc",
                             Email = "normaluser15@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "15",
@@ -848,7 +848,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser15@gmail.com",
                             NormalizedUserName = "normalUser15",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBH49WbivCMqvdRICpYkg38rGBvMuuZYyi0bSnLvLvfMdfFAUv43PyGRAEiyl7Q9qg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIpxhxa2/yW5CI0DhzAyDCEgioLlR+PtNca+XzUXQrXVzH71yTJj6b82Zqaq8u+c+A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -859,7 +859,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 16,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "2763361a-3b4d-45e1-9f38-35acd2add990",
+                            ConcurrencyStamp = "78c88f91-1bd3-46ab-9fa9-daf8ddb110ec",
                             Email = "normaluser16@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "16",
@@ -868,7 +868,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser16@gmail.com",
                             NormalizedUserName = "normalUser16",
-                            PasswordHash = "AQAAAAIAAYagAAAAEP3INxDaPVx00Dndns/rnf7C+9mtwX1vrqklatAO6CRTe5yVgCpmSDKZYg/Tgg8cAg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMp9XQEjtoHYoNJouwZERzS0eC6bBBh5a6QIAVQ8UCviewqVdWBLhy/hANpUko/USQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -879,7 +879,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 17,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "18196bfe-3a1c-4f62-94f4-3a0be4dee327",
+                            ConcurrencyStamp = "f4b7e404-916f-4f28-b842-c8f590753988",
                             Email = "normaluser17@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "17",
@@ -888,7 +888,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser17@gmail.com",
                             NormalizedUserName = "normalUser17",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAz9D6TnIaeKxusDwjp6D9hqqlrGX4/MBedwkRPVqB/x0yA3AZc5EE0fPRmg914Uog==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAyZ/vl1e1Xv/O5ycygN75qQQ12Ebhx1DLntg0CgRR/yKsVLB8NanPxuTgTsNcKxaw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -899,7 +899,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 18,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "28519348-2a6a-4eb8-a228-27a727dec949",
+                            ConcurrencyStamp = "5706ca30-75bb-4052-9cdf-3a0a0f5aedef",
                             Email = "normaluser18@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "18",
@@ -908,7 +908,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser18@gmail.com",
                             NormalizedUserName = "normalUser18",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDsPrB6ZVNl1pR/O4MfxmvqLBU1hw3AUu9M26GaXFrlI5gNGsF4OlfqcU2PcJcIHBg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGgvcxB3L1RNghAw+JsNmW9jnvP8lUqWtXLzMMvQtrfiqEH7RaAOtjsooToQr1oC+A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -919,7 +919,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 19,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6b574487-eab0-4a0b-9b02-f71ad191ae89",
+                            ConcurrencyStamp = "b053d0a2-2a1c-4b2d-8061-cd37cd923539",
                             Email = "normaluser19@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "19",
@@ -928,7 +928,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser19@gmail.com",
                             NormalizedUserName = "normalUser19",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBh7/Ao5wwM9TE1qqDJNZmX83o2H52LcqY6+lGOkGARfRcglOHJ8UMYSMlSdw50QJA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJsIkqr7+8aAW/abheWrkRzY05kdPO1RFyUTxafY39JL1bmhevgrBBI1vjkl/sjv4g==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -939,7 +939,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 20,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "97c1bf5c-72eb-47b5-8364-581dc1eb96fb",
+                            ConcurrencyStamp = "2e5e2a00-5265-4421-8e81-a625d5eb1ad0",
                             Email = "normaluser20@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "20",
@@ -948,7 +948,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser20@gmail.com",
                             NormalizedUserName = "normalUser20",
-                            PasswordHash = "AQAAAAIAAYagAAAAEISiQ8CFprhDh8kRp27d0sikSPbhxUdfoKmfSfDjYaIkaUsm7HC6ZxjfgmF8DUx/YQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBs8cAV0YImYNe1KywRZOpKKO4m2VJXNiprlfAivxRZz+BntNoM8yQuTC9rcD3PfZQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -959,7 +959,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 21,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "8c48840c-f63c-463e-8e02-3cd2a12c95bb",
+                            ConcurrencyStamp = "c7ccc326-402d-4de4-aca3-79b375990cff",
                             Email = "normaluser21@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "21",
@@ -968,7 +968,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser21@gmail.com",
                             NormalizedUserName = "normalUser21",
-                            PasswordHash = "AQAAAAIAAYagAAAAEI6pHvO7cCzXuN7WaWwvfwdjVXbt3ktTC+AYYSEePJqqtWsVtA/2efkXv2TQmUbBHQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEH5ARnr/44irAEZ4LQPiGWT2Us1UeWTjD/S4Nz1hSnUcU+uvBGh1dHautnGFfT3Q3A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -979,7 +979,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 22,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ccde15d4-cb14-4de5-8b65-36f3f24bf2fd",
+                            ConcurrencyStamp = "f4c706bc-f545-4fe1-8b63-68a969a70b39",
                             Email = "normaluser22@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "22",
@@ -988,7 +988,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser22@gmail.com",
                             NormalizedUserName = "normalUser22",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPOJkjQdQS6kM/260GGQ4/V59uzIeLpO5PaCT7HR4nN5k7pcTQM9dFh4LF1pxa/D9w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPN+/bLfqHKhcSiyIsk2JSPldz/RrcFOojuVgWigeCBHe+C0H8+UmQWc7lturNPP7w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -999,7 +999,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 23,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "4c7984b5-fa35-41f3-bdb5-97815f7eaf7f",
+                            ConcurrencyStamp = "dc7c0ea9-1051-4528-b5b6-2c5d2ca5d414",
                             Email = "normaluser23@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "23",
@@ -1008,7 +1008,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser23@gmail.com",
                             NormalizedUserName = "normalUser23",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJqsQYZDAHrSW2Nfd8E+s7ujJyljOxaGDoqjWCX3lvur0tzGt8LQSTjEcTofv4eH1Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEC4CdFgd2LLweQcTp0WMXiOnM3eZO4P3iF5OsSKrD7baSeZwJ6oMlK4Y9pYGRRuWgA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1019,7 +1019,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 24,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "faaa5e79-179b-4957-be56-2e9f65e406c2",
+                            ConcurrencyStamp = "35d59f2d-bb65-4895-8c60-43bf69632b06",
                             Email = "normaluser24@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "24",
@@ -1028,7 +1028,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser24@gmail.com",
                             NormalizedUserName = "normalUser24",
-                            PasswordHash = "AQAAAAIAAYagAAAAECoPPxXIugMePUCiDbDqii3mhQ1kHLtYM4fvO78N2RZXAEYS7BUEjnjoIEWlx+639w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKeYWrJbvhUXspQwTWVYFFABSTx0aqscnpAs+j1hTyLaTrCNgQD3eB3KqTD3DKfQRg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1039,7 +1039,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 25,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "388b007f-fec2-4397-9977-8f98f78017f8",
+                            ConcurrencyStamp = "bd72cd4d-230b-46e2-ad8f-23ded5108ac3",
                             Email = "normaluser25@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "25",
@@ -1048,7 +1048,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser25@gmail.com",
                             NormalizedUserName = "normalUser25",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFEPmGKLlqd1CnGyqNB91PaGElfGfqCGCgV9KYDtn/L9ETJdsWSu7zJ8S5J/LVGc2Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAENLe4FEZdT53RS31fd589SA4edmLq7HwjjkHkM0RVCVKEI/yTcSdamVIRHGJvPLoVQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1059,7 +1059,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 26,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f2a1cef0-c5a6-48a6-af7e-15fae549c267",
+                            ConcurrencyStamp = "acf63fd2-8dff-4c18-821a-4303cbaaaa57",
                             Email = "normaluser26@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "26",
@@ -1068,7 +1068,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser26@gmail.com",
                             NormalizedUserName = "normalUser26",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJRmovvNyWyt1P0dxMhSQ1JNd9ZJtbLCfoTQBmzCgwxolDgCmfFAOspQHgQKPByiaA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGonMzmB4P2JqDxHf5mtvd/eRTzsAapfoWncqPP/NB6pyq9UwVuU0toI5EPkzZNHYw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1079,7 +1079,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 27,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "92f714fe-19df-4920-8788-f6df94d3db7e",
+                            ConcurrencyStamp = "e069eff6-e9b3-4fa0-aade-fbdfe6bdffe8",
                             Email = "normaluser27@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "27",
@@ -1088,7 +1088,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser27@gmail.com",
                             NormalizedUserName = "normalUser27",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEydQIdnAd1w51SXjgXb1sac8NjGBGNp6u+ZYlN1hxBpO4vgsxWUerlm4wL/koi0Jw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ5YhNncNIFf/MeEN6QnCGjYxEopX4/p3hFT/6N18dNY7gB7cyYPJcXiPHOhwwgOjw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1099,7 +1099,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 28,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ef8c89e7-7076-4cac-9c1a-3d8ee4a4883e",
+                            ConcurrencyStamp = "a8ec83a1-9762-4339-a4b4-05746501b19a",
                             Email = "normaluser28@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "28",
@@ -1108,7 +1108,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser28@gmail.com",
                             NormalizedUserName = "normalUser28",
-                            PasswordHash = "AQAAAAIAAYagAAAAED/15LgFTxfq0zuk3rzg/rfpDxchZ7l7XJUaIZQMDoCJS2yTGvCQgB4gRgjyWyp5Iw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAC/ZA6j7+Xc/tyhL6n8neGddN5sIYvX0GM+oysSmWvpVz4HjCRe58GfqkA7DaJjrQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1119,7 +1119,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 29,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6216e1bb-d181-4e98-9e80-3bbf8d3f9848",
+                            ConcurrencyStamp = "ea610f6b-f144-493c-a2c3-9bd5599b6dc7",
                             Email = "normaluser29@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "29",
@@ -1128,7 +1128,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser29@gmail.com",
                             NormalizedUserName = "normalUser29",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOiunNJwmyNFYQVVVYzWVbeScHFA60wfSBJ0AR6SMDW6xKaqlhBSO8AzT10o5vZeng==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHjyo8IW9znf3RZo/FOM8UG+DuLcZFu6EizPRPcCpTyxexiusKRUKxNscnPaAPQSQA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1139,7 +1139,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 30,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "53ab2b62-6704-49b8-8603-bd228f8c495b",
+                            ConcurrencyStamp = "c813fd4d-1365-4246-b469-ea81e4d8d6a6",
                             Email = "normaluser30@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "30",
@@ -1148,7 +1148,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser30@gmail.com",
                             NormalizedUserName = "normalUser30",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHRieHsSeqcComawGqw0L2jOu2zyWT3ZKo8ycm17suCdxYG58I64/0TAHfZdYerT8A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECwCmXzih9bUzh/eAOMyIefbObdzDEF+PVeqyUmY1+yHSOBvSMEJMZn5ib6/RZhtFA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1159,7 +1159,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 31,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "36fe087d-571d-4aa0-bd7e-274765b3b8ec",
+                            ConcurrencyStamp = "3ecc9e8a-5717-40b8-a2a4-e9f8517e4e8c",
                             Email = "normaluser31@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "31",
@@ -1168,7 +1168,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser31@gmail.com",
                             NormalizedUserName = "normalUser31",
-                            PasswordHash = "AQAAAAIAAYagAAAAEA4701C7wG9JzKAEy5f+RO9YmhiHDXYc+pdk+4DiZUAXVeJxGvCddOwfwTHMPdaF1g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEP+y4/slbdOmun+8tXfqFBhVXsnYdKjEkMIFpOf6IfQMEPmShtLxSdL0t4cdGtAO1w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1179,7 +1179,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 32,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "806f74fd-e940-479c-ab4f-c5bcc5eb9bb7",
+                            ConcurrencyStamp = "dabaad67-34b6-443b-bbbe-d4a705d21a72",
                             Email = "normaluser32@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "32",
@@ -1188,7 +1188,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser32@gmail.com",
                             NormalizedUserName = "normalUser32",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBF215d9Wid++i52GdZxjunQzIZ94BH0ED6Q6NghoTOm+b8tcBq5wGLHcLC8ppeWUw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFOiOZODJ7flVFoLyzTtY9djSCxQCiDgiW+GGwbJNU5QTQWRXHkvQlkwuTs5Ic5UTA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1199,7 +1199,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 33,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "902e8029-7187-4f92-a537-a60769d5ada6",
+                            ConcurrencyStamp = "0ef8fafc-ef93-4c79-9528-4283bac97f1b",
                             Email = "normaluser33@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "33",
@@ -1208,7 +1208,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser33@gmail.com",
                             NormalizedUserName = "normalUser33",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIFQHeZ/nm9kslWNr++flRT6ahDEToTg/M5WPMEC+ph1WzWNa6PYInYRihnCTH8iMA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIV3GU6kjW1W/SYbYrLdZ519taKeFMrz8bOCaJc61PdNZzgD6NHMTgmasJsC2QG1SA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1219,7 +1219,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 34,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ffec9e39-b5e1-4f46-9ab2-1cb3a2af403a",
+                            ConcurrencyStamp = "14780a18-f415-48f9-9fbd-32dd9cf9ec66",
                             Email = "normaluser34@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "34",
@@ -1228,7 +1228,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser34@gmail.com",
                             NormalizedUserName = "normalUser34",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKMlaw9ndjRqywEc+QNTgJmgw6iVXd4unMtq66MMazjEulLsGyarw3dBx7W1xgLCpw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGPvkLlnqTaA9iqMaV7dTW13f/pMptA9gBnWHzTwe8/qWA8oEdTZ4LxvcCKOlHDqdQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1239,7 +1239,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 35,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "4bc2eff7-bd82-441b-8f2b-8efea151e70a",
+                            ConcurrencyStamp = "c8145265-a438-4cef-b208-60f738fb68c2",
                             Email = "normaluser35@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "35",
@@ -1248,7 +1248,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser35@gmail.com",
                             NormalizedUserName = "normalUser35",
-                            PasswordHash = "AQAAAAIAAYagAAAAECuKnxOMeevnyI3ylypuvZOVvGlp2xtiDGfXWbMiyzwJxPNMHw2f4lipMuHgAO1hWQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJb35Go2LVRM5r1Ti+Og4fnjkKzNYbUI97hWJmwzGfTcRsxylFNfw9yzQt94f94BzA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1259,7 +1259,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 36,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "e4822ae1-e0ab-4e70-9886-e4b1794fc4ef",
+                            ConcurrencyStamp = "1e9d2137-1e1c-49c7-97fb-ea2cbcdb36aa",
                             Email = "normaluser36@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "36",
@@ -1268,7 +1268,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser36@gmail.com",
                             NormalizedUserName = "normalUser36",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMkyPGiJURYjto1jsr+iphi1OWy120a0qOG7Dwf1BvQlCp5eNDRW+AStW6eaidkC3w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ/0EgBGS9chMlgNVBdITUX84hr7biJzAlHXX6WcdjYAyFpSvovHhzYWl4PNkcPOEg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1279,7 +1279,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 37,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "22e4fdf6-a3dd-46e2-898c-dfa85d5c76cb",
+                            ConcurrencyStamp = "76fe44b5-2b93-4a7f-9e03-c1a59c5fa576",
                             Email = "normaluser37@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "37",
@@ -1288,7 +1288,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser37@gmail.com",
                             NormalizedUserName = "normalUser37",
-                            PasswordHash = "AQAAAAIAAYagAAAAECGO5geTq80G6vfCjHtAqM5galkj7kmonlSwzHkngBEscMRm2cBFo5USZmFM5ffG/w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEM0QEZBxAb8KRJYUrMMSYK+TBDTnkIdKq514YvZEDGpIeBQ4/J79eGCanQ1aEv1yAQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1299,7 +1299,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 38,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d40a49b6-0a88-458e-aa69-461bb98b32d7",
+                            ConcurrencyStamp = "18afd05b-83f5-4461-b58e-d915f3e0f05d",
                             Email = "normaluser38@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "38",
@@ -1308,7 +1308,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser38@gmail.com",
                             NormalizedUserName = "normalUser38",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIfV99HmDP7ABG4F5It7+DdP7/ayspuRr7Vc2AZ3E8S1C7mroB1mvGc0ww9wWvv4qg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGAwKNhh3ayb1YIXc2+b8bRI/6YsT3u8p5h8EyHOqzNS7CX1mVheTjON+qshEMZfpA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1319,7 +1319,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 39,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f2b62439-995f-41c1-b924-068937245019",
+                            ConcurrencyStamp = "ad78790c-50fc-4492-bf99-2d4d4766156b",
                             Email = "normaluser39@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "39",
@@ -1328,7 +1328,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser39@gmail.com",
                             NormalizedUserName = "normalUser39",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH5nMF7GgAd+p9zOfziZMnApNQIBma+11KsqbYYktaXlqaeHIgYoM1w2+aZdyRz8+g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPoFddZZKL47qCquYQfRfk2HQHHv79GYNyK6V6IanVdg43Jd3gZuRDHxk1dEWGLDXw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1339,7 +1339,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 40,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "50d70491-6ba9-4fd6-ac95-092345029bfe",
+                            ConcurrencyStamp = "9f2ef3c0-97b1-40ec-8548-711bb2d58bd2",
                             Email = "normaluser40@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "40",
@@ -1348,7 +1348,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser40@gmail.com",
                             NormalizedUserName = "normalUser40",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMLOtnLCYLHAQwybewZoQRt7ab76luDd2Xjt+FfXmvgirFG8A09aH6XlVUAWIeLgNA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIyeCrB0l9i2eq5SpD3HXt+4BK9okWwaMyJJfqvRjXc5Ige9A/YzSIlnp4aTj4logw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1359,7 +1359,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 41,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "299cd7d7-2ce5-46a0-900e-35d025d36346",
+                            ConcurrencyStamp = "922f4852-9b69-4867-9306-d059a46625df",
                             Email = "normaluser41@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "41",
@@ -1368,7 +1368,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser41@gmail.com",
                             NormalizedUserName = "normalUser41",
-                            PasswordHash = "AQAAAAIAAYagAAAAEA1KcxWK8KzkDJWVs/ka9SbF0+uWn3pbG5zzeSSCGkR0kj/RGAKMRiqlGa1KQh84cw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKtUU36LmNDvCqashZ15dH/Rk5TiLXN/gWurDfg/xc+mQy/nEgRbZvNV105OWgBBtA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1379,7 +1379,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 42,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0c3d9b7c-7e5e-4ba6-9439-2c9935fed0ac",
+                            ConcurrencyStamp = "a04bd7a7-5e62-4826-9db6-2910402bd744",
                             Email = "normaluser42@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "42",
@@ -1388,7 +1388,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser42@gmail.com",
                             NormalizedUserName = "normalUser42",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEeL5b0gnakaXz+Iiad1t2/MeU/C4hG2NRBm/tMUaUP6YIRfQwgYmHTv0HMPj97HPA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELSi2/1Sshrhp1qk0qAKREVZI+TfibWahdwXUHrg03WU2kUuhOlI/z0Tr4Ls17c2lw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1399,7 +1399,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 43,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "36556e09-0a05-40ca-9a01-4f1f0a542204",
+                            ConcurrencyStamp = "6b2f597d-55a2-4d69-ab84-49f1937bf371",
                             Email = "normaluser43@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "43",
@@ -1408,7 +1408,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser43@gmail.com",
                             NormalizedUserName = "normalUser43",
-                            PasswordHash = "AQAAAAIAAYagAAAAELyf6AOza5oDvaA2g1bO0fuIcI3gj4y2H2w8pjqu8yt3IWFp6OAYU7Ms3x2yQh1qCg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJelnFZHyK9mE52OwGKVzsYPNeqJe8VqmUjtZLwZS97MsqgGCSsUGH95x42lZS4Feg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1419,7 +1419,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 44,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "78d09b96-e28d-413c-ad4b-65149aa3ae28",
+                            ConcurrencyStamp = "ef4bddc1-69da-41a2-8bfb-fdde70eeafd0",
                             Email = "normaluser44@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "44",
@@ -1428,7 +1428,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser44@gmail.com",
                             NormalizedUserName = "normalUser44",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOu4slQ1d4XObecri07Xt6QJIQKn/qoia05vFfQv7zKrn3+ZN2Rv9JZhMDnT5i51hw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEK6rfkNAzALSZQ7ALcNy6DLcgkboFkhdJRj2FsVGtNE5A4Ae+NblYaaoq+Sf8Kzkcw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1439,7 +1439,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 45,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "3bf19c17-0928-428b-bcec-99c137f76a7a",
+                            ConcurrencyStamp = "e915709a-a4e6-4db5-97d8-130209172725",
                             Email = "normaluser45@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "45",
@@ -1448,7 +1448,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser45@gmail.com",
                             NormalizedUserName = "normalUser45",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPL+KYxI5eWb+qHWcnGfxKzGRQ3jRzKzqS2yUgD9LgwD5xOLwm73tZtFs/ysExExdQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAILCFiaclqDpMasgRIkyBe4UjnPIc87xTgXEVHzhIcxBz18niYxWNBQlsu3KfASsQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1459,7 +1459,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 46,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "67b09de0-93f2-4bf5-a7b6-e252f2e5ed52",
+                            ConcurrencyStamp = "ccf16138-1bba-4b04-9f10-8b8d2ad0de67",
                             Email = "normaluser46@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "46",
@@ -1468,7 +1468,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser46@gmail.com",
                             NormalizedUserName = "normalUser46",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEWfmOZM51H2IcVEXpZNjLJh/jjixK6z0KkNb5Pez/x2oM2JrjiMFGIjsFI5Ebxswg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDyqiMqkhsGL8tC1jmqz7OwMeNX9zXUyDAZErWLi7dqksKz7en3RnB/++x5XcIeKsg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1479,7 +1479,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 47,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f10b7d56-b93d-4105-9e58-1619fdd92352",
+                            ConcurrencyStamp = "ad68b37d-cd3c-4e45-ae09-71b760277e5b",
                             Email = "normaluser47@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "47",
@@ -1488,7 +1488,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser47@gmail.com",
                             NormalizedUserName = "normalUser47",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMiR1OpatONM3rw4mgIN7ppErLP11f5XehrabQcACe0P9bJitTJHxll2/yjSJWcg0w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEF5/Xbqe8+X/hhFkm+zP+XeGKEs2JDeR3Vg8Kzs4eTREpp+6aFngJnslNH02jNTNcA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1499,7 +1499,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 48,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ccab6323-2d56-4b7b-92d0-bea63cdbce7a",
+                            ConcurrencyStamp = "bb857557-ccaa-45e0-9629-2efdb00402d7",
                             Email = "normaluser48@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "48",
@@ -1508,7 +1508,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser48@gmail.com",
                             NormalizedUserName = "normalUser48",
-                            PasswordHash = "AQAAAAIAAYagAAAAENa4Nxckh6clAmhDfl/wq9EHNA0p2OeDMYYqcAKF9BlVb235VPKbuJkNoda8SIyFDg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEK+ccOFSWVFHHeLw6QnRLO9h7T05AT6rFwWnKErOU5RwHZCDwWPDkQj405/ARfc4cg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1519,7 +1519,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 49,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f5be93cf-3ec2-4da1-a911-2cd13a4bb3a7",
+                            ConcurrencyStamp = "92c92e22-a1a1-4c45-8bdf-9e31e9fb98de",
                             Email = "normaluser49@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "49",
@@ -1528,7 +1528,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser49@gmail.com",
                             NormalizedUserName = "normalUser49",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKfMzRt3EeAHvnFqe0Yi4TQqGcx2exx18vl2i6+dTBhMRSJsQPfhADrFKz1nCh3Eqg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEH/DFHY14h1167P/KY89fe5UCfY42yM+eVx0iwzxicIowT5nPg+ZIgubORaDf7dQ3Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1539,7 +1539,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 50,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "8e806999-7547-45bf-bb13-cbaa24fe8dc8",
+                            ConcurrencyStamp = "54e14d9e-a35b-47ac-a6cb-8238999b644e",
                             Email = "normaluser50@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "50",
@@ -1548,7 +1548,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser50@gmail.com",
                             NormalizedUserName = "normalUser50",
-                            PasswordHash = "AQAAAAIAAYagAAAAELUu4ESy1BG9oElj7CxC9QfAsDRKuQSM2J2tDN/K77rDgG8Y8fynoTc9TgVql4ODRQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOsJVEY0ZyBufaSqAKO10VBYEwuh/7tDIyvvb1bxN0iZmJZDdtBYbrs7sla3vjI1vQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1559,7 +1559,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 51,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d30f1a62-2c28-44e1-b895-93a70004fb31",
+                            ConcurrencyStamp = "d2d04cf5-d7d2-4089-9123-04cb0bb6bded",
                             Email = "normaluser51@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "51",
@@ -1568,7 +1568,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser51@gmail.com",
                             NormalizedUserName = "normalUser51",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJp86JaJ5Gz1hm2rMX7LOq2i1XQc22vwpD2G/9UkFn0YUyVX0A+BMGVmtKDEm8haUw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJEljEmPqkwVXA3UkhMt3y1bSnAfOCq9OVVvUChqJM8wa5ILxyMTuPvNwwggG8SG9Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1579,7 +1579,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 52,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "38556886-2b53-4487-b88f-e3ea99764360",
+                            ConcurrencyStamp = "45fe8fc6-d55a-4f38-bab3-86917d837ca8",
                             Email = "normaluser52@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "52",
@@ -1588,7 +1588,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser52@gmail.com",
                             NormalizedUserName = "normalUser52",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPi2Sg7ZEw5afp8z+iLIdoAK4jHYuKqTaxqkNuwNyNgtJ/k0Gq2HfSGG85H6NKEAkg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEKwpeQEfcEEryVg6xPijWIlpU2xjSM4ldWckZwbNI4PVcYtT/mb4l6Y2OoiuQ3FEaQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1599,7 +1599,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 53,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "8425d173-eb4f-4952-8225-880d59b7e535",
+                            ConcurrencyStamp = "cb020d8e-0990-4fe4-897a-09acbe8cb8b4",
                             Email = "normaluser53@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "53",
@@ -1608,7 +1608,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser53@gmail.com",
                             NormalizedUserName = "normalUser53",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEYBKxZeI9sPZlY3hNXHVkRhYhnWb7GkSPv0EMKms8JFu8FeQxhB2qq6RPvYcIO2bQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECFsvDILQ589Poeo4yQ4QJyr8nN8iUdUzhPGbmPmKcM2MYki80lO3SbW9LFq/bcCUw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1619,7 +1619,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 54,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f891d48b-b43c-452e-af09-c7d9367bd36c",
+                            ConcurrencyStamp = "03b4bafc-d338-439d-8b69-60f8053148f8",
                             Email = "normaluser54@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "54",
@@ -1628,7 +1628,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser54@gmail.com",
                             NormalizedUserName = "normalUser54",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKLxmpk9jx9H98+cxvNzzXeMpUmCBKpMWAorIoR4PwZ9JVMk01WaKUrSC78ZeLu2fA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEL1wmes6YxcKdJ7uhulFoMe9dKqaJ1lHJcdeB/LweNCZYlOZ0R3wUN+D3qC2XxPAeg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1639,7 +1639,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 55,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1b4d4042-10a6-4e6a-8758-b92855fce204",
+                            ConcurrencyStamp = "a556b4ad-8980-444d-8640-cd61cab648f0",
                             Email = "normaluser55@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "55",
@@ -1648,7 +1648,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser55@gmail.com",
                             NormalizedUserName = "normalUser55",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEGdhgIFpwSlVoxp6oLns4jhrcVjvvtCj9yGd7qybDogMR0a+QZAhdnSv1sYnuu6jA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFMlxzNnB20B26EeAK97shOrkWpZU7ZtiDB/xbYnZYoIm+oeSqU4dh0QnecRV8JELQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1659,7 +1659,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 56,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0eada0f0-d0f2-4215-9536-abda15f47145",
+                            ConcurrencyStamp = "0cf41b07-c162-4fa8-8c15-28662d4c2d6b",
                             Email = "normaluser56@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "56",
@@ -1668,7 +1668,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser56@gmail.com",
                             NormalizedUserName = "normalUser56",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJJK3TvIoi/6vA+zpn/UeNARGOfXTkx3xrqdp4c8J1TOkRPkD3wer+Ts0/6UtOc1dQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELtvRLVT9UlbSm443POq/Z62GGFVzD4TOQFSVQO/heVViHp+r4o94dpANFFnx9wqMg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1679,7 +1679,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 57,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "63221955-d67e-4956-bcea-fe9c94023b01",
+                            ConcurrencyStamp = "d0ecc020-ab53-44da-baa1-055b635d9642",
                             Email = "normaluser57@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "57",
@@ -1688,7 +1688,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser57@gmail.com",
                             NormalizedUserName = "normalUser57",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPokYL6PxXBx6GRLFTUzkHbgeBpSZt3VNbdvP8EVCTnZffU4cGF7uVRAPtg54XaMrQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFK8cwkp2jpz6XBq8xhFEysQUs1LBjFB5MSbIW+kRyf2Sz1xqYIhY3yUfJU3Cm8VQQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1699,7 +1699,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 58,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "3d2cfd39-00d9-40ad-8520-cca02d40f4b9",
+                            ConcurrencyStamp = "82d60e85-70c2-48b4-b45f-592042f62d8b",
                             Email = "normaluser58@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "58",
@@ -1708,7 +1708,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser58@gmail.com",
                             NormalizedUserName = "normalUser58",
-                            PasswordHash = "AQAAAAIAAYagAAAAELtFLPodudBrhv2gVU6WuZF9W2tFCjVz9cbXp5ixEaHYD5L+2a6JkZ0k7Oc5S3owxw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECC1s9rHI5VfzfrcZde/h4XUkAGvnvwNzLBq7TuLO3sE8WLbqYjJYRoVAdxQwurzlQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1719,7 +1719,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 59,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0af2b20e-3470-41c5-a631-7bd3e4deedea",
+                            ConcurrencyStamp = "4e7d3ea4-c12f-4fcc-85b1-99f3249da677",
                             Email = "normaluser59@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "59",
@@ -1728,7 +1728,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser59@gmail.com",
                             NormalizedUserName = "normalUser59",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGxDFoZJCzwa7DI4AaLfZFWt2HvWFHZFJInp7jZfzPGtyUutx2IiguAkGRXZ37Xqqw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBD3CPx/+ARRuCNDjDVebyTzCqlHii03yINfxhuZWAWrynUVZGxPnLZ/cnwzuiCkHg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1739,7 +1739,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 60,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "99aedfed-7780-4803-aa49-28516d0f7d57",
+                            ConcurrencyStamp = "26f797f7-3f3c-43af-a100-ccae669f4ed0",
                             Email = "normaluser60@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "60",
@@ -1748,7 +1748,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser60@gmail.com",
                             NormalizedUserName = "normalUser60",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAfIR3ZZa6xAsZDB06mT+wQuhejgsKyUlTBzyPcLKwwWldLk31XFmxZcwWFkjwg/jg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECfllUcy+cB01IpslATGTASLcM+/nWem8Ky158l8eKI7+5IkDNB4uPXGh22d2CfInA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -2066,152 +2066,152 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 31,
-                            CategoryId = 1
+                            CategoryId = 4
                         },
                         new
                         {
                             FreelancerProfileId = 32,
-                            CategoryId = 1
+                            CategoryId = 4
                         },
                         new
                         {
                             FreelancerProfileId = 33,
-                            CategoryId = 8
+                            CategoryId = 2
                         },
                         new
                         {
                             FreelancerProfileId = 34,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
                             FreelancerProfileId = 35,
-                            CategoryId = 4
+                            CategoryId = 2
                         },
                         new
                         {
                             FreelancerProfileId = 36,
-                            CategoryId = 1
+                            CategoryId = 4
                         },
                         new
                         {
                             FreelancerProfileId = 37,
-                            CategoryId = 4
+                            CategoryId = 5
                         },
                         new
                         {
                             FreelancerProfileId = 38,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 39,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 40,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 41,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 42,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 43,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 44,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 45,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 46,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 47,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 48,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 49,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 50,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 51,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 52,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 53,
                             CategoryId = 8
                         },
                         new
                         {
-                            FreelancerProfileId = 54,
-                            CategoryId = 2
+                            FreelancerProfileId = 39,
+                            CategoryId = 8
                         },
                         new
                         {
-                            FreelancerProfileId = 55,
-                            CategoryId = 5
+                            FreelancerProfileId = 40,
+                            CategoryId = 3
                         },
                         new
                         {
-                            FreelancerProfileId = 56,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 57,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 58,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 59,
+                            FreelancerProfileId = 41,
                             CategoryId = 4
                         },
                         new
                         {
-                            FreelancerProfileId = 60,
+                            FreelancerProfileId = 42,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 43,
                             CategoryId = 2
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 44,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 45,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 46,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 47,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 48,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 49,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 50,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 51,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 52,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 53,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 54,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 55,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 56,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 57,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 58,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 59,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 60,
+                            CategoryId = 1
                         });
                 });
 
@@ -2235,9 +2235,6 @@ namespace SteelanceX.Data.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
-                    b.Property<string>("ResumeUrl")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
@@ -2256,7 +2253,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 31, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/31/500/500",
                             Price = 3100.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 31"
                         },
                         new
@@ -2266,7 +2262,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 32, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/32/500/500",
                             Price = 3200.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 32"
                         },
                         new
@@ -2276,7 +2271,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 33, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/33/500/500",
                             Price = 3300.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 33"
                         },
                         new
@@ -2286,7 +2280,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 34, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/34/500/500",
                             Price = 3400.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 34"
                         },
                         new
@@ -2296,7 +2289,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 35, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/35/500/500",
                             Price = 3500.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 35"
                         },
                         new
@@ -2306,7 +2298,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 36, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/36/500/500",
                             Price = 3600.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 36"
                         },
                         new
@@ -2316,7 +2307,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 37, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/37/500/500",
                             Price = 3700.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 37"
                         },
                         new
@@ -2326,7 +2316,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 38, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/38/500/500",
                             Price = 3800.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 38"
                         },
                         new
@@ -2336,7 +2325,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 39, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/39/500/500",
                             Price = 3900.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 39"
                         },
                         new
@@ -2346,7 +2334,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 40, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/40/500/500",
                             Price = 4000.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 40"
                         },
                         new
@@ -2356,7 +2343,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 41, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/41/500/500",
                             Price = 4100.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 41"
                         },
                         new
@@ -2366,7 +2352,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 42, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/42/500/500",
                             Price = 4200.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 42"
                         },
                         new
@@ -2376,7 +2361,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 43, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/43/500/500",
                             Price = 4300.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 43"
                         },
                         new
@@ -2386,7 +2370,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 44, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/44/500/500",
                             Price = 4400.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 44"
                         },
                         new
@@ -2396,7 +2379,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 45, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/45/500/500",
                             Price = 4500.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 45"
                         },
                         new
@@ -2406,7 +2388,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 46, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/46/500/500",
                             Price = 4600.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 46"
                         },
                         new
@@ -2416,7 +2397,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 47, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/47/500/500",
                             Price = 4700.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 47"
                         },
                         new
@@ -2426,7 +2406,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 48, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/48/500/500",
                             Price = 4800.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 48"
                         },
                         new
@@ -2436,7 +2415,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 49, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/49/500/500",
                             Price = 4900.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 49"
                         },
                         new
@@ -2446,7 +2424,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 50, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/50/500/500",
                             Price = 5000.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 50"
                         },
                         new
@@ -2456,7 +2433,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 51, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/51/500/500",
                             Price = 5100.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 51"
                         },
                         new
@@ -2466,7 +2442,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 52, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/52/500/500",
                             Price = 5200.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 52"
                         },
                         new
@@ -2476,7 +2451,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 53, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/53/500/500",
                             Price = 5300.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 53"
                         },
                         new
@@ -2486,7 +2460,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 54, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/54/500/500",
                             Price = 5400.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 54"
                         },
                         new
@@ -2496,7 +2469,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 55, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/55/500/500",
                             Price = 5500.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 55"
                         },
                         new
@@ -2506,7 +2478,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 56, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/56/500/500",
                             Price = 5600.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 56"
                         },
                         new
@@ -2516,7 +2487,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 57, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/57/500/500",
                             Price = 5700.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 57"
                         },
                         new
@@ -2526,7 +2496,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 58, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/58/500/500",
                             Price = 5800.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 58"
                         },
                         new
@@ -2536,7 +2505,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 59, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/59/500/500",
                             Price = 5900.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 59"
                         },
                         new
@@ -2546,7 +2514,6 @@ namespace SteelanceX.Data.Migrations
                             Description = "I am 60, I am an individual with unique qualities, experiences, and aspirations. I have a distinct personality that shapes my thoughts, actions, and interactions with others. I possess a combination of strengths, weaknesses, and personal values that contribute to my identity. Throughout my life, I have acquired knowledge, skills, and talents that allow me to engage in various activities and pursuits. I have dreams, goals, and ambitions that drive me to continually learn, grow, and make a positive impact in the world. I value integrity, empathy, and authenticity in my relationships and strive to be a compassionate and understanding individual. I believe in the power of self-improvement and continuously work towards becoming the best version of myself. Overall, I am a unique individual on a personal journey, navigating through life's challenges and experiences while striving for personal fulfillment and making meaningful connections with others.",
                             ImageUrl = "https://picsum.photos/seed/60/500/500",
                             Price = 6000.0,
-                            ResumeUrl = "This is my resume",
                             Title = "Title 60"
                         });
                 });
@@ -2591,8 +2558,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 1,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9460),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5192),
                             Description = "This a simple description for project 1 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 1",
@@ -2602,8 +2569,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 2,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9503),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5308),
                             Description = "This a simple description for project 2 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 2",
@@ -2613,8 +2580,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 3,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9510),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5315),
                             Description = "This a simple description for project 3 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 3",
@@ -2625,7 +2592,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 4,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9517),
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5322),
                             Description = "This a simple description for project 4 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 4",
@@ -2635,8 +2602,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 5,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9559),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5328),
                             Description = "This a simple description for project 5 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 5",
@@ -2646,8 +2613,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 6,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9568),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5336),
                             Description = "This a simple description for project 6 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 6",
@@ -2657,8 +2624,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 7,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9575),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5376),
                             Description = "This a simple description for project 7 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 7",
@@ -2668,8 +2635,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 8,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9582),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5383),
                             Description = "This a simple description for project 8 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 8",
@@ -2679,8 +2646,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 9,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9590),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5391),
                             Description = "This a simple description for project 9 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 9",
@@ -2690,8 +2657,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 10,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9629),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5399),
                             Description = "This a simple description for project 10 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 10",
@@ -2702,7 +2669,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 11,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9638),
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5406),
                             Description = "This a simple description for project 11 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 11",
@@ -2712,8 +2679,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 12,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9645),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5412),
                             Description = "This a simple description for project 12 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 12",
@@ -2723,8 +2690,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 13,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9652),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5451),
                             Description = "This a simple description for project 13 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 13",
@@ -2734,8 +2701,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 14,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9660),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5458),
                             Description = "This a simple description for project 14 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 14",
@@ -2745,8 +2712,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 15,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9667),
+                            BusinessProfileId = 4,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5465),
                             Description = "This a simple description for project 15 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 15",
@@ -2756,8 +2723,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 16,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9706),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5471),
                             Description = "This a simple description for project 16 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 16",
@@ -2767,8 +2734,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 17,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9714),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5477),
                             Description = "This a simple description for project 17 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 17",
@@ -2778,8 +2745,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 18,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9722),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5485),
                             Description = "This a simple description for project 18 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 18",
@@ -2789,8 +2756,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 19,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9729),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5525),
                             Description = "This a simple description for project 19 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 19",
@@ -2801,7 +2768,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 20,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9736),
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5532),
                             Description = "This a simple description for project 20 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 20",
@@ -2811,8 +2778,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 21,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9743),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5539),
                             Description = "This a simple description for project 21 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 21",
@@ -2822,8 +2789,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 22,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9833),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5546),
                             Description = "This a simple description for project 22 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 22",
@@ -2833,8 +2800,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 23,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9842),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5552),
                             Description = "This a simple description for project 23 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 23",
@@ -2844,8 +2811,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 24,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9848),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5558),
                             Description = "This a simple description for project 24 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 24",
@@ -2855,8 +2822,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 25,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9856),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5600),
                             Description = "This a simple description for project 25 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 25",
@@ -2866,8 +2833,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 26,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9862),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5607),
                             Description = "This a simple description for project 26 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 26",
@@ -2877,8 +2844,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 27,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9870),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5613),
                             Description = "This a simple description for project 27 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 27",
@@ -2888,8 +2855,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 28,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9911),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5620),
                             Description = "This a simple description for project 28 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 28",
@@ -2899,8 +2866,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 29,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9919),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5626),
                             Description = "This a simple description for project 29 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 29",
@@ -2910,8 +2877,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 30,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 562, DateTimeKind.Local).AddTicks(9984),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5730),
                             Description = "This a simple description for project 30 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 30",
@@ -2921,8 +2888,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 31,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(4),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5765),
                             Description = "This a simple description for project 31 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 31",
@@ -2932,8 +2899,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 32,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(12),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5771),
                             Description = "This a simple description for project 32 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 32",
@@ -2943,8 +2910,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 33,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 5,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(50),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5778),
                             Description = "This a simple description for project 33 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 33",
@@ -2955,7 +2922,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 34,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(60),
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5786),
                             Description = "This a simple description for project 34 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 34",
@@ -2965,8 +2932,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 35,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(67),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5793),
                             Description = "This a simple description for project 35 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 35",
@@ -2976,8 +2943,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 36,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(74),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5834),
                             Description = "This a simple description for project 36 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 36",
@@ -2987,8 +2954,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 37,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(80),
+                            BusinessProfileId = 2,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5840),
                             Description = "This a simple description for project 37 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 37",
@@ -2998,8 +2965,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 38,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(87),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5847),
                             Description = "This a simple description for project 38 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 38",
@@ -3009,8 +2976,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 39,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(126),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5854),
                             Description = "This a simple description for project 39 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 39",
@@ -3020,8 +2987,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 40,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(133),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5860),
                             Description = "This a simple description for project 40 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 40",
@@ -3031,8 +2998,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 41,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(140),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5935),
                             Description = "This a simple description for project 41 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 41",
@@ -3042,8 +3009,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 42,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(147),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5944),
                             Description = "This a simple description for project 42 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 42",
@@ -3053,8 +3020,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 43,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(154),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5950),
                             Description = "This a simple description for project 43 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 43",
@@ -3064,8 +3031,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 44,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(191),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5957),
                             Description = "This a simple description for project 44 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 44",
@@ -3075,8 +3042,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 45,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(199),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5964),
                             Description = "This a simple description for project 45 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 45",
@@ -3086,8 +3053,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 46,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(206),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(5970),
                             Description = "This a simple description for project 46 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 46",
@@ -3097,8 +3064,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 47,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(213),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6034),
                             Description = "This a simple description for project 47 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 47",
@@ -3108,8 +3075,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 48,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(219),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6041),
                             Description = "This a simple description for project 48 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 48",
@@ -3119,8 +3086,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 49,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(226),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6048),
                             Description = "This a simple description for project 49 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 49",
@@ -3130,8 +3097,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 50,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(263),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6054),
                             Description = "This a simple description for project 50 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 50",
@@ -3141,8 +3108,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 51,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(272),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6061),
                             Description = "This a simple description for project 51 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 51",
@@ -3153,7 +3120,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 52,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(279),
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6068),
                             Description = "This a simple description for project 52 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 52",
@@ -3163,8 +3130,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 53,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(286),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6106),
                             Description = "This a simple description for project 53 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 53",
@@ -3174,8 +3141,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 54,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(292),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6114),
                             Description = "This a simple description for project 54 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 54",
@@ -3185,8 +3152,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 55,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(299),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6120),
                             Description = "This a simple description for project 55 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 55",
@@ -3196,8 +3163,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 56,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(336),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6127),
                             Description = "This a simple description for project 56 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 56",
@@ -3207,8 +3174,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 57,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(344),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6133),
                             Description = "This a simple description for project 57 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 57",
@@ -3218,8 +3185,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 58,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(351),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6139),
                             Description = "This a simple description for project 58 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 58",
@@ -3229,8 +3196,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 59,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 1,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(358),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6175),
                             Description = "This a simple description for project 59 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 59",
@@ -3240,8 +3207,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 60,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(364),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6183),
                             Description = "This a simple description for project 60 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 60",
@@ -3251,8 +3218,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 61,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(371),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6189),
                             Description = "This a simple description for project 61 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 61",
@@ -3262,8 +3229,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 62,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(409),
+                            BusinessProfileId = 4,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6196),
                             Description = "This a simple description for project 62 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 62",
@@ -3273,8 +3240,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 63,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(417),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6202),
                             Description = "This a simple description for project 63 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 63",
@@ -3284,8 +3251,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 64,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(423),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6209),
                             Description = "This a simple description for project 64 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 64",
@@ -3295,8 +3262,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 65,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(431),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6246),
                             Description = "This a simple description for project 65 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 65",
@@ -3306,8 +3273,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 66,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(489),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6254),
                             Description = "This a simple description for project 66 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 66",
@@ -3317,8 +3284,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 67,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 6,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(498),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6261),
                             Description = "This a simple description for project 67 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 67",
@@ -3328,8 +3295,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 68,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(505),
+                            BusinessProfileId = 5,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6267),
                             Description = "This a simple description for project 68 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 68",
@@ -3339,8 +3306,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 69,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(512),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6305),
                             Description = "This a simple description for project 69 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 69",
@@ -3350,8 +3317,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 70,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 29,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(519),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6313),
                             Description = "This a simple description for project 70 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 70",
@@ -3361,8 +3328,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 71,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(526),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6320),
                             Description = "This a simple description for project 71 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 71",
@@ -3372,8 +3339,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 72,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(564),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6326),
                             Description = "This a simple description for project 72 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 72",
@@ -3383,8 +3350,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 73,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 25,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(572),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6333),
                             Description = "This a simple description for project 73 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 73",
@@ -3394,8 +3361,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 74,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(579),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6339),
                             Description = "This a simple description for project 74 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 74",
@@ -3405,8 +3372,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 75,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 1,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(586),
+                            BusinessProfileId = 30,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6376),
                             Description = "This a simple description for project 75 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 75",
@@ -3416,8 +3383,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 76,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(593),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6385),
                             Description = "This a simple description for project 76 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 76",
@@ -3427,8 +3394,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 77,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(612),
+                            BusinessProfileId = 27,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6391),
                             Description = "This a simple description for project 77 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 77",
@@ -3438,8 +3405,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 78,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(650),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6398),
                             Description = "This a simple description for project 78 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 78",
@@ -3449,8 +3416,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 79,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(659),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6404),
                             Description = "This a simple description for project 79 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 79",
@@ -3460,8 +3427,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 80,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(665),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6411),
                             Description = "This a simple description for project 80 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 80",
@@ -3471,8 +3438,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 81,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(672),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6449),
                             Description = "This a simple description for project 81 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 81",
@@ -3482,8 +3449,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 82,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(679),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6456),
                             Description = "This a simple description for project 82 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 82",
@@ -3493,8 +3460,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 83,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(686),
+                            BusinessProfileId = 1,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6463),
                             Description = "This a simple description for project 83 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 83",
@@ -3504,8 +3471,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 84,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(722),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6469),
                             Description = "This a simple description for project 84 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 84",
@@ -3515,8 +3482,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 85,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(730),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6476),
                             Description = "This a simple description for project 85 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 85",
@@ -3527,7 +3494,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 86,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(737),
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6482),
                             Description = "This a simple description for project 86 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 86",
@@ -3537,8 +3504,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 87,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(744),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6535),
                             Description = "This a simple description for project 87 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 87",
@@ -3548,8 +3515,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 88,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(750),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6543),
                             Description = "This a simple description for project 88 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 88",
@@ -3559,8 +3526,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 89,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(757),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6549),
                             Description = "This a simple description for project 89 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 89",
@@ -3570,8 +3537,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 90,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(805),
+                            BusinessProfileId = 7,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6555),
                             Description = "This a simple description for project 90 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 90",
@@ -3581,8 +3548,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 91,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(814),
+                            BusinessProfileId = 1,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6562),
                             Description = "This a simple description for project 91 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 91",
@@ -3592,8 +3559,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 92,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(821),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6568),
                             Description = "This a simple description for project 92 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 92",
@@ -3603,8 +3570,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 93,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 5,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(827),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6606),
                             Description = "This a simple description for project 93 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 93",
@@ -3614,8 +3581,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 94,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(834),
+                            BusinessProfileId = 4,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6612),
                             Description = "This a simple description for project 94 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 94",
@@ -3625,8 +3592,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 95,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(841),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6619),
                             Description = "This a simple description for project 95 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 95",
@@ -3636,8 +3603,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 96,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(878),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6625),
                             Description = "This a simple description for project 96 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 96",
@@ -3647,8 +3614,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 97,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 1,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(885),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6631),
                             Description = "This a simple description for project 97 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 97",
@@ -3658,8 +3625,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 98,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(892),
+                            BusinessProfileId = 4,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6638),
                             Description = "This a simple description for project 98 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 98",
@@ -3669,8 +3636,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 99,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(899),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6677),
                             Description = "This a simple description for project 99 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 99",
@@ -3680,8 +3647,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 100,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 13, 10, 18, 24, 563, DateTimeKind.Local).AddTicks(906),
+                            BusinessProfileId = 2,
+                            CreatedDate = new DateTime(2023, 6, 14, 21, 38, 2, 722, DateTimeKind.Local).AddTicks(6684),
                             Description = "This a simple description for project 100 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 100",
@@ -3707,67 +3674,67 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 1,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 2,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 3,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 4,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 5,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 6,
                             CategoryId = 2
                         },
                         new
                         {
-                            JobId = 7,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 8,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 9,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 10,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 11,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 12,
+                            JobId = 2,
                             CategoryId = 7
                         },
                         new
                         {
-                            JobId = 13,
+                            JobId = 3,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 4,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            JobId = 5,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 6,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 7,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 8,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 9,
                             CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 10,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 11,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 12,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 13,
+                            CategoryId = 2
                         },
                         new
                         {
@@ -3777,22 +3744,22 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 15,
-                            CategoryId = 1
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 16,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 17,
                             CategoryId = 8
                         },
                         new
                         {
+                            JobId = 17,
+                            CategoryId = 1
+                        },
+                        new
+                        {
                             JobId = 18,
-                            CategoryId = 5
+                            CategoryId = 2
                         },
                         new
                         {
@@ -3802,47 +3769,47 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 20,
-                            CategoryId = 1
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 21,
-                            CategoryId = 4
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 22,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 23,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 24,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 25,
                             CategoryId = 3
                         },
                         new
                         {
-                            JobId = 26,
+                            JobId = 23,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 24,
                             CategoryId = 6
                         },
                         new
                         {
+                            JobId = 25,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 26,
+                            CategoryId = 3
+                        },
+                        new
+                        {
                             JobId = 27,
-                            CategoryId = 1
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 28,
-                            CategoryId = 7
+                            CategoryId = 2
                         },
                         new
                         {
@@ -3852,62 +3819,62 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 30,
-                            CategoryId = 3
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 31,
-                            CategoryId = 7
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 32,
-                            CategoryId = 7
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 33,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 34,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 35,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 36,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 37,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 38,
                             CategoryId = 8
                         },
                         new
                         {
-                            JobId = 39,
+                            JobId = 34,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 35,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 36,
                             CategoryId = 7
                         },
                         new
                         {
+                            JobId = 37,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 38,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 39,
+                            CategoryId = 8
+                        },
+                        new
+                        {
                             JobId = 40,
-                            CategoryId = 3
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 41,
-                            CategoryId = 5
+                            CategoryId = 8
                         },
                         new
                         {
@@ -3922,42 +3889,42 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 44,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 45,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 46,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 47,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 48,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 49,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 50,
                             CategoryId = 5
                         },
                         new
                         {
+                            JobId = 45,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 46,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 47,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 48,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 49,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 50,
+                            CategoryId = 7
+                        },
+                        new
+                        {
                             JobId = 51,
-                            CategoryId = 3
+                            CategoryId = 7
                         },
                         new
                         {
@@ -3967,7 +3934,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 53,
-                            CategoryId = 8
+                            CategoryId = 6
                         },
                         new
                         {
@@ -3977,12 +3944,12 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 55,
-                            CategoryId = 4
+                            CategoryId = 8
                         },
                         new
                         {
                             JobId = 56,
-                            CategoryId = 8
+                            CategoryId = 2
                         },
                         new
                         {
@@ -3992,127 +3959,127 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 58,
-                            CategoryId = 6
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 59,
-                            CategoryId = 3
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 60,
-                            CategoryId = 4
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 61,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 62,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 63,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 64,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 65,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 66,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 67,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 68,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 69,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 70,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 71,
                             CategoryId = 5
                         },
                         new
                         {
-                            JobId = 72,
-                            CategoryId = 6
+                            JobId = 62,
+                            CategoryId = 5
                         },
                         new
                         {
-                            JobId = 73,
+                            JobId = 63,
                             CategoryId = 1
                         },
                         new
                         {
-                            JobId = 74,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 75,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 76,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 77,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 78,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 79,
+                            JobId = 64,
                             CategoryId = 8
                         },
                         new
                         {
-                            JobId = 80,
+                            JobId = 65,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 66,
                             CategoryId = 2
                         },
                         new
                         {
+                            JobId = 67,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 68,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 69,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 70,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 71,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 72,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 73,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 74,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 75,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 76,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 77,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 78,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 79,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 80,
+                            CategoryId = 4
+                        },
+                        new
+                        {
                             JobId = 81,
-                            CategoryId = 3
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 82,
-                            CategoryId = 6
+                            CategoryId = 1
                         },
                         new
                         {
@@ -4122,62 +4089,62 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 84,
-                            CategoryId = 8
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 85,
-                            CategoryId = 8
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 86,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 87,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 88,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 89,
                             CategoryId = 8
                         },
                         new
                         {
+                            JobId = 88,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 89,
+                            CategoryId = 1
+                        },
+                        new
+                        {
                             JobId = 90,
-                            CategoryId = 4
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 91,
-                            CategoryId = 5
+                            CategoryId = 8
                         },
                         new
                         {
                             JobId = 92,
-                            CategoryId = 4
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 93,
-                            CategoryId = 5
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 94,
-                            CategoryId = 4
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 95,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
@@ -4187,7 +4154,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 97,
-                            CategoryId = 4
+                            CategoryId = 8
                         },
                         new
                         {
@@ -4197,12 +4164,12 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 99,
-                            CategoryId = 1
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 100,
-                            CategoryId = 7
+                            CategoryId = 3
                         });
                 });
 

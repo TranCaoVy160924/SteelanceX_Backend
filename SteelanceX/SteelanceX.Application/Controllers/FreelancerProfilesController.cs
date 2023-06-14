@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Deltas;
 using Microsoft.AspNetCore.OData.Query;
@@ -18,10 +19,10 @@ public class FreelancerProfilesController : ODataController
     private readonly FreelancerCategoryRepository _fcRepo;
     private readonly IMapper _mapper;
 
-    public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo
-                                        , CategoryRepository catRepo
-                                        , FreelancerCategoryRepository fcRepo
-                                        , IMapper mapper)
+    public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo,
+        CategoryRepository catRepo,
+        FreelancerCategoryRepository fcRepo, 
+        IMapper mapper)
     {
         _freelancerRepo = freelancerRepo;
         _catRepo = catRepo;
@@ -54,6 +55,7 @@ public class FreelancerProfilesController : ODataController
         return Ok(_mapper.Map<FreelancerResponse>(freelancer));
     }
 
+    [Authorize(Roles = "Freelancer")]
     public async Task<ActionResult> Post([FromBody] FreelancerResponse freelancerProfile)
     {
         try
@@ -72,6 +74,8 @@ public class FreelancerProfilesController : ODataController
                     throw new Exception("Category not exist");
                 }
             }
+            newProfile.ImageUrl 
+                = $"https://picsum.photos/seed/{new Random().NextInt64()}/500/500";
             await _freelancerRepo.CreateAsync(newProfile);
 
             newProfile.Categories = new List<FreelancerCategory>();
@@ -84,6 +88,7 @@ public class FreelancerProfilesController : ODataController
                 });
             }
             await _freelancerRepo.UpdateAsync(newProfile);
+            freelancerProfile.Id = newProfile.Id;
 
             return Created(freelancerProfile);
         }
@@ -93,6 +98,7 @@ public class FreelancerProfilesController : ODataController
         }
     }
 
+    [Authorize(Roles = "Freelancer")]
     public async Task<ActionResult> Put([FromRoute] int key, [FromBody] FreelancerResponse freelancerProfile)
     {
         try
@@ -123,13 +129,15 @@ public class FreelancerProfilesController : ODataController
             if (updateProfile == null)
             {
                 return NotFound();
-            } 
+            }
 
-            updateProfile.Description = freelancerProfile.Description;
-            updateProfile.ResumeUrl = freelancerProfile.ResumeUrl;
-            updateProfile.Price = freelancerProfile.Price;
-            updateProfile.Title = freelancerProfile.Title;
-            updateProfile.ImageUrl = freelancerProfile.ImageUrl;
+
+            freelancerProfile.ImageUrl = updateProfile.ImageUrl;
+            //updateProfile.Description = freelancerProfile.Description;
+            //updateProfile.ResumeUrl = freelancerProfile.ResumeUrl;
+            //updateProfile.Price = freelancerProfile.Price;
+            //updateProfile.Title = freelancerProfile.Title;
+            _mapper.Map<FreelancerResponse, FreelancerProfile>(freelancerProfile, updateProfile);
 
             updateProfile.Categories = new List<FreelancerCategory>();
 
