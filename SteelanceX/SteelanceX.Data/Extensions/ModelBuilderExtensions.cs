@@ -11,6 +11,7 @@ public static class ModelBuilderExtensions
         var businessRoleId = 1;
         var freelancerRoleId = 2;
         bool isActiveJob = true;
+        bool IsAccepted = true;
 
         Random random = new Random();
 
@@ -31,116 +32,6 @@ public static class ModelBuilderExtensions
         var hasher = new PasswordHasher<AppUser>();
 
         #region Freelancers and Business
-
-        //modelBuilder.Entity<AppUser>().HasData(new AppUser
-        //{
-        //    Id = 1,
-        //    UserName = "adminhcm",
-        //    NormalizedUserName = "adminhcm",
-        //    Email = "adminhcm@gmail.com",
-        //    NormalizedEmail = "adminhcm@gmail.com",
-        //    EmailConfirmed = true,
-        //    PasswordHash = hasher.HashPassword(null, "12345678"),
-        //    SecurityStamp = string.Empty,
-        //    Firstname = "Toan",
-        //    Lastname = "Bach",
-        //    Address = "HCM",
-        //    IsPremium = true
-        //});
-
-        //modelBuilder.Entity<AppUser>().HasData(new AppUser
-        //{
-        //    Id = 2,
-        //    UserName = "adminhn",
-        //    NormalizedUserName = "adminhn",
-        //    Email = "adminhn@gmail.com",
-        //    NormalizedEmail = "adminhn@gmail.com",
-        //    EmailConfirmed = true,
-        //    PasswordHash = hasher.HashPassword(null, "12345678"),
-        //    SecurityStamp = string.Empty,
-        //    Firstname = "Toan",
-        //    Lastname = "Bach",
-        //    Address = "HCM",
-        //    IsPremium = true
-        //});
-
-        //modelBuilder.Entity<AppUser>().HasData(new AppUser
-        //{
-        //    Id = 3,
-        //    UserName = "staff1",
-        //    NormalizedUserName = "staff1",
-        //    Email = "staff@gmail.com",
-        //    NormalizedEmail = "staff@gmail.com",
-        //    EmailConfirmed = true,
-        //    PasswordHash = hasher.HashPassword(null, "12345678"),
-        //    SecurityStamp = string.Empty,
-        //    Firstname = "Toan",
-        //    Lastname = "Bach",
-        //    Address = "HCM",
-        //    IsPremium = true
-        //});
-
-        //modelBuilder.Entity<AppUser>().HasData(new AppUser
-        //{
-        //    Id = 4,
-        //    UserName = "staff2",
-        //    NormalizedUserName = "staff2",
-        //    Email = "staff@gmail.com",
-        //    NormalizedEmail = "staff@gmail.com",
-        //    EmailConfirmed = true,
-        //    PasswordHash = hasher.HashPassword(null, "12345678"),
-        //    SecurityStamp = string.Empty,
-        //    Firstname = "Toan",
-        //    Lastname = "Bach",
-        //    Address = "HCM",
-        //    IsPremium = true
-        //});
-
-        //modelBuilder.Entity<AppUser>().HasData(new AppUser
-        //{
-        //    Id = 5,
-        //    UserName = "staffDis",
-        //    NormalizedUserName = "staffdis",
-        //    Email = "staffdis@gmail.com",
-        //    NormalizedEmail = "staffdis@gmail.com",
-        //    EmailConfirmed = true,
-        //    PasswordHash = hasher.HashPassword(null, "12345678"),
-        //    SecurityStamp = string.Empty,
-        //    Firstname = "Toan",
-        //    Lastname = "Bach",
-        //    Address = "HCM",
-        //    IsPremium = true
-        //});
-
-        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        //{
-        //    RoleId = businessRoleId,
-        //    UserId = 1
-        //});
-
-        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        //{
-        //    RoleId = businessRoleId,
-        //    UserId = 2
-        //});
-
-        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        //{
-        //    RoleId = freelancerRoleId,
-        //    UserId = 3
-        //});
-
-        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        //{
-        //    RoleId = freelancerRoleId,
-        //    UserId = 4
-        //});
-
-        //modelBuilder.Entity<IdentityUserRole<int>>().HasData(new IdentityUserRole<int>
-        //{
-        //    RoleId = freelancerRoleId,
-        //    UserId = 5
-        //});
 
         for (int i = 1; i <= 60; i++)
         {
@@ -285,6 +176,59 @@ public static class ModelBuilderExtensions
                 JobId = i,
                 CategoryId = random.Next(1, 9)
             });
+        }
+        #endregion
+
+        #region Application
+        int appId = 1;
+        for (int i = 1; i <= 100; i++)
+        {
+
+            if (appId % 2 == 0) IsAccepted = false;
+            else IsAccepted = true;
+            modelBuilder.Entity<Application>().HasData(new Application
+            {
+                Id = appId,
+                IsAccepted = IsAccepted,
+                CreateDate = DateTime.Now,
+                JobId = i,
+                FreelancerProfileId = random.Next(31, 38)
+            });
+            appId++;
+            if (appId % 2 == 0) IsAccepted = false;
+            else IsAccepted = true;
+            modelBuilder.Entity<Application>().HasData(new Application
+            {
+                Id = appId,
+                IsAccepted = IsAccepted,
+                CreateDate = DateTime.Now,
+                JobId = i,
+                FreelancerProfileId = random.Next(38, 46)
+            });
+            appId++;
+            if (appId % 2 == 0) IsAccepted = false;
+            else IsAccepted = true;
+            modelBuilder.Entity<Application>().HasData(new Application
+            {
+                Id = appId,
+                IsAccepted = IsAccepted,
+                CreateDate = DateTime.Now,
+                JobId = i,
+                FreelancerProfileId = random.Next(46, 54)
+            });
+            appId++;
+            if (appId % 2 == 0) IsAccepted = false;
+            else IsAccepted = true;
+            modelBuilder.Entity<Application>().HasData(new Application
+            {
+                Id = appId,
+                IsAccepted = IsAccepted,
+                CreateDate = DateTime.Now,
+                JobId = i,
+                FreelancerProfileId = random.Next(54, 60)
+            });
+            appId++;
+
         }
         #endregion
     }
