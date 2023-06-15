@@ -11,6 +11,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Text.RegularExpressions;
+using SteelanceX.DataAccess.DataAccessObjects;
 
 namespace SteelanceX.Application.Controllers;
 [Route("api")]
@@ -18,11 +19,18 @@ namespace SteelanceX.Application.Controllers;
 public class AuthorityController : ControllerBase
 {
     private readonly UserManager<AppUser> _userManager;
+    private readonly BusinessProfileRepository _businessProfileRepo;
+    private readonly FreelancerProfileRepository _freelancerProfileRepo;
     private readonly IConfiguration _config;
 
-    public AuthorityController(UserManager<AppUser> userManager, IConfiguration config)
+    public AuthorityController(UserManager<AppUser> userManager,
+        BusinessProfileRepository businessProfileRepo,
+        FreelancerProfileRepository freelancerProfileRepo,
+        IConfiguration config)
     {
         _userManager = userManager;
+        _businessProfileRepo = businessProfileRepo;
+        _freelancerProfileRepo = freelancerProfileRepo;
         _config = config;
     }
 
@@ -94,7 +102,16 @@ public class AuthorityController : ControllerBase
 
             if (result.Succeeded && resultRole.Succeeded)
             {
-                return Ok();
+                if (!registerRequest.IsFreelancer)
+                {
+                    await _businessProfileRepo.CreateAsync(new BusinessProfile
+                    {
+                        BusinessName = registerRequest.FirstName.Trim() + registerRequest.LastName.Trim(),
+                        AppUserId = user.Id
+                    });
+                }
+
+                return Ok(user);
             }
 
             return BadRequest("Create user unsuccessfully!");
