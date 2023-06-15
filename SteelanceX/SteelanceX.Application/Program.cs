@@ -3,6 +3,7 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.OData;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData.Edm;
 using Microsoft.OData.ModelBuilder;
@@ -37,6 +38,7 @@ builder.Services.AddScoped<FreelancerProfileRepository>();
 builder.Services.AddScoped<BusinessProfileRepository>();
 builder.Services.AddScoped<JobCategoryRepository>();
 builder.Services.AddScoped<FreelancerCategoryRepository>();
+builder.Services.AddScoped<ApplicationRepository>();
 
 builder.Services.AddAutoMapper(Assembly.GetAssembly(typeof(MapperProfile)));
 
@@ -178,8 +180,9 @@ static IEdmModel GetEdmModel()
     builder.EntitySet<Category>("Categories");
 
     var freelancers = builder.EntitySet<FreelancerResponse>("FreelancerProfiles").EntityType;
-    //freelancers.Collection.Function("GetFreelancers").Returns<FreelancerResponse>();
-    //freelancers.Function("GetFreelancer").Returns<FreelancerResponse>();
+    //var getProfileByJob = freelancers.Collection.Function("GetProfileByJob");
+    //getProfileByJob.Parameter<int>("JobId");
+    //getProfileByJob.Returns<JobResponse>();
 
     builder.EntitySet<BusinessProfile>("BusinessProfiles");
 

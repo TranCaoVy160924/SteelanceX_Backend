@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.OData.Routing.Controllers;
 using Microsoft.EntityFrameworkCore;
 using SteelanceX.Application.Utilities;
 using SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
+using SteelanceX.Contracts.DataTransferObjects.Job.Response;
 using SteelanceX.DataAccess.DataAccessObjects;
 using SteelanceX.Domain.Models;
 
@@ -17,17 +18,31 @@ public class FreelancerProfilesController : ODataController
     private readonly FreelancerProfileRepository _freelancerRepo;
     private readonly CategoryRepository _catRepo;
     private readonly FreelancerCategoryRepository _fcRepo;
+    private readonly ApplicationRepository _appliRepo;
     private readonly IMapper _mapper;
 
     public FreelancerProfilesController(FreelancerProfileRepository freelancerRepo,
         CategoryRepository catRepo,
-        FreelancerCategoryRepository fcRepo, 
+        FreelancerCategoryRepository fcRepo,
+        ApplicationRepository appliRepo,
         IMapper mapper)
     {
         _freelancerRepo = freelancerRepo;
         _catRepo = catRepo;
         _fcRepo = fcRepo;
+        _appliRepo = appliRepo;
         _mapper = mapper;
+    }
+
+    [HttpGet("odata/FreelancerProfiles/byJob/{jobId}")]
+    public ActionResult<List<FreelancerResponse>> GetProfileByJob([FromRoute] int jobId)
+    {
+        var applications = _appliRepo.QueryAll()
+            .Where(a => a.JobId == jobId)
+            .Include(a => a.FreelancerProfile)
+            .ToList();
+
+        return Ok(_mapper.Map<List<FreelancerResponse>>(applications.Select(a => a.FreelancerProfile)));
     }
 
     [EnableQuery(PageSize = 10)]

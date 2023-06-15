@@ -21,17 +21,14 @@ namespace SteelanceX.Application.Controllers;
 public class JobsController : ODataController
 {
     private readonly JobRepository _jobRepo;
-    private readonly JobCategoryRepository _jobCatRepo;
     private readonly CategoryRepository _catRepo;
     private readonly IMapper _mapper;
 
     public JobsController(JobRepository jobRepo,
-        JobCategoryRepository jobCatRepo,
         CategoryRepository catRepo,
         IMapper mapper)
     {
         _jobRepo = jobRepo;
-        _jobCatRepo = jobCatRepo;
         _catRepo = catRepo;
         _mapper = mapper;
     }
@@ -68,12 +65,15 @@ public class JobsController : ODataController
     }
 
     [HttpGet]
-    [EnableQuery(PageSize = 10)]
-    public ActionResult<JobResponse> GetJobs()
+    [EnableQuery]
+    public ActionResult<JobResponse> Get()
     {
         var jobs = _jobRepo.QueryAll()
-            .Where(j => j.IsActive)
-            .Include(j => j.Categories);
+            .Where(j => j.IsActive
+                && j.ApplyExpireDate > DateTime.Now)
+            .Include(j => j.Categories)
+            .Include(j => j.BusinessProfile);
+
         return Ok(_mapper.ProjectTo<JobResponse>(jobs));
     }
 
