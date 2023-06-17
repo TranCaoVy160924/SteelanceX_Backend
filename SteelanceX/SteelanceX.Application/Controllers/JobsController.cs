@@ -15,6 +15,7 @@ using System.Linq;
 using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace SteelanceX.Application.Controllers;
 
@@ -121,6 +122,33 @@ public class JobsController : ODataController
             return Created(createRequest);
         }
         catch (Exception ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [Authorize]
+    [HttpPut("odata/Jobs/status/{jobId}")]
+    public async Task<IActionResult> ToggleJobStatus([FromRoute] int jobId)
+    {
+        var job = _jobRepo.QueryAll()
+            .SingleOrDefault(j => j.Id.Equals(jobId)
+                && j.ApplyExpireDate > DateTime.Now);
+        if (job == null)
+        {
+            return BadRequest("Job not exist");
+        }
+
+        
+        try
+        {
+            job.IsActive = !job.IsActive;
+            await _jobRepo.UpdateAsync(job);
+
+            return Ok();
+        }
+       
+        catch(Exception ex)
         {
             return BadRequest(ex.Message);
         }
