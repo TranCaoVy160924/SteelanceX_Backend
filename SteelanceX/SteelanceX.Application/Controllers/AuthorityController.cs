@@ -12,6 +12,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.RegularExpressions;
 using SteelanceX.DataAccess.DataAccessObjects;
+using AutoMapper;
 
 namespace SteelanceX.Application.Controllers;
 [Route("api")]
@@ -21,16 +22,19 @@ public class AuthorityController : ControllerBase
     private readonly UserManager<AppUser> _userManager;
     private readonly BusinessProfileRepository _businessProfileRepo;
     private readonly FreelancerProfileRepository _freelancerProfileRepo;
+    private readonly IMapper _mapper;
     private readonly IConfiguration _config;
 
     public AuthorityController(UserManager<AppUser> userManager,
         BusinessProfileRepository businessProfileRepo,
         FreelancerProfileRepository freelancerProfileRepo,
+        IMapper mapper,
         IConfiguration config)
     {
         _userManager = userManager;
         _businessProfileRepo = businessProfileRepo;
         _freelancerProfileRepo = freelancerProfileRepo;
+        _mapper = mapper;
         _config = config;
     }
 
@@ -131,8 +135,10 @@ public class AuthorityController : ControllerBase
             var email = User.Claims
                 .SingleOrDefault(c => c.Type == ClaimTypes.Email).Value;
             var user = await _userManager.FindByEmailAsync(email);
+            var result = _mapper.Map<UserResponse>(user);
+            result.Role = (await _userManager.GetRolesAsync(user))[0];
 
-            return Ok(user);
+            return Ok(result);
         }
         catch
         {

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using SteelanceX.Contracts.DataTransferObjects.Authority.Response;
 using SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
 using SteelanceX.Contracts.DataTransferObjects.Job.Request;
 using SteelanceX.Contracts.DataTransferObjects.Job.Response;
@@ -28,6 +29,10 @@ public class MapperProfile : Profile
             .ForMember(dest => dest.Address, opt => opt.MapFrom(src => src.AppUser.Address));
         CreateMap<FreelancerResponse, Domain.Models.FreelancerProfile>()
             .ForMember(dest => dest.Categories, opt => opt.MapFrom(src => new List<FreelancerCategory>()));
+        #endregion
+
+        #region AppUser
+        CreateMap<AppUser, UserResponse>();
         #endregion
     }
 }
