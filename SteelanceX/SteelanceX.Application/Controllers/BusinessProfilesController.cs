@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OData.Deltas;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Routing.Controllers;
@@ -36,6 +37,7 @@ public class BusinessProfilesController : ODataController
         return Ok(business);
     }
 
+    [Authorize(Roles = "Business")]
     public async Task<ActionResult> Post([FromBody] BusinessProfile business)
     {
         try
@@ -50,6 +52,7 @@ public class BusinessProfilesController : ODataController
         return Created(business);
     }
 
+    [Authorize(Roles = "Business")]
     public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<BusinessProfile> delta)
     {
         var business = _businessRepo.QueryAll()

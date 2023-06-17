@@ -18,6 +18,9 @@ public class SteelanceXDbContext : IdentityDbContext<AppUser, AppRole, int>
 
         optionsBuilder.UseSqlServer(configuration.GetConnectionString("HostedDatabase"),
             b => b.MigrationsAssembly("SteelanceX.Data"));
+
+        //optionsBuilder.UseSqlServer(configuration.GetConnectionString("SteelanceX"),
+        //    b => b.MigrationsAssembly("SteelanceX.Data"));
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

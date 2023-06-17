@@ -34,6 +34,7 @@ public class FreelancerProfilesController : ODataController
         _mapper = mapper;
     }
 
+    [Authorize]
     [HttpGet("odata/FreelancerProfiles/byJob/{jobId}")]
     public ActionResult<List<FreelancerResponse>> GetProfileByJob([FromRoute] int jobId)
     {

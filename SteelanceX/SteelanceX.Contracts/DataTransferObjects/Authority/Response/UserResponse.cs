@@ -10,6 +10,6 @@ public class UserResponse
     public bool IsLoginFirstTime { get; set; }
     public DateTime Dob { get; set; }
     public string Email { get; set; }
-    public bool IsPremiun { get; set; }
+    public bool IsPremium { get; set; }
     public string Role { get; set; }
 }

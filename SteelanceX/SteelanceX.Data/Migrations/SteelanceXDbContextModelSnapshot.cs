@@ -559,7 +559,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 1,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "7f2e0598-40e0-4360-8cec-dfad7bf90ec3",
+                            ConcurrencyStamp = "f59dd2a9-29fd-4814-900e-c164c298ee2e",
                             Email = "normaluser1@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "1",
@@ -568,7 +568,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser1@gmail.com",
                             NormalizedUserName = "normalUser1",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFDopoFb+6WuSllpElYt7Aqz7lnAy7crvbv3t5K3ZhvUPmGVkJ51h8zPI1jT5Lv+UQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELtb+3qkD5tCDzDE+0N54WqJu27WsJu0lEtbsLMv3NbDk0m9RTZmjRlD8vDYJTIDnw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -579,7 +579,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 2,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "00646cce-b10c-4fd9-a433-65e7cc358149",
+                            ConcurrencyStamp = "2ae5374e-609b-4dbc-8f36-dca2605988f4",
                             Email = "normaluser2@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "2",
@@ -588,7 +588,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser2@gmail.com",
                             NormalizedUserName = "normalUser2",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKVkWJcRYHGT1KlrWfPraptSJjAk7iWaQvpoxlBb11QgDX+qgPZvCcdE7T7oRu6FRw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEN/GjEe8muP912iGGTjCz4LIAnEcAS6N7EYmcajSeDXgSfsk8S4KDPS+vrnOk82gWQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -599,7 +599,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 3,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f7ffb637-7fd4-4d22-9160-77d932016f5e",
+                            ConcurrencyStamp = "b921f35f-5690-49f0-b09f-0509efeee131",
                             Email = "normaluser3@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "3",
@@ -608,7 +608,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser3@gmail.com",
                             NormalizedUserName = "normalUser3",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDWhnEK0HBsj1YIFxdkfCzM9Mo8jvfjd0aAJ2gEk5O7VWFnQPR4Ek+S6288E5d5bFw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHy1RX6kf/o3ptemdTmZjaZhVlQCNJjD7kooSFOr10AD/YSQ81M4vfy6/bnbNLBkQQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -619,7 +619,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 4,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "85fa8006-f61a-4067-accf-ca24b7d27e16",
+                            ConcurrencyStamp = "e97ffa83-e9ce-4083-ab81-2323d7b0a2fa",
                             Email = "normaluser4@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "4",
@@ -628,7 +628,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser4@gmail.com",
                             NormalizedUserName = "normalUser4",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEqOIHfANyMc22N5bwPZmbu3wkXMjvcNJYuxa2O6HvcqDHahB4ka4QuHaa/wRDIzaQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAXEQsD1+ohGmSzpeywVAKsr21mhO6+CsO6qAAEzr3Dui6p0BwoVFK1O5OuVplQNTg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -639,7 +639,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 5,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d48a0b85-3bf7-4d03-bf6d-3febd1625051",
+                            ConcurrencyStamp = "0c6eb5a1-628a-4a25-a624-5d3e9a028ebd",
                             Email = "normaluser5@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "5",
@@ -648,7 +648,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser5@gmail.com",
                             NormalizedUserName = "normalUser5",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDt6w636Tf/Qfn6KuJ/+YAxnpeTvXGw+GVOUpl33M5ARm5HN0lKYAbTo3gj28se1tw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGRWap4hzyVgjfkscE6waI3ziIr18miHzfxBFG+YGXxTB/1YyflnYGWSDUOVF85jHg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -659,7 +659,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 6,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "584488aa-f184-449d-b4c0-a6912ff55b71",
+                            ConcurrencyStamp = "80a29ddb-8753-4654-891b-8f24b593626e",
                             Email = "normaluser6@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "6",
@@ -668,7 +668,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser6@gmail.com",
                             NormalizedUserName = "normalUser6",
-                            PasswordHash = "AQAAAAIAAYagAAAAEL4zhSX2c8rLe7DLfWvDyyeREZgNro44xYYDifdFwopejHngRYirhwNrSlBs2VqwCw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEJTDU7eP9niIbAy6RPYJq6J8cuHKhBlW4HSQSxnGX+LlGjIrslP6IWxDq8ayb7xHg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -679,7 +679,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 7,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "dae3d6a6-3731-4ba2-b0cb-ac9b9ae65cb7",
+                            ConcurrencyStamp = "35ef3018-38be-4e9d-8a6b-a77857fc5bef",
                             Email = "normaluser7@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "7",
@@ -688,7 +688,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser7@gmail.com",
                             NormalizedUserName = "normalUser7",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAkduQzmCeCKpevfWQZofuGLwPQieLfoIE4cPb2h/xkXKM851GVwOPal8/NqJ7PwOg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBWTmQFwXXPYkb3N0uWiGTqbV3x5wHMPparAD3JELB3bCCoksqYwnkOur+xWxRXNNA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -699,7 +699,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 8,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "49d08ca1-b80d-4a74-aff2-195797ba0f85",
+                            ConcurrencyStamp = "cc6e91ad-e515-4854-829f-bb90d39f3601",
                             Email = "normaluser8@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "8",
@@ -708,7 +708,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser8@gmail.com",
                             NormalizedUserName = "normalUser8",
-                            PasswordHash = "AQAAAAIAAYagAAAAECcUnkx5/62pf3dJyuFtR6GsZNkWS/mfVCZZH30KC/nRM9WlOkjamnm+L45rEynE4g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEG6d/LNXpwpTYW18NaI4VNYX3Ocq5WIfbRBG/fuV74o2NZ1S7nhCknOxJ1aghth82Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -719,7 +719,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 9,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "55cc8e6a-ccc3-4e1c-835b-078b3a95571f",
+                            ConcurrencyStamp = "409e3a3c-ea50-492d-97da-15344cf02f4e",
                             Email = "normaluser9@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "9",
@@ -728,7 +728,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser9@gmail.com",
                             NormalizedUserName = "normalUser9",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBi9ykkHqHibfdRcEfTaz2wxZsaET6/CtyUyo30cy/3m4ntGfmkzpsurCYENkh0hNw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGl/uPpnJou1/6gOyLfNoiGD8/glyLiC6HO9e7/LMGAmwI8bx7VIk7XgYT49fuxk2A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -739,7 +739,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 10,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "bcfda917-5e81-481d-ae90-8f0c70c85cdd",
+                            ConcurrencyStamp = "0413e78a-df05-46e3-a172-01336e03215e",
                             Email = "normaluser10@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "10",
@@ -748,7 +748,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser10@gmail.com",
                             NormalizedUserName = "normalUser10",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMrJQk5+k9ss0PZ4oYMHlF02gwjByNfU2zhsQSeATY0NW7UT3zyBj2bCtI7XTXJZXQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPGLBa9R8VD4+D+4ZQdL2ISK9zcEiSa1xnff8jqLEI/5RUC9vGAN1i4Fx9Wmecsk/Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -759,7 +759,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 11,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "96cbbfa6-df30-4e51-8bf1-93c0211fe0e5",
+                            ConcurrencyStamp = "e82604b4-da94-47f6-aa19-3826c132f851",
                             Email = "normaluser11@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "11",
@@ -768,7 +768,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser11@gmail.com",
                             NormalizedUserName = "normalUser11",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFHrDq9txkyQ4eSUCdVkXsM0FOFwd+FMHs77XDwjUnLk1+OOyg8+NPqZ0c4lEaig2w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIupouA1URLoxwbL6MQRhX/ZR+3A0GBKfxkFdY8dbVTikFAgeIqey+JCABXVoIR/fw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -779,7 +779,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 12,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "78695388-4369-455d-8888-edab5470087b",
+                            ConcurrencyStamp = "0008b321-dd6a-4c98-8cdc-7981cd372805",
                             Email = "normaluser12@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "12",
@@ -788,7 +788,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser12@gmail.com",
                             NormalizedUserName = "normalUser12",
-                            PasswordHash = "AQAAAAIAAYagAAAAECXJl9egv3ABukFbgfu8uu4Tby/x/vLTBuqgHTo3VUMfoiD/MuKMcrIEaqr1Sn5P6A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEF5GYqO2kvEemH6aPUM6pDnjvXK6m3u4Y954dadxIhxwpZWkJcMn43UAsHdYJUBDw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -799,7 +799,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 13,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "32924f9c-d2cd-4374-89f1-c22bc09ca946",
+                            ConcurrencyStamp = "1ad469dc-5526-421f-905e-5b68fe32f6af",
                             Email = "normaluser13@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "13",
@@ -808,7 +808,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser13@gmail.com",
                             NormalizedUserName = "normalUser13",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKWV20WbqZm/JvidTpwcqjl+3GRrhoniVoTT2j0MxaQ/gqr9hcTHx3CifEZZJMW+hw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBy8DzJb7DZ7dPu68dfjP78YDPeFwODbTPFOcHEpl3r/Z0GyOh5UlOuzMj+VgesbYQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -819,7 +819,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 14,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "a80ccae7-4eae-4f41-ad26-56d38ebf41ab",
+                            ConcurrencyStamp = "4723d904-aea4-4c4d-bda8-8b1fbf024ceb",
                             Email = "normaluser14@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "14",
@@ -828,7 +828,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser14@gmail.com",
                             NormalizedUserName = "normalUser14",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKl9GXcbEnFeZccjyT9VBaKgVxo/p2S1fPDL7+IllI0/7mSs6TlhDmMU2cNABLTF2g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOr48YpEdMxGYQ6HQUrlStoCASeZJlGC5oypOL9AfgTz2pNOco8ojsKyAY8NjWc2ew==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -839,7 +839,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 15,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "4e548d57-2b28-4566-be1b-874b692df6f1",
+                            ConcurrencyStamp = "74cf0d73-8a7f-45ea-b050-a231274dd877",
                             Email = "normaluser15@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "15",
@@ -848,7 +848,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser15@gmail.com",
                             NormalizedUserName = "normalUser15",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHHrX+L6GOfWJPXN5LWRiuUpzJljFOGRlu7Bxdq+rkvTuePhSUg+7r4J7EosCzYsrQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEK4/+ZVy265cqKP4Yr2BXvjfGLoopkIrSmhh4TcJduQpflqmcxrHJNN8o5IwneLl/w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -859,7 +859,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 16,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "beba5b26-39c1-4e7f-8ba4-269fe6573e69",
+                            ConcurrencyStamp = "c3b428bf-6cd7-4168-81d9-dd3971b2f511",
                             Email = "normaluser16@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "16",
@@ -868,7 +868,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser16@gmail.com",
                             NormalizedUserName = "normalUser16",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDu8wW2AYLzfrl/+/D/1aLZCbB4qyMJDDKDm4VogJ3KgEKXtwrVsa9k2yILcyKVeqw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBHPRS4ZlQsEApkVW+mY13xYuKwA2Pt6NeW69uekCnYVJS55wk//BhV41ZtQJMFoRQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -879,7 +879,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 17,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "582252b7-18f0-4267-b15f-7831b79e1ddb",
+                            ConcurrencyStamp = "93b03840-4bcb-4ce0-a2e2-7d85049cb021",
                             Email = "normaluser17@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "17",
@@ -888,7 +888,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser17@gmail.com",
                             NormalizedUserName = "normalUser17",
-                            PasswordHash = "AQAAAAIAAYagAAAAECtBbx9KxNilelU3iPod0B3vUAMpzbIhl8hK8rcmSZE/NUwxwhq/4nQVbgoQsg+sRw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBI/p5SpkSGZ2zY427ooBiQcyA5UPWjDO9Ls58O1vHCsd8QdWXScmFltse+GtNqjGA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -899,7 +899,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 18,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "618234f3-9877-421d-a944-d34b71db3ac0",
+                            ConcurrencyStamp = "74035d18-8c7d-4373-9964-bec1174e1b80",
                             Email = "normaluser18@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "18",
@@ -908,7 +908,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser18@gmail.com",
                             NormalizedUserName = "normalUser18",
-                            PasswordHash = "AQAAAAIAAYagAAAAECfV9bakDfiUTEinW1QTb6gY3fJOXXpRIE6bKvSNp13v/gqhRqkS3fBOurGJmyeSPg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHVHrCxK3rXkke7hsZCkayjHXGEh//huGSfiUAfEHaqzOyV2E+CKZ6v5h5NelkUzUQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -919,7 +919,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 19,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "3d2a1b4a-057a-4660-a8a8-4422ff64bd26",
+                            ConcurrencyStamp = "a5ac98a5-7112-4cef-a4e9-abce191f33a6",
                             Email = "normaluser19@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "19",
@@ -928,7 +928,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser19@gmail.com",
                             NormalizedUserName = "normalUser19",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBv6uJeWQAr+ljt4EmsxNytDWKZKqWolc0fIhZ7pnsaGsoyQ6ikOWzaVKpmm3Qu+kQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFGrrFfqrATRXYQwSvxJEZmFNDCJhwSZicgXFMqONsySdNPofrLIsNHO1lmGxC0Y8w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -939,7 +939,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 20,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "87208e22-00eb-4ecb-a8bf-a7d71970b887",
+                            ConcurrencyStamp = "37cdcf85-6dbf-4120-aea2-7136f708a996",
                             Email = "normaluser20@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "20",
@@ -948,7 +948,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser20@gmail.com",
                             NormalizedUserName = "normalUser20",
-                            PasswordHash = "AQAAAAIAAYagAAAAEDze5PL9pQ33p0lOv3EMzKLZU5SRuO/Y0zDrhH092Bfm+y7IJV6ObWdTVRrTxjNiwg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDcwoGANtGkMPMhERcAGcau8d4frziWIKagPVh0qFZLUT9vooo5DER4CXXFj6UV9Eg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -959,7 +959,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 21,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "a1a2795a-05e1-425f-af37-f6d472c4ab78",
+                            ConcurrencyStamp = "7190ddef-671c-4607-beb8-819af94e6615",
                             Email = "normaluser21@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "21",
@@ -968,7 +968,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser21@gmail.com",
                             NormalizedUserName = "normalUser21",
-                            PasswordHash = "AQAAAAIAAYagAAAAEKLXRgBtmQVaGVUxl/tTNOnSKTSvtEE9nB++AB5jl7k+l1lxoihR2cN/Wjo31mYE2A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECwe0UMZKsoNlPDCL3QS0WEqCwmFZfESviW8bmeMdVgP2bG8AMSl22IJXuWplgBnxQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -979,7 +979,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 22,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "6a89f084-a38f-4795-93d0-d7449223bd0e",
+                            ConcurrencyStamp = "2023897b-a862-470b-8fe7-2d474ae7e71a",
                             Email = "normaluser22@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "22",
@@ -988,7 +988,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser22@gmail.com",
                             NormalizedUserName = "normalUser22",
-                            PasswordHash = "AQAAAAIAAYagAAAAELURx1U51abiE+CoRmskyTkwGpgZ2afbzJzK/Jwfhfcp1mJTkfPEcvwpblM94yGS6w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELQdNcO5KXQD+HTgiFAfKe0J6OOAvAk8i43cx6kMdFd5kN5VwWykVob2TnrGkmSZgg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -999,7 +999,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 23,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0f67796b-55e0-45a9-b7f2-ace79b303685",
+                            ConcurrencyStamp = "138a7ec9-6ba7-4172-bdf6-d076cf1aad80",
                             Email = "normaluser23@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "23",
@@ -1008,7 +1008,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser23@gmail.com",
                             NormalizedUserName = "normalUser23",
-                            PasswordHash = "AQAAAAIAAYagAAAAEN/7IuePPLvaowADuL+CzmPIibL+Hn/iMqwyIco50UxGyOPSOxcHuxq2X5Tx2ORXqA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFT4IIo7FW0PbpjNAZUzO2v6+6wOdfX3+YjMfkBD4nJWXauaZQW+l/fUUHpHoAl9Vg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1019,7 +1019,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 24,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "7cde0510-5074-4c89-a472-6a2ac8bd2ac0",
+                            ConcurrencyStamp = "d3ae0066-2bdc-46b2-8de1-5c8d9d05bbbb",
                             Email = "normaluser24@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "24",
@@ -1028,7 +1028,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser24@gmail.com",
                             NormalizedUserName = "normalUser24",
-                            PasswordHash = "AQAAAAIAAYagAAAAECNViAXMiiw1RL9hCL55V5EGew+uMXNhW/NGc4IgHGzIbjV6hXY6MwZHz0zLchScpw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEJ707Jnrty/UzXYpC4dQJaKGs+cSZxmlr7S2wBg5h/yAJ8VZw6VLJ8Va05aKTjtwQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1039,7 +1039,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 25,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b0b3cef4-4aca-4601-a1ed-9c8f58f502a7",
+                            ConcurrencyStamp = "75ba670f-8a05-4fdc-91d5-957ef4b504a9",
                             Email = "normaluser25@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "25",
@@ -1048,7 +1048,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser25@gmail.com",
                             NormalizedUserName = "normalUser25",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFQk21sLniI71tSR7rC4SbPvqYuaKfyHNMNVky9jWlxyruGc8R/NdRu57hTjCEv2tA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEFy84T1wwRZWKk+N9pSgWg/uPC7eybm1VBQd1DeBV0pOLeJgb8Hlr4AdKOXvE/PGbA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1059,7 +1059,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 26,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d6ab9547-5e34-4f5f-8b77-2ca8a9700d68",
+                            ConcurrencyStamp = "4c3b2eb2-3cd6-4157-8eb2-23d1750e5818",
                             Email = "normaluser26@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "26",
@@ -1068,7 +1068,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser26@gmail.com",
                             NormalizedUserName = "normalUser26",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEFWeRQg9Tw6nDgbNDZeFrHXAGNuDV0NaZclYYIPZIrphRLiRiwSzSrCQdXXBrdtTw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEUwWac6eLfMbVEPoP8wg9UpF10Qrl4CTTVdoW4NvAiIN8b6h8V6xIUljnjc4k3SPg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1079,7 +1079,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 27,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f8f9dfec-774d-4c15-9873-d2339a1d8423",
+                            ConcurrencyStamp = "8fc2d9ac-41ea-4f66-b916-3b11fc23c065",
                             Email = "normaluser27@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "27",
@@ -1088,7 +1088,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser27@gmail.com",
                             NormalizedUserName = "normalUser27",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH0fsbX8rYO2WJA9e/S+nNfYBvsseBEJubD+hKtJrQaSyqaVDuEV50Y+FZfQLfVy+Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEO64TEokCLAaXxuQ/Nl8YqeTJ7WBM7YmMledBET4aCmZbMSv17iHAS7wTKO2eWDwxg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1099,7 +1099,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 28,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "14a597b4-25aa-43be-84f0-23ad76af83f3",
+                            ConcurrencyStamp = "975bac70-3a65-44f4-bd87-bfbc36c44722",
                             Email = "normaluser28@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "28",
@@ -1108,7 +1108,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser28@gmail.com",
                             NormalizedUserName = "normalUser28",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEsXpxu/gLNsQeC1mhhT7iucjiKVdbYktz0aaMd471TNf3F4wlQEZOmrgkhiq2/Prg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOVniZ0hnQXrfycwK6GJTqW44y6RAWx69v+Sx9iYY/s0MM3+pwTpUsYP+pDs5Q7HDg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1119,7 +1119,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 29,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "fe2d3137-d462-47f9-a7f7-fd19f384bcb6",
+                            ConcurrencyStamp = "c8b701a1-a003-4e61-9bd2-0150b60f664c",
                             Email = "normaluser29@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "29",
@@ -1128,7 +1128,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser29@gmail.com",
                             NormalizedUserName = "normalUser29",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMazHaV5TAmGm7R1e8k8nYjIFEzjtLWkUsf99JulbpMi00xUkwwwxU9odMVRUIUpyQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEBtuRKW1bmqnTSBN0MIJrNxbHjUhYl6RCXEJLm3YR6d8r4dM5UJllfaZzm0cGxs+hw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1139,7 +1139,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 30,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "49bce5b8-b290-4d9c-8af4-3a779a3f17dd",
+                            ConcurrencyStamp = "071e5512-ee3f-4096-b439-e46be5300fb6",
                             Email = "normaluser30@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "30",
@@ -1148,7 +1148,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser30@gmail.com",
                             NormalizedUserName = "normalUser30",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEwKFuOL4lPGXTQSVDI9bIsLibpq00P1U5SZlHxvjOUW5L41l76DrtMzx1GlUsnWbw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMQ6/P6DAGD6VlHRKdDOSV6+2Zdmclrxdc+lFgNpB3Lb7t0fncEIp9DFlrdhcnCfIg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1159,7 +1159,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 31,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "26d6b131-9490-4ecb-a432-a1fa093191c0",
+                            ConcurrencyStamp = "336c77ca-b9b0-4980-9255-4670a7f14d9c",
                             Email = "normaluser31@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "31",
@@ -1168,7 +1168,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser31@gmail.com",
                             NormalizedUserName = "normalUser31",
-                            PasswordHash = "AQAAAAIAAYagAAAAEE+QpCGFoBgGf6Dqj2nxqmZWvT3sjLswBVhB4PFWsM3m/uQnaIs2BubXaD+5z0kRow==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECFF7unJBupALEbc0wJ/lOlYuRrhr3er30/dOPjoQOrxa5dQmF+Ls+f0SIo1fE6+gA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1179,7 +1179,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 32,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "8e9de254-6c15-4da1-941a-53995c86a835",
+                            ConcurrencyStamp = "2692bc14-062b-4f0f-956d-548dce3823b5",
                             Email = "normaluser32@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "32",
@@ -1188,7 +1188,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser32@gmail.com",
                             NormalizedUserName = "normalUser32",
-                            PasswordHash = "AQAAAAIAAYagAAAAELR/9cns3WSHInJ2MxRlErH50kY0O49i0KvnI8AFkxFd05iB3p3oWEkJABc8LE8xjg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHWrAwZE52FvMFsUi/crLh4Q7fODWkngeB3OFblchJJC1TuLlCpw1g/lWhXRaFw/+w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1199,7 +1199,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 33,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "95c8dd9b-e793-4386-b370-18c455812adf",
+                            ConcurrencyStamp = "167eb097-1a52-4058-a3b8-21d3d844a5ac",
                             Email = "normaluser33@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "33",
@@ -1208,7 +1208,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser33@gmail.com",
                             NormalizedUserName = "normalUser33",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFO8DQQ839/bpYa8KT/5ccLrPhPQsHvjvcJYh+lNYdm6wIX+tWzbMdgnx95ARbaKow==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEiQ0QxjMEcTsy/sRulrY8G0y4n/kBMtlXhQg0EZlPBhKBQG8gi41ETtuDxIkjMT0w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1219,7 +1219,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 34,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "72980b95-cb01-49bc-8bb6-f4ddfe7be4ff",
+                            ConcurrencyStamp = "5b242cbc-ca19-42ab-8b2d-3a961d0529ff",
                             Email = "normaluser34@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "34",
@@ -1228,7 +1228,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser34@gmail.com",
                             NormalizedUserName = "normalUser34",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBPtjJQIBMSPAT7gengK+fULk5S3oJUJSLNGotnSir1Q3HTRDB9JZkQFw6/F4oLHHw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ4th2QTBrS1PEKFnHoQ213ci/wuetKbrmRV0aYXADTcnieVP4klTDc7C6mCXTFQcg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1239,7 +1239,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 35,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "702156ed-3298-4d67-b17e-4f2dee638010",
+                            ConcurrencyStamp = "78054faf-d251-43c7-8934-bfcb5a13c563",
                             Email = "normaluser35@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "35",
@@ -1248,7 +1248,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser35@gmail.com",
                             NormalizedUserName = "normalUser35",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHsd0GQLQoaw7nwiqSqjYdqiaqgUTikJyvC3dMPnGRw7d1TnS7JKrWjyAsE+MCYeMw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEoZRWnxNmLhSVX4vk/HLpbJxabTJy2Ng3CVlS4eojTxlVEgoCAQ4tYi/ok63ESTqg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1259,7 +1259,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 36,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "df587bff-adcb-41f0-b2b7-f3ebae1e2131",
+                            ConcurrencyStamp = "27ea6a36-e843-4d5a-b971-da3f35904d0c",
                             Email = "normaluser36@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "36",
@@ -1268,7 +1268,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser36@gmail.com",
                             NormalizedUserName = "normalUser36",
-                            PasswordHash = "AQAAAAIAAYagAAAAEH5CT/3PkhvlvaxXY7UBqp9h3820Z8CzNKvFuL7mn6BvpxsTcWW3pKsk0r3FkxEE6g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDxTMj7ukHK8hZlG08zay6jYW50jAtgP3/Dnolg1LlPu8Rv+rj6i5Bm81wfPY66rNQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1279,7 +1279,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 37,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "94a05aaa-331d-451d-bdc6-a067d529ab57",
+                            ConcurrencyStamp = "f2e2b5d4-2d62-4240-81ca-bb1b6751cb58",
                             Email = "normaluser37@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "37",
@@ -1288,7 +1288,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser37@gmail.com",
                             NormalizedUserName = "normalUser37",
-                            PasswordHash = "AQAAAAIAAYagAAAAENoBjCACMnPVuG3/K9NbSblga6U9d56H7oDacBkg5trRFU3Qh91XUVhzwboXB5ma7g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEK8tyRSZUeo0cNcHRT+wWTsfjCkgg1bfy1zvf1hxyx+E+bl5qAtC0ZLaz3pcPeUlkQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1299,7 +1299,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 38,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "4a1ac2e7-ee55-4490-a3d8-e3a7e52fccd9",
+                            ConcurrencyStamp = "5731ef03-c79b-4b82-b085-5a1716b56dac",
                             Email = "normaluser38@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "38",
@@ -1308,7 +1308,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser38@gmail.com",
                             NormalizedUserName = "normalUser38",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOb6uwqdhSxAip7DN9cXPBAFamTy+bbLcshZrQnKltMxlPkoGURP6SiocoKjlYVrxg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGa2Hb15w81Dtta1K98MLBDQd5b1ilewOaqvSKirHUSbte4WDapHs3FU4pomvr1Xvw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1319,7 +1319,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 39,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "cd131041-ba7b-48bd-aa01-f8bc29e82e0e",
+                            ConcurrencyStamp = "47912233-f145-4373-a53a-de9a8f963d31",
                             Email = "normaluser39@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "39",
@@ -1328,7 +1328,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser39@gmail.com",
                             NormalizedUserName = "normalUser39",
-                            PasswordHash = "AQAAAAIAAYagAAAAELi2ERo7vYTXGoMiz/3RJ3VArw8IjUvzKzz8XsEsuz0NMKJ/+OKVV/x8TIdigxK7Lw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEyC6LN4haLGpgAbIXLe6ZVrgwn8SdfgSKXpmYfqzZ6oWvqefe4j3w3haY4/TQvRWA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1339,7 +1339,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 40,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "b53a1a3e-af6d-472a-8171-e90af1064664",
+                            ConcurrencyStamp = "c740c6a6-0942-4caf-b0db-12f9f6d06b00",
                             Email = "normaluser40@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "40",
@@ -1348,7 +1348,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser40@gmail.com",
                             NormalizedUserName = "normalUser40",
-                            PasswordHash = "AQAAAAIAAYagAAAAEES/2sq21QfIknHoxsqJszF+BixSndxsKx8cxy0eAEhQ4laHtXCxtNGx5EX8EAJofA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEI1MAJ1zkCPjGJZ4HDhT8rQPX0+pRuUk+Q+S2jVyGZFx50ZmIHOyrMNnRT5Ih6X8Cw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1359,7 +1359,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 41,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "43e0b8e3-31fc-4c24-9b64-76c96d5d7f65",
+                            ConcurrencyStamp = "654df322-958f-4685-b64f-317e57a58473",
                             Email = "normaluser41@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "41",
@@ -1368,7 +1368,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser41@gmail.com",
                             NormalizedUserName = "normalUser41",
-                            PasswordHash = "AQAAAAIAAYagAAAAEIEMdRU9KOoSRVWMA0ppGeh/e3Gi5LEY6i4byQE47/e2rfJAfIb525hotdZM75jtnA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGjR5M/Fcaf1EafjgBbybOAuCJF67dZYOXJVq8nyVS5uExwSQ+TwViQdw517xBjiug==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1379,7 +1379,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 42,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "c8a455c9-2e14-4990-a169-deb7e907ab92",
+                            ConcurrencyStamp = "7307e3f2-e193-484f-bd6d-e375ea6f9b30",
                             Email = "normaluser42@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "42",
@@ -1388,7 +1388,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser42@gmail.com",
                             NormalizedUserName = "normalUser42",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJcdSkNiHCJV9MJzo+fgaAkNQ/Yettgy69pevjMPfNuVi2j3J1Lw7ywj7BvRAXYTRw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEDgfVfLg25N+MGsOGh5lnOfgI8+0B7W1dDJKlem6kkHSjpwwTmWssH1D3J+cNYVuoQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1399,7 +1399,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 43,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "c616ebeb-75bb-4a54-9822-8111588f79ef",
+                            ConcurrencyStamp = "102a0cc4-19f7-465f-b57e-ebea02845e51",
                             Email = "normaluser43@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "43",
@@ -1408,7 +1408,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser43@gmail.com",
                             NormalizedUserName = "normalUser43",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBo3z9e1cb0CqWCmWIbzBtoO1rQCDi6NahujsXTVt+tQfGCUJ6fWZ3lK/yR4pC6HhQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOaVTAjY36iRiIzxAJUvPQRXaaq6Kc0zIgVlltEaxMTfek+yVwsAhRhN3kbLAM3vEA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1419,7 +1419,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 44,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1998235f-5e2c-4572-ad43-518ea39b9e55",
+                            ConcurrencyStamp = "796daa38-1798-4e9a-96d8-4d5a0b1e14c0",
                             Email = "normaluser44@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "44",
@@ -1428,7 +1428,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser44@gmail.com",
                             NormalizedUserName = "normalUser44",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBpS4StbIqx5viKJz/jISQDdvPJgETGUtB9Fwu/fS7CJK90hZN28wqke5jHP/diCug==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJ2p4bGB3ggOCUNKm3lVfo+jFI7XzTgIGqVSecgyHfyEF7zy8aImJnaxsN6dWnpT0w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1439,7 +1439,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 45,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "f0600ed4-c11a-4ed4-9dc4-accb76c78a3d",
+                            ConcurrencyStamp = "ac0e3585-bbd7-4660-af2d-938cd1bd6b37",
                             Email = "normaluser45@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "45",
@@ -1448,7 +1448,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser45@gmail.com",
                             NormalizedUserName = "normalUser45",
-                            PasswordHash = "AQAAAAIAAYagAAAAEINE3BgKKEqaPZY+MY3WrJ43lmMdmL3gESvbm1QHwwMdl1XJZNsJlX0zzDlHhMUD3g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOI5VYxet0xAvGU7TMmWoEBdYfB+YjTSNmmyrjx3gPQYuFgx4MYxyrKMbOx5VhyTBw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1459,7 +1459,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 46,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "88bd2750-ac3c-4c54-848f-06184534eaeb",
+                            ConcurrencyStamp = "68532aca-8711-415a-bfcd-82f7fad09b25",
                             Email = "normaluser46@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "46",
@@ -1468,7 +1468,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser46@gmail.com",
                             NormalizedUserName = "normalUser46",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAh89Cnbi7vrDlcgwo3v0KBjIZL/RrD7IJTNz7Yv48i6SYraIhZENEVpyplZfWdnHA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMurfCpM0swOQj/sxAT+WYxztLcC3LPFiNVkWxBcUq8tIUBlQXxpy12zLgEO1kkptw==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1479,7 +1479,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 47,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "16f98db9-c65d-4416-b63a-6c981d6c18ec",
+                            ConcurrencyStamp = "ef9602e2-8976-4412-a361-8ca0862293fd",
                             Email = "normaluser47@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "47",
@@ -1488,7 +1488,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser47@gmail.com",
                             NormalizedUserName = "normalUser47",
-                            PasswordHash = "AQAAAAIAAYagAAAAEF+yP09x7ExdeTqOZrd7bEs2gXt8l09HI1sdZZYz9gIXSos692e/YUWrjmVYyvJonw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAtyWRechIX2aupBWFLaWO172QwblNbDs5qrC1a9sc+VxI0kV4WiQFO7re/qvtnjvQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1499,7 +1499,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 48,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "82535705-f4be-4855-98ee-becb0b4390fe",
+                            ConcurrencyStamp = "52873cb1-470f-4bde-80a6-69602aaae5e3",
                             Email = "normaluser48@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "48",
@@ -1508,7 +1508,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser48@gmail.com",
                             NormalizedUserName = "normalUser48",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPWxHDDEXWbBtzdx+5OZk1kDRXVogCP+ptsIrT71gc3fekdnolhaujpNmNO3SsGwYA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEILEPksvCGyscCA3k37qArREpNOxzJ8nKGLyhBXrz8Gu0Yq9YxEaql8ySNmUmCjXgQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1519,7 +1519,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 49,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "aeb7fd69-e1c4-4c01-b677-b5e62835af4b",
+                            ConcurrencyStamp = "7095b2ab-1ed5-4b15-adcd-44c7b47cc268",
                             Email = "normaluser49@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "49",
@@ -1528,7 +1528,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser49@gmail.com",
                             NormalizedUserName = "normalUser49",
-                            PasswordHash = "AQAAAAIAAYagAAAAEJ7FMOysQU6FtWDFXCwcimtENA3Zhkj/ZPuUNfjcGPQ4pIbVt89oio/nxWu9xT6jvg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMgRcP8l+lzCkOHUsuusbIOtFVOpWkatRXSPpctX9yE37LDfRUimUIn29EeyzHoo+A==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1539,7 +1539,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 50,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "0e2f0ba3-28c3-406a-b49e-175cc7013129",
+                            ConcurrencyStamp = "fcc24475-a857-49f7-8582-f6cd46cd7acd",
                             Email = "normaluser50@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "50",
@@ -1548,7 +1548,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser50@gmail.com",
                             NormalizedUserName = "normalUser50",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFMs2oYvMUDiH36VhgLWfS2AjyDKwmbJ+767lNuiq9J3sGOvTfxkZwWjSJC1xXbFPw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJIyxkreTzfhQ8l+hjzCHuUee0GvDEKvIMN8IPbYtMiNkiIvrq8kY1pLcw/fXreqsQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1559,7 +1559,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 51,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "c61e5b2f-c4b6-4211-a934-c67971b2e538",
+                            ConcurrencyStamp = "7973b139-7aba-459e-b92b-6a3f570fe4b4",
                             Email = "normaluser51@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "51",
@@ -1568,7 +1568,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser51@gmail.com",
                             NormalizedUserName = "normalUser51",
-                            PasswordHash = "AQAAAAIAAYagAAAAEMNWmxZFAOiq7f6WFUAABO5zslcXnXeHc+iIY82Z1ZdfBtr2iPiTliQ2r5zdHAdCZg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEEu11u41iZgqyM5o18ov5u/4JF8JGP388eewjBpejvg0SuyHSx3GM+bRuHi4yxFB5w==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1579,7 +1579,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 52,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "08ec4010-d28b-42f9-a84f-795f60af71b2",
+                            ConcurrencyStamp = "ad2bb87c-a5cd-45e1-9315-3b7a4270dfa8",
                             Email = "normaluser52@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "52",
@@ -1588,7 +1588,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser52@gmail.com",
                             NormalizedUserName = "normalUser52",
-                            PasswordHash = "AQAAAAIAAYagAAAAEOig9Qtf4AWz3MiPp77PxJ0NvfnydYhUnFB9cJmWztpDcEzYSd1Uy0EK9vyu8/Hp3w==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEB5BO0vje2sHBvVxwTsFzytnzBTqrOFNEgmcq2yISzA7p42h6WcZ8KqhDAQNiCI2cg==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1599,7 +1599,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 53,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d0d9eea5-ad2f-403f-8932-78e44d9cb062",
+                            ConcurrencyStamp = "d26ae461-a502-4a00-becc-c15e01c90f16",
                             Email = "normaluser53@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "53",
@@ -1608,7 +1608,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser53@gmail.com",
                             NormalizedUserName = "normalUser53",
-                            PasswordHash = "AQAAAAIAAYagAAAAEPsKbwJZjjsRMzEk0ueEaSc/kuBwtuBDEsGBqUusSX+13aBwPigwewJ9elSvzyxftA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGq3W/ZIDvn+a61iTrD4H50Wy6V2W4mO/D4Tw5RXITXO/bkCdVmXB99hwdMh7JwnPQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1619,7 +1619,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 54,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "1e4e77c2-341f-4bf1-b268-5c1ff45f5eb6",
+                            ConcurrencyStamp = "2fc11890-25d5-4809-a8bb-cfc01afb6f7b",
                             Email = "normaluser54@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "54",
@@ -1628,7 +1628,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser54@gmail.com",
                             NormalizedUserName = "normalUser54",
-                            PasswordHash = "AQAAAAIAAYagAAAAECwtGEf49iTH6420Ly+xsgPs6aNkjK17hvfHNWKaGrcS1WACzaf7mcjf08DrFmZ6pA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIM114CCLZJvRYrQYaXpmPNiKUnYB0vqY7hY0uI4+wbrAVplIQY6wB2mwPFn11XVMQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1639,7 +1639,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 55,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "d9a5428a-1f4e-4595-99a7-d7ab9ad2132a",
+                            ConcurrencyStamp = "32efa441-4ef4-41b9-8b2a-947e5741975e",
                             Email = "normaluser55@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "55",
@@ -1648,7 +1648,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser55@gmail.com",
                             NormalizedUserName = "normalUser55",
-                            PasswordHash = "AQAAAAIAAYagAAAAEC/0CBGd1+C8KaH765peO8gET7Fr7Q7oejCSS/rPAff4uQRizd7NgjxieNWY/oTKWw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEIGhQ50lT+W+dGR8KWojFGR0BPMICto13akZVxUTiiwpIXlJHvI10v/RRpRuZxmMjA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1659,7 +1659,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 56,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "9bfb82e6-7689-4bbe-b4e3-26d34f97d1af",
+                            ConcurrencyStamp = "49cfe366-f518-43fe-a36b-a36705c72d31",
                             Email = "normaluser56@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "56",
@@ -1668,7 +1668,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser56@gmail.com",
                             NormalizedUserName = "normalUser56",
-                            PasswordHash = "AQAAAAIAAYagAAAAEEoY2g9gQGPCcW6GutvFIfOgTZeUlJUSriFcnG+AHPJZazv0LCAGMT3c84egP6YiPw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEOCVVmES7w8wg3G6Q7O1kiTS/g8LDNRvyqkmDSYC3b/QiREfTCJuaDwsRUhLqlM79Q==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1679,7 +1679,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 57,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "83e9988b-592e-4dde-8e49-770c4d922931",
+                            ConcurrencyStamp = "2eb7becc-38dc-4f23-9749-f56c06822200",
                             Email = "normaluser57@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "57",
@@ -1688,7 +1688,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser57@gmail.com",
                             NormalizedUserName = "normalUser57",
-                            PasswordHash = "AQAAAAIAAYagAAAAEAd42gCprkEK/3zBnSSdbLIgCFVjUwcVdKbOwrcGTEEWCYUEIDmrdHXm1c9V9MogVw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELUDeXx1LU0IA4L8vs+36xzL6jmGzOvv7pgaPOjCS16n5oVwvNl0wGszHG8ovHKeJQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1699,7 +1699,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 58,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "95639ff0-d4fd-4447-84a8-3e1a2e1f04c0",
+                            ConcurrencyStamp = "fd453b5d-a918-4e5f-a76e-f7dbede23f29",
                             Email = "normaluser58@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "58",
@@ -1708,7 +1708,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser58@gmail.com",
                             NormalizedUserName = "normalUser58",
-                            PasswordHash = "AQAAAAIAAYagAAAAECwHw+12u2eJPNGJ/Oi76keKjqSMps1Z6OFsiT7l5wCenRh23vMlMzg5smT7J00A7g==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEE99VO8+MGcmkaNQtDptU4MIytiC8rS/zDA12T+vy0gpHulxzbNGypk7UaAk8xGzkQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1719,7 +1719,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 59,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "41944a5e-21ec-4429-82c7-7527be79aa0b",
+                            ConcurrencyStamp = "4338436d-1043-4905-a97e-9f6091185ce7",
                             Email = "normaluser59@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "59",
@@ -1728,7 +1728,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser59@gmail.com",
                             NormalizedUserName = "normalUser59",
-                            PasswordHash = "AQAAAAIAAYagAAAAELTcht99F2mT3Ul+EjgZVxBuZ8pcHY8Ow+OJnJaQf0N96GfGn+UUyJ2boGdIN3U0IQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEL/yr7Ol0eCfYh/1Rlt3SP5bSIaPhI87+wIOdBgUMX5ixTYmxgKMfzz6D0yAyX3NmA==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1739,7 +1739,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 60,
                             AccessFailedCount = 0,
                             Address = "HCM",
-                            ConcurrencyStamp = "ba4ccae5-a196-4a55-a1dd-091f7c3e7d36",
+                            ConcurrencyStamp = "a33f1f0d-b373-49d0-be7e-de839409eab6",
                             Email = "normaluser60@gmail.com",
                             EmailConfirmed = true,
                             Firstname = "60",
@@ -1748,7 +1748,7 @@ namespace SteelanceX.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "normaluser60@gmail.com",
                             NormalizedUserName = "normalUser60",
-                            PasswordHash = "AQAAAAIAAYagAAAAELTnjZWaHOVKWgbA9YGliezpgRONu9BzyGfY2hW7hHQU2CwnZctPkKiEnrYU0LGaUA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJmg5/GBiQKr3TfEpaAcAOqFRI0yQb/RcZa6Djg8zp0rSKfaATNeLu7pNSCerh2nxQ==",
                             PhoneNumberConfirmed = false,
                             SecurityStamp = "",
                             TwoFactorEnabled = false,
@@ -1788,143 +1788,143 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 1,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6908),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9030),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 1
                         },
                         new
                         {
                             Id = 2,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6919),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9039),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 1
                         },
                         new
                         {
                             Id = 3,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6928),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9044),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 1
                         },
                         new
                         {
                             Id = 4,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6936),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9049),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 1
                         },
                         new
                         {
                             Id = 5,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6943),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9053),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 2
                         },
                         new
                         {
                             Id = 6,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6951),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9058),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 2
                         },
                         new
                         {
                             Id = 7,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7022),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9062),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 2
                         },
                         new
                         {
                             Id = 8,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7029),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9065),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 2
                         },
                         new
                         {
                             Id = 9,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7035),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9069),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 3
                         },
                         new
                         {
                             Id = 10,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7042),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9073),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 3
                         },
                         new
                         {
                             Id = 11,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7048),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9077),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 3
                         },
                         new
                         {
                             Id = 12,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7053),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9081),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 3
                         },
                         new
                         {
                             Id = 13,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7059),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9085),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 4
                         },
                         new
                         {
                             Id = 14,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7065),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9089),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 4
                         },
                         new
                         {
                             Id = 15,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7071),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9092),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 4
                         },
                         new
                         {
                             Id = 16,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7076),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9096),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 4
                         },
                         new
                         {
                             Id = 17,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7082),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9100),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 5
                         },
                         new
                         {
                             Id = 18,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7088),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9139),
                             FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 5
@@ -1932,31 +1932,31 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 19,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7094),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9143),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 5
                         },
                         new
                         {
                             Id = 20,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7099),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9147),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 5
                         },
                         new
                         {
                             Id = 21,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7105),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9151),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 6
                         },
                         new
                         {
                             Id = 22,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7111),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9155),
                             FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 6
@@ -1964,55 +1964,55 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 23,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7116),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9158),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 6
                         },
                         new
                         {
                             Id = 24,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7122),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9163),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 6
                         },
                         new
                         {
                             Id = 25,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7127),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9169),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 7
                         },
                         new
                         {
                             Id = 26,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7133),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9174),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 7
                         },
                         new
                         {
                             Id = 27,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7139),
-                            FreelancerProfileId = 52,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9180),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 7
                         },
                         new
                         {
                             Id = 28,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7144),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9185),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 7
                         },
                         new
                         {
                             Id = 29,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7150),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9190),
                             FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 8
@@ -2020,31 +2020,31 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 30,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7155),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9195),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 8
                         },
                         new
                         {
                             Id = 31,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7162),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9200),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 8
                         },
                         new
                         {
                             Id = 32,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7168),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9205),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 8
                         },
                         new
                         {
                             Id = 33,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7174),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9211),
                             FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 9
@@ -2052,7 +2052,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 34,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7221),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9218),
                             FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 9
@@ -2060,23 +2060,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 35,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7228),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9223),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 9
                         },
                         new
                         {
                             Id = 36,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7233),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9229),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 9
                         },
                         new
                         {
                             Id = 37,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7239),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9234),
                             FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 10
@@ -2084,87 +2084,87 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 38,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7245),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9239),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 10
                         },
                         new
                         {
                             Id = 39,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7250),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9244),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 10
                         },
                         new
                         {
                             Id = 40,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7256),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9275),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 10
                         },
                         new
                         {
                             Id = 41,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7261),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9288),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 11
                         },
                         new
                         {
                             Id = 42,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7267),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9295),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 11
                         },
                         new
                         {
                             Id = 43,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7272),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9302),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 11
                         },
                         new
                         {
                             Id = 44,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7278),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9308),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 11
                         },
                         new
                         {
                             Id = 45,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7284),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9373),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 12
                         },
                         new
                         {
                             Id = 46,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7289),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9379),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 12
                         },
                         new
                         {
                             Id = 47,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7295),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9385),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 12
                         },
                         new
                         {
                             Id = 48,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7300),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9390),
                             FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 12
@@ -2172,31 +2172,31 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 49,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7306),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9396),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 13
                         },
                         new
                         {
                             Id = 50,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7311),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9401),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 13
                         },
                         new
                         {
                             Id = 51,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7316),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9407),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 13
                         },
                         new
                         {
                             Id = 52,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7322),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9412),
                             FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 13
@@ -2204,71 +2204,71 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 53,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7328),
-                            FreelancerProfileId = 37,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9417),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 14
                         },
                         new
                         {
                             Id = 54,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7333),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9423),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 14
                         },
                         new
                         {
                             Id = 55,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7339),
-                            FreelancerProfileId = 46,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9438),
+                            FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 14
                         },
                         new
                         {
                             Id = 56,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7344),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9472),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 14
                         },
                         new
                         {
                             Id = 57,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7350),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9490),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 15
                         },
                         new
                         {
                             Id = 58,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7356),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9498),
+                            FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 15
                         },
                         new
                         {
                             Id = 59,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7361),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9504),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 15
                         },
                         new
                         {
                             Id = 60,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7367),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9511),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 15
                         },
                         new
                         {
                             Id = 61,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7417),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9516),
                             FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 16
@@ -2276,39 +2276,39 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 62,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7424),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9521),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 16
                         },
                         new
                         {
                             Id = 63,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7430),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9526),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 16
                         },
                         new
                         {
                             Id = 64,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7435),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9532),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 16
                         },
                         new
                         {
                             Id = 65,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7441),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9536),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 17
                         },
                         new
                         {
                             Id = 66,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7449),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9541),
                             FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 17
@@ -2316,39 +2316,39 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 67,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7454),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9544),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 17
                         },
                         new
                         {
                             Id = 68,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7460),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9548),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 17
                         },
                         new
                         {
                             Id = 69,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7466),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9551),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 18
                         },
                         new
                         {
                             Id = 70,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7471),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9597),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 18
                         },
                         new
                         {
                             Id = 71,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7477),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9601),
                             FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 18
@@ -2356,47 +2356,47 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 72,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7483),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9604),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 18
                         },
                         new
                         {
                             Id = 73,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7488),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9608),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 19
                         },
                         new
                         {
                             Id = 74,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7494),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9611),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 19
                         },
                         new
                         {
                             Id = 75,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7499),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9614),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 19
                         },
                         new
                         {
                             Id = 76,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7505),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9618),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 19
                         },
                         new
                         {
                             Id = 77,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7510),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9621),
                             FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 20
@@ -2404,23 +2404,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 78,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7516),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9624),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 20
                         },
                         new
                         {
                             Id = 79,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7522),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9627),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 20
                         },
                         new
                         {
                             Id = 80,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7527),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9630),
                             FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 20
@@ -2428,127 +2428,127 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 81,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7533),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9634),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 21
                         },
                         new
                         {
                             Id = 82,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7538),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9637),
+                            FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 21
                         },
                         new
                         {
                             Id = 83,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7544),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9640),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 21
                         },
                         new
                         {
                             Id = 84,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7550),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9643),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 21
                         },
                         new
                         {
                             Id = 85,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7556),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9647),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 22
                         },
                         new
                         {
                             Id = 86,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7562),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9650),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 22
                         },
                         new
                         {
                             Id = 87,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7608),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9653),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 22
                         },
                         new
                         {
                             Id = 88,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7614),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9656),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 22
                         },
                         new
                         {
                             Id = 89,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7620),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9659),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 23
                         },
                         new
                         {
                             Id = 90,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7625),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9663),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 23
                         },
                         new
                         {
                             Id = 91,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7631),
-                            FreelancerProfileId = 46,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9666),
+                            FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 23
                         },
                         new
                         {
                             Id = 92,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7636),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9669),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 23
                         },
                         new
                         {
                             Id = 93,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7642),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9672),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 24
                         },
                         new
                         {
                             Id = 94,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7647),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9675),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 24
                         },
                         new
                         {
                             Id = 95,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7653),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9679),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 24
                         },
                         new
                         {
                             Id = 96,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7658),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9682),
                             FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 24
@@ -2556,15 +2556,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 97,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7664),
-                            FreelancerProfileId = 37,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9685),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 25
                         },
                         new
                         {
                             Id = 98,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7669),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9689),
                             FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 25
@@ -2572,87 +2572,87 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 99,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7675),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9741),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 25
                         },
                         new
                         {
                             Id = 100,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7681),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9745),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 25
                         },
                         new
                         {
                             Id = 101,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7687),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9748),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 26
                         },
                         new
                         {
                             Id = 102,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7693),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9752),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 26
                         },
                         new
                         {
                             Id = 103,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7698),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9755),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 26
                         },
                         new
                         {
                             Id = 104,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7704),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9758),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 26
                         },
                         new
                         {
                             Id = 105,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7709),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9761),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 27
                         },
                         new
                         {
                             Id = 106,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7715),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9765),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 27
                         },
                         new
                         {
                             Id = 107,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7721),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9768),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 27
                         },
                         new
                         {
                             Id = 108,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7726),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9771),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 27
                         },
                         new
                         {
                             Id = 109,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7732),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9774),
                             FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 28
@@ -2660,23 +2660,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 110,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7737),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9777),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 28
                         },
                         new
                         {
                             Id = 111,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7743),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9781),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 28
                         },
                         new
                         {
                             Id = 112,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7749),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9784),
                             FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 28
@@ -2684,103 +2684,103 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 113,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7755),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9787),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 29
                         },
                         new
                         {
                             Id = 114,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7761),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9790),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 29
                         },
                         new
                         {
                             Id = 115,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7766),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9793),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 29
                         },
                         new
                         {
                             Id = 116,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7818),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9797),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 29
                         },
                         new
                         {
                             Id = 117,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7824),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9800),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 30
                         },
                         new
                         {
                             Id = 118,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7829),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9803),
+                            FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 30
                         },
                         new
                         {
                             Id = 119,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7835),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9806),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 30
                         },
                         new
                         {
                             Id = 120,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7841),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9810),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 30
                         },
                         new
                         {
                             Id = 121,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7846),
-                            FreelancerProfileId = 37,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9814),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 31
                         },
                         new
                         {
                             Id = 122,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7852),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9817),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 31
                         },
                         new
                         {
                             Id = 123,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7858),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9820),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 31
                         },
                         new
                         {
                             Id = 124,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7863),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9823),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 31
                         },
                         new
                         {
                             Id = 125,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7869),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9827),
                             FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 32
@@ -2788,95 +2788,95 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 126,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7875),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9830),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 32
                         },
                         new
                         {
                             Id = 127,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7880),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9833),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 32
                         },
                         new
                         {
                             Id = 128,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7886),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9869),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 32
                         },
                         new
                         {
                             Id = 129,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7891),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9873),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 33
                         },
                         new
                         {
                             Id = 130,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7899),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9877),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 33
                         },
                         new
                         {
                             Id = 131,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7904),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9881),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 33
                         },
                         new
                         {
                             Id = 132,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7910),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9884),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 33
                         },
                         new
                         {
                             Id = 133,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7916),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9887),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 34
                         },
                         new
                         {
                             Id = 134,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7921),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9890),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 34
                         },
                         new
                         {
                             Id = 135,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7927),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9894),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 34
                         },
                         new
                         {
                             Id = 136,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7932),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9897),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 34
                         },
                         new
                         {
                             Id = 137,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7938),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9900),
                             FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 35
@@ -2884,23 +2884,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 138,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7985),
-                            FreelancerProfileId = 43,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9904),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 35
                         },
                         new
                         {
                             Id = 139,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7992),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9907),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 35
                         },
                         new
                         {
                             Id = 140,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(7997),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9910),
                             FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 35
@@ -2908,143 +2908,143 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 141,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8003),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9913),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 36
                         },
                         new
                         {
                             Id = 142,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8009),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9916),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 36
                         },
                         new
                         {
                             Id = 143,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8014),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9920),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 36
                         },
                         new
                         {
                             Id = 144,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8020),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9923),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 36
                         },
                         new
                         {
                             Id = 145,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8025),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9926),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 37
                         },
                         new
                         {
                             Id = 146,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8031),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9930),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 37
                         },
                         new
                         {
                             Id = 147,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8036),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9933),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 37
                         },
                         new
                         {
                             Id = 148,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8042),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9936),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 37
                         },
                         new
                         {
                             Id = 149,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8048),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9939),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 38
                         },
                         new
                         {
                             Id = 150,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8054),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9984),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 38
                         },
                         new
                         {
                             Id = 151,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8059),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9987),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 38
                         },
                         new
                         {
                             Id = 152,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8065),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9991),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 38
                         },
                         new
                         {
                             Id = 153,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8071),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9994),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 39
                         },
                         new
                         {
                             Id = 154,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8076),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9998),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 39
                         },
                         new
                         {
                             Id = 155,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8082),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 39
                         },
                         new
                         {
                             Id = 156,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8088),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(4),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 39
                         },
                         new
                         {
                             Id = 157,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8094),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(7),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 40
                         },
                         new
                         {
                             Id = 158,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8099),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(11),
                             FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 40
@@ -3052,15 +3052,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 159,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8105),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(14),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 40
                         },
                         new
                         {
                             Id = 160,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8112),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(17),
                             FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 40
@@ -3068,23 +3068,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 161,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8117),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(20),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 41
                         },
                         new
                         {
                             Id = 162,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8123),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(23),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 41
                         },
                         new
                         {
                             Id = 163,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8129),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(27),
                             FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 41
@@ -3092,71 +3092,71 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 164,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8135),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(30),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 41
                         },
                         new
                         {
                             Id = 165,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8141),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(33),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 42
                         },
                         new
                         {
                             Id = 166,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8147),
-                            FreelancerProfileId = 43,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(36),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 42
                         },
                         new
                         {
                             Id = 167,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8196),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(40),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 42
                         },
                         new
                         {
                             Id = 168,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8202),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(43),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 42
                         },
                         new
                         {
                             Id = 169,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8208),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(46),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 43
                         },
                         new
                         {
                             Id = 170,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8214),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(49),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 43
                         },
                         new
                         {
                             Id = 171,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8219),
-                            FreelancerProfileId = 46,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(53),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 43
                         },
                         new
                         {
                             Id = 172,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8225),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(56),
                             FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 43
@@ -3164,151 +3164,151 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 173,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8230),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(59),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 44
                         },
                         new
                         {
                             Id = 174,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8236),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(62),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 44
                         },
                         new
                         {
                             Id = 175,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8241),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(66),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 44
                         },
                         new
                         {
                             Id = 176,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8247),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(69),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 44
                         },
                         new
                         {
                             Id = 177,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8253),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(72),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 45
                         },
                         new
                         {
                             Id = 178,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8258),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(75),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 45
                         },
                         new
                         {
                             Id = 179,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8264),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(115),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 45
                         },
                         new
                         {
                             Id = 180,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8269),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(118),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 45
                         },
                         new
                         {
                             Id = 181,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8275),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(122),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 46
                         },
                         new
                         {
                             Id = 182,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8280),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(125),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 46
                         },
                         new
                         {
                             Id = 183,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8286),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(129),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 46
                         },
                         new
                         {
                             Id = 184,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8291),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(132),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 46
                         },
                         new
                         {
                             Id = 185,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8297),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(135),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 47
                         },
                         new
                         {
                             Id = 186,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8303),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(138),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 47
                         },
                         new
                         {
                             Id = 187,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8308),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(141),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 47
                         },
                         new
                         {
                             Id = 188,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8314),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(145),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 47
                         },
                         new
                         {
                             Id = 189,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8320),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(148),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 48
                         },
                         new
                         {
                             Id = 190,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8325),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(151),
+                            FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 48
                         },
                         new
                         {
                             Id = 191,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8331),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(154),
                             FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 48
@@ -3316,15 +3316,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 192,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8336),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(158),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 48
                         },
                         new
                         {
                             Id = 193,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8342),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(161),
                             FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 49
@@ -3332,135 +3332,135 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 194,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8348),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(164),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 49
                         },
                         new
                         {
                             Id = 195,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8354),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(167),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 49
                         },
                         new
                         {
                             Id = 196,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8400),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(170),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 49
                         },
                         new
                         {
                             Id = 197,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8407),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(174),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 50
                         },
                         new
                         {
                             Id = 198,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8412),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(177),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 50
                         },
                         new
                         {
                             Id = 199,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8418),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(180),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 50
                         },
                         new
                         {
                             Id = 200,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8424),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(184),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 50
                         },
                         new
                         {
                             Id = 201,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8429),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(187),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 51
                         },
                         new
                         {
                             Id = 202,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8435),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(190),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 51
                         },
                         new
                         {
                             Id = 203,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8440),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(193),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 51
                         },
                         new
                         {
                             Id = 204,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8446),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(196),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 51
                         },
                         new
                         {
                             Id = 205,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8451),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(200),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 52
                         },
                         new
                         {
                             Id = 206,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8457),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(203),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 52
                         },
                         new
                         {
                             Id = 207,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8462),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(206),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 52
                         },
                         new
                         {
                             Id = 208,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8468),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(242),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 52
                         },
                         new
                         {
                             Id = 209,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8473),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(246),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 53
                         },
                         new
                         {
                             Id = 210,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8479),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(249),
                             FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 53
@@ -3468,7 +3468,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 211,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8484),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(252),
                             FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 53
@@ -3476,55 +3476,55 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 212,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8490),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(255),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 53
                         },
                         new
                         {
                             Id = 213,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8495),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(259),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 54
                         },
                         new
                         {
                             Id = 214,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8501),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(262),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 54
                         },
                         new
                         {
                             Id = 215,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8507),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(265),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 54
                         },
                         new
                         {
                             Id = 216,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8512),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(268),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 54
                         },
                         new
                         {
                             Id = 217,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8518),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(271),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 55
                         },
                         new
                         {
                             Id = 218,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8523),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(275),
                             FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 55
@@ -3532,23 +3532,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 219,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8529),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(278),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 55
                         },
                         new
                         {
                             Id = 220,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8534),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(281),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 55
                         },
                         new
                         {
                             Id = 221,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8540),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(285),
                             FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 56
@@ -3556,15 +3556,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 222,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8545),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(288),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 56
                         },
                         new
                         {
                             Id = 223,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8551),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(291),
                             FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 56
@@ -3572,39 +3572,39 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 224,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8556),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(294),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 56
                         },
                         new
                         {
                             Id = 225,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8617),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(299),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 57
                         },
                         new
                         {
                             Id = 226,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8625),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(302),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 57
                         },
                         new
                         {
                             Id = 227,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8631),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(305),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 57
                         },
                         new
                         {
                             Id = 228,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8636),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(308),
                             FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 57
@@ -3612,23 +3612,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 229,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8642),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(312),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 58
                         },
                         new
                         {
                             Id = 230,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8648),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(315),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 58
                         },
                         new
                         {
                             Id = 231,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8653),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(318),
                             FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 58
@@ -3636,7 +3636,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 232,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8659),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(321),
                             FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 58
@@ -3644,79 +3644,79 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 233,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8665),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(324),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 59
                         },
                         new
                         {
                             Id = 234,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8671),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(328),
+                            FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 59
                         },
                         new
                         {
                             Id = 235,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8676),
-                            FreelancerProfileId = 46,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(331),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 59
                         },
                         new
                         {
                             Id = 236,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8682),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(334),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 59
                         },
                         new
                         {
                             Id = 237,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8687),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(338),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 60
                         },
                         new
                         {
                             Id = 238,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8693),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(374),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 60
                         },
                         new
                         {
                             Id = 239,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8698),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(378),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 60
                         },
                         new
                         {
                             Id = 240,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8704),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(381),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 60
                         },
                         new
                         {
                             Id = 241,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8710),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(384),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 61
                         },
                         new
                         {
                             Id = 242,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8716),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(388),
                             FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 61
@@ -3724,55 +3724,55 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 243,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8721),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(391),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 61
                         },
                         new
                         {
                             Id = 244,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8727),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(394),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 61
                         },
                         new
                         {
                             Id = 245,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8732),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(397),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 62
                         },
                         new
                         {
                             Id = 246,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8738),
-                            FreelancerProfileId = 38,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(401),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 62
                         },
                         new
                         {
                             Id = 247,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8743),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(404),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 62
                         },
                         new
                         {
                             Id = 248,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8749),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(407),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 62
                         },
                         new
                         {
                             Id = 249,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8755),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(410),
                             FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 63
@@ -3780,167 +3780,167 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 250,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8760),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(413),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 63
                         },
                         new
                         {
                             Id = 251,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8766),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(417),
+                            FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 63
                         },
                         new
                         {
                             Id = 252,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8771),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(420),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 63
                         },
                         new
                         {
                             Id = 253,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8777),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(423),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 64
                         },
                         new
                         {
                             Id = 254,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8783),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(427),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 64
                         },
                         new
                         {
                             Id = 255,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8828),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(430),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 64
                         },
                         new
                         {
                             Id = 256,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8834),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(433),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 64
                         },
                         new
                         {
                             Id = 257,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8840),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(436),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 65
                         },
                         new
                         {
                             Id = 258,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8848),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(472),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 65
                         },
                         new
                         {
                             Id = 259,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8854),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(475),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 65
                         },
                         new
                         {
                             Id = 260,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8859),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(479),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 65
                         },
                         new
                         {
                             Id = 261,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8865),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(482),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 66
                         },
                         new
                         {
                             Id = 262,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8871),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(485),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 66
                         },
                         new
                         {
                             Id = 263,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8876),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(489),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 66
                         },
                         new
                         {
                             Id = 264,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8882),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(492),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 66
                         },
                         new
                         {
                             Id = 265,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8887),
-                            FreelancerProfileId = 37,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(495),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 67
                         },
                         new
                         {
                             Id = 266,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8893),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(498),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 67
                         },
                         new
                         {
                             Id = 267,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8898),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(502),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 67
                         },
                         new
                         {
                             Id = 268,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8904),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(505),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 67
                         },
                         new
                         {
                             Id = 269,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8948),
-                            FreelancerProfileId = 37,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(508),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 68
                         },
                         new
                         {
                             Id = 270,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8955),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(511),
                             FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 68
@@ -3948,7 +3948,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 271,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8960),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(514),
                             FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 68
@@ -3956,55 +3956,55 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 272,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8966),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(517),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 68
                         },
                         new
                         {
                             Id = 273,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8973),
-                            FreelancerProfileId = 37,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(521),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 69
                         },
                         new
                         {
                             Id = 274,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8979),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(524),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 69
                         },
                         new
                         {
                             Id = 275,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8985),
-                            FreelancerProfileId = 52,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(527),
+                            FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 69
                         },
                         new
                         {
                             Id = 276,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8991),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(530),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 69
                         },
                         new
                         {
                             Id = 277,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(8997),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(534),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 70
                         },
                         new
                         {
                             Id = 278,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9003),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(537),
                             FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 70
@@ -4012,47 +4012,47 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 279,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9008),
-                            FreelancerProfileId = 52,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(541),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 70
                         },
                         new
                         {
                             Id = 280,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9014),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(544),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 70
                         },
                         new
                         {
                             Id = 281,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9020),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(578),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 71
                         },
                         new
                         {
                             Id = 282,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9025),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(582),
+                            FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 71
                         },
                         new
                         {
                             Id = 283,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9031),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(585),
+                            FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 71
                         },
                         new
                         {
                             Id = 284,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9036),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(589),
                             FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 71
@@ -4060,31 +4060,31 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 285,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9042),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(592),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 72
                         },
                         new
                         {
                             Id = 286,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9047),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(595),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 72
                         },
                         new
                         {
                             Id = 287,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9053),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(598),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 72
                         },
                         new
                         {
                             Id = 288,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9059),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(602),
                             FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 72
@@ -4092,47 +4092,47 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 289,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9064),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(605),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 73
                         },
                         new
                         {
                             Id = 290,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9070),
-                            FreelancerProfileId = 43,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(608),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 73
                         },
                         new
                         {
                             Id = 291,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9076),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(611),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 73
                         },
                         new
                         {
                             Id = 292,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9081),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(615),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 73
                         },
                         new
                         {
                             Id = 293,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9087),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(618),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 74
                         },
                         new
                         {
                             Id = 294,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9092),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(621),
                             FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 74
@@ -4140,15 +4140,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 295,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9098),
-                            FreelancerProfileId = 46,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(624),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 74
                         },
                         new
                         {
                             Id = 296,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9103),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(627),
                             FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 74
@@ -4156,7 +4156,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 297,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9109),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(631),
                             FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 75
@@ -4164,7 +4164,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 298,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9156),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(634),
                             FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 75
@@ -4172,135 +4172,135 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 299,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9162),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(637),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 75
                         },
                         new
                         {
                             Id = 300,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9168),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(641),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 75
                         },
                         new
                         {
                             Id = 301,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9174),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(644),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 76
                         },
                         new
                         {
                             Id = 302,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9179),
-                            FreelancerProfileId = 43,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(647),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 76
                         },
                         new
                         {
                             Id = 303,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9184),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(650),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 76
                         },
                         new
                         {
                             Id = 304,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9190),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(654),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 76
                         },
                         new
                         {
                             Id = 305,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9196),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(657),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 77
                         },
                         new
                         {
                             Id = 306,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9201),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(660),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 77
                         },
                         new
                         {
                             Id = 307,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9206),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(664),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 77
                         },
                         new
                         {
                             Id = 308,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9212),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(667),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 77
                         },
                         new
                         {
                             Id = 309,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9218),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(670),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 78
                         },
                         new
                         {
                             Id = 310,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9223),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(715),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 78
                         },
                         new
                         {
                             Id = 311,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9229),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(719),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 78
                         },
                         new
                         {
                             Id = 312,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9234),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(723),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 78
                         },
                         new
                         {
                             Id = 313,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9240),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(726),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 79
                         },
                         new
                         {
                             Id = 314,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9245),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(729),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 79
                         },
                         new
                         {
                             Id = 315,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9251),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(732),
                             FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 79
@@ -4308,63 +4308,63 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 316,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9256),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(736),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 79
                         },
                         new
                         {
                             Id = 317,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9262),
-                            FreelancerProfileId = 34,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(739),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 80
                         },
                         new
                         {
                             Id = 318,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9267),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(742),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 80
                         },
                         new
                         {
                             Id = 319,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9273),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(745),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 80
                         },
                         new
                         {
                             Id = 320,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9278),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(748),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 80
                         },
                         new
                         {
                             Id = 321,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9284),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(752),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 81
                         },
                         new
                         {
                             Id = 322,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9290),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(755),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 81
                         },
                         new
                         {
                             Id = 323,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9295),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(758),
                             FreelancerProfileId = 51,
                             IsAccepted = true,
                             JobId = 81
@@ -4372,7 +4372,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 324,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9301),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(762),
                             FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 81
@@ -4380,175 +4380,175 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 325,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9307),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(765),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 82
                         },
                         new
                         {
                             Id = 326,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9313),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(768),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 82
                         },
                         new
                         {
                             Id = 327,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9360),
-                            FreelancerProfileId = 46,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(771),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 82
                         },
                         new
                         {
                             Id = 328,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9368),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(775),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 82
                         },
                         new
                         {
                             Id = 329,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9373),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(778),
+                            FreelancerProfileId = 37,
                             IsAccepted = true,
                             JobId = 83
                         },
                         new
                         {
                             Id = 330,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9379),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(781),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 83
                         },
                         new
                         {
                             Id = 331,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9384),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(785),
+                            FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 83
                         },
                         new
                         {
                             Id = 332,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9390),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(788),
+                            FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 83
                         },
                         new
                         {
                             Id = 333,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9395),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(791),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 84
                         },
                         new
                         {
                             Id = 334,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9401),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(794),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 84
                         },
                         new
                         {
                             Id = 335,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9406),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(798),
+                            FreelancerProfileId = 46,
                             IsAccepted = true,
                             JobId = 84
                         },
                         new
                         {
                             Id = 336,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9412),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(801),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 84
                         },
                         new
                         {
                             Id = 337,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9417),
-                            FreelancerProfileId = 32,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(804),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 85
                         },
                         new
                         {
                             Id = 338,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9423),
-                            FreelancerProfileId = 43,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(807),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 85
                         },
                         new
                         {
                             Id = 339,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9429),
-                            FreelancerProfileId = 52,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(811),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 85
                         },
                         new
                         {
                             Id = 340,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9434),
-                            FreelancerProfileId = 59,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(849),
+                            FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 85
                         },
                         new
                         {
                             Id = 341,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9440),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(852),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 86
                         },
                         new
                         {
                             Id = 342,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9445),
-                            FreelancerProfileId = 40,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(856),
+                            FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 86
                         },
                         new
                         {
                             Id = 343,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9451),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(859),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 86
                         },
                         new
                         {
                             Id = 344,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9456),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(862),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 86
                         },
                         new
                         {
                             Id = 345,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9462),
-                            FreelancerProfileId = 31,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(865),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 87
                         },
                         new
                         {
                             Id = 346,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9468),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(868),
                             FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 87
@@ -4556,47 +4556,47 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 347,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9473),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(872),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 87
                         },
                         new
                         {
                             Id = 348,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9478),
-                            FreelancerProfileId = 58,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(875),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 87
                         },
                         new
                         {
                             Id = 349,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9484),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(878),
+                            FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 88
                         },
                         new
                         {
                             Id = 350,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9490),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(881),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 88
                         },
                         new
                         {
                             Id = 351,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9495),
-                            FreelancerProfileId = 46,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(884),
+                            FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 88
                         },
                         new
                         {
                             Id = 352,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9501),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(888),
                             FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 88
@@ -4604,63 +4604,63 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 353,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9507),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(891),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 89
                         },
                         new
                         {
                             Id = 354,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9512),
-                            FreelancerProfileId = 44,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(894),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 89
                         },
                         new
                         {
                             Id = 355,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9518),
-                            FreelancerProfileId = 48,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(897),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 89
                         },
                         new
                         {
                             Id = 356,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9523),
-                            FreelancerProfileId = 57,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(900),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 89
                         },
                         new
                         {
                             Id = 357,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9573),
-                            FreelancerProfileId = 35,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(904),
+                            FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 90
                         },
                         new
                         {
                             Id = 358,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9579),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(907),
+                            FreelancerProfileId = 43,
                             IsAccepted = false,
                             JobId = 90
                         },
                         new
                         {
                             Id = 359,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9584),
-                            FreelancerProfileId = 52,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(910),
+                            FreelancerProfileId = 48,
                             IsAccepted = true,
                             JobId = 90
                         },
                         new
                         {
                             Id = 360,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9590),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(913),
                             FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 90
@@ -4668,39 +4668,39 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 361,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9596),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(917),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 91
                         },
                         new
                         {
                             Id = 362,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9601),
-                            FreelancerProfileId = 41,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(920),
+                            FreelancerProfileId = 40,
                             IsAccepted = false,
                             JobId = 91
                         },
                         new
                         {
                             Id = 363,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9607),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(923),
+                            FreelancerProfileId = 50,
                             IsAccepted = true,
                             JobId = 91
                         },
                         new
                         {
                             Id = 364,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9612),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(926),
+                            FreelancerProfileId = 55,
                             IsAccepted = false,
                             JobId = 91
                         },
                         new
                         {
                             Id = 365,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9618),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(930),
                             FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 92
@@ -4708,23 +4708,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 366,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9623),
-                            FreelancerProfileId = 43,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(933),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 92
                         },
                         new
                         {
                             Id = 367,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9629),
-                            FreelancerProfileId = 52,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(936),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 92
                         },
                         new
                         {
                             Id = 368,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9634),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(939),
                             FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 92
@@ -4732,15 +4732,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 369,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9640),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(976),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 93
                         },
                         new
                         {
                             Id = 370,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9646),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(979),
                             FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 93
@@ -4748,23 +4748,23 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 371,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9651),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(982),
+                            FreelancerProfileId = 47,
                             IsAccepted = true,
                             JobId = 93
                         },
                         new
                         {
                             Id = 372,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9658),
-                            FreelancerProfileId = 55,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(985),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 93
                         },
                         new
                         {
                             Id = 373,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9663),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(989),
                             FreelancerProfileId = 33,
                             IsAccepted = true,
                             JobId = 94
@@ -4772,55 +4772,55 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 374,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9669),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(992),
+                            FreelancerProfileId = 38,
                             IsAccepted = false,
                             JobId = 94
                         },
                         new
                         {
                             Id = 375,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9675),
-                            FreelancerProfileId = 50,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(995),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 94
                         },
                         new
                         {
                             Id = 376,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9680),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(998),
+                            FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 94
                         },
                         new
                         {
                             Id = 377,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9686),
-                            FreelancerProfileId = 37,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1002),
+                            FreelancerProfileId = 36,
                             IsAccepted = true,
                             JobId = 95
                         },
                         new
                         {
                             Id = 378,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9692),
-                            FreelancerProfileId = 39,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1005),
+                            FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 95
                         },
                         new
                         {
                             Id = 379,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9697),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1009),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 95
                         },
                         new
                         {
                             Id = 380,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9703),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1012),
                             FreelancerProfileId = 57,
                             IsAccepted = false,
                             JobId = 95
@@ -4828,31 +4828,31 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 381,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9708),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1015),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 96
                         },
                         new
                         {
                             Id = 382,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9714),
-                            FreelancerProfileId = 45,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1018),
+                            FreelancerProfileId = 42,
                             IsAccepted = false,
                             JobId = 96
                         },
                         new
                         {
                             Id = 383,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9720),
-                            FreelancerProfileId = 53,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1021),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 96
                         },
                         new
                         {
                             Id = 384,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9725),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1024),
                             FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 96
@@ -4860,31 +4860,31 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 385,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9731),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1028),
+                            FreelancerProfileId = 34,
                             IsAccepted = true,
                             JobId = 97
                         },
                         new
                         {
                             Id = 386,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9781),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1031),
+                            FreelancerProfileId = 45,
                             IsAccepted = false,
                             JobId = 97
                         },
                         new
                         {
                             Id = 387,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9787),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1034),
+                            FreelancerProfileId = 49,
                             IsAccepted = true,
                             JobId = 97
                         },
                         new
                         {
                             Id = 388,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9792),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1037),
                             FreelancerProfileId = 54,
                             IsAccepted = false,
                             JobId = 97
@@ -4892,15 +4892,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 389,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9798),
-                            FreelancerProfileId = 33,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1040),
+                            FreelancerProfileId = 32,
                             IsAccepted = true,
                             JobId = 98
                         },
                         new
                         {
                             Id = 390,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9804),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1044),
                             FreelancerProfileId = 44,
                             IsAccepted = false,
                             JobId = 98
@@ -4908,15 +4908,15 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 391,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9809),
-                            FreelancerProfileId = 51,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1047),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 98
                         },
                         new
                         {
                             Id = 392,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9815),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1050),
                             FreelancerProfileId = 58,
                             IsAccepted = false,
                             JobId = 98
@@ -4924,39 +4924,39 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 393,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9821),
-                            FreelancerProfileId = 36,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1053),
+                            FreelancerProfileId = 35,
                             IsAccepted = true,
                             JobId = 99
                         },
                         new
                         {
                             Id = 394,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9826),
-                            FreelancerProfileId = 42,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1056),
+                            FreelancerProfileId = 41,
                             IsAccepted = false,
                             JobId = 99
                         },
                         new
                         {
                             Id = 395,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9832),
-                            FreelancerProfileId = 49,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1060),
+                            FreelancerProfileId = 52,
                             IsAccepted = true,
                             JobId = 99
                         },
                         new
                         {
                             Id = 396,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9837),
-                            FreelancerProfileId = 54,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1063),
+                            FreelancerProfileId = 56,
                             IsAccepted = false,
                             JobId = 99
                         },
                         new
                         {
                             Id = 397,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9843),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1066),
                             FreelancerProfileId = 31,
                             IsAccepted = true,
                             JobId = 100
@@ -4964,7 +4964,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 398,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9849),
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1104),
                             FreelancerProfileId = 39,
                             IsAccepted = false,
                             JobId = 100
@@ -4972,16 +4972,16 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             Id = 399,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9854),
-                            FreelancerProfileId = 47,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1107),
+                            FreelancerProfileId = 53,
                             IsAccepted = true,
                             JobId = 100
                         },
                         new
                         {
                             Id = 400,
-                            CreateDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(9860),
-                            FreelancerProfileId = 56,
+                            CreateDate = new DateTime(2023, 6, 17, 15, 31, 44, 968, DateTimeKind.Local).AddTicks(1110),
+                            FreelancerProfileId = 59,
                             IsAccepted = false,
                             JobId = 100
                         });
@@ -5268,57 +5268,57 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 31,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 32,
                             CategoryId = 7
                         },
                         new
                         {
-                            FreelancerProfileId = 33,
+                            FreelancerProfileId = 32,
                             CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 33,
+                            CategoryId = 8
                         },
                         new
                         {
                             FreelancerProfileId = 34,
-                            CategoryId = 6
+                            CategoryId = 3
                         },
                         new
                         {
                             FreelancerProfileId = 35,
-                            CategoryId = 1
+                            CategoryId = 5
                         },
                         new
                         {
                             FreelancerProfileId = 36,
-                            CategoryId = 5
+                            CategoryId = 7
                         },
                         new
                         {
                             FreelancerProfileId = 37,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 38,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 39,
                             CategoryId = 5
                         },
                         new
                         {
-                            FreelancerProfileId = 40,
+                            FreelancerProfileId = 38,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 39,
                             CategoryId = 6
                         },
                         new
                         {
+                            FreelancerProfileId = 40,
+                            CategoryId = 3
+                        },
+                        new
+                        {
                             FreelancerProfileId = 41,
-                            CategoryId = 1
+                            CategoryId = 5
                         },
                         new
                         {
@@ -5328,57 +5328,57 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 43,
-                            CategoryId = 7
+                            CategoryId = 5
                         },
                         new
                         {
                             FreelancerProfileId = 44,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 45,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 46,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 47,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 48,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 49,
                             CategoryId = 1
                         },
                         new
                         {
-                            FreelancerProfileId = 50,
-                            CategoryId = 8
+                            FreelancerProfileId = 45,
+                            CategoryId = 4
                         },
                         new
                         {
-                            FreelancerProfileId = 51,
+                            FreelancerProfileId = 46,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 47,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 48,
                             CategoryId = 7
                         },
                         new
                         {
-                            FreelancerProfileId = 52,
+                            FreelancerProfileId = 49,
                             CategoryId = 3
                         },
                         new
                         {
-                            FreelancerProfileId = 53,
+                            FreelancerProfileId = 50,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 51,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 52,
                             CategoryId = 8
+                        },
+                        new
+                        {
+                            FreelancerProfileId = 53,
+                            CategoryId = 2
                         },
                         new
                         {
@@ -5388,32 +5388,32 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             FreelancerProfileId = 55,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            FreelancerProfileId = 56,
                             CategoryId = 5
                         },
                         new
                         {
+                            FreelancerProfileId = 56,
+                            CategoryId = 7
+                        },
+                        new
+                        {
                             FreelancerProfileId = 57,
-                            CategoryId = 6
+                            CategoryId = 3
                         },
                         new
                         {
                             FreelancerProfileId = 58,
-                            CategoryId = 2
+                            CategoryId = 5
                         },
                         new
                         {
                             FreelancerProfileId = 59,
-                            CategoryId = 1
+                            CategoryId = 8
                         },
                         new
                         {
                             FreelancerProfileId = 60,
-                            CategoryId = 2
+                            CategoryId = 1
                         });
                 });
 
@@ -5760,8 +5760,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 1,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3619),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(6949),
                             Description = "This a simple description for project 1 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 1",
@@ -5772,7 +5772,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 2,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3690),
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7062),
                             Description = "This a simple description for project 2 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 2",
@@ -5782,8 +5782,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 3,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3704),
+                            BusinessProfileId = 26,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7070),
                             Description = "This a simple description for project 3 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 3",
@@ -5793,8 +5793,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 4,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3717),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7077),
                             Description = "This a simple description for project 4 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 4",
@@ -5804,8 +5804,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 5,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 29,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3775),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7085),
                             Description = "This a simple description for project 5 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 5",
@@ -5815,8 +5815,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 6,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3792),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7094),
                             Description = "This a simple description for project 6 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 6",
@@ -5826,8 +5826,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 7,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3806),
+                            BusinessProfileId = 2,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7102),
                             Description = "This a simple description for project 7 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 7",
@@ -5837,8 +5837,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 8,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3818),
+                            BusinessProfileId = 1,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7144),
                             Description = "This a simple description for project 8 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 8",
@@ -5848,8 +5848,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 9,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3830),
+                            BusinessProfileId = 20,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7152),
                             Description = "This a simple description for project 9 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 9",
@@ -5859,8 +5859,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 10,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3845),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7162),
                             Description = "This a simple description for project 10 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 10",
@@ -5870,8 +5870,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 11,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3965),
+                            BusinessProfileId = 5,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7169),
                             Description = "This a simple description for project 11 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 11",
@@ -5881,8 +5881,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 12,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3981),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7177),
                             Description = "This a simple description for project 12 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 12",
@@ -5892,8 +5892,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 13,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(3994),
+                            BusinessProfileId = 9,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7218),
                             Description = "This a simple description for project 13 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 13",
@@ -5903,8 +5903,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 14,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4006),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7226),
                             Description = "This a simple description for project 14 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 14",
@@ -5914,8 +5914,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 15,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4018),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7234),
                             Description = "This a simple description for project 15 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 15",
@@ -5925,8 +5925,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 16,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4030),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7242),
                             Description = "This a simple description for project 16 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 16",
@@ -5936,8 +5936,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 17,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 25,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4082),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7249),
                             Description = "This a simple description for project 17 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 17",
@@ -5947,8 +5947,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 18,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 22,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4099),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7258),
                             Description = "This a simple description for project 18 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 18",
@@ -5958,8 +5958,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 19,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4111),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7297),
                             Description = "This a simple description for project 19 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 19",
@@ -5970,7 +5970,7 @@ namespace SteelanceX.Data.Migrations
                             Id = 20,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
                             BusinessProfileId = 1,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4123),
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7305),
                             Description = "This a simple description for project 20 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 20",
@@ -5980,8 +5980,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 21,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 4,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4135),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7312),
                             Description = "This a simple description for project 21 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 21",
@@ -5991,8 +5991,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 22,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4187),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7320),
                             Description = "This a simple description for project 22 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 22",
@@ -6002,8 +6002,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 23,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4201),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7327),
                             Description = "This a simple description for project 23 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 23",
@@ -6013,8 +6013,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 24,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4214),
+                            BusinessProfileId = 1,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7335),
                             Description = "This a simple description for project 24 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 24",
@@ -6024,8 +6024,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 25,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4226),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7373),
                             Description = "This a simple description for project 25 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 25",
@@ -6035,8 +6035,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 26,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4237),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7381),
                             Description = "This a simple description for project 26 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 26",
@@ -6046,8 +6046,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 27,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4250),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7388),
                             Description = "This a simple description for project 27 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 27",
@@ -6057,8 +6057,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 28,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4300),
+                            BusinessProfileId = 1,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7396),
                             Description = "This a simple description for project 28 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 28",
@@ -6068,8 +6068,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 29,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(4315),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7403),
                             Description = "This a simple description for project 29 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 29",
@@ -6079,8 +6079,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 30,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5113),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(7959),
                             Description = "This a simple description for project 30 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 30",
@@ -6090,8 +6090,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 31,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5183),
+                            BusinessProfileId = 8,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8061),
                             Description = "This a simple description for project 31 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 31",
@@ -6101,8 +6101,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 32,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 29,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5197),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8069),
                             Description = "This a simple description for project 32 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 32",
@@ -6112,8 +6112,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 33,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5209),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8076),
                             Description = "This a simple description for project 33 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 33",
@@ -6123,8 +6123,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 34,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 25,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5287),
+                            BusinessProfileId = 5,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8086),
                             Description = "This a simple description for project 34 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 34",
@@ -6134,8 +6134,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 35,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5300),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8094),
                             Description = "This a simple description for project 35 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 35",
@@ -6145,8 +6145,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 36,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5313),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8138),
                             Description = "This a simple description for project 36 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 36",
@@ -6156,8 +6156,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 37,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5325),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8149),
                             Description = "This a simple description for project 37 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 37",
@@ -6167,8 +6167,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 38,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5338),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8156),
                             Description = "This a simple description for project 38 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 38",
@@ -6178,8 +6178,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 39,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5394),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8163),
                             Description = "This a simple description for project 39 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 39",
@@ -6189,8 +6189,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 40,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5409),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8170),
                             Description = "This a simple description for project 40 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 40",
@@ -6200,8 +6200,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 41,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5422),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8219),
                             Description = "This a simple description for project 41 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 41",
@@ -6211,8 +6211,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 42,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5435),
+                            BusinessProfileId = 4,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8228),
                             Description = "This a simple description for project 42 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 42",
@@ -6222,8 +6222,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 43,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 12,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5447),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8235),
                             Description = "This a simple description for project 43 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 43",
@@ -6233,8 +6233,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 44,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5460),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8242),
                             Description = "This a simple description for project 44 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 44",
@@ -6244,8 +6244,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 45,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5515),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8250),
                             Description = "This a simple description for project 45 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 45",
@@ -6255,8 +6255,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 46,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5530),
+                            BusinessProfileId = 30,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8257),
                             Description = "This a simple description for project 46 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 46",
@@ -6266,8 +6266,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 47,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 5,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5543),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8298),
                             Description = "This a simple description for project 47 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 47",
@@ -6277,8 +6277,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 48,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5556),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8307),
                             Description = "This a simple description for project 48 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 48",
@@ -6288,8 +6288,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 49,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 27,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5568),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8314),
                             Description = "This a simple description for project 49 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 49",
@@ -6299,8 +6299,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 50,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5581),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8321),
                             Description = "This a simple description for project 50 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = true,
                             Name = "Project 50",
@@ -6310,8 +6310,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 51,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 18,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5640),
+                            BusinessProfileId = 2,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8328),
                             Description = "This a simple description for project 51 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 51",
@@ -6321,8 +6321,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 52,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5655),
+                            BusinessProfileId = 17,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8335),
                             Description = "This a simple description for project 52 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 52",
@@ -6332,8 +6332,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 53,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5668),
+                            BusinessProfileId = 16,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8375),
                             Description = "This a simple description for project 53 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 53",
@@ -6343,8 +6343,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 54,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5681),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8383),
                             Description = "This a simple description for project 54 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 54",
@@ -6354,8 +6354,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 55,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 23,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5693),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8390),
                             Description = "This a simple description for project 55 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 55",
@@ -6365,8 +6365,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 56,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5706),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8398),
                             Description = "This a simple description for project 56 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 56",
@@ -6376,8 +6376,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 57,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5798),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8405),
                             Description = "This a simple description for project 57 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 57",
@@ -6387,8 +6387,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 58,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 21,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5812),
+                            BusinessProfileId = 24,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8412),
                             Description = "This a simple description for project 58 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 58",
@@ -6398,8 +6398,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 59,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5825),
+                            BusinessProfileId = 11,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8450),
                             Description = "This a simple description for project 59 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 59",
@@ -6409,8 +6409,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 60,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5838),
+                            BusinessProfileId = 1,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8458),
                             Description = "This a simple description for project 60 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 60",
@@ -6420,8 +6420,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 61,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5850),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8465),
                             Description = "This a simple description for project 61 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 61",
@@ -6431,8 +6431,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 62,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 7,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5909),
+                            BusinessProfileId = 6,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8472),
                             Description = "This a simple description for project 62 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 62",
@@ -6442,8 +6442,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 63,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5924),
+                            BusinessProfileId = 18,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8480),
                             Description = "This a simple description for project 63 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 63",
@@ -6453,8 +6453,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 64,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 28,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5937),
+                            BusinessProfileId = 25,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8487),
                             Description = "This a simple description for project 64 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 64",
@@ -6464,8 +6464,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 65,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 1,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5949),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8526),
                             Description = "This a simple description for project 65 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 65",
@@ -6475,8 +6475,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 66,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 4,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(5966),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8536),
                             Description = "This a simple description for project 66 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 66",
@@ -6486,8 +6486,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 67,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 17,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6020),
+                            BusinessProfileId = 3,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8544),
                             Description = "This a simple description for project 67 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 67",
@@ -6497,8 +6497,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 68,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6034),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8551),
                             Description = "This a simple description for project 68 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 68",
@@ -6508,8 +6508,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 69,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6047),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8588),
                             Description = "This a simple description for project 69 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 69",
@@ -6519,8 +6519,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 70,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 11,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6060),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8597),
                             Description = "This a simple description for project 70 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 70",
@@ -6530,8 +6530,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 71,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6072),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8605),
                             Description = "This a simple description for project 71 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 71",
@@ -6541,8 +6541,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 72,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 13,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6085),
+                            BusinessProfileId = 4,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8612),
                             Description = "This a simple description for project 72 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 72",
@@ -6552,8 +6552,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 73,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6138),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8620),
                             Description = "This a simple description for project 73 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 73",
@@ -6563,8 +6563,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 74,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 24,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6153),
+                            BusinessProfileId = 13,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8627),
                             Description = "This a simple description for project 74 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 74",
@@ -6574,8 +6574,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 75,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 1,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6165),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8678),
                             Description = "This a simple description for project 75 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 75",
@@ -6585,8 +6585,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 76,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 29,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6178),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8687),
                             Description = "This a simple description for project 76 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 76",
@@ -6596,8 +6596,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 77,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6191),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8695),
                             Description = "This a simple description for project 77 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 77",
@@ -6607,8 +6607,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 78,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6204),
+                            BusinessProfileId = 3,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8702),
                             Description = "This a simple description for project 78 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 78",
@@ -6618,8 +6618,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 79,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6256),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8709),
                             Description = "This a simple description for project 79 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 79",
@@ -6629,8 +6629,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 80,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6269),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8717),
                             Description = "This a simple description for project 80 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 80",
@@ -6640,8 +6640,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 81,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 3,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6282),
+                            BusinessProfileId = 2,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8760),
                             Description = "This a simple description for project 81 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 81",
@@ -6651,8 +6651,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 82,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6295),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8769),
                             Description = "This a simple description for project 82 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 82",
@@ -6662,8 +6662,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 83,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6307),
+                            BusinessProfileId = 28,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8777),
                             Description = "This a simple description for project 83 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 83",
@@ -6673,8 +6673,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 84,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 10,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6463),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8784),
                             Description = "This a simple description for project 84 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 84",
@@ -6684,8 +6684,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 85,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 15,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6484),
+                            BusinessProfileId = 23,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8792),
                             Description = "This a simple description for project 85 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 85",
@@ -6695,8 +6695,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 86,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 1,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6497),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8799),
                             Description = "This a simple description for project 86 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 86",
@@ -6706,8 +6706,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 87,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6510),
+                            BusinessProfileId = 26,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8840),
                             Description = "This a simple description for project 87 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 87",
@@ -6717,8 +6717,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 88,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 26,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6523),
+                            BusinessProfileId = 19,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8849),
                             Description = "This a simple description for project 88 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 88",
@@ -6728,8 +6728,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 89,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 30,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6535),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8856),
                             Description = "This a simple description for project 89 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 89",
@@ -6739,8 +6739,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 90,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 8,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6694),
+                            BusinessProfileId = 3,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8864),
                             Description = "This a simple description for project 90 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 90",
@@ -6750,8 +6750,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 91,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 14,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6714),
+                            BusinessProfileId = 16,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8871),
                             Description = "This a simple description for project 91 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 91",
@@ -6761,8 +6761,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 92,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6727),
+                            BusinessProfileId = 10,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8879),
                             Description = "This a simple description for project 92 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 92",
@@ -6772,8 +6772,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 93,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6740),
+                            BusinessProfileId = 14,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8918),
                             Description = "This a simple description for project 93 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 93",
@@ -6783,8 +6783,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 94,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 19,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6753),
+                            BusinessProfileId = 21,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8926),
                             Description = "This a simple description for project 94 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 94",
@@ -6794,8 +6794,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 95,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 20,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6765),
+                            BusinessProfileId = 12,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8934),
                             Description = "This a simple description for project 95 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 95",
@@ -6805,8 +6805,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 96,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 4,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6820),
+                            BusinessProfileId = 29,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8942),
                             Description = "This a simple description for project 96 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 96",
@@ -6816,8 +6816,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 97,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6835),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8949),
                             Description = "This a simple description for project 97 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 97",
@@ -6827,8 +6827,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 98,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 9,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6848),
+                            BusinessProfileId = 22,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8956),
                             Description = "This a simple description for project 98 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 98",
@@ -6838,8 +6838,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 99,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 2,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6860),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(8997),
                             Description = "This a simple description for project 99 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 99",
@@ -6849,8 +6849,8 @@ namespace SteelanceX.Data.Migrations
                         {
                             Id = 100,
                             ApplyExpireDate = new DateTime(9999, 12, 31, 23, 59, 59, 999, DateTimeKind.Unspecified).AddTicks(9999),
-                            BusinessProfileId = 16,
-                            CreatedDate = new DateTime(2023, 6, 15, 18, 52, 39, 837, DateTimeKind.Local).AddTicks(6874),
+                            BusinessProfileId = 15,
+                            CreatedDate = new DateTime(2023, 6, 17, 15, 31, 44, 967, DateTimeKind.Local).AddTicks(9005),
                             Description = "This a simple description for project 100 As a Software Developer, your primary responsibility is to design, develop, and maintain software applications and systems. You will collaborate with a team of developers and other stakeholders to understand requirements, create efficient code, and deliver high-quality software solutions.",
                             IsActive = false,
                             Name = "Project 100",
@@ -6876,17 +6876,17 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 1,
-                            CategoryId = 4
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 2,
-                            CategoryId = 7
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 3,
-                            CategoryId = 7
+                            CategoryId = 4
                         },
                         new
                         {
@@ -6896,47 +6896,47 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 5,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 6,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 7,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 8,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 9,
                             CategoryId = 3
                         },
                         new
                         {
+                            JobId = 6,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 7,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 8,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 9,
+                            CategoryId = 7
+                        },
+                        new
+                        {
                             JobId = 10,
-                            CategoryId = 6
+                            CategoryId = 8
                         },
                         new
                         {
                             JobId = 11,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 12,
-                            CategoryId = 5
+                            CategoryId = 8
                         },
                         new
                         {
                             JobId = 13,
-                            CategoryId = 7
+                            CategoryId = 6
                         },
                         new
                         {
@@ -6946,17 +6946,17 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 15,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 16,
                             CategoryId = 3
                         },
                         new
                         {
+                            JobId = 16,
+                            CategoryId = 4
+                        },
+                        new
+                        {
                             JobId = 17,
-                            CategoryId = 5
+                            CategoryId = 7
                         },
                         new
                         {
@@ -6966,12 +6966,12 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 19,
-                            CategoryId = 8
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 20,
-                            CategoryId = 5
+                            CategoryId = 4
                         },
                         new
                         {
@@ -6981,7 +6981,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 22,
-                            CategoryId = 2
+                            CategoryId = 5
                         },
                         new
                         {
@@ -6991,107 +6991,107 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 24,
-                            CategoryId = 7
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 25,
-                            CategoryId = 5
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 26,
-                            CategoryId = 8
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 27,
-                            CategoryId = 1
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 28,
-                            CategoryId = 2
+                            CategoryId = 3
                         },
                         new
                         {
                             JobId = 29,
-                            CategoryId = 4
+                            CategoryId = 1
                         },
                         new
                         {
                             JobId = 30,
-                            CategoryId = 7
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 31,
-                            CategoryId = 4
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 32,
-                            CategoryId = 6
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 33,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 34,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 35,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 36,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 37,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 38,
                             CategoryId = 7
                         },
                         new
                         {
-                            JobId = 39,
-                            CategoryId = 6
+                            JobId = 34,
+                            CategoryId = 3
                         },
                         new
                         {
-                            JobId = 40,
+                            JobId = 35,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 36,
                             CategoryId = 4
                         },
                         new
                         {
+                            JobId = 37,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 38,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 39,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 40,
+                            CategoryId = 2
+                        },
+                        new
+                        {
                             JobId = 41,
-                            CategoryId = 6
+                            CategoryId = 5
                         },
                         new
                         {
                             JobId = 42,
-                            CategoryId = 1
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 43,
-                            CategoryId = 1
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 44,
-                            CategoryId = 2
+                            CategoryId = 6
                         },
                         new
                         {
@@ -7101,7 +7101,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 46,
-                            CategoryId = 4
+                            CategoryId = 1
                         },
                         new
                         {
@@ -7111,77 +7111,77 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 48,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 49,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 50,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 51,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 52,
-                            CategoryId = 1
-                        },
-                        new
-                        {
-                            JobId = 53,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 54,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 55,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 56,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 57,
                             CategoryId = 3
                         },
                         new
                         {
-                            JobId = 58,
+                            JobId = 49,
                             CategoryId = 5
                         },
                         new
                         {
-                            JobId = 59,
-                            CategoryId = 8
+                            JobId = 50,
+                            CategoryId = 1
                         },
                         new
                         {
-                            JobId = 60,
+                            JobId = 51,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            JobId = 52,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 53,
                             CategoryId = 7
                         },
                         new
                         {
+                            JobId = 54,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 55,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 56,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 57,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 58,
+                            CategoryId = 2
+                        },
+                        new
+                        {
+                            JobId = 59,
+                            CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 60,
+                            CategoryId = 1
+                        },
+                        new
+                        {
                             JobId = 61,
-                            CategoryId = 4
+                            CategoryId = 8
                         },
                         new
                         {
                             JobId = 62,
-                            CategoryId = 6
+                            CategoryId = 2
                         },
                         new
                         {
@@ -7196,22 +7196,22 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 65,
-                            CategoryId = 8
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 66,
-                            CategoryId = 3
-                        },
-                        new
-                        {
-                            JobId = 67,
                             CategoryId = 1
                         },
                         new
                         {
+                            JobId = 67,
+                            CategoryId = 8
+                        },
+                        new
+                        {
                             JobId = 68,
-                            CategoryId = 7
+                            CategoryId = 6
                         },
                         new
                         {
@@ -7221,92 +7221,92 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 70,
-                            CategoryId = 3
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 71,
-                            CategoryId = 2
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 72,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 73,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 74,
-                            CategoryId = 4
-                        },
-                        new
-                        {
-                            JobId = 75,
-                            CategoryId = 2
-                        },
-                        new
-                        {
-                            JobId = 76,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 77,
                             CategoryId = 1
                         },
                         new
                         {
-                            JobId = 78,
-                            CategoryId = 4
+                            JobId = 73,
+                            CategoryId = 7
                         },
                         new
                         {
-                            JobId = 79,
-                            CategoryId = 6
-                        },
-                        new
-                        {
-                            JobId = 80,
+                            JobId = 74,
                             CategoryId = 3
                         },
                         new
                         {
-                            JobId = 81,
-                            CategoryId = 8
-                        },
-                        new
-                        {
-                            JobId = 82,
+                            JobId = 75,
                             CategoryId = 6
                         },
                         new
                         {
-                            JobId = 83,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 84,
-                            CategoryId = 5
-                        },
-                        new
-                        {
-                            JobId = 85,
-                            CategoryId = 7
-                        },
-                        new
-                        {
-                            JobId = 86,
+                            JobId = 76,
                             CategoryId = 2
                         },
                         new
                         {
-                            JobId = 87,
+                            JobId = 77,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 78,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 79,
+                            CategoryId = 1
+                        },
+                        new
+                        {
+                            JobId = 80,
+                            CategoryId = 7
+                        },
+                        new
+                        {
+                            JobId = 81,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 82,
+                            CategoryId = 4
+                        },
+                        new
+                        {
+                            JobId = 83,
                             CategoryId = 6
+                        },
+                        new
+                        {
+                            JobId = 84,
+                            CategoryId = 3
+                        },
+                        new
+                        {
+                            JobId = 85,
+                            CategoryId = 8
+                        },
+                        new
+                        {
+                            JobId = 86,
+                            CategoryId = 5
+                        },
+                        new
+                        {
+                            JobId = 87,
+                            CategoryId = 2
                         },
                         new
                         {
@@ -7316,7 +7316,7 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 89,
-                            CategoryId = 3
+                            CategoryId = 2
                         },
                         new
                         {
@@ -7326,32 +7326,32 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 91,
-                            CategoryId = 1
+                            CategoryId = 2
                         },
                         new
                         {
                             JobId = 92,
-                            CategoryId = 3
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 93,
-                            CategoryId = 8
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 94,
-                            CategoryId = 7
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 95,
-                            CategoryId = 1
+                            CategoryId = 7
                         },
                         new
                         {
                             JobId = 96,
-                            CategoryId = 7
+                            CategoryId = 3
                         },
                         new
                         {
@@ -7361,17 +7361,17 @@ namespace SteelanceX.Data.Migrations
                         new
                         {
                             JobId = 98,
-                            CategoryId = 6
+                            CategoryId = 4
                         },
                         new
                         {
                             JobId = 99,
-                            CategoryId = 3
+                            CategoryId = 6
                         },
                         new
                         {
                             JobId = 100,
-                            CategoryId = 5
+                            CategoryId = 2
                         });
                 });
 
