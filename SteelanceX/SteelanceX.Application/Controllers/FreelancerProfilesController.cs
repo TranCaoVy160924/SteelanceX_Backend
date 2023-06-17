@@ -10,6 +10,7 @@ using SteelanceX.Contracts.DataTransferObjects.FreelancerProfile.Response;
 using SteelanceX.Contracts.DataTransferObjects.Job.Response;
 using SteelanceX.DataAccess.DataAccessObjects;
 using SteelanceX.Domain.Models;
+using System.Security.Claims;
 
 namespace SteelanceX.Application.Controllers;
 
@@ -90,7 +91,7 @@ public class FreelancerProfilesController : ODataController
                     throw new Exception("Category not exist");
                 }
             }
-            newProfile.ImageUrl 
+            newProfile.ImageUrl
                 = $"https://picsum.photos/seed/{new Random().NextInt64()}/500/500";
             await _freelancerRepo.CreateAsync(newProfile);
 
@@ -173,6 +174,38 @@ public class FreelancerProfilesController : ODataController
         catch (Exception ex)
         {
             return BadRequest(ex.Message);
+        }
+    }
+
+    [Authorize(Roles = "Freelancer")]
+    [HttpPost("odata/FreelancerProfiles/{jobId}/apply")]
+    public async Task<IActionResult> ApplyTo(int jobId)
+    {
+        int userId = int.Parse(User.Claims.Where(c => c.Type == ClaimTypes.Sid).SingleOrDefault().Value);
+        int freelancerId = _freelancerRepo.QueryAll()
+            .Include(f => f.AppUser)
+            .Where(f => f.AppUserId == userId)
+            .SingleOrDefault().Id;
+
+        var existApplication = _appliRepo.QueryAll()
+            .Where(a => a.FreelancerProfileId == freelancerId
+                && a.JobId == jobId);
+
+        if (existApplication != null)
+        {
+            return Ok("Đã ứng tuyển");
+        }
+        else
+        {
+            await _appliRepo.CreateAsync(new Domain.Models.Application
+            {
+                IsAccepted = false,
+                CreateDate = DateTime.Now,
+                FreelancerProfileId = jobId,
+                JobId = jobId,
+            });
+
+            return Ok("Ứng tuyển thành công");
         }
     }
 

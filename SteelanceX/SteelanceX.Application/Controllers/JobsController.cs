@@ -16,6 +16,7 @@ using Microsoft.AspNetCore.Mvc.NewtonsoftJson;
 using System.Text.Json;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Security.Claims;
 
 namespace SteelanceX.Application.Controllers;
 
@@ -23,6 +24,7 @@ public class JobsController : ODataController
 {
     private readonly JobRepository _jobRepo;
     private readonly CategoryRepository _catRepo;
+    private readonly ApplicationRepository _applyRepo;
     private readonly IMapper _mapper;
 
     public JobsController(JobRepository jobRepo,
@@ -139,7 +141,7 @@ public class JobsController : ODataController
             return BadRequest("Job not exist");
         }
 
-        
+
         try
         {
             job.IsActive = !job.IsActive;
@@ -147,12 +149,14 @@ public class JobsController : ODataController
 
             return Ok();
         }
-       
-        catch(Exception ex)
+
+        catch (Exception ex)
         {
             return BadRequest(ex.Message);
         }
     }
+
+    
 
     //public async Task<ActionResult> Patch([FromRoute] int key, [FromBody] Delta<Job> delta)
     //{

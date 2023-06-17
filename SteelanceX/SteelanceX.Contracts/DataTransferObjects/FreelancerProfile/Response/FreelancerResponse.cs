@@ -11,4 +11,7 @@ public class FreelancerResponse
     public int AppUserId { get; set; }
     public string Fullname { get; set; }
     public List<int> Categories { get; set; }
+
+    public string? Email { get; set; }
+    public string? Phone { get; set; }
 }

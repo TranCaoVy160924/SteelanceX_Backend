@@ -26,6 +26,8 @@ public class MapperProfile : Profile
         CreateMap<Domain.Models.FreelancerProfile, FreelancerResponse>()
             .ForMember(dest => dest.Categories, opt => opt.MapFrom(src => src.Categories.Select(f => f.CategoryId)))
             .ForMember(dest => dest.Fullname, opt => opt.MapFrom(src => src.AppUser.Lastname + src.AppUser.Firstname))
+            .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.AppUser.Email))
+            .ForMember(dest => dest.Phone, opt => opt.MapFrom(src => src.AppUser.PhoneNumber))
             .ForMember(dest => dest.Address, opt => opt.MapFrom(src => src.AppUser.Address));
         CreateMap<FreelancerResponse, Domain.Models.FreelancerProfile>()
             .ForMember(dest => dest.Categories, opt => opt.MapFrom(src => new List<FreelancerCategory>()));

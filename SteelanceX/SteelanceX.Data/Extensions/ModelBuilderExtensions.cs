@@ -48,7 +48,8 @@ public static class ModelBuilderExtensions
                 Firstname = (i).ToString(),
                 Lastname = "Nguyen Van",
                 Address = "HCM",
-                IsPremium = true
+                IsPremium = true,
+                PhoneNumber = "1234567890"
             });
 
             if (i > 30)
