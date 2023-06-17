@@ -16,7 +16,7 @@ public class SteelanceXDbContext : IdentityDbContext<AppUser, AppRole, int>
 
         IConfigurationRoot configuration = builder.Build();
 
-        optionsBuilder.UseSqlServer(configuration.GetConnectionString("SteelanceX"),
+        optionsBuilder.UseSqlServer(configuration.GetConnectionString("HostedDatabase"),
             b => b.MigrationsAssembly("SteelanceX.Data"));
     }
 

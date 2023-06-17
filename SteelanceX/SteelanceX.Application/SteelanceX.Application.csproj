@@ -37,7 +37,6 @@
     <ProjectReference Include="..\SteelanceX.Data\SteelanceX.Data.csproj" />
     <ProjectReference Include="..\SteelanceX.Domain\SteelanceX.Domain.csproj" />
     <ProjectReference Include="..\YogaManagement.DataAccess\SteelanceX.DataAccess.csproj" />
-    <ProjectReference Include="..\YogaManagement.DataAccess\YogaManagement.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>
