@@ -173,7 +173,6 @@ app.MapControllers();
 
 app.Run();
 
-
 static IEdmModel GetEdmModel()
 {
     ODataConventionModelBuilder builder = new ODataConventionModelBuilder();
