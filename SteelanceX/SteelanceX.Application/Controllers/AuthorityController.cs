@@ -90,7 +90,7 @@ public class AuthorityController : ControllerBase
             Firstname = registerRequest.FirstName.Trim(),
             Lastname = registerRequest.LastName.Trim(),
             PasswordHash = hasher.HashPassword(null, "12345678"),
-            UserName = Regex.Replace(registerRequest.FirstName + registerRequest.LastName, @"\s+", ""),
+            UserName = registerRequest.Email,
             Email = registerRequest.Email,
             EmailConfirmed = true,
             SecurityStamp = string.Empty,

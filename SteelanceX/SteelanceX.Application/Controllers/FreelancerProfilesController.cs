@@ -188,7 +188,7 @@ public class FreelancerProfilesController : ODataController
             .SingleOrDefault().Id;
 
         var existApplication = _appliRepo.QueryAll()
-            .Where(a => a.FreelancerProfileId == freelancerId
+            .SingleOrDefault(a => a.FreelancerProfileId == freelancerId
                 && a.JobId == jobId);
 
         if (existApplication != null)
@@ -201,7 +201,7 @@ public class FreelancerProfilesController : ODataController
             {
                 IsAccepted = false,
                 CreateDate = DateTime.Now,
-                FreelancerProfileId = jobId,
+                FreelancerProfileId = freelancerId,
                 JobId = jobId,
             });
 
